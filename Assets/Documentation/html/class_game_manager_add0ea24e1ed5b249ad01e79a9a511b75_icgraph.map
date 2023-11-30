@@ -1,0 +1,32 @@
+<map id="GameManager.SendReset" name="GameManager.SendReset">
+<area shape="rect" id="Node000001" title=" " alt="" coords="832,107,1006,133"/>
+<area shape="rect" id="Node000002" href="$class_e2_e_obj.html#a9accdd877641d439914bb5b2e69fc54c" title=" " alt="" coords="638,107,770,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="816,123,771,123,771,117,816,117"/>
+<area shape="rect" id="Node000011" href="$class_obj2_obj.html#a276822a82720afae91b82df65685067e" title=" " alt="" coords="624,157,784,184"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="845,140,764,159,763,154,844,135"/>
+<area shape="rect" id="Node000014" href="$class_e2_e_obj.html#a0bc145a833a5a0ed20514a24ded19000" title=" " alt="" coords="626,56,782,83"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="844,105,763,86,764,81,845,100"/>
+<area shape="rect" id="Node000003" href="$class_e2_e_obj.html#af17854505a56dcff86b6914d7e8245a1" title="Funzione che permette il ritorno alla home." alt="" coords="206,56,357,83"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="625,106,576,97,461,84,357,76,357,71,461,79,577,92,626,101"/>
+<area shape="rect" id="Node000006" href="$class_e2_e_obj.html#a700d1c5efef30bb4dbbe71cc4dc32f70" title=" " alt="" coords="419,107,576,133"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="622,123,577,123,577,117,622,117"/>
+<area shape="rect" id="Node000004" href="$class_e2_e_obj.html#ae8237315b71522e5fe63632ba9c98fbf" title=" " alt="" coords="9,5,140,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="208,54,131,35,133,30,209,49"/>
+<area shape="rect" id="Node000005" href="$class_e2_e_obj.html#abb848d8bc5b3935e4e4cfeb7e3fd9187" title=" " alt="" coords="11,56,138,83"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="190,72,139,72,139,67,190,67"/>
+<area shape="poly" id="edge10_Node000006_Node000003" title=" " alt="" coords="422,105,341,86,342,81,423,100"/>
+<area shape="rect" id="Node000007" href="$class_timeline_period.html#a443d1d1cdb2cc3e810685bd73a37746d" title=" " alt="" coords="192,107,371,133"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="403,123,371,123,371,117,403,117"/>
+<area shape="rect" id="Node000009" href="$class_gate.html#a520b515558bdcf66f7f7fe21c9d18e0b" title=" " alt="" coords="192,157,371,200"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="432,140,363,159,362,154,430,135"/>
+<area shape="rect" id="Node000008" href="$class_timeline_period.html#a497ac2844d30bc4529bceed103f6dfae" title=" " alt="" coords="5,107,144,133"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="177,123,144,123,144,117,177,117"/>
+<area shape="rect" id="Node000010" href="$class_gate.html#ab2a9122bc8912d607920a7f72f49d2a8" title=" " alt="" coords="34,165,115,192"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="176,181,115,181,115,176,176,176"/>
+<area shape="rect" id="Node000012" href="$class_obj2_obj.html#a768d170120dcee519cbd6336c79b098a" title=" " alt="" coords="432,208,564,235"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="632,191,556,210,554,205,631,186"/>
+<area shape="rect" id="Node000013" href="$class_obj2_obj.html#adb08b547b2da4580f823b0c7ce162850" title=" " alt="" coords="433,157,562,184"/>
+<area shape="poly" id="edge13_Node000011_Node000013" title=" " alt="" coords="609,173,562,173,562,168,609,168"/>
+<area shape="poly" id="edge15_Node000014_Node000003" title=" " alt="" coords="610,57,576,53,498,50,419,53,358,60,357,55,419,48,498,44,577,48,611,51"/>
+<area shape="poly" id="edge16_Node000014_Node000006" title=" " alt="" coords="632,90,556,109,554,103,631,84"/>
+</map>

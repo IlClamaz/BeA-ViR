@@ -1,0 +1,16 @@
+<map id="Initializer.LoadingScene" name="Initializer.LoadingScene">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,109,164,136"/>
+<area shape="rect" id="Node000002" href="$class_object_enabler.html#a4a991a41d0138b674cfb423bed3f86a3" title=" " alt="" coords="225,5,413,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,106,211,58,228,51,230,56,213,62,112,111"/>
+<area shape="rect" id="Node000004" href="$class_object_enabler.html#ae8d0c4e8045a44ce68cbb9e266440256" title=" " alt="" coords="235,72,403,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="164,110,220,103,220,108,165,115"/>
+<area shape="rect" id="Node000005" href="$class_game_manager.html#a3e454929a729b7c9cb77584e16893312" title=" " alt="" coords="212,139,426,165"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="165,130,196,134,196,139,164,135"/>
+<area shape="rect" id="Node000007" href="$class_game_manager.html#a0852fd9377ca98321b8e4ab5ebf270dd" title=" " alt="" coords="212,189,426,216"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="115,134,213,175,238,182,236,188,211,180,113,139"/>
+<area shape="rect" id="Node000003" href="$class_object_enabler.html#aab231006a4f1c0adf379276ec6be7c47" title=" " alt="" coords="479,47,689,73"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="414,36,464,42,464,48,413,41"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="403,80,464,72,464,78,403,85"/>
+<area shape="rect" id="Node000006" href="$class_game_manager.html#a3484cbdf57841f3d21f32c279262280d" title=" " alt="" coords="474,131,694,173"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="427,149,459,149,459,155,427,155"/>
+</map>

@@ -1,0 +1,34 @@
+\doxysection{IAPI.\+cs}
+\hypertarget{_i_a_p_i_8cs_source}{}\label{_i_a_p_i_8cs_source}\index{OmekaDB/Lib/Scripts/Core/Interface/IAPI.cs@{OmekaDB/Lib/Scripts/Core/Interface/IAPI.cs}}
+\mbox{\hyperlink{_i_a_p_i_8cs}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_i_a_p_i_8cs_source_l00001}00001\ \textcolor{keyword}{using\ }Newtonsoft.Json.Linq;}
+\DoxyCodeLine{\Hypertarget{_i_a_p_i_8cs_source_l00002}00002\ \textcolor{keyword}{using\ }\mbox{\hyperlink{namespace_render_heads_1_1_unity_omeka_1_1_data}{RenderHeads.UnityOmeka.Data}};}
+\DoxyCodeLine{\Hypertarget{_i_a_p_i_8cs_source_l00003}00003\ \textcolor{keyword}{using\ }\mbox{\hyperlink{namespace_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies}{RenderHeads.UnityOmeka.Data.Vocabularies}};}
+\DoxyCodeLine{\Hypertarget{_i_a_p_i_8cs_source_l00004}00004\ \textcolor{keyword}{using\ }System;}
+\DoxyCodeLine{\Hypertarget{_i_a_p_i_8cs_source_l00005}00005\ \textcolor{keyword}{using\ }System.Collections;}
+\DoxyCodeLine{\Hypertarget{_i_a_p_i_8cs_source_l00006}00006\ \textcolor{keyword}{using\ }System.Collections.Generic;}
+\DoxyCodeLine{\Hypertarget{_i_a_p_i_8cs_source_l00007}00007\ \textcolor{keyword}{using\ }System.IO;}
+\DoxyCodeLine{\Hypertarget{_i_a_p_i_8cs_source_l00008}00008\ \textcolor{keyword}{using\ }System.Threading.Tasks;}
+\DoxyCodeLine{\Hypertarget{_i_a_p_i_8cs_source_l00009}00009\ \textcolor{keyword}{using\ }UnityEngine;}
+\DoxyCodeLine{\Hypertarget{_i_a_p_i_8cs_source_l00010}00010\ }
+\DoxyCodeLine{\Hypertarget{_i_a_p_i_8cs_source_l00011}\mbox{\hyperlink{namespace_render_heads_1_1_unity_omeka_1_1_core_1_1_interface}{00011}}\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespace_render_heads_1_1_unity_omeka_1_1_core_1_1_interface}{RenderHeads.UnityOmeka.Core.Interface}}}
+\DoxyCodeLine{\Hypertarget{_i_a_p_i_8cs_source_l00012}00012\ \{}
+\DoxyCodeLine{\Hypertarget{_i_a_p_i_8cs_source_l00017}\mbox{\hyperlink{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i}{00017}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{interface\ }\mbox{\hyperlink{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i}{IAPI}}<T>\ where\ T:\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_vocabulary}{Vocabulary}},new()}
+\DoxyCodeLine{\Hypertarget{_i_a_p_i_8cs_source_l00018}00018\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_i_a_p_i_8cs_source_l00019}00019\ }
+\DoxyCodeLine{\Hypertarget{_i_a_p_i_8cs_source_l00024}\mbox{\hyperlink{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i_ab67739068c80f9898419cc4b89b10722}{00024}}\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i_ab67739068c80f9898419cc4b89b10722}{SetRestEndPoint}}(\textcolor{keywordtype}{string}\ endpoint);}
+\DoxyCodeLine{\Hypertarget{_i_a_p_i_8cs_source_l00030}\mbox{\hyperlink{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i_abf383803b8055e83bcc6e6c189297019}{00030}}\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i_abf383803b8055e83bcc6e6c189297019}{SetCredentials}}(\textcolor{keywordtype}{string}\ \textcolor{keywordtype}{id},\ \textcolor{keywordtype}{string}\ key);}
+\DoxyCodeLine{\Hypertarget{_i_a_p_i_8cs_source_l00031}00031\ }
+\DoxyCodeLine{\Hypertarget{_i_a_p_i_8cs_source_l00038}\mbox{\hyperlink{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i_a72b7aa012c3ec161a42b55d62931a73a}{00038}}\ \ \ \ \ \ \ \ \ Task<SearchResponse>\ \mbox{\hyperlink{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i_a72b7aa012c3ec161a42b55d62931a73a}{Search}}(\mbox{\hyperlink{namespace_render_heads_1_1_unity_omeka_1_1_core_aac27bc1318149450d409a6d275660cdb}{ResourceType}}\ resourceType,\ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_search_params}{SearchParams}}\ searchparams);}
+\DoxyCodeLine{\Hypertarget{_i_a_p_i_8cs_source_l00039}00039\ }
+\DoxyCodeLine{\Hypertarget{_i_a_p_i_8cs_source_l00045}\mbox{\hyperlink{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i_afa965ebd77aaa106a8f2b7ac85b2e026}{00045}}\ \ \ \ \ \ \ \ \ Task<ItemSearchResponse<T>>\ \mbox{\hyperlink{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i_afa965ebd77aaa106a8f2b7ac85b2e026}{SearchItems}}(\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_search_params}{ItemSearchParams}}\ searchparams)\ ;}
+\DoxyCodeLine{\Hypertarget{_i_a_p_i_8cs_source_l00046}00046\ }
+\DoxyCodeLine{\Hypertarget{_i_a_p_i_8cs_source_l00052}\mbox{\hyperlink{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i_a044404d4292be8b2d41d0479793b1049}{00052}}\ \ \ \ \ \ \ \ \ Task<ItemSetSearchResponse<T>>\ \mbox{\hyperlink{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i_a044404d4292be8b2d41d0479793b1049}{SearchItemSets}}(\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_sets_search_params}{ItemSetsSearchParams}}\ searchparams);}
+\DoxyCodeLine{\Hypertarget{_i_a_p_i_8cs_source_l00053}00053\ }
+\DoxyCodeLine{\Hypertarget{_i_a_p_i_8cs_source_l00059}\mbox{\hyperlink{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i_ae6d8b606fa5dc710d26a54601ad39267}{00059}}\ \ \ \ \ \ \ \ \ Task<MediaSearchResponse<T>>\ \mbox{\hyperlink{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i_ae6d8b606fa5dc710d26a54601ad39267}{SearchMedia}}(\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_media_search_params}{MediaSearchParams}}\ searchparams);}
+\DoxyCodeLine{\Hypertarget{_i_a_p_i_8cs_source_l00060}00060\ }
+\DoxyCodeLine{\Hypertarget{_i_a_p_i_8cs_source_l00061}00061\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_i_a_p_i_8cs_source_l00062}00062\ \}}
+
+\end{DoxyCode}

@@ -1,0 +1,7 @@
+<map id="GameManager.ShowCommandsUI" name="GameManager.ShowCommandsUI">
+<area shape="rect" id="Node000001" title=" " alt="" coords="224,31,444,57"/>
+<area shape="rect" id="Node000002" href="$class_game_manager.html#a538c5b310a8ee2cdf3b2ea36c91c7a50" title=" " alt="" coords="5,5,176,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="208,34,176,30,176,25,208,28"/>
+<area shape="rect" id="Node000003" href="$class_game_manager.html#ac68d06321520b6b17beb92a3cfa29ffa" title=" " alt="" coords="7,56,174,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="208,60,175,63,174,58,208,54"/>
+</map>

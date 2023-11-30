@@ -1,0 +1,13 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$class_render_heads_1_1_unity_omeka_1_1_data_1_1_parameters.html" title=" " alt="" coords="5,72,216,115"/>
+<area shape="rect" id="Node000001" href="$class_render_heads_1_1_unity_omeka_1_1_data_1_1_common_params.html" title=" " alt="" coords="264,72,474,115"/>
+<area shape="poly" id="edge29_Node000000_Node000001" title=" " alt="" coords="232,91,263,91,263,96,232,96"/>
+<area shape="rect" id="Node000002" href="$class_render_heads_1_1_unity_omeka_1_1_data_1_1_search_params.html" title=" " alt="" coords="522,72,732,115"/>
+<area shape="poly" id="edge30_Node000001_Node000002" title=" " alt="" coords="490,91,521,91,521,96,490,96"/>
+<area shape="rect" id="Node000003" href="$class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_search_params.html" title=" " alt="" coords="780,5,991,48"/>
+<area shape="poly" id="edge31_Node000002_Node000003" title=" " alt="" coords="727,65,799,46,801,51,728,70"/>
+<area shape="rect" id="Node000004" href="$class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_sets_search_params.html" title=" " alt="" coords="780,72,991,115"/>
+<area shape="poly" id="edge32_Node000002_Node000004" title=" " alt="" coords="748,91,780,91,780,96,748,96"/>
+<area shape="rect" id="Node000005" href="$class_render_heads_1_1_unity_omeka_1_1_data_1_1_media_search_params.html" title=" " alt="" coords="780,139,991,181"/>
+<area shape="poly" id="edge33_Node000002_Node000005" title=" " alt="" coords="728,117,801,135,799,141,727,122"/>
+</map>

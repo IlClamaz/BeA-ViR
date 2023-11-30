@@ -1,0 +1,19 @@
+<map id="Initializer" name="Initializer">
+<area shape="rect" id="Node000001" title=" " alt="" coords="56,1500,166,1591"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="176,153,278,223"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="185,235,153,273,118,319,87,371,64,426,43,502,28,581,17,661,11,741,10,901,20,1056,38,1199,60,1324,101,1500,96,1501,55,1325,33,1199,15,1056,4,902,6,741,12,660,23,580,38,501,59,424,83,369,114,316,149,270,181,232"/>
+<area shape="rect" id="Node000003" href="$class_environment.html" title=" " alt="" coords="64,425,174,879"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="218,238,174,426,169,425,213,237"/>
+<area shape="rect" id="Node000004" href="$class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html" title="An example script that lets us drill down from an item_set and display a piece of media." alt="" coords="257,903,482,1436"/>
+<area shape="poly" id="edge6_Node000004_Node000002" title=" " alt="" coords="237,237,334,903,328,903,231,238"/>
+<area shape="rect" id="Node000005" href="$class_render_heads_1_1_unity_omeka_1_1_components_1_1_omeka_client.html" title="Main component that initializes our API." alt="" coords="296,316,544,401"/>
+<area shape="poly" id="edge8_Node000005_Node000002" title=" " alt="" coords="278,230,375,314,371,318,275,234"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="120,879,114,1483,109,1483,114,879"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="176,595,186,601,194,613,199,630,201,652,198,679,190,697,186,695,193,677,196,652,194,631,189,615,182,605,173,600"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="259,1411,240,1438,212,1469,181,1497,177,1493,208,1465,236,1434,255,1408"/>
+<area shape="poly" id="edge7_Node000004_Node000005" title=" " alt="" coords="420,401,390,886,385,886,415,401"/>
+<area shape="rect" id="Node000006" href="$class_render_heads_1_1_unity_omeka_1_1_core_1_1_client_settings.html" title="Settings for our Omeka Client." alt="" coords="320,124,521,252"/>
+<area shape="poly" id="edge9_Node000005_Node000006" title=" " alt="" coords="423,252,423,299,418,299,418,252"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="366,5,475,75"/>
+<area shape="poly" id="edge10_Node000006_Node000007" title=" " alt="" coords="423,89,423,124,418,124,418,89"/>
+</map>

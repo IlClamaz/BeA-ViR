@@ -1,0 +1,9 @@
+<map id="FadingAnimation.FadingCoroutine" name="FadingAnimation.FadingCoroutine">
+<area shape="rect" id="Node000001" title=" " alt="" coords="453,31,669,57"/>
+<area shape="rect" id="Node000002" href="$class_fading_animation.html#a15f020ed264720bbc2c71df1dfee6070" title=" " alt="" coords="238,5,400,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="437,34,400,30,400,24,438,28"/>
+<area shape="rect" id="Node000004" href="$class_fading_animation.html#a6c07c6eaa072ff767f1ea252ecb4d06f" title=" " alt="" coords="233,56,405,83"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="438,60,406,63,405,58,437,54"/>
+<area shape="rect" id="Node000003" href="$class_fading_animation.html#a7bd6e235417ba867bb746a5c9571ac36" title=" " alt="" coords="5,5,185,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="223,21,185,21,185,16,223,16"/>
+</map>

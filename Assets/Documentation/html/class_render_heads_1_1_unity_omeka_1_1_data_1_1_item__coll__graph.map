@@ -1,0 +1,5 @@
+<map id="RenderHeads.UnityOmeka.Data.Item&lt; T &gt;" name="RenderHeads.UnityOmeka.Data.Item&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Definition of an item object, as returned by the api/items endpoint." alt="" coords="5,293,207,485"/>
+<area shape="rect" id="Node000002" href="$class_render_heads_1_1_unity_omeka_1_1_data_1_1_id_object.html" title="Class for mapping the JsonLD ID to .net ID." alt="" coords="5,5,207,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,133,109,277,103,277,103,133"/>
+</map>

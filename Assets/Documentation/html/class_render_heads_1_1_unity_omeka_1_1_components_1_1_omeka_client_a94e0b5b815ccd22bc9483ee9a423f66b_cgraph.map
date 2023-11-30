@@ -1,0 +1,7 @@
+<map id="RenderHeads.UnityOmeka.Components.OmekaClient.Awake" name="RenderHeads.UnityOmeka.Components.OmekaClient.Awake">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,262,81"/>
+<area shape="rect" id="Node000002" href="$class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api.html#aabb51a8af1eb4be843966ad7c8ecefbe" title="Set the credentials for the API communication, if you need to access protected data." alt="" coords="317,5,527,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="262,42,301,38,301,43,263,48"/>
+<area shape="rect" id="Node000003" href="$class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api.html#aade6ceca2f72dddaf7367f1375e2f4c2" title="Sets the rest endpoint to communicate with." alt="" coords="310,72,534,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="263,72,294,76,294,81,262,78"/>
+</map>

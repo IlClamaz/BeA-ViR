@@ -1,0 +1,7 @@
+<map id="Gate.Reset" name="Gate.Reset">
+<area shape="rect" id="Node000001" title=" " alt="" coords="362,13,449,40"/>
+<area shape="rect" id="Node000002" href="$class_gate.html#a520b515558bdcf66f7f7fe21c9d18e0b" title=" " alt="" coords="135,5,314,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="347,29,314,29,314,24,347,24"/>
+<area shape="rect" id="Node000003" href="$class_gate.html#ab2a9122bc8912d607920a7f72f49d2a8" title=" " alt="" coords="5,13,87,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="119,29,87,29,87,24,119,24"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="ScreensaverManager.Start" name="ScreensaverManager.Start">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,35,180,61"/>
+<area shape="rect" id="Node000002" href="$class_screensaver_manager.html#a8f9ea089cef627d227c76769d619f1c9" title=" " alt="" coords="232,5,425,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,35,216,30,217,35,180,40"/>
+<area shape="rect" id="Node000003" href="$class_screensaver_manager.html#a4c644271d136c17973a70b43ac95a92b" title=" " alt="" coords="228,56,429,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="180,56,212,60,212,65,180,61"/>
+</map>

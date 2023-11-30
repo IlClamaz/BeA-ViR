@@ -1,0 +1,120 @@
+\doxysection{Object\+Enabler.\+cs}
+\hypertarget{_object_enabler_8cs_source}{}\label{_object_enabler_8cs_source}\index{Managers/ObjectEnabler.cs@{Managers/ObjectEnabler.cs}}
+\mbox{\hyperlink{_object_enabler_8cs}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00001}00001\ \textcolor{keyword}{using\ }System.Collections;}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00002}00002\ \textcolor{keyword}{using\ }UnityEngine;}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00003}00003\ \textcolor{keyword}{using\ }System;}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00004}00004\ \textcolor{keyword}{using\ }System.Collections.Generic;}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00005}00005\ }
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00006}\mbox{\hyperlink{class_object_enabler}{00006}}\ \textcolor{keyword}{public}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_object_enabler}{ObjectEnabler}}\ :\ MonoBehaviour}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00007}00007\ \{}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00008}\mbox{\hyperlink{class_object_enabler_abe17a0bfcdf5a2cf9766982d74128854}{00008}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{static}\ \mbox{\hyperlink{class_object_enabler}{ObjectEnabler}}\ \mbox{\hyperlink{class_object_enabler_abe17a0bfcdf5a2cf9766982d74128854}{Instance}}\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{private}\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00009}00009\ }
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00010}\mbox{\hyperlink{class_object_enabler_abdcc5404cec3fe6b50db7cfd4a581ed6}{00010}}\ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_object_enabler_abdcc5404cec3fe6b50db7cfd4a581ed6}{Awake}}()}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00011}00011\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00012}00012\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (\mbox{\hyperlink{class_object_enabler_abe17a0bfcdf5a2cf9766982d74128854}{Instance}}\ !=\ \textcolor{keyword}{null}\ \&\&\ \mbox{\hyperlink{class_object_enabler_abe17a0bfcdf5a2cf9766982d74128854}{Instance}}\ !=\ \textcolor{keyword}{this})\ Destroy(\textcolor{keyword}{this});}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00013}00013\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}\ \mbox{\hyperlink{class_object_enabler_abe17a0bfcdf5a2cf9766982d74128854}{Instance}}\ =\ \textcolor{keyword}{this};}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00014}00014\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00015}\mbox{\hyperlink{class_object_enabler_a4a991a41d0138b674cfb423bed3f86a3}{00015}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_object_enabler_a4a991a41d0138b674cfb423bed3f86a3}{ActivateGameObject}}(GameObject\ targetGameObject,\ \textcolor{keywordtype}{float}\ delay)}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00016}00016\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00017}00017\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (delay\ >\ 0)}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00018}00018\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00019}00019\ \ \ \ \ \ \ \ \ \ \ \ \ StartCoroutine(\mbox{\hyperlink{class_object_enabler_aab231006a4f1c0adf379276ec6be7c47}{ExecuteAfterTime}}(delay,\ ()\ =>}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00020}00020\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00021}00021\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (targetGameObject\ \&\&\ !targetGameObject.activeSelf)\ targetGameObject.SetActive(\textcolor{keyword}{true});}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00022}00022\ \ \ \ \ \ \ \ \ \ \ \ \ \}));}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00023}00023\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00024}00024\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00025}00025\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00026}00026\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (targetGameObject\ \&\&\ !targetGameObject.activeSelf)\ targetGameObject.SetActive(\textcolor{keyword}{true});}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00027}00027\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00028}00028\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00029}00029\ }
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00030}\mbox{\hyperlink{class_object_enabler_a6cf43c13fb338f07a2fda1d95a4e4a6a}{00030}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_object_enabler_a6cf43c13fb338f07a2fda1d95a4e4a6a}{ActivateGameObject}}(List<GameObject>\ targetGameObjects,\ \textcolor{keywordtype}{float}\ delay)}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00031}00031\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00032}00032\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (delay\ >\ 0)}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00033}00033\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00034}00034\ \ \ \ \ \ \ \ \ \ \ \ \ StartCoroutine(\mbox{\hyperlink{class_object_enabler_aab231006a4f1c0adf379276ec6be7c47}{ExecuteAfterTime}}(delay,\ ()\ =>}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00035}00035\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00036}00036\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{foreach}\ (var\ item\ \textcolor{keywordflow}{in}\ targetGameObjects)\ \textcolor{keywordflow}{if}\ (item\ \&\&\ !item.activeSelf)\ item.SetActive(\textcolor{keyword}{true});}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00037}00037\ \ \ \ \ \ \ \ \ \ \ \ \ \}));}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00038}00038\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00039}00039\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00040}00040\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00041}00041\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{foreach}\ (var\ item\ \textcolor{keywordflow}{in}\ targetGameObjects)\ \textcolor{keywordflow}{if}\ (item\ \&\&\ !item.activeSelf)\ item.SetActive(\textcolor{keyword}{true});}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00042}00042\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00043}00043\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00044}00044\ }
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00045}\mbox{\hyperlink{class_object_enabler_ae8d0c4e8045a44ce68cbb9e266440256}{00045}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_object_enabler_ae8d0c4e8045a44ce68cbb9e266440256}{DeactivateGameObject}}(GameObject\ targetGameObject,\ \textcolor{keywordtype}{float}\ delay)}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00046}00046\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00047}00047\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (delay\ >\ 0)}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00048}00048\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00049}00049\ \ \ \ \ \ \ \ \ \ \ \ \ StartCoroutine(\mbox{\hyperlink{class_object_enabler_aab231006a4f1c0adf379276ec6be7c47}{ExecuteAfterTime}}(delay,\ ()\ =>}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00050}00050\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00051}00051\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (targetGameObject\ \&\&\ targetGameObject.activeSelf)\ targetGameObject.SetActive(\textcolor{keyword}{false});}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00052}00052\ \ \ \ \ \ \ \ \ \ \ \ \ \}));}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00053}00053\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00054}00054\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00055}00055\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00056}00056\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (targetGameObject\ \&\&\ targetGameObject.activeSelf)\ targetGameObject.SetActive(\textcolor{keyword}{false});}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00057}00057\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00058}00058\ }
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00059}00059\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00060}00060\ }
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00061}\mbox{\hyperlink{class_object_enabler_ad33b9161ae99349c5c43d53ec7b45ffd}{00061}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_object_enabler_ad33b9161ae99349c5c43d53ec7b45ffd}{DeactivateGameObject}}(List<GameObject>\ targetGameObjects,\ \textcolor{keywordtype}{float}\ delay)}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00062}00062\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00063}00063\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (delay\ >\ 0)}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00064}00064\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00065}00065\ \ \ \ \ \ \ \ \ \ \ \ \ StartCoroutine(\mbox{\hyperlink{class_object_enabler_aab231006a4f1c0adf379276ec6be7c47}{ExecuteAfterTime}}(delay,\ ()\ =>}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00066}00066\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00067}00067\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{foreach}\ (var\ item\ \textcolor{keywordflow}{in}\ targetGameObjects)\ \textcolor{keywordflow}{if}\ (item\ \&\&\ item.activeSelf)\ item.SetActive(\textcolor{keyword}{false});}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00068}00068\ \ \ \ \ \ \ \ \ \ \ \ \ \}));}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00069}00069\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00070}00070\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00071}00071\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00072}00072\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{foreach}\ (var\ item\ \textcolor{keywordflow}{in}\ targetGameObjects)\ \textcolor{keywordflow}{if}\ (item\ \&\&\ item.activeSelf)\ item.SetActive(\textcolor{keyword}{false});}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00073}00073\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00074}00074\ }
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00075}00075\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00076}00076\ }
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00077}\mbox{\hyperlink{class_object_enabler_a686fed73559c20ddcb293585e904209b}{00077}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_object_enabler_a686fed73559c20ddcb293585e904209b}{ToggleGameObject}}(GameObject\ targetGameObject,\ \textcolor{keywordtype}{float}\ delay)}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00078}00078\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00079}00079\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (delay\ >\ 0)}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00080}00080\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00081}00081\ \ \ \ \ \ \ \ \ \ \ \ \ StartCoroutine(\mbox{\hyperlink{class_object_enabler_aab231006a4f1c0adf379276ec6be7c47}{ExecuteAfterTime}}(delay,\ ()\ =>}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00082}00082\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00083}00083\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (targetGameObject)\ targetGameObject.SetActive(!targetGameObject.activeSelf);}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00084}00084\ \ \ \ \ \ \ \ \ \ \ \ \ \}));}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00085}00085\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00086}00086\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00087}00087\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00088}00088\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (targetGameObject)\ targetGameObject.SetActive(!targetGameObject.activeSelf);}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00089}00089\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00090}00090\ }
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00091}00091\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00092}00092\ }
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00093}\mbox{\hyperlink{class_object_enabler_af802af59861cbd919cf2567884fee957}{00093}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_object_enabler_af802af59861cbd919cf2567884fee957}{ToggleGameObject}}(List<GameObject>\ targetGameObjects,\ \textcolor{keywordtype}{float}\ delay)}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00094}00094\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00095}00095\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (delay\ >\ 0)}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00096}00096\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00097}00097\ \ \ \ \ \ \ \ \ \ \ \ \ StartCoroutine(\mbox{\hyperlink{class_object_enabler_aab231006a4f1c0adf379276ec6be7c47}{ExecuteAfterTime}}(delay,\ ()\ =>}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00098}00098\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00099}00099\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{foreach}\ (var\ item\ \textcolor{keywordflow}{in}\ targetGameObjects)\ \textcolor{keywordflow}{if}\ (item)\ item.SetActive(!item.activeSelf);}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00100}00100\ \ \ \ \ \ \ \ \ \ \ \ \ \}));}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00101}00101\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00102}00102\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00103}00103\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00104}00104\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{foreach}\ (var\ item\ \textcolor{keywordflow}{in}\ targetGameObjects)\ \textcolor{keywordflow}{if}\ (item)\ item.SetActive(!item.activeSelf);}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00105}00105\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00106}00106\ }
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00107}00107\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00108}00108\ }
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00109}\mbox{\hyperlink{class_object_enabler_aab231006a4f1c0adf379276ec6be7c47}{00109}}\ \ \ \ \ \textcolor{keyword}{private}\ IEnumerator\ \mbox{\hyperlink{class_object_enabler_aab231006a4f1c0adf379276ec6be7c47}{ExecuteAfterTime}}(\textcolor{keywordtype}{float}\ time,\ Action\ task)}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00110}00110\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00111}00111\ \ \ \ \ \ \ \ \ yield\ \textcolor{keywordflow}{return}\ \textcolor{keyword}{new}\ WaitForSeconds(time);}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00112}00112\ \ \ \ \ \ \ \ \ task();}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00113}00113\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_object_enabler_8cs_source_l00114}00114\ \}}
+
+\end{DoxyCode}

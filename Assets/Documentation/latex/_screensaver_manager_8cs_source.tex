@@ -1,0 +1,70 @@
+\doxysection{Screensaver\+Manager.\+cs}
+\hypertarget{_screensaver_manager_8cs_source}{}\label{_screensaver_manager_8cs_source}\index{Managers/ScreensaverManager.cs@{Managers/ScreensaverManager.cs}}
+\mbox{\hyperlink{_screensaver_manager_8cs}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00001}00001\ \textcolor{keyword}{using\ }UnityEngine;}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00002}00002\ \textcolor{keyword}{using\ }UnityEngine.InputSystem;}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00003}00003\ \textcolor{keyword}{using\ }UnityEngine.InputSystem.Utilities;}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00004}00004\ \textcolor{keyword}{using\ }System;}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00005}00005\ \textcolor{keyword}{using\ }UnityEngine.SceneManagement;}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00006}00006\ }
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00007}\mbox{\hyperlink{class_screensaver_manager}{00007}}\ \textcolor{keyword}{public}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_screensaver_manager}{ScreensaverManager}}\ :\ MonoBehaviour}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00008}00008\ \{}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00009}\mbox{\hyperlink{class_screensaver_manager_ab37389aed6ec0bdd2cbbbb8c54808d1f}{00009}}\ \ \ \ \ [SerializeField]\ \textcolor{keyword}{private}\ GameObject\ \mbox{\hyperlink{class_screensaver_manager_ab37389aed6ec0bdd2cbbbb8c54808d1f}{screenSaver}};}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00010}\mbox{\hyperlink{class_screensaver_manager_ab5c8c9090ddb635bb522b09e03ca9456}{00010}}\ \ \ \ \ [SerializeField]\ \textcolor{keyword}{private}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_screensaver_manager_ab5c8c9090ddb635bb522b09e03ca9456}{idleTimeSetting}};}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00011}\mbox{\hyperlink{class_screensaver_manager_adac514e4162800b32dc89dd7a9612d49}{00011}}\ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_screensaver_manager_adac514e4162800b32dc89dd7a9612d49}{lastIdleTime}};}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00012}\mbox{\hyperlink{class_screensaver_manager_ab68bdf3f893c1607740d29ff9b7dbcdf}{00012}}\ \ \ \ \ \textcolor{keyword}{private}\ IDisposable\ \mbox{\hyperlink{class_screensaver_manager_ab68bdf3f893c1607740d29ff9b7dbcdf}{buttonPressListener}};}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00013}\mbox{\hyperlink{class_screensaver_manager_a1b45b124aa4a4c2dfaa40f705b0aa7d9}{00013}}\ \ \ \ \ \textcolor{keyword}{private}\ Vector2\ \mbox{\hyperlink{class_screensaver_manager_a1b45b124aa4a4c2dfaa40f705b0aa7d9}{movement}},\ \mbox{\hyperlink{class_screensaver_manager_a9ee70ff9e32b4592700357e935fd38b1}{newCameraMovement}};}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00014}00014\ }
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00015}\mbox{\hyperlink{class_screensaver_manager_a27db5eeee03975bacdc72fec27c59465}{00015}}\ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_screensaver_manager_a27db5eeee03975bacdc72fec27c59465}{Start}}()}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00016}00016\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00017}00017\ \ \ \ \ \ \ \ \ GameManager.Instance.InputReader.moveEvent\ +=\ \mbox{\hyperlink{class_screensaver_manager_a8f9ea089cef627d227c76769d619f1c9}{OnMove}};}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00018}00018\ \ \ \ \ \ \ \ \ GameManager.Instance.InputReader.cameraMoveEvent\ +=\ \mbox{\hyperlink{class_screensaver_manager_a4c644271d136c17973a70b43ac95a92b}{OnRotateCamera}};}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00019}00019\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00020}00020\ }
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00021}00021\ }
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00022}\mbox{\hyperlink{class_screensaver_manager_a773ddd183e4937d4c425c518460af916}{00022}}\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_screensaver_manager_a773ddd183e4937d4c425c518460af916}{Awake}}()}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00023}00023\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00024}00024\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_screensaver_manager_adac514e4162800b32dc89dd7a9612d49}{lastIdleTime}}\ =\ Time.time;}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00025}00025\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_screensaver_manager_ab68bdf3f893c1607740d29ff9b7dbcdf}{buttonPressListener}}\ =\ InputSystem.onAnyButtonPress.Call(button\ =>\ \mbox{\hyperlink{class_screensaver_manager_adac514e4162800b32dc89dd7a9612d49}{lastIdleTime}}\ =\ Time.time);}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00026}00026\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00027}00027\ }
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00028}\mbox{\hyperlink{class_screensaver_manager_ad08d970b48ddf3a6c1dc6125b580ac8b}{00028}}\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_screensaver_manager_ad08d970b48ddf3a6c1dc6125b580ac8b}{Update}}()}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00029}00029\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00030}00030\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (\mbox{\hyperlink{class_screensaver_manager_a1b45b124aa4a4c2dfaa40f705b0aa7d9}{movement}}\ !=\ Vector2.zero\ ||\ \mbox{\hyperlink{class_screensaver_manager_a9ee70ff9e32b4592700357e935fd38b1}{newCameraMovement}}\ !=\ Vector2.zero)\ \mbox{\hyperlink{class_screensaver_manager_adac514e4162800b32dc89dd7a9612d49}{lastIdleTime}}\ =\ Time.time;}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00031}00031\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (\mbox{\hyperlink{class_screensaver_manager_ac84f9f06f43fabb0b5d1e776baba27e8}{IdleCheck}}())}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00032}00032\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00033}00033\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (!\mbox{\hyperlink{class_screensaver_manager_ab37389aed6ec0bdd2cbbbb8c54808d1f}{screenSaver}}.activeSelf)\ \mbox{\hyperlink{class_object_enabler}{ObjectEnabler}}.\mbox{\hyperlink{class_object_enabler_abe17a0bfcdf5a2cf9766982d74128854}{Instance}}.\mbox{\hyperlink{class_object_enabler_a4a991a41d0138b674cfb423bed3f86a3}{ActivateGameObject}}(\mbox{\hyperlink{class_screensaver_manager_ab37389aed6ec0bdd2cbbbb8c54808d1f}{screenSaver}},\ 0);}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00034}00034\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00035}00035\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00036}00036\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00037}00037\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (\mbox{\hyperlink{class_screensaver_manager_ab37389aed6ec0bdd2cbbbb8c54808d1f}{screenSaver}}.activeSelf)}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00038}00038\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00039}00039\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_object_enabler}{ObjectEnabler}}.\mbox{\hyperlink{class_object_enabler_abe17a0bfcdf5a2cf9766982d74128854}{Instance}}.\mbox{\hyperlink{class_object_enabler_ae8d0c4e8045a44ce68cbb9e266440256}{DeactivateGameObject}}(\mbox{\hyperlink{class_screensaver_manager_ab37389aed6ec0bdd2cbbbb8c54808d1f}{screenSaver}},\ 0);}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00040}00040\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ SceneManager.LoadScene(SceneManager.GetActiveScene().name);}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00041}00041\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00042}00042\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00043}00043\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00044}00044\ }
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00045}\mbox{\hyperlink{class_screensaver_manager_a8f9ea089cef627d227c76769d619f1c9}{00045}}\ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_screensaver_manager_a8f9ea089cef627d227c76769d619f1c9}{OnMove}}(Vector2\ \_movement)}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00046}00046\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00047}00047\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_screensaver_manager_a1b45b124aa4a4c2dfaa40f705b0aa7d9}{movement}}\ =\ \_movement;}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00048}00048\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00049}00049\ }
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00050}\mbox{\hyperlink{class_screensaver_manager_a4c644271d136c17973a70b43ac95a92b}{00050}}\ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_screensaver_manager_a4c644271d136c17973a70b43ac95a92b}{OnRotateCamera}}(Vector2\ \_movement)}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00051}00051\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00052}00052\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_screensaver_manager_a9ee70ff9e32b4592700357e935fd38b1}{newCameraMovement}}\ =\ \_movement;}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00053}00053\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00054}00054\ }
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00055}\mbox{\hyperlink{class_screensaver_manager_ac84f9f06f43fabb0b5d1e776baba27e8}{00055}}\ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_screensaver_manager_ac84f9f06f43fabb0b5d1e776baba27e8}{IdleCheck}}()}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00056}00056\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00057}00057\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ Time.time\ -\/\ \mbox{\hyperlink{class_screensaver_manager_adac514e4162800b32dc89dd7a9612d49}{lastIdleTime}}\ >\ \mbox{\hyperlink{class_screensaver_manager_ab5c8c9090ddb635bb522b09e03ca9456}{idleTimeSetting}};}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00058}00058\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00059}00059\ }
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00060}\mbox{\hyperlink{class_screensaver_manager_a64917992e4d9dcfc8d4e443d85ffc0a0}{00060}}\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_screensaver_manager_a64917992e4d9dcfc8d4e443d85ffc0a0}{OnDestroy}}()}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00061}00061\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00062}00062\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_screensaver_manager_ab68bdf3f893c1607740d29ff9b7dbcdf}{buttonPressListener}}.Dispose();}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00063}00063\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_screensaver_manager_8cs_source_l00064}00064\ \}}
+
+\end{DoxyCode}

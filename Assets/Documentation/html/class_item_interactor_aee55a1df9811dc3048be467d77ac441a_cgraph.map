@@ -1,0 +1,5 @@
+<map id="ItemInteractor.OnTriggerEnter" name="ItemInteractor.OnTriggerEnter">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,166,48"/>
+<area shape="rect" id="Node000002" href="$class_game_manager.html#a0852fd9377ca98321b8e4ab5ebf270dd" title=" " alt="" coords="214,13,427,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,24,198,24,198,29,166,29"/>
+</map>

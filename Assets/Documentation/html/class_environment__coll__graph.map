@@ -1,0 +1,6 @@
+<map id="Environment" name="Environment">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,124,116,577"/>
+<area shape="poly" id="edge2_Node000001_Node000001" title=" " alt="" coords="117,302,127,307,135,317,141,332,143,351,140,373,132,389,128,387,135,372,137,351,136,333,131,320,124,311,115,307"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="10,5,111,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="63,89,63,125,58,125,58,89"/>
+</map>

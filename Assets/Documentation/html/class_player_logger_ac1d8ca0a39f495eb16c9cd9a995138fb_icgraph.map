@@ -1,0 +1,7 @@
+<map id="PlayerLogger.OnSightSeeing" name="PlayerLogger.OnSightSeeing">
+<area shape="rect" id="Node000001" title=" " alt="" coords="215,31,403,57"/>
+<area shape="rect" id="Node000002" href="$class_player_logger.html#a895bbd5506801fe199f9d2f65fcb9022" title=" " alt="" coords="5,5,167,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="199,34,167,31,168,25,199,29"/>
+<area shape="rect" id="Node000003" href="$class_player_logger.html#a9b6735d557a3acdc9032487011682fb5" title=" " alt="" coords="7,56,165,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="200,59,166,63,165,58,199,54"/>
+</map>

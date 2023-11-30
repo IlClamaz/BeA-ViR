@@ -1,0 +1,369 @@
+\doxysection{Timer Class Reference}
+\hypertarget{class_timer}{}\label{class_timer}\index{Timer@{Timer}}
+
+
+Inheritance diagram for Timer\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=169pt]{class_timer__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Timer\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=169pt]{class_timer__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_timer_a2b6cfe3b07f747a0f04f8ae493b58a57}{Pause\+Timer}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_timer_ade9c690f80327bd47ebb927c59a06a0e}{Start}} ()
+\item 
+void \mbox{\hyperlink{class_timer_a12d13309ff4523026e600328a094e60a}{On\+Enable}} ()
+\item 
+void \mbox{\hyperlink{class_timer_ac2c16f9aa88f2d3e7df7785545578f27}{Update}} ()
+\item 
+void \mbox{\hyperlink{class_timer_a26cf2ffb16ef485f675c974a0c665919}{Update\+Time}} ()
+\item 
+float \mbox{\hyperlink{class_timer_a2bac18ad70170a6c4ab937148a7d2022}{Stop\+Timer}} ()
+\item 
+void \mbox{\hyperlink{class_timer_a2daeaa5cc45d75a8f060bca4fc81e0d1}{Resume\+Timer}} ()
+\item 
+void \mbox{\hyperlink{class_timer_af61ff6a202a2d5961c8f507a82a6a76f}{Start\+Timer}} ()
+\item 
+string \mbox{\hyperlink{class_timer_a773cd00f259314cbb46f6ee1233974f9}{Time\+To\+String}} (float t)
+\item 
+void \mbox{\hyperlink{class_timer_a2d1b053c7f8a9724d08808cf34c3acbe}{On\+Disable}} ()
+\item 
+void \mbox{\hyperlink{class_timer_a85c70c744f0163929ecb6021076a4e60}{On\+Destroy}} ()
+\item 
+void \mbox{\hyperlink{class_timer_a9b660db1a7189d0058c616a88531ed72}{On\+Trigger\+Enter}} (Collider other)
+\item 
+void \mbox{\hyperlink{class_timer_aac7d46dc92c59a9e79c403c7b5920338}{On\+Trigger\+Exit}} (Collider other)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+float \mbox{\hyperlink{class_timer_ab81785288ac6801f90be8fbbfa7f19c7}{start\+Time}}
+\item 
+bool \mbox{\hyperlink{class_timer_a9f79b3e8e9992f78a46b9fcf2df1de6e}{keep\+Timing}}
+\item 
+float \mbox{\hyperlink{class_timer_a48d2822824c9cc04cf85b5b9603a7934}{timer}}
+\item 
+bool \mbox{\hyperlink{class_timer_a43b820ff01be3f0b24673552f9ca4497}{is\+Trigger}} = false
+\item 
+Game\+Object \mbox{\hyperlink{class_timer_a5e3c535e9f54b7a6db0bb277948c5863}{find}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line \mbox{\hyperlink{_timer_8cs_source_l00003}{3}} of file \mbox{\hyperlink{_timer_8cs_source}{Timer.\+cs}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_timer_a85c70c744f0163929ecb6021076a4e60}\label{class_timer_a85c70c744f0163929ecb6021076a4e60} 
+\index{Timer@{Timer}!OnDestroy@{OnDestroy}}
+\index{OnDestroy@{OnDestroy}!Timer@{Timer}}
+\doxysubsubsection{\texorpdfstring{OnDestroy()}{OnDestroy()}}
+{\footnotesize\ttfamily void Timer.\+On\+Destroy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timer_8cs_source_l00071}{71}} of file \mbox{\hyperlink{_timer_8cs_source}{Timer.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=306pt]{class_timer_a85c70c744f0163929ecb6021076a4e60_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_timer_a2d1b053c7f8a9724d08808cf34c3acbe}\label{class_timer_a2d1b053c7f8a9724d08808cf34c3acbe} 
+\index{Timer@{Timer}!OnDisable@{OnDisable}}
+\index{OnDisable@{OnDisable}!Timer@{Timer}}
+\doxysubsubsection{\texorpdfstring{OnDisable()}{OnDisable()}}
+{\footnotesize\ttfamily void Timer.\+On\+Disable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timer_8cs_source_l00066}{66}} of file \mbox{\hyperlink{_timer_8cs_source}{Timer.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=299pt]{class_timer_a2d1b053c7f8a9724d08808cf34c3acbe_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_timer_a12d13309ff4523026e600328a094e60a}\label{class_timer_a12d13309ff4523026e600328a094e60a} 
+\index{Timer@{Timer}!OnEnable@{OnEnable}}
+\index{OnEnable@{OnEnable}!Timer@{Timer}}
+\doxysubsubsection{\texorpdfstring{OnEnable()}{OnEnable()}}
+{\footnotesize\ttfamily void Timer.\+On\+Enable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timer_8cs_source_l00017}{17}} of file \mbox{\hyperlink{_timer_8cs_source}{Timer.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=305pt]{class_timer_a12d13309ff4523026e600328a094e60a_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_timer_a9b660db1a7189d0058c616a88531ed72}\label{class_timer_a9b660db1a7189d0058c616a88531ed72} 
+\index{Timer@{Timer}!OnTriggerEnter@{OnTriggerEnter}}
+\index{OnTriggerEnter@{OnTriggerEnter}!Timer@{Timer}}
+\doxysubsubsection{\texorpdfstring{OnTriggerEnter()}{OnTriggerEnter()}}
+{\footnotesize\ttfamily void Timer.\+On\+Trigger\+Enter (\begin{DoxyParamCaption}\item[{Collider}]{other }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timer_8cs_source_l00080}{80}} of file \mbox{\hyperlink{_timer_8cs_source}{Timer.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=327pt]{class_timer_a9b660db1a7189d0058c616a88531ed72_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_timer_aac7d46dc92c59a9e79c403c7b5920338}\label{class_timer_aac7d46dc92c59a9e79c403c7b5920338} 
+\index{Timer@{Timer}!OnTriggerExit@{OnTriggerExit}}
+\index{OnTriggerExit@{OnTriggerExit}!Timer@{Timer}}
+\doxysubsubsection{\texorpdfstring{OnTriggerExit()}{OnTriggerExit()}}
+{\footnotesize\ttfamily void Timer.\+On\+Trigger\+Exit (\begin{DoxyParamCaption}\item[{Collider}]{other }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timer_8cs_source_l00088}{88}} of file \mbox{\hyperlink{_timer_8cs_source}{Timer.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=313pt]{class_timer_aac7d46dc92c59a9e79c403c7b5920338_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_timer_a2b6cfe3b07f747a0f04f8ae493b58a57}\label{class_timer_a2b6cfe3b07f747a0f04f8ae493b58a57} 
+\index{Timer@{Timer}!PauseTimer@{PauseTimer}}
+\index{PauseTimer@{PauseTimer}!Timer@{Timer}}
+\doxysubsubsection{\texorpdfstring{PauseTimer()}{PauseTimer()}}
+{\footnotesize\ttfamily void Timer.\+Pause\+Timer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_timer_8cs_source_l00042}{42}} of file \mbox{\hyperlink{_timer_8cs_source}{Timer.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=313pt]{class_timer_a2b6cfe3b07f747a0f04f8ae493b58a57_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_timer_a2daeaa5cc45d75a8f060bca4fc81e0d1}\label{class_timer_a2daeaa5cc45d75a8f060bca4fc81e0d1} 
+\index{Timer@{Timer}!ResumeTimer@{ResumeTimer}}
+\index{ResumeTimer@{ResumeTimer}!Timer@{Timer}}
+\doxysubsubsection{\texorpdfstring{ResumeTimer()}{ResumeTimer()}}
+{\footnotesize\ttfamily void Timer.\+Resume\+Timer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timer_8cs_source_l00047}{47}} of file \mbox{\hyperlink{_timer_8cs_source}{Timer.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=327pt]{class_timer_a2daeaa5cc45d75a8f060bca4fc81e0d1_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_timer_ade9c690f80327bd47ebb927c59a06a0e}\label{class_timer_ade9c690f80327bd47ebb927c59a06a0e} 
+\index{Timer@{Timer}!Start@{Start}}
+\index{Start@{Start}!Timer@{Timer}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily void Timer.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timer_8cs_source_l00011}{11}} of file \mbox{\hyperlink{_timer_8cs_source}{Timer.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=268pt]{class_timer_ade9c690f80327bd47ebb927c59a06a0e_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_timer_af61ff6a202a2d5961c8f507a82a6a76f}\label{class_timer_af61ff6a202a2d5961c8f507a82a6a76f} 
+\index{Timer@{Timer}!StartTimer@{StartTimer}}
+\index{StartTimer@{StartTimer}!Timer@{Timer}}
+\doxysubsubsection{\texorpdfstring{StartTimer()}{StartTimer()}}
+{\footnotesize\ttfamily void Timer.\+Start\+Timer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timer_8cs_source_l00053}{53}} of file \mbox{\hyperlink{_timer_8cs_source}{Timer.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=268pt]{class_timer_af61ff6a202a2d5961c8f507a82a6a76f_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_timer_a2bac18ad70170a6c4ab937148a7d2022}\label{class_timer_a2bac18ad70170a6c4ab937148a7d2022} 
+\index{Timer@{Timer}!StopTimer@{StopTimer}}
+\index{StopTimer@{StopTimer}!Timer@{Timer}}
+\doxysubsubsection{\texorpdfstring{StopTimer()}{StopTimer()}}
+{\footnotesize\ttfamily float Timer.\+Stop\+Timer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timer_8cs_source_l00036}{36}} of file \mbox{\hyperlink{_timer_8cs_source}{Timer.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=293pt]{class_timer_a2bac18ad70170a6c4ab937148a7d2022_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_timer_a773cd00f259314cbb46f6ee1233974f9}\label{class_timer_a773cd00f259314cbb46f6ee1233974f9} 
+\index{Timer@{Timer}!TimeToString@{TimeToString}}
+\index{TimeToString@{TimeToString}!Timer@{Timer}}
+\doxysubsubsection{\texorpdfstring{TimeToString()}{TimeToString()}}
+{\footnotesize\ttfamily string Timer.\+Time\+To\+String (\begin{DoxyParamCaption}\item[{float}]{t }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timer_8cs_source_l00059}{59}} of file \mbox{\hyperlink{_timer_8cs_source}{Timer.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=306pt]{class_timer_a773cd00f259314cbb46f6ee1233974f9_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_timer_ac2c16f9aa88f2d3e7df7785545578f27}\label{class_timer_ac2c16f9aa88f2d3e7df7785545578f27} 
+\index{Timer@{Timer}!Update@{Update}}
+\index{Update@{Update}!Timer@{Timer}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Timer.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timer_8cs_source_l00022}{22}} of file \mbox{\hyperlink{_timer_8cs_source}{Timer.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=285pt]{class_timer_ac2c16f9aa88f2d3e7df7785545578f27_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_timer_a26cf2ffb16ef485f675c974a0c665919}\label{class_timer_a26cf2ffb16ef485f675c974a0c665919} 
+\index{Timer@{Timer}!UpdateTime@{UpdateTime}}
+\index{UpdateTime@{UpdateTime}!Timer@{Timer}}
+\doxysubsubsection{\texorpdfstring{UpdateTime()}{UpdateTime()}}
+{\footnotesize\ttfamily void Timer.\+Update\+Time (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timer_8cs_source_l00031}{31}} of file \mbox{\hyperlink{_timer_8cs_source}{Timer.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=285pt]{class_timer_a26cf2ffb16ef485f675c974a0c665919_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_timer_a5e3c535e9f54b7a6db0bb277948c5863}\label{class_timer_a5e3c535e9f54b7a6db0bb277948c5863} 
+\index{Timer@{Timer}!find@{find}}
+\index{find@{find}!Timer@{Timer}}
+\doxysubsubsection{\texorpdfstring{find}{find}}
+{\footnotesize\ttfamily Game\+Object Timer.\+find\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timer_8cs_source_l00009}{9}} of file \mbox{\hyperlink{_timer_8cs_source}{Timer.\+cs}}.
+
+\Hypertarget{class_timer_a43b820ff01be3f0b24673552f9ca4497}\label{class_timer_a43b820ff01be3f0b24673552f9ca4497} 
+\index{Timer@{Timer}!isTrigger@{isTrigger}}
+\index{isTrigger@{isTrigger}!Timer@{Timer}}
+\doxysubsubsection{\texorpdfstring{isTrigger}{isTrigger}}
+{\footnotesize\ttfamily bool Timer.\+is\+Trigger = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timer_8cs_source_l00008}{8}} of file \mbox{\hyperlink{_timer_8cs_source}{Timer.\+cs}}.
+
+\Hypertarget{class_timer_a9f79b3e8e9992f78a46b9fcf2df1de6e}\label{class_timer_a9f79b3e8e9992f78a46b9fcf2df1de6e} 
+\index{Timer@{Timer}!keepTiming@{keepTiming}}
+\index{keepTiming@{keepTiming}!Timer@{Timer}}
+\doxysubsubsection{\texorpdfstring{keepTiming}{keepTiming}}
+{\footnotesize\ttfamily bool Timer.\+keep\+Timing\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timer_8cs_source_l00006}{6}} of file \mbox{\hyperlink{_timer_8cs_source}{Timer.\+cs}}.
+
+\Hypertarget{class_timer_ab81785288ac6801f90be8fbbfa7f19c7}\label{class_timer_ab81785288ac6801f90be8fbbfa7f19c7} 
+\index{Timer@{Timer}!startTime@{startTime}}
+\index{startTime@{startTime}!Timer@{Timer}}
+\doxysubsubsection{\texorpdfstring{startTime}{startTime}}
+{\footnotesize\ttfamily float Timer.\+start\+Time\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timer_8cs_source_l00005}{5}} of file \mbox{\hyperlink{_timer_8cs_source}{Timer.\+cs}}.
+
+\Hypertarget{class_timer_a48d2822824c9cc04cf85b5b9603a7934}\label{class_timer_a48d2822824c9cc04cf85b5b9603a7934} 
+\index{Timer@{Timer}!timer@{timer}}
+\index{timer@{timer}!Timer@{Timer}}
+\doxysubsubsection{\texorpdfstring{timer}{timer}}
+{\footnotesize\ttfamily float Timer.\+timer\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timer_8cs_source_l00007}{7}} of file \mbox{\hyperlink{_timer_8cs_source}{Timer.\+cs}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Utility/\mbox{\hyperlink{_timer_8cs}{Timer.\+cs}}\end{DoxyCompactItemize}

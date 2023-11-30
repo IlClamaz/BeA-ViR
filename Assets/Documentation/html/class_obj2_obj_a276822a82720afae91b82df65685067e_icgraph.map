@@ -1,0 +1,7 @@
+<map id="Obj2Obj.OnSightSeeing" name="Obj2Obj.OnSightSeeing">
+<area shape="rect" id="Node000001" title=" " alt="" coords="186,31,345,57"/>
+<area shape="rect" id="Node000002" href="$class_obj2_obj.html#a768d170120dcee519cbd6336c79b098a" title=" " alt="" coords="5,5,138,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="170,34,138,30,138,25,170,29"/>
+<area shape="rect" id="Node000003" href="$class_obj2_obj.html#adb08b547b2da4580f823b0c7ce162850" title=" " alt="" coords="7,56,136,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="171,59,137,64,136,58,170,54"/>
+</map>

@@ -1,0 +1,40 @@
+\doxysection{Omeka\+Client.\+cs}
+\hypertarget{_omeka_client_8cs_source}{}\label{_omeka_client_8cs_source}\index{OmekaDB/Lib/Scripts/Components/OmekaClient.cs@{OmekaDB/Lib/Scripts/Components/OmekaClient.cs}}
+\mbox{\hyperlink{_omeka_client_8cs}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_omeka_client_8cs_source_l00001}00001\ \textcolor{keyword}{using\ }System.Collections;}
+\DoxyCodeLine{\Hypertarget{_omeka_client_8cs_source_l00002}00002\ \textcolor{keyword}{using\ }System.Collections.Generic;}
+\DoxyCodeLine{\Hypertarget{_omeka_client_8cs_source_l00003}00003\ \textcolor{keyword}{using\ }UnityEngine;}
+\DoxyCodeLine{\Hypertarget{_omeka_client_8cs_source_l00004}00004\ \textcolor{keyword}{using\ }\mbox{\hyperlink{namespace_render_heads_1_1_unity_omeka_1_1_core}{RenderHeads.UnityOmeka.Core}};}
+\DoxyCodeLine{\Hypertarget{_omeka_client_8cs_source_l00005}00005\ \textcolor{keyword}{using\ }\mbox{\hyperlink{namespace_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies}{RenderHeads.UnityOmeka.Data.Vocabularies}};}
+\DoxyCodeLine{\Hypertarget{_omeka_client_8cs_source_l00006}00006\ \textcolor{keyword}{using\ }\mbox{\hyperlink{namespace_render_heads_1_1_unity_omeka_1_1_core_1_1_interface}{RenderHeads.UnityOmeka.Core.Interface}};}
+\DoxyCodeLine{\Hypertarget{_omeka_client_8cs_source_l00007}00007\ \textcolor{keyword}{using\ }\mbox{\hyperlink{namespace_render_heads_1_1_unity_omeka_1_1_core_1_1_impl}{RenderHeads.UnityOmeka.Core.Impl}};}
+\DoxyCodeLine{\Hypertarget{_omeka_client_8cs_source_l00008}00008\ }
+\DoxyCodeLine{\Hypertarget{_omeka_client_8cs_source_l00009}\mbox{\hyperlink{namespace_render_heads_1_1_unity_omeka_1_1_components}{00009}}\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespace_render_heads_1_1_unity_omeka_1_1_components}{RenderHeads.UnityOmeka.Components}}}
+\DoxyCodeLine{\Hypertarget{_omeka_client_8cs_source_l00010}00010\ \{}
+\DoxyCodeLine{\Hypertarget{_omeka_client_8cs_source_l00011}00011\ }
+\DoxyCodeLine{\Hypertarget{_omeka_client_8cs_source_l00015}\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_components_1_1_omeka_client}{00015}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_components_1_1_omeka_client}{OmekaClient}}\ :\ MonoBehaviour}
+\DoxyCodeLine{\Hypertarget{_omeka_client_8cs_source_l00016}00016\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_omeka_client_8cs_source_l00020}\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_components_1_1_omeka_client_a14c73fc800c44bf944e8b10f016064f3}{00020}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \mbox{\hyperlink{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i}{IAPI<DublicCoreVocabulary>}}\ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_components_1_1_omeka_client_a14c73fc800c44bf944e8b10f016064f3}{Api}}\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{private}\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_omeka_client_8cs_source_l00021}00021\ }
+\DoxyCodeLine{\Hypertarget{_omeka_client_8cs_source_l00025}\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_components_1_1_omeka_client_a0828c36292b3c46ed09480371c0826c1}{00025}}\ \ \ \ \ \ \ \ \ [SerializeField]\ \textcolor{keyword}{private}\ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_client_settings}{ClientSettings}}\ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_components_1_1_omeka_client_a0828c36292b3c46ed09480371c0826c1}{\_clientSettings}}\ =\ \textcolor{keyword}{null};}
+\DoxyCodeLine{\Hypertarget{_omeka_client_8cs_source_l00026}\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_components_1_1_omeka_client_a94e0b5b815ccd22bc9483ee9a423f66b}{00026}}\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_components_1_1_omeka_client_a94e0b5b815ccd22bc9483ee9a423f66b}{Awake}}()}
+\DoxyCodeLine{\Hypertarget{_omeka_client_8cs_source_l00027}00027\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_omeka_client_8cs_source_l00028}00028\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_components_1_1_omeka_client_a0828c36292b3c46ed09480371c0826c1}{\_clientSettings}}\ ==\ \textcolor{keyword}{null})}
+\DoxyCodeLine{\Hypertarget{_omeka_client_8cs_source_l00029}00029\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_omeka_client_8cs_source_l00030}00030\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{throw}\ \textcolor{keyword}{new}\ System.Exception(\textcolor{stringliteral}{"{}[OmekaClient]\ Init\ failed,\ client\ settings\ is\ null"{}});}
+\DoxyCodeLine{\Hypertarget{_omeka_client_8cs_source_l00031}00031\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_omeka_client_8cs_source_l00032}00032\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_components_1_1_omeka_client_a14c73fc800c44bf944e8b10f016064f3}{Api}}\ ==\ \textcolor{keyword}{null})}
+\DoxyCodeLine{\Hypertarget{_omeka_client_8cs_source_l00033}00033\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_omeka_client_8cs_source_l00034}00034\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i}{IAPI<DublicCoreVocabulary>}}\ api\ =\ \textcolor{keyword}{new}\ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{StandardApi<DublicCoreVocabulary>}}();}
+\DoxyCodeLine{\Hypertarget{_omeka_client_8cs_source_l00035}00035\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_components_1_1_omeka_client_a14c73fc800c44bf944e8b10f016064f3}{Api}}\ =\ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{api}};}
+\DoxyCodeLine{\Hypertarget{_omeka_client_8cs_source_l00036}00036\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{api}}.\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api_aade6ceca2f72dddaf7367f1375e2f4c2}{SetRestEndPoint}}(\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_components_1_1_omeka_client_a0828c36292b3c46ed09480371c0826c1}{\_clientSettings}}.\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_client_settings_a3e8cc3e6bf95b19956797f3b1cb77b41}{OmekaEndpoint}});}
+\DoxyCodeLine{\Hypertarget{_omeka_client_8cs_source_l00037}00037\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{api}}.\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api_aabb51a8af1eb4be843966ad7c8ecefbe}{SetCredentials}}(\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_components_1_1_omeka_client_a0828c36292b3c46ed09480371c0826c1}{\_clientSettings}}.\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_client_settings_afbd8a3fe59c402dc2d34c94e5aeb04bb}{KeyIdentity}},\ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_components_1_1_omeka_client_a0828c36292b3c46ed09480371c0826c1}{\_clientSettings}}.\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_client_settings_aa630e0e3cf5b901c13eee7e5c7a36b41}{KeyCredential}});}
+\DoxyCodeLine{\Hypertarget{_omeka_client_8cs_source_l00038}00038\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//Debug.Log("{}[OmekaClient]\ Successfully\ Initialized"{});}}
+\DoxyCodeLine{\Hypertarget{_omeka_client_8cs_source_l00039}00039\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_omeka_client_8cs_source_l00040}00040\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_omeka_client_8cs_source_l00041}00041\ }
+\DoxyCodeLine{\Hypertarget{_omeka_client_8cs_source_l00042}00042\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_omeka_client_8cs_source_l00043}00043\ \}}
+
+\end{DoxyCode}

@@ -1,0 +1,28 @@
+<map id="RenderHeads.UnityOmeka.Example.DatabaseManager.Start" name="RenderHeads.UnityOmeka.Example.DatabaseManager.Start">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,272,240,315"/>
+<area shape="rect" id="Node000002" href="$class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#a0128f7494f162a302c3de09920b04091" title="Search a specific item set and returns all its items." alt="" coords="316,5,551,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="130,270,151,225,185,167,230,108,257,81,286,58,301,49,303,54,289,62,260,85,234,111,189,170,156,228,135,273"/>
+<area shape="rect" id="Node000003" href="$class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#ac8aa96c6a982455288be88c8b0bba8bd" title="Callback that searchs for item sets." alt="" coords="316,72,551,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="137,270,196,198,238,158,286,124,300,117,303,122,289,129,242,162,200,201,141,273"/>
+<area shape="rect" id="Node000004" href="$class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#af8d1a6c9c25527cca1487c6bf8a75f87" title=" " alt="" coords="311,139,556,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="152,269,212,229,287,191,305,184,307,189,289,196,215,234,155,274"/>
+<area shape="rect" id="Node000007" href="$class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#aa168f07e7c52007bf77e19be3a53f5dc" title=" " alt="" coords="310,205,557,248"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="225,269,315,249,316,254,226,274"/>
+<area shape="rect" id="Node000008" href="$class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#a05bd418c8672fa166158b5c5ed2fdc67" title=" " alt="" coords="311,272,556,315"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="240,291,296,291,296,296,240,296"/>
+<area shape="rect" id="Node000009" href="$class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#a1e46af8f0d5e4e8f946e7f0389517be5" title=" " alt="" coords="301,339,566,381"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="226,313,316,332,315,337,225,318"/>
+<area shape="rect" id="Node000010" href="$class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#ae7a336e103619c8515afec5b7ff319d8" title=" " alt="" coords="288,405,579,448"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="155,313,215,353,289,391,307,398,305,403,287,396,212,357,152,317"/>
+<area shape="rect" id="Node000011" href="$class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#ad592a7076d66a9220fc80caf600e3355" title=" " alt="" coords="306,472,561,515"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="141,313,200,385,242,425,289,458,299,463,297,468,286,462,238,429,196,389,137,317"/>
+<area shape="rect" id="Node000012" href="$class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#ab23bc09f47375d5ed2a337b9e4e18c87" title=" " alt="" coords="305,539,562,581"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="135,314,156,359,189,416,234,475,260,502,289,524,296,529,294,534,286,529,257,506,230,479,185,419,151,361,130,316"/>
+<area shape="rect" id="Node000005" href="$class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#ada9ddb04f0d6e5dad910ff54da95ca94" title=" " alt="" coords="627,372,861,415"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="558,179,580,191,628,228,669,273,702,318,727,358,722,360,698,321,665,277,625,232,578,196,555,184"/>
+<area shape="rect" id="Node000006" href="$class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#abc86ebd442716a61a7197bf4dfc3b8f7" title="Downloads a specific piece of media from a URL and displays it." alt="" coords="909,372,1144,415"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="862,391,894,391,894,396,862,396"/>
+<area shape="poly" id="edge9_Node000009_Node000005" title=" " alt="" coords="566,372,612,376,611,382,566,377"/>
+<area shape="poly" id="edge11_Node000010_Node000005" title=" " alt="" coords="579,408,611,405,612,410,580,414"/>
+<area shape="poly" id="edge14_Node000012_Node000005" title=" " alt="" coords="550,536,578,524,616,502,652,476,711,424,714,427,655,480,619,507,580,529,552,541"/>
+</map>

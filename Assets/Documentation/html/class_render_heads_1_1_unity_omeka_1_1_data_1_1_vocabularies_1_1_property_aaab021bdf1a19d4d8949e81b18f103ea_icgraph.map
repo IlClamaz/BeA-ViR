@@ -1,0 +1,9 @@
+<map id="RenderHeads.UnityOmeka.Data.Vocabularies.Property.FromRoot" name="RenderHeads.UnityOmeka.Data.Vocabularies.Property.FromRoot">
+<area shape="rect" id="Node000001" title="Finds a term/property array in a json object and returns it as an array of properties." alt="" coords="309,96,519,139"/>
+<area shape="rect" id="Node000002" href="$class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_archaeological_finding_record_vocabulary.html#ace02c5a408439eb3b4fe640199770eb6" title=" " alt="" coords="18,5,248,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="323,94,234,67,236,62,325,89"/>
+<area shape="rect" id="Node000003" href="$class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_archaeometric_investigation_record_vocabulary.html#ae6f005b4e4a15246c9b2cd5d8817f115" title=" " alt="" coords="5,88,261,147"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="293,120,261,120,261,115,293,115"/>
+<area shape="rect" id="Node000004" href="$class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary.html#a34875b87cdf8432049b04ad4b43a99cd" title=" " alt="" coords="17,171,249,229"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="325,146,236,173,234,167,323,141"/>
+</map>

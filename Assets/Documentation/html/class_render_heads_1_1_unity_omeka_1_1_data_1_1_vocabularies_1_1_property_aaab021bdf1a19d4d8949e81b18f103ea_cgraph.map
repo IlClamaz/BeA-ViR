@@ -1,0 +1,5 @@
+<map id="RenderHeads.UnityOmeka.Data.Vocabularies.Property.FromRoot" name="RenderHeads.UnityOmeka.Data.Vocabularies.Property.FromRoot">
+<area shape="rect" id="Node000001" title="Finds a term/property array in a json object and returns it as an array of properties." alt="" coords="5,5,216,48"/>
+<area shape="rect" id="Node000002" href="$class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property.html#a487a129e6b41083dfc41efbfd6d0af85" title="Converts a Jobject (assumed to be in the &quot;shape&quot; of a property) to a Property object." alt="" coords="264,5,491,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="216,24,248,24,248,29,216,29"/>
+</map>

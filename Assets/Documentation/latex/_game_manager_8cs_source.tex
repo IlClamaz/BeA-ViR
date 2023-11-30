@@ -1,0 +1,110 @@
+\doxysection{Game\+Manager.\+cs}
+\hypertarget{_game_manager_8cs_source}{}\label{_game_manager_8cs_source}\index{Managers/GameManager.cs@{Managers/GameManager.cs}}
+\mbox{\hyperlink{_game_manager_8cs}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00001}00001\ \textcolor{keyword}{using\ }System.Collections.Generic;}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00002}00002\ \textcolor{keyword}{using\ }UnityEngine;}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00003}00003\ \textcolor{keyword}{using\ }ScriptableObjectArchitecture;}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00004}00004\ }
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00005}\mbox{\hyperlink{class_game_manager}{00005}}\ \textcolor{keyword}{public}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_game_manager}{GameManager}}\ :\ MonoBehaviour}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00006}00006\ \{}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00007}00007\ \ \ \ \ [Header(\textcolor{stringliteral}{"{}Static\ Game\ State\ Elements"{}})]}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00008}\mbox{\hyperlink{class_game_manager_ac56845da8ee216f4fb70a64fe01fb4c8}{00008}}\ \ \ \ \ [SerializeField]\ \textcolor{keyword}{private}\ \mbox{\hyperlink{class_game_manager_a366fa407c231eb79dc11813211e05943}{InputReader}}\ \mbox{\hyperlink{class_game_manager_ac56845da8ee216f4fb70a64fe01fb4c8}{inputReader}};}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00009}\mbox{\hyperlink{class_game_manager_a203ea2b71cd51228763c7ffb33c6b5b1}{00009}}\ \ \ \ \ [SerializeField]\ \textcolor{keyword}{private}\ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_game_manager_a203ea2b71cd51228763c7ffb33c6b5b1}{fadingDuration}};}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00010}\mbox{\hyperlink{class_game_manager_abe8e79771775bc67c63c4ac43349dc8a}{00010}}\ \ \ \ \ [SerializeField]\ \textcolor{keyword}{private}\ GameObject\ \mbox{\hyperlink{class_game_manager_abe8e79771775bc67c63c4ac43349dc8a}{player}};}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00011}\mbox{\hyperlink{class_game_manager_a737bb6ef98bfe7aacaebfd8be787b709}{00011}}\ \ \ \ \ [SerializeField]\ \textcolor{keyword}{private}\ GameObject\ \mbox{\hyperlink{class_game_manager_a737bb6ef98bfe7aacaebfd8be787b709}{startingPoint}};}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00012}\mbox{\hyperlink{class_game_manager_addf2256ae0a66c7f750269c207e7ef96}{00012}}\ \ \ \ \ [SerializeField]\ \textcolor{keyword}{private}\ GameObject\ \mbox{\hyperlink{class_game_manager_addf2256ae0a66c7f750269c207e7ef96}{commandsUI}};}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00013}\mbox{\hyperlink{class_game_manager_a801fe7e7dd712d076749a37b333b8acd}{00013}}\ \ \ \ \ [SerializeField]\ \textcolor{keyword}{private}\ GameObject\ \mbox{\hyperlink{class_game_manager_a801fe7e7dd712d076749a37b333b8acd}{flyingJapan}};}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00014}\mbox{\hyperlink{class_game_manager_acbd44a69a6a1da06969906100d7738b6}{00014}}\ \ \ \ \ [SerializeField]\ \textcolor{keyword}{private}\ GameEvent\ \mbox{\hyperlink{class_game_manager_a578ae9234dd7dfb9ae76142581885932}{reset}},\ \mbox{\hyperlink{class_game_manager_acbd44a69a6a1da06969906100d7738b6}{fadeCamera}},\ \mbox{\hyperlink{class_game_manager_ace03a3155e82db74702361a6dabe6c6e}{fadeInter}},\ \mbox{\hyperlink{class_game_manager_a506c62ee40adb9457dccd24e2cd0908c}{fadeIntra}}\ =\ \textcolor{keywordflow}{default};}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00015}00015\ }
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00016}00016\ \ \ \ \ \textcolor{comment}{//[Header("{}Variable\ Game\ State\ Elements"{})]}}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00017}\mbox{\hyperlink{class_game_manager_a7296edf575469a1d70952d1b4e2e4df6}{00017}}\ \ \ \ \ \textcolor{keyword}{private}\ List<GameObject>\ \mbox{\hyperlink{class_game_manager_a7296edf575469a1d70952d1b4e2e4df6}{locHistory}};}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00018}\mbox{\hyperlink{class_game_manager_a68bb321cdd230dc71f5eb7cf133a9195}{00018}}\ \ \ \ \ \textcolor{keyword}{private}\ \mbox{\hyperlink{class_environment}{Environment}}\ \mbox{\hyperlink{class_game_manager_a68bb321cdd230dc71f5eb7cf133a9195}{curEnv}};}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00019}\mbox{\hyperlink{class_game_manager_a8f9e808a4adde4f4d1d62580091a8070}{00019}}\ \ \ \ \ \textcolor{keyword}{private}\ GameObject\ \mbox{\hyperlink{class_game_manager_a8f9e808a4adde4f4d1d62580091a8070}{curObj}};}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00020}\mbox{\hyperlink{class_game_manager_aa677d82ddaa47949d388dfb7aa8a70bd}{00020}}\ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_game_manager_aa677d82ddaa47949d388dfb7aa8a70bd}{controlsEnabled}}\ =\ \textcolor{keyword}{true};}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00021}\mbox{\hyperlink{class_game_manager_a17622f424ee01e9dcb095d6a7ce51d0a}{00021}}\ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_game_manager_a17622f424ee01e9dcb095d6a7ce51d0a}{audioIsOn}}\ =\ \textcolor{keyword}{true};}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00022}00022\ }
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00023}\mbox{\hyperlink{class_game_manager_ad3e717f4fb0f378b969f4457de81f23e}{00023}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{static}\ \mbox{\hyperlink{class_game_manager}{GameManager}}\ \mbox{\hyperlink{class_game_manager_ad3e717f4fb0f378b969f4457de81f23e}{Instance}}\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{private}\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00024}\mbox{\hyperlink{class_game_manager_a366fa407c231eb79dc11813211e05943}{00024}}\ \ \ \ \ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_game_manager_a366fa407c231eb79dc11813211e05943}{InputReader}}\ \mbox{\hyperlink{class_game_manager_a366fa407c231eb79dc11813211e05943}{InputReader}}\ \{\ \textcolor{keyword}{get}\ =>\ \mbox{\hyperlink{class_game_manager_ac56845da8ee216f4fb70a64fe01fb4c8}{inputReader}};\ \}}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00025}\mbox{\hyperlink{class_game_manager_a5c2b2fb5f5dba4c91118f73e06c13756}{00025}}\ \ \ \ \ \textcolor{keyword}{public}\ GameObject\ \mbox{\hyperlink{class_game_manager_a5c2b2fb5f5dba4c91118f73e06c13756}{StartingPoint}}\ \{\ \textcolor{keyword}{get}\ =>\ \mbox{\hyperlink{class_game_manager_a737bb6ef98bfe7aacaebfd8be787b709}{startingPoint}};\ \}}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00026}\mbox{\hyperlink{class_game_manager_abcc695cf6563ef421ded921c36d4c345}{00026}}\ \ \ \ \ \textcolor{keyword}{public}\ GameObject\ \mbox{\hyperlink{class_game_manager_abcc695cf6563ef421ded921c36d4c345}{Player}}\ \{\ \textcolor{keyword}{get}\ =>\ \mbox{\hyperlink{class_game_manager_abe8e79771775bc67c63c4ac43349dc8a}{player}};\ \}}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00027}\mbox{\hyperlink{class_game_manager_a08a37f6dd86f0212498391c0a4875872}{00027}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_game_manager_a08a37f6dd86f0212498391c0a4875872}{FadingDuration}}\ \{\ \textcolor{keyword}{get}\ =>\ \mbox{\hyperlink{class_game_manager_a203ea2b71cd51228763c7ffb33c6b5b1}{fadingDuration}};\ \}}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00028}\mbox{\hyperlink{class_game_manager_a1dc0d3446d06dad0fd24da20de6471d3}{00028}}\ \ \ \ \ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_environment}{Environment}}\ \mbox{\hyperlink{class_game_manager_a1dc0d3446d06dad0fd24da20de6471d3}{CurEnv}}\ \{\ \textcolor{keyword}{get}\ =>\ \mbox{\hyperlink{class_game_manager_a68bb321cdd230dc71f5eb7cf133a9195}{curEnv}};\ \textcolor{keyword}{set}\ =>\ \mbox{\hyperlink{class_game_manager_a68bb321cdd230dc71f5eb7cf133a9195}{curEnv}}\ =\ value;\ \}}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00029}\mbox{\hyperlink{class_game_manager_a909b222127355038a94759b43bb5cb05}{00029}}\ \ \ \ \ \textcolor{keyword}{public}\ GameObject\ \mbox{\hyperlink{class_game_manager_a909b222127355038a94759b43bb5cb05}{CurObj}}\ \{\ \textcolor{keyword}{get}\ =>\ \mbox{\hyperlink{class_game_manager_a8f9e808a4adde4f4d1d62580091a8070}{curObj}};\ \textcolor{keyword}{set}\ =>\ \mbox{\hyperlink{class_game_manager_a8f9e808a4adde4f4d1d62580091a8070}{curObj}}\ =\ value;\ \}}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00030}\mbox{\hyperlink{class_game_manager_a0828b2fd9e5788a11ca82f2c91d97fd2}{00030}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_game_manager_a0828b2fd9e5788a11ca82f2c91d97fd2}{AudioIsOn}}\ \{\ \textcolor{keyword}{get}\ =>\ \mbox{\hyperlink{class_game_manager_a17622f424ee01e9dcb095d6a7ce51d0a}{audioIsOn}};\ \textcolor{keyword}{set}\ =>\ \mbox{\hyperlink{class_game_manager_a17622f424ee01e9dcb095d6a7ce51d0a}{audioIsOn}}\ =\ value;\ \}}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00031}\mbox{\hyperlink{class_game_manager_afa2b73472276f1102edf91d5997ef4a7}{00031}}\ \ \ \ \ \textcolor{keyword}{public}\ List<GameObject>\ \mbox{\hyperlink{class_game_manager_afa2b73472276f1102edf91d5997ef4a7}{LocHistory}}\ \{\ \textcolor{keyword}{get}\ =>\ \mbox{\hyperlink{class_game_manager_a7296edf575469a1d70952d1b4e2e4df6}{locHistory}};\ \}}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00032}00032\ }
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00033}\mbox{\hyperlink{class_game_manager_a2959177ee51ac31badbf8b1bc8f7f637}{00033}}\ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_game_manager_a2959177ee51ac31badbf8b1bc8f7f637}{Awake}}()}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00034}00034\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00035}00035\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (\mbox{\hyperlink{class_game_manager_ad3e717f4fb0f378b969f4457de81f23e}{Instance}}\ !=\ \textcolor{keyword}{null}\ \&\&\ \mbox{\hyperlink{class_game_manager_ad3e717f4fb0f378b969f4457de81f23e}{Instance}}\ !=\ \textcolor{keyword}{this})\ Destroy(\textcolor{keyword}{this});}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00036}00036\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}\ \mbox{\hyperlink{class_game_manager_ad3e717f4fb0f378b969f4457de81f23e}{Instance}}\ =\ \textcolor{keyword}{this};}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00037}00037\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00038}00038\ }
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00039}\mbox{\hyperlink{class_game_manager_ac68d06321520b6b17beb92a3cfa29ffa}{00039}}\ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_game_manager_ac68d06321520b6b17beb92a3cfa29ffa}{OnEnable}}()}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00040}00040\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00041}00041\ \ \ \ \ \ \ \ \ inputReader.showCommandsEvent\ +=\ \mbox{\hyperlink{class_game_manager_a2a3cc5ca2dfca50dcec6606217a8e9ea}{ShowCommandsUI}};}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00042}00042\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00043}00043\ }
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00044}\mbox{\hyperlink{class_game_manager_a538c5b310a8ee2cdf3b2ea36c91c7a50}{00044}}\ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_game_manager_a538c5b310a8ee2cdf3b2ea36c91c7a50}{OnDisable}}()}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00045}00045\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00046}00046\ \ \ \ \ \ \ \ \ inputReader.showCommandsEvent\ -\/=\ \mbox{\hyperlink{class_game_manager_a2a3cc5ca2dfca50dcec6606217a8e9ea}{ShowCommandsUI}};}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00047}00047\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00048}00048\ }
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00049}\mbox{\hyperlink{class_game_manager_a0852fd9377ca98321b8e4ab5ebf270dd}{00049}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_game_manager_a0852fd9377ca98321b8e4ab5ebf270dd}{UpdateLocHistory}}(GameObject\ gameObject)}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00050}00050\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00051}00051\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (\mbox{\hyperlink{class_game_manager_a7296edf575469a1d70952d1b4e2e4df6}{locHistory}}\ ==\ \textcolor{keyword}{null})\ \mbox{\hyperlink{class_game_manager_a7296edf575469a1d70952d1b4e2e4df6}{locHistory}}\ =\ \textcolor{keyword}{new}\ List<GameObject>();}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00052}00052\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (!\mbox{\hyperlink{class_game_manager_a7296edf575469a1d70952d1b4e2e4df6}{locHistory}}.Contains(gameObject))\ \mbox{\hyperlink{class_game_manager_a7296edf575469a1d70952d1b4e2e4df6}{locHistory}}.Add(gameObject);}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00053}00053\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00054}00054\ }
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00055}\mbox{\hyperlink{class_game_manager_a07299da4aaf1dcad4ff2d7edfa03e2ca}{00055}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_game_manager_a07299da4aaf1dcad4ff2d7edfa03e2ca}{SetJapan}}(\textcolor{keywordtype}{bool}\ isMoving)}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00056}00056\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00057}00057\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (\mbox{\hyperlink{class_game_manager_a801fe7e7dd712d076749a37b333b8acd}{flyingJapan}}.TryGetComponent(out\ \mbox{\hyperlink{class_move_around_hemi}{MoveAroundHemi}}\ fj))\ fj.IsMoving\ =\ isMoving;}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00058}00058\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00059}00059\ }
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00060}\mbox{\hyperlink{class_game_manager_ab819df1e13c1b16f2f2642db13e92268}{00060}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_game_manager_ab819df1e13c1b16f2f2642db13e92268}{SendFadeInter}}()}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00061}00061\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00062}00062\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_game_manager_ace03a3155e82db74702361a6dabe6c6e}{fadeInter}}.Raise();}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00063}00063\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_game_manager_a3484cbdf57841f3d21f32c279262280d}{TemporarilyDisableAllInput}}(\mbox{\hyperlink{class_game_manager_a203ea2b71cd51228763c7ffb33c6b5b1}{fadingDuration}});}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00064}00064\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00065}00065\ }
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00066}\mbox{\hyperlink{class_game_manager_a21cd6cf5cb2f5bae392cafe45719c68c}{00066}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_game_manager_a21cd6cf5cb2f5bae392cafe45719c68c}{SendFadeIntra}}()}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00067}00067\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00068}00068\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_game_manager_a506c62ee40adb9457dccd24e2cd0908c}{fadeIntra}}.Raise();}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00069}00069\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_game_manager_a3484cbdf57841f3d21f32c279262280d}{TemporarilyDisableAllInput}}(\mbox{\hyperlink{class_game_manager_a203ea2b71cd51228763c7ffb33c6b5b1}{fadingDuration}});}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00070}00070\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00071}00071\ }
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00072}\mbox{\hyperlink{class_game_manager_a3e454929a729b7c9cb77584e16893312}{00072}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_game_manager_a3e454929a729b7c9cb77584e16893312}{SendFadeCamera}}()}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00073}00073\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00074}00074\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_game_manager_acbd44a69a6a1da06969906100d7738b6}{fadeCamera}}.Raise();}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00075}00075\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_game_manager_a3484cbdf57841f3d21f32c279262280d}{TemporarilyDisableAllInput}}(\mbox{\hyperlink{class_game_manager_a203ea2b71cd51228763c7ffb33c6b5b1}{fadingDuration}});}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00076}00076\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00077}00077\ }
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00078}\mbox{\hyperlink{class_game_manager_add0ea24e1ed5b249ad01e79a9a511b75}{00078}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_game_manager_add0ea24e1ed5b249ad01e79a9a511b75}{SendReset}}()}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00079}00079\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00080}00080\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_game_manager_a578ae9234dd7dfb9ae76142581885932}{reset}}.Raise();}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00081}00081\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00082}00082\ }
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00083}\mbox{\hyperlink{class_game_manager_a2a3cc5ca2dfca50dcec6606217a8e9ea}{00083}}\ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_game_manager_a2a3cc5ca2dfca50dcec6606217a8e9ea}{ShowCommandsUI}}()}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00084}00084\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00085}00085\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_object_enabler}{ObjectEnabler}}.\mbox{\hyperlink{class_object_enabler_abe17a0bfcdf5a2cf9766982d74128854}{Instance}}.\mbox{\hyperlink{class_object_enabler_a686fed73559c20ddcb293585e904209b}{ToggleGameObject}}(\mbox{\hyperlink{class_game_manager_addf2256ae0a66c7f750269c207e7ef96}{commandsUI}},\ 0);}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00086}00086\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00087}00087\ }
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00088}\mbox{\hyperlink{class_game_manager_a3484cbdf57841f3d21f32c279262280d}{00088}}\ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_game_manager_a3484cbdf57841f3d21f32c279262280d}{TemporarilyDisableAllInput}}(\textcolor{keywordtype}{float}\ duration)}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00089}00089\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00090}00090\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (\mbox{\hyperlink{class_game_manager_aa677d82ddaa47949d388dfb7aa8a70bd}{controlsEnabled}})}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00091}00091\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00092}00092\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_game_manager_ac56845da8ee216f4fb70a64fe01fb4c8}{inputReader}}.DisableAllInput();}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00093}00093\ \ \ \ \ \ \ \ \ \ \ \ \ Invoke(\textcolor{stringliteral}{"{}EnableAllInput"{}},\ duration\ +\ 0.1f);}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00094}00094\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_game_manager_aa677d82ddaa47949d388dfb7aa8a70bd}{controlsEnabled}}\ =\ \textcolor{keyword}{false};}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00095}00095\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00096}00096\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00097}00097\ }
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00098}\mbox{\hyperlink{class_game_manager_a05d681c6d250c0f6ad5a44e319a89526}{00098}}\ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_game_manager_a05d681c6d250c0f6ad5a44e319a89526}{EnableAllInput}}()}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00099}00099\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00100}00100\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_game_manager_ac56845da8ee216f4fb70a64fe01fb4c8}{inputReader}}.EnableGameplayInput();}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00101}00101\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_game_manager_aa677d82ddaa47949d388dfb7aa8a70bd}{controlsEnabled}}\ =\ \textcolor{keyword}{true};}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00102}00102\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00103}00103\ \}}
+\DoxyCodeLine{\Hypertarget{_game_manager_8cs_source_l00104}00104\ }
+
+\end{DoxyCode}

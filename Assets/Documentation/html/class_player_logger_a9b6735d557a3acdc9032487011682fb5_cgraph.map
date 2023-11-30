@@ -1,0 +1,15 @@
+<map id="PlayerLogger.OnEnable" name="PlayerLogger.OnEnable">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,132,164,159"/>
+<area shape="rect" id="Node000002" href="$class_player_logger.html#ad14aa27f1deb54fa0302e1fb4c7e3339" title=" " alt="" coords="222,5,418,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,130,144,86,176,62,210,42,226,35,228,40,213,46,179,66,147,90,101,133"/>
+<area shape="rect" id="Node000003" href="$class_player_logger.html#abe4acc65fc4272497b47c635f41d5b7d" title=" " alt="" coords="220,56,420,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="115,129,211,92,238,84,239,89,213,97,117,134"/>
+<area shape="rect" id="Node000004" href="$class_player_logger.html#ade2414d42bf140e42428d16162c6a007" title=" " alt="" coords="245,107,395,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="164,134,229,127,230,132,164,139"/>
+<area shape="rect" id="Node000005" href="$class_player_logger.html#a35185b8dcbc3478179bed531c5b751ca" title=" " alt="" coords="212,157,428,184"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="164,151,197,155,196,160,164,156"/>
+<area shape="rect" id="Node000006" href="$class_player_logger.html#a90b7344f6d712e3621e54268d48a5f0f" title=" " alt="" coords="223,208,417,235"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="117,157,213,193,239,201,238,206,211,199,115,162"/>
+<area shape="rect" id="Node000007" href="$class_player_logger.html#ac1d8ca0a39f495eb16c9cd9a995138fb" title=" " alt="" coords="226,259,414,285"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="101,157,147,201,179,224,213,244,228,251,226,256,210,249,176,229,144,205,97,161"/>
+</map>

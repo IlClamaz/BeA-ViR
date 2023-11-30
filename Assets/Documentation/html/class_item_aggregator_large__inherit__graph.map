@@ -1,0 +1,7 @@
+<map id="ItemAggregatorLarge" name="ItemAggregatorLarge">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,261,139,395"/>
+<area shape="rect" id="Node000002" href="$class_item_interactor.html" title=" " alt="" coords="13,123,131,213"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="75,228,75,262,69,262,69,228"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="21,5,123,75"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="75,89,75,123,69,123,69,89"/>
+</map>

@@ -1,0 +1,127 @@
+\doxysection{Render\+Heads.\+Unity\+Omeka.\+Data.\+Helpers Class Reference}
+\hypertarget{class_render_heads_1_1_unity_omeka_1_1_data_1_1_helpers}{}\label{class_render_heads_1_1_unity_omeka_1_1_data_1_1_helpers}\index{RenderHeads.UnityOmeka.Data.Helpers@{RenderHeads.UnityOmeka.Data.Helpers}}
+
+
+Collaboration diagram for Render\+Heads.\+Unity\+Omeka.\+Data.\+Helpers\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=231pt]{class_render_heads_1_1_unity_omeka_1_1_data_1_1_helpers__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static T \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_helpers_aeb6a65049a65caa0f73d6982e68fbd9b}{Try\+Get$<$ T $>$}} (JObject root, string key, bool supress\+Error=false)
+\begin{DoxyCompactList}\small\item\em Helper function to try get a token from a Json.\+NET object and cast it to a specific type. Also handles the case where a key exists but its value is empty, in this case it returns null. \end{DoxyCompactList}\item 
+static ? Date\+Time \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_helpers_ab0b5c2fae44c9d10038eb3839d8ae130}{Date\+Time\+From\+JObject}} (JObject jobject)
+\item 
+static bool \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_helpers_ab97299d23f77c51cbfb733cecdf5d3d6}{Is\+Null\+Or\+Empty}} (JToken token)
+\begin{DoxyCompactList}\small\item\em Helper method to check if the a token is empty. This code comes from\+: \href{https://stackoverflow.com/questions/24066400/checking-for-empty-or-null-jtoken-in-a-jobject}{\texttt{ https\+://stackoverflow.\+com/questions/24066400/checking-\/for-\/empty-\/or-\/null-\/jtoken-\/in-\/a-\/jobject}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line \mbox{\hyperlink{_helpers_8cs_source_l00009}{9}} of file \mbox{\hyperlink{_helpers_8cs_source}{Helpers.\+cs}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_data_1_1_helpers_ab0b5c2fae44c9d10038eb3839d8ae130}\label{class_render_heads_1_1_unity_omeka_1_1_data_1_1_helpers_ab0b5c2fae44c9d10038eb3839d8ae130} 
+\index{RenderHeads.UnityOmeka.Data.Helpers@{RenderHeads.UnityOmeka.Data.Helpers}!DateTimeFromJObject@{DateTimeFromJObject}}
+\index{DateTimeFromJObject@{DateTimeFromJObject}!RenderHeads.UnityOmeka.Data.Helpers@{RenderHeads.UnityOmeka.Data.Helpers}}
+\doxysubsubsection{\texorpdfstring{DateTimeFromJObject()}{DateTimeFromJObject()}}
+{\footnotesize\ttfamily static ? Date\+Time Render\+Heads.\+Unity\+Omeka.\+Data.\+Helpers.\+Date\+Time\+From\+JObject (\begin{DoxyParamCaption}\item[{JObject}]{jobject }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line \mbox{\hyperlink{_helpers_8cs_source_l00050}{50}} of file \mbox{\hyperlink{_helpers_8cs_source}{Helpers.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_render_heads_1_1_unity_omeka_1_1_data_1_1_helpers_ab0b5c2fae44c9d10038eb3839d8ae130_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_data_1_1_helpers_ab97299d23f77c51cbfb733cecdf5d3d6}\label{class_render_heads_1_1_unity_omeka_1_1_data_1_1_helpers_ab97299d23f77c51cbfb733cecdf5d3d6} 
+\index{RenderHeads.UnityOmeka.Data.Helpers@{RenderHeads.UnityOmeka.Data.Helpers}!IsNullOrEmpty@{IsNullOrEmpty}}
+\index{IsNullOrEmpty@{IsNullOrEmpty}!RenderHeads.UnityOmeka.Data.Helpers@{RenderHeads.UnityOmeka.Data.Helpers}}
+\doxysubsubsection{\texorpdfstring{IsNullOrEmpty()}{IsNullOrEmpty()}}
+{\footnotesize\ttfamily static bool Render\+Heads.\+Unity\+Omeka.\+Data.\+Helpers.\+Is\+Null\+Or\+Empty (\begin{DoxyParamCaption}\item[{JToken}]{token }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Helper method to check if the a token is empty. This code comes from\+: \href{https://stackoverflow.com/questions/24066400/checking-for-empty-or-null-jtoken-in-a-jobject}{\texttt{ https\+://stackoverflow.\+com/questions/24066400/checking-\/for-\/empty-\/or-\/null-\/jtoken-\/in-\/a-\/jobject}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em token} & Token to check\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if token is null or empty, otherwise false
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_helpers_8cs_source_l00066}{66}} of file \mbox{\hyperlink{_helpers_8cs_source}{Helpers.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_render_heads_1_1_unity_omeka_1_1_data_1_1_helpers_ab97299d23f77c51cbfb733cecdf5d3d6_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_data_1_1_helpers_aeb6a65049a65caa0f73d6982e68fbd9b}\label{class_render_heads_1_1_unity_omeka_1_1_data_1_1_helpers_aeb6a65049a65caa0f73d6982e68fbd9b} 
+\index{RenderHeads.UnityOmeka.Data.Helpers@{RenderHeads.UnityOmeka.Data.Helpers}!TryGet$<$ T $>$@{TryGet$<$ T $>$}}
+\index{TryGet$<$ T $>$@{TryGet$<$ T $>$}!RenderHeads.UnityOmeka.Data.Helpers@{RenderHeads.UnityOmeka.Data.Helpers}}
+\doxysubsubsection{\texorpdfstring{TryGet$<$ T $>$()}{TryGet< T >()}}
+{\footnotesize\ttfamily static T Render\+Heads.\+Unity\+Omeka.\+Data.\+Helpers.\+Try\+Get$<$ T $>$ (\begin{DoxyParamCaption}\item[{JObject}]{root,  }\item[{string}]{key,  }\item[{bool}]{supress\+Error = {\ttfamily false} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Helper function to try get a token from a Json.\+NET object and cast it to a specific type. Also handles the case where a key exists but its value is empty, in this case it returns null. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & The type to cast to\\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em root} & The Json Object to search\\
+\hline
+{\em key} & The key to search for\\
+\hline
+{\em supress\+Error} & If true it won\textquotesingle{}t print out an error if it can\textquotesingle{}t find a key, default false\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\begin{Desc}
+\item[Type Constraints]\begin{description}
+\item[{\em T} : {\em JToken}]\end{description}
+\end{Desc}
+
+
+Definition at line \mbox{\hyperlink{_helpers_8cs_source_l00019}{19}} of file \mbox{\hyperlink{_helpers_8cs_source}{Helpers.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_render_heads_1_1_unity_omeka_1_1_data_1_1_helpers_aeb6a65049a65caa0f73d6982e68fbd9b_cgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Omeka\+DB/\+Lib/\+Scripts/\+Data/\mbox{\hyperlink{_helpers_8cs}{Helpers.\+cs}}\end{DoxyCompactItemize}

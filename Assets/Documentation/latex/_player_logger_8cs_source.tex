@@ -1,0 +1,83 @@
+\doxysection{Player\+Logger.\+cs}
+\hypertarget{_player_logger_8cs_source}{}\label{_player_logger_8cs_source}\index{Player/PlayerLogger.cs@{Player/PlayerLogger.cs}}
+\mbox{\hyperlink{_player_logger_8cs}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00001}00001\ \textcolor{keyword}{using\ }System.Collections;}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00002}00002\ \textcolor{keyword}{using\ }System.Collections.Generic;}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00003}00003\ \textcolor{keyword}{using\ }UnityEngine;}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00004}00004\ }
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00005}\mbox{\hyperlink{class_player_logger}{00005}}\ \textcolor{keyword}{public}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_player_logger}{PlayerLogger}}\ :\ MonoBehaviour}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00006}00006\ \{}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00007}\mbox{\hyperlink{class_player_logger_a0c4df27561cada1fa71f4ec98f13df9e}{00007}}\ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_player_logger_a463dfda54b119566e83d465647acf5ac}{overlayCount}},\ \mbox{\hyperlink{class_player_logger_a814266fc048d5240065d10a7089da21f}{commandsCount}},\ \mbox{\hyperlink{class_player_logger_a0c4df27561cada1fa71f4ec98f13df9e}{audioCount}},\ \mbox{\hyperlink{class_player_logger_a7458c98c98ed560561e7516131ed9d2a}{jumpCount}},\ \mbox{\hyperlink{class_player_logger_a370e043416e6c09f054f37e62ebc55bc}{sightCount}},\ \mbox{\hyperlink{class_player_logger_aad5ead9e5fe62cf38a2fec0c1a9e4bad}{goBackCount}}\ =\ 0;}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00008}\mbox{\hyperlink{class_player_logger_af0abfc3a7e0a6c475f9301536329192e}{00008}}\ \ \ \ \ [SerializeField]\ \textcolor{keyword}{private}\ InputReader\ \mbox{\hyperlink{class_player_logger_af0abfc3a7e0a6c475f9301536329192e}{inputReader}}\ =\ \textcolor{keywordflow}{default};}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00009}\mbox{\hyperlink{class_player_logger_a9b6735d557a3acdc9032487011682fb5}{00009}}\ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_player_logger_a9b6735d557a3acdc9032487011682fb5}{OnEnable}}()}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00010}00010\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00011}00011\ \ \ \ \ \ \ \ \ inputReader.showOverlayEvent\ +=\ \mbox{\hyperlink{class_player_logger_a90b7344f6d712e3621e54268d48a5f0f}{OnShowOverlay}};}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00012}00012\ \ \ \ \ \ \ \ \ inputReader.showCommandsEvent\ +=\ \mbox{\hyperlink{class_player_logger_a35185b8dcbc3478179bed531c5b751ca}{OnShowCommands}};}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00013}00013\ \ \ \ \ \ \ \ \ inputReader.audioEnablerEvent\ +=\ \mbox{\hyperlink{class_player_logger_ad14aa27f1deb54fa0302e1fb4c7e3339}{OnAudioEnabler}};}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00014}00014\ \ \ \ \ \ \ \ \ inputReader.jumpEvent\ +=\ \mbox{\hyperlink{class_player_logger_ade2414d42bf140e42428d16162c6a007}{OnJump}};}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00015}00015\ \ \ \ \ \ \ \ \ inputReader.sightSeeingEvent\ +=\ \mbox{\hyperlink{class_player_logger_ac1d8ca0a39f495eb16c9cd9a995138fb}{OnSightSeeing}};}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00016}00016\ \ \ \ \ \ \ \ \ inputReader.goBackHomeEvent\ +=\ \mbox{\hyperlink{class_player_logger_abe4acc65fc4272497b47c635f41d5b7d}{OnGoBackHome}};}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00017}00017\ }
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00018}00018\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00019}00019\ }
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00020}\mbox{\hyperlink{class_player_logger_a895bbd5506801fe199f9d2f65fcb9022}{00020}}\ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_player_logger_a895bbd5506801fe199f9d2f65fcb9022}{OnDisable}}()}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00021}00021\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00022}00022\ \ \ \ \ \ \ \ \ inputReader.showOverlayEvent\ -\/=\ \mbox{\hyperlink{class_player_logger_a90b7344f6d712e3621e54268d48a5f0f}{OnShowOverlay}};}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00023}00023\ \ \ \ \ \ \ \ \ inputReader.showCommandsEvent\ -\/=\ \mbox{\hyperlink{class_player_logger_a35185b8dcbc3478179bed531c5b751ca}{OnShowCommands}};}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00024}00024\ \ \ \ \ \ \ \ \ inputReader.audioEnablerEvent\ -\/=\ \mbox{\hyperlink{class_player_logger_ad14aa27f1deb54fa0302e1fb4c7e3339}{OnAudioEnabler}};}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00025}00025\ \ \ \ \ \ \ \ \ inputReader.jumpEvent\ -\/=\ \mbox{\hyperlink{class_player_logger_ade2414d42bf140e42428d16162c6a007}{OnJump}};}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00026}00026\ \ \ \ \ \ \ \ \ inputReader.sightSeeingEvent\ -\/=\ \mbox{\hyperlink{class_player_logger_ac1d8ca0a39f495eb16c9cd9a995138fb}{OnSightSeeing}};}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00027}00027\ \ \ \ \ \ \ \ \ inputReader.goBackHomeEvent\ -\/=\ \mbox{\hyperlink{class_player_logger_abe4acc65fc4272497b47c635f41d5b7d}{OnGoBackHome}};}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00028}00028\ }
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00029}00029\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00030}00030\ }
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00031}\mbox{\hyperlink{class_player_logger_a90b7344f6d712e3621e54268d48a5f0f}{00031}}\ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_player_logger_a90b7344f6d712e3621e54268d48a5f0f}{OnShowOverlay}}()}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00032}00032\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00033}00033\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_player_logger_a463dfda54b119566e83d465647acf5ac}{overlayCount}}++;}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00034}00034\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00035}00035\ }
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00036}\mbox{\hyperlink{class_player_logger_a35185b8dcbc3478179bed531c5b751ca}{00036}}\ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_player_logger_a35185b8dcbc3478179bed531c5b751ca}{OnShowCommands}}()}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00037}00037\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00038}00038\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_player_logger_a814266fc048d5240065d10a7089da21f}{commandsCount}}++;}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00039}00039\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00040}00040\ }
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00041}\mbox{\hyperlink{class_player_logger_ad14aa27f1deb54fa0302e1fb4c7e3339}{00041}}\ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_player_logger_ad14aa27f1deb54fa0302e1fb4c7e3339}{OnAudioEnabler}}()}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00042}00042\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00043}00043\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_player_logger_a0c4df27561cada1fa71f4ec98f13df9e}{audioCount}}++;}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00044}00044\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00045}00045\ }
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00046}\mbox{\hyperlink{class_player_logger_ade2414d42bf140e42428d16162c6a007}{00046}}\ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_player_logger_ade2414d42bf140e42428d16162c6a007}{OnJump}}()}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00047}00047\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00048}00048\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_player_logger_a7458c98c98ed560561e7516131ed9d2a}{jumpCount}}++;}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00049}00049\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00050}00050\ }
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00051}\mbox{\hyperlink{class_player_logger_ac1d8ca0a39f495eb16c9cd9a995138fb}{00051}}\ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_player_logger_ac1d8ca0a39f495eb16c9cd9a995138fb}{OnSightSeeing}}(\textcolor{keywordtype}{float}\ key)}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00052}00052\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00053}00053\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_player_logger_a370e043416e6c09f054f37e62ebc55bc}{sightCount}}++;}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00054}00054\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00055}00055\ }
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00056}\mbox{\hyperlink{class_player_logger_abe4acc65fc4272497b47c635f41d5b7d}{00056}}\ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_player_logger_abe4acc65fc4272497b47c635f41d5b7d}{OnGoBackHome}}()}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00057}00057\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00058}00058\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_player_logger_aad5ead9e5fe62cf38a2fec0c1a9e4bad}{goBackCount}}++;}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00059}00059\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00060}00060\ }
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00061}\mbox{\hyperlink{class_player_logger_ad53b3237c61f7e1118d323fa18b08441}{00061}}\ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_player_logger_ad53b3237c61f7e1118d323fa18b08441}{OnDestroy}}()}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00062}00062\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00063}00063\ \ \ \ \ \ \ \ \ Debug.Log(\textcolor{stringliteral}{"{}-\/-\/\ COMMANDS\ -\/-\/"{}}\ +\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}}\ +}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00064}00064\ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{"{}overlay;"{}}\ +\ \mbox{\hyperlink{class_player_logger_a463dfda54b119566e83d465647acf5ac}{overlayCount}}\ +\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}}\ +}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00065}00065\ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{"{}commands;"{}}\ +\ \mbox{\hyperlink{class_player_logger_a814266fc048d5240065d10a7089da21f}{commandsCount}}\ +\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}}\ +}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00066}00066\ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{"{}audio;"{}}\ +\ \mbox{\hyperlink{class_player_logger_a0c4df27561cada1fa71f4ec98f13df9e}{audioCount}}\ +\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}}\ +}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00067}00067\ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{"{}jump;"{}}\ +\ \mbox{\hyperlink{class_player_logger_a7458c98c98ed560561e7516131ed9d2a}{jumpCount}}\ +\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}}\ +}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00068}00068\ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{"{}sight;"{}}\ +\ \mbox{\hyperlink{class_player_logger_a370e043416e6c09f054f37e62ebc55bc}{sightCount}}\ +\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}}\ +}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00069}00069\ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{"{}goback;"{}}\ +\ \mbox{\hyperlink{class_player_logger_aad5ead9e5fe62cf38a2fec0c1a9e4bad}{goBackCount}});}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00070}00070\ }
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00071}00071\ \ \ \ \ \ \ \ \ Debug.Log(\textcolor{stringliteral}{"{}Location\ History:"{}});}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00072}00072\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{foreach}\ (var\ item\ \textcolor{keywordflow}{in}\ \mbox{\hyperlink{class_game_manager}{GameManager}}.\mbox{\hyperlink{class_game_manager_ad3e717f4fb0f378b969f4457de81f23e}{Instance}}.\mbox{\hyperlink{class_game_manager_afa2b73472276f1102edf91d5997ef4a7}{LocHistory}})}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00073}00073\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00074}00074\ \ \ \ \ \ \ \ \ \ \ \ \ Debug.Log(item.name);}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00075}00075\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00076}00076\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_player_logger_8cs_source_l00077}00077\ \}}
+
+\end{DoxyCode}

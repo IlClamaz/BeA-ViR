@@ -1,0 +1,9 @@
+<map id="RenderHeads.UnityOmeka.Components.OmekaClient" name="RenderHeads.UnityOmeka.Components.OmekaClient">
+<area shape="rect" id="Node000001" title="Main component that initializes our API." alt="" coords="5,316,253,401"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="57,153,159,223"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,237,127,316,122,317,111,238"/>
+<area shape="rect" id="Node000003" href="$class_render_heads_1_1_unity_omeka_1_1_core_1_1_client_settings.html" title="Settings for our Omeka Client." alt="" coords="183,124,385,252"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="228,254,181,305,177,302,224,250"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="229,5,339,75"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="287,89,287,124,281,124,281,89"/>
+</map>

@@ -1,0 +1,38 @@
+\doxysection{Timeline\+Period.\+cs}
+\hypertarget{_timeline_period_8cs_source}{}\label{_timeline_period_8cs_source}\index{Aggregators/TimelinePeriod.cs@{Aggregators/TimelinePeriod.cs}}
+\mbox{\hyperlink{_timeline_period_8cs}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_timeline_period_8cs_source_l00001}00001\ \textcolor{keyword}{using\ }System.Collections;}
+\DoxyCodeLine{\Hypertarget{_timeline_period_8cs_source_l00002}00002\ \textcolor{keyword}{using\ }System.Collections.Generic;}
+\DoxyCodeLine{\Hypertarget{_timeline_period_8cs_source_l00003}00003\ \textcolor{keyword}{using\ }UnityEngine;}
+\DoxyCodeLine{\Hypertarget{_timeline_period_8cs_source_l00004}00004\ }
+\DoxyCodeLine{\Hypertarget{_timeline_period_8cs_source_l00005}\mbox{\hyperlink{class_timeline_period}{00005}}\ \textcolor{keyword}{public}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_timeline_period}{TimelinePeriod}}\ :\ MonoBehaviour}
+\DoxyCodeLine{\Hypertarget{_timeline_period_8cs_source_l00006}00006\ \{}
+\DoxyCodeLine{\Hypertarget{_timeline_period_8cs_source_l00007}\mbox{\hyperlink{class_timeline_period_a9c67151a71e65515ca1fd4978b81e999}{00007}}\ \ \ \ \ \textcolor{keyword}{private}\ Animator\ \mbox{\hyperlink{class_timeline_period_a9c67151a71e65515ca1fd4978b81e999}{periodAnimator}};}
+\DoxyCodeLine{\Hypertarget{_timeline_period_8cs_source_l00008}\mbox{\hyperlink{class_timeline_period_afb144ba3b1067492361f3b67223b76a5}{00008}}\ \ \ \ \ \textcolor{keyword}{private}\ \mbox{\hyperlink{class_e2_e_obj}{E2EObj}}\ \mbox{\hyperlink{class_timeline_period_afb144ba3b1067492361f3b67223b76a5}{e2EObj}};}
+\DoxyCodeLine{\Hypertarget{_timeline_period_8cs_source_l00009}\mbox{\hyperlink{class_timeline_period_ac72be944d69de3f62175b59738816838}{00009}}\ \ \ \ \ [SerializeField]\ \textcolor{keyword}{private}\ List<Gate>\ \mbox{\hyperlink{class_timeline_period_ac72be944d69de3f62175b59738816838}{periodGates}};}
+\DoxyCodeLine{\Hypertarget{_timeline_period_8cs_source_l00010}\mbox{\hyperlink{class_timeline_period_ab2c3289815c57ccace45fe66428cd747}{00010}}\ \ \ \ \ [SerializeField]\ \textcolor{keyword}{private}\ \mbox{\hyperlink{class_collider_proxy}{ColliderProxy}}\ \mbox{\hyperlink{class_timeline_period_ab2c3289815c57ccace45fe66428cd747}{periodTrigger}};}
+\DoxyCodeLine{\Hypertarget{_timeline_period_8cs_source_l00011}00011\ }
+\DoxyCodeLine{\Hypertarget{_timeline_period_8cs_source_l00012}\mbox{\hyperlink{class_timeline_period_a497ac2844d30bc4529bceed103f6dfae}{00012}}\ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_timeline_period_a497ac2844d30bc4529bceed103f6dfae}{Start}}()}
+\DoxyCodeLine{\Hypertarget{_timeline_period_8cs_source_l00013}00013\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_timeline_period_8cs_source_l00014}00014\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_timeline_period_a9c67151a71e65515ca1fd4978b81e999}{periodAnimator}}\ =\ GetComponent<Animator>();}
+\DoxyCodeLine{\Hypertarget{_timeline_period_8cs_source_l00015}00015\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_timeline_period_afb144ba3b1067492361f3b67223b76a5}{e2EObj}}\ =\ GetComponent<E2EObj>();}
+\DoxyCodeLine{\Hypertarget{_timeline_period_8cs_source_l00016}00016\ \ \ \ \ \ \ \ \ periodTrigger.OnTriggerEnter\_Action\ +=\ \mbox{\hyperlink{class_timeline_period_a443d1d1cdb2cc3e810685bd73a37746d}{EnterPeriod}};}
+\DoxyCodeLine{\Hypertarget{_timeline_period_8cs_source_l00017}00017\ \ \ \ \ \ \ \ \ periodTrigger.OnTriggerExit\_Action\ +=\ (Collider\ c)\ =>\ \mbox{\hyperlink{class_object_animator}{ObjectAnimator}}.\mbox{\hyperlink{class_object_animator_a0cad70b40f51c8b8cf4d5e2ba711e947}{Instance}}.\mbox{\hyperlink{class_object_animator_a770e66ea51995e550f3177d6783483a0}{StopAnimation}}(\mbox{\hyperlink{class_timeline_period_a9c67151a71e65515ca1fd4978b81e999}{periodAnimator}},\ \textcolor{stringliteral}{"{}ZoomColorTrigger"{}});}
+\DoxyCodeLine{\Hypertarget{_timeline_period_8cs_source_l00018}00018\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_timeline_period_8cs_source_l00019}00019\ }
+\DoxyCodeLine{\Hypertarget{_timeline_period_8cs_source_l00020}\mbox{\hyperlink{class_timeline_period_a443d1d1cdb2cc3e810685bd73a37746d}{00020}}\ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_timeline_period_a443d1d1cdb2cc3e810685bd73a37746d}{EnterPeriod}}(Collider\ c)}
+\DoxyCodeLine{\Hypertarget{_timeline_period_8cs_source_l00021}00021\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_timeline_period_8cs_source_l00022}00022\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_timeline_period_afb144ba3b1067492361f3b67223b76a5}{e2EObj}}.\mbox{\hyperlink{class_e2_e_obj_a700d1c5efef30bb4dbbe71cc4dc32f70}{OnTriggerEnter}}(\textcolor{keyword}{null});}
+\DoxyCodeLine{\Hypertarget{_timeline_period_8cs_source_l00023}00023\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_object_animator}{ObjectAnimator}}.\mbox{\hyperlink{class_object_animator_a0cad70b40f51c8b8cf4d5e2ba711e947}{Instance}}.\mbox{\hyperlink{class_object_animator_a98d8f90853dc2777920bcb625c22d0c2}{PlayAnimation}}(\mbox{\hyperlink{class_timeline_period_a9c67151a71e65515ca1fd4978b81e999}{periodAnimator}},\ \textcolor{stringliteral}{"{}ZoomColorTrigger"{}});}
+\DoxyCodeLine{\Hypertarget{_timeline_period_8cs_source_l00024}00024\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{foreach}\ (var\ gate\ \textcolor{keywordflow}{in}\ \mbox{\hyperlink{class_timeline_period_ac72be944d69de3f62175b59738816838}{periodGates}})}
+\DoxyCodeLine{\Hypertarget{_timeline_period_8cs_source_l00025}00025\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_object_enabler}{ObjectEnabler}}.\mbox{\hyperlink{class_object_enabler_abe17a0bfcdf5a2cf9766982d74128854}{Instance}}.\mbox{\hyperlink{class_object_enabler_a4a991a41d0138b674cfb423bed3f86a3}{ActivateGameObject}}(gate.gameObject,\ \mbox{\hyperlink{class_game_manager}{GameManager}}.\mbox{\hyperlink{class_game_manager_ad3e717f4fb0f378b969f4457de81f23e}{Instance}}.\mbox{\hyperlink{class_game_manager_a08a37f6dd86f0212498391c0a4875872}{FadingDuration}}\ +\ 0.1f);}
+\DoxyCodeLine{\Hypertarget{_timeline_period_8cs_source_l00026}00026\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_timeline_period_8cs_source_l00027}00027\ }
+\DoxyCodeLine{\Hypertarget{_timeline_period_8cs_source_l00028}\mbox{\hyperlink{class_timeline_period_a3d48ea2e34a1731b81c0a1d0098cb2bd}{00028}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_timeline_period_a3d48ea2e34a1731b81c0a1d0098cb2bd}{Reset}}()}
+\DoxyCodeLine{\Hypertarget{_timeline_period_8cs_source_l00029}00029\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_timeline_period_8cs_source_l00030}00030\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_object_animator}{ObjectAnimator}}.\mbox{\hyperlink{class_object_animator_a0cad70b40f51c8b8cf4d5e2ba711e947}{Instance}}.\mbox{\hyperlink{class_object_animator_a4da0362421133f5a5ba0546696150790}{ResetAnimator}}(\mbox{\hyperlink{class_timeline_period_a9c67151a71e65515ca1fd4978b81e999}{periodAnimator}});}
+\DoxyCodeLine{\Hypertarget{_timeline_period_8cs_source_l00031}00031\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_timeline_period_8cs_source_l00032}00032\ \}}
+
+\end{DoxyCode}

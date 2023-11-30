@@ -1,0 +1,16 @@
+<map id="RenderHeads.UnityOmeka.Example.DatabaseManager.SearchMedia" name="RenderHeads.UnityOmeka.Example.DatabaseManager.SearchMedia">
+<area shape="rect" id="Node000001" title=" " alt="" coords="627,105,861,148"/>
+<area shape="rect" id="Node000002" href="$class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#af8d1a6c9c25527cca1487c6bf8a75f87" title=" " alt="" coords="311,5,556,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="680,101,578,63,538,51,540,46,580,57,682,96"/>
+<area shape="rect" id="Node000004" href="$class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#a1e46af8f0d5e4e8f946e7f0389517be5" title=" " alt="" coords="301,72,566,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="611,115,566,110,566,105,612,110"/>
+<area shape="rect" id="Node000005" href="$class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#ae7a336e103619c8515afec5b7ff319d8" title=" " alt="" coords="288,139,579,181"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="612,144,580,147,579,142,611,138"/>
+<area shape="rect" id="Node000006" href="$class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#ab23bc09f47375d5ed2a337b9e4e18c87" title=" " alt="" coords="305,205,562,248"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="682,157,580,196,540,207,538,202,578,191,680,152"/>
+<area shape="rect" id="Node000003" href="$class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#ac526ce111f1ba3125dd211fab1fa138c" title=" " alt="" coords="5,105,240,148"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="314,55,289,63,173,107,171,102,287,57,312,50"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="286,112,241,117,240,111,285,107"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="272,145,240,142,241,137,272,140"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="312,203,287,196,171,151,173,146,289,191,314,198"/>
+</map>

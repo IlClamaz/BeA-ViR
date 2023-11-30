@@ -1,0 +1,352 @@
+\doxysection{Environment Class Reference}
+\hypertarget{class_environment}{}\label{class_environment}\index{Environment@{Environment}}
+
+
+Inheritance diagram for Environment\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=163pt]{class_environment__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Environment\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=211pt]{class_environment__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ Game\+Object $>$ \mbox{\hyperlink{class_environment_a991b4d5a7f92ccef0e9c014df8e0c927}{Sight\+Points}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+int \mbox{\hyperlink{class_environment_a11290a00e10d9562dc71ebcd3909c415}{Cur\+Sight\+Point}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_environment_aa27de6928f38099fade808f504b146b6}{Is\+Main\+Hall}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_environment_a73ba03219c8fa68d9d670b71df001b5a}{Is\+Japan\+Moving}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+List$<$ Game\+Object $>$ \mbox{\hyperlink{class_environment_ac6d63b230f9759adc796f7416376942a}{Disabled\+In\+Sub}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_environment}{Environment}} \mbox{\hyperlink{class_environment_a6419f89bf94702265b0e81f16b786a89}{Father}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+Material \mbox{\hyperlink{class_environment_a347026000738cc642c084a4adb08e278}{Sky\+Material}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_environment_a94c29e764c18186d6317260b82c37eac}{On\+Enable}} ()
+\item 
+void \mbox{\hyperlink{class_environment_ab335d60a2f2f7fe5039140cbc04ba842}{On\+Disable}} ()
+\item 
+void \mbox{\hyperlink{class_environment_a66794719c1464e2e707138de6c1c15cd}{Show\+Overlay}} ()
+\item 
+void \mbox{\hyperlink{class_environment_a49a679f0bded916619ff9ad0404b1895}{Manage\+Audio}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_environment}{Environment}} \mbox{\hyperlink{class_environment_a442f097cc4b436f6c38afa0424364059}{father}}
+\item 
+List$<$ Game\+Object $>$ \mbox{\hyperlink{class_environment_acdc710aca3bf8ce99f64c5e439705e24}{disabled\+In\+Sub}}
+\item 
+List$<$ Game\+Object $>$ \mbox{\hyperlink{class_environment_a40ff02a1c3b25434d77717ff342c2dbb}{sight\+Points}}
+\item 
+int \mbox{\hyperlink{class_environment_aab58a2df6c47e2f58cc881a72b378f9a}{cur\+Sight\+Point}} = 0
+\item 
+bool \mbox{\hyperlink{class_environment_a3803c3aeae0704c5b8618486900e68ca}{is\+Main\+Hall}} = false
+\item 
+bool \mbox{\hyperlink{class_environment_ac77216bda00939d81275504d735e4097}{is\+Japan\+Moving}} = true
+\item 
+Material \mbox{\hyperlink{class_environment_a2935324b8d4b392d2b3850a608dcbc52}{sky\+Material}}
+\item 
+List$<$ Game\+Object $>$ \mbox{\hyperlink{class_environment_a4a0aa881f71ea38db85af2f376f7a82d}{overlays}}
+\item 
+List$<$ Game\+Object $>$ \mbox{\hyperlink{class_environment_ac2963b6d919478c7f15a44fd558c3f12}{title\+UIs}}
+\item 
+Game\+Object \mbox{\hyperlink{class_environment_aa409edf46c484ce501f93c37969d04c5}{soundtrack}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00005}{5}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_environment_a49a679f0bded916619ff9ad0404b1895}\label{class_environment_a49a679f0bded916619ff9ad0404b1895} 
+\index{Environment@{Environment}!ManageAudio@{ManageAudio}}
+\index{ManageAudio@{ManageAudio}!Environment@{Environment}}
+\doxysubsubsection{\texorpdfstring{ManageAudio()}{ManageAudio()}}
+{\footnotesize\ttfamily void Environment.\+Manage\+Audio (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00061}{61}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_environment_a49a679f0bded916619ff9ad0404b1895_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_environment_a49a679f0bded916619ff9ad0404b1895_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_environment_ab335d60a2f2f7fe5039140cbc04ba842}\label{class_environment_ab335d60a2f2f7fe5039140cbc04ba842} 
+\index{Environment@{Environment}!OnDisable@{OnDisable}}
+\index{OnDisable@{OnDisable}!Environment@{Environment}}
+\doxysubsubsection{\texorpdfstring{OnDisable()}{OnDisable()}}
+{\footnotesize\ttfamily void Environment.\+On\+Disable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00050}{50}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_environment_ab335d60a2f2f7fe5039140cbc04ba842_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_environment_a94c29e764c18186d6317260b82c37eac}\label{class_environment_a94c29e764c18186d6317260b82c37eac} 
+\index{Environment@{Environment}!OnEnable@{OnEnable}}
+\index{OnEnable@{OnEnable}!Environment@{Environment}}
+\doxysubsubsection{\texorpdfstring{OnEnable()}{OnEnable()}}
+{\footnotesize\ttfamily void Environment.\+On\+Enable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00032}{32}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_environment_a94c29e764c18186d6317260b82c37eac_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_environment_a66794719c1464e2e707138de6c1c15cd}\label{class_environment_a66794719c1464e2e707138de6c1c15cd} 
+\index{Environment@{Environment}!ShowOverlay@{ShowOverlay}}
+\index{ShowOverlay@{ShowOverlay}!Environment@{Environment}}
+\doxysubsubsection{\texorpdfstring{ShowOverlay()}{ShowOverlay()}}
+{\footnotesize\ttfamily void Environment.\+Show\+Overlay (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00056}{56}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_environment_a66794719c1464e2e707138de6c1c15cd_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_environment_a66794719c1464e2e707138de6c1c15cd_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_environment_aab58a2df6c47e2f58cc881a72b378f9a}\label{class_environment_aab58a2df6c47e2f58cc881a72b378f9a} 
+\index{Environment@{Environment}!curSightPoint@{curSightPoint}}
+\index{curSightPoint@{curSightPoint}!Environment@{Environment}}
+\doxysubsubsection{\texorpdfstring{curSightPoint}{curSightPoint}}
+{\footnotesize\ttfamily int Environment.\+cur\+Sight\+Point = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00013}{13}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+\Hypertarget{class_environment_acdc710aca3bf8ce99f64c5e439705e24}\label{class_environment_acdc710aca3bf8ce99f64c5e439705e24} 
+\index{Environment@{Environment}!disabledInSub@{disabledInSub}}
+\index{disabledInSub@{disabledInSub}!Environment@{Environment}}
+\doxysubsubsection{\texorpdfstring{disabledInSub}{disabledInSub}}
+{\footnotesize\ttfamily List$<$Game\+Object$>$ Environment.\+disabled\+In\+Sub\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00009}{9}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+\Hypertarget{class_environment_a442f097cc4b436f6c38afa0424364059}\label{class_environment_a442f097cc4b436f6c38afa0424364059} 
+\index{Environment@{Environment}!father@{father}}
+\index{father@{father}!Environment@{Environment}}
+\doxysubsubsection{\texorpdfstring{father}{father}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_environment}{Environment}} Environment.\+father\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00008}{8}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+\Hypertarget{class_environment_ac77216bda00939d81275504d735e4097}\label{class_environment_ac77216bda00939d81275504d735e4097} 
+\index{Environment@{Environment}!isJapanMoving@{isJapanMoving}}
+\index{isJapanMoving@{isJapanMoving}!Environment@{Environment}}
+\doxysubsubsection{\texorpdfstring{isJapanMoving}{isJapanMoving}}
+{\footnotesize\ttfamily bool Environment.\+is\+Japan\+Moving = true\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00017}{17}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+\Hypertarget{class_environment_a3803c3aeae0704c5b8618486900e68ca}\label{class_environment_a3803c3aeae0704c5b8618486900e68ca} 
+\index{Environment@{Environment}!isMainHall@{isMainHall}}
+\index{isMainHall@{isMainHall}!Environment@{Environment}}
+\doxysubsubsection{\texorpdfstring{isMainHall}{isMainHall}}
+{\footnotesize\ttfamily bool Environment.\+is\+Main\+Hall = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00016}{16}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+\Hypertarget{class_environment_a4a0aa881f71ea38db85af2f376f7a82d}\label{class_environment_a4a0aa881f71ea38db85af2f376f7a82d} 
+\index{Environment@{Environment}!overlays@{overlays}}
+\index{overlays@{overlays}!Environment@{Environment}}
+\doxysubsubsection{\texorpdfstring{overlays}{overlays}}
+{\footnotesize\ttfamily List$<$Game\+Object$>$ Environment.\+overlays\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00019}{19}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+\Hypertarget{class_environment_a40ff02a1c3b25434d77717ff342c2dbb}\label{class_environment_a40ff02a1c3b25434d77717ff342c2dbb} 
+\index{Environment@{Environment}!sightPoints@{sightPoints}}
+\index{sightPoints@{sightPoints}!Environment@{Environment}}
+\doxysubsubsection{\texorpdfstring{sightPoints}{sightPoints}}
+{\footnotesize\ttfamily List$<$Game\+Object$>$ Environment.\+sight\+Points\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00012}{12}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+\Hypertarget{class_environment_a2935324b8d4b392d2b3850a608dcbc52}\label{class_environment_a2935324b8d4b392d2b3850a608dcbc52} 
+\index{Environment@{Environment}!skyMaterial@{skyMaterial}}
+\index{skyMaterial@{skyMaterial}!Environment@{Environment}}
+\doxysubsubsection{\texorpdfstring{skyMaterial}{skyMaterial}}
+{\footnotesize\ttfamily Material Environment.\+sky\+Material\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00018}{18}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+\Hypertarget{class_environment_aa409edf46c484ce501f93c37969d04c5}\label{class_environment_aa409edf46c484ce501f93c37969d04c5} 
+\index{Environment@{Environment}!soundtrack@{soundtrack}}
+\index{soundtrack@{soundtrack}!Environment@{Environment}}
+\doxysubsubsection{\texorpdfstring{soundtrack}{soundtrack}}
+{\footnotesize\ttfamily Game\+Object Environment.\+soundtrack\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00021}{21}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+\Hypertarget{class_environment_ac2963b6d919478c7f15a44fd558c3f12}\label{class_environment_ac2963b6d919478c7f15a44fd558c3f12} 
+\index{Environment@{Environment}!titleUIs@{titleUIs}}
+\index{titleUIs@{titleUIs}!Environment@{Environment}}
+\doxysubsubsection{\texorpdfstring{titleUIs}{titleUIs}}
+{\footnotesize\ttfamily List$<$Game\+Object$>$ Environment.\+title\+UIs\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00020}{20}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_environment_a11290a00e10d9562dc71ebcd3909c415}\label{class_environment_a11290a00e10d9562dc71ebcd3909c415} 
+\index{Environment@{Environment}!CurSightPoint@{CurSightPoint}}
+\index{CurSightPoint@{CurSightPoint}!Environment@{Environment}}
+\doxysubsubsection{\texorpdfstring{CurSightPoint}{CurSightPoint}}
+{\footnotesize\ttfamily int Environment.\+Cur\+Sight\+Point\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00025}{25}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+\Hypertarget{class_environment_ac6d63b230f9759adc796f7416376942a}\label{class_environment_ac6d63b230f9759adc796f7416376942a} 
+\index{Environment@{Environment}!DisabledInSub@{DisabledInSub}}
+\index{DisabledInSub@{DisabledInSub}!Environment@{Environment}}
+\doxysubsubsection{\texorpdfstring{DisabledInSub}{DisabledInSub}}
+{\footnotesize\ttfamily List$<$Game\+Object$>$ Environment.\+Disabled\+In\+Sub\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00028}{28}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+\Hypertarget{class_environment_a6419f89bf94702265b0e81f16b786a89}\label{class_environment_a6419f89bf94702265b0e81f16b786a89} 
+\index{Environment@{Environment}!Father@{Father}}
+\index{Father@{Father}!Environment@{Environment}}
+\doxysubsubsection{\texorpdfstring{Father}{Father}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_environment}{Environment}} Environment.\+Father\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00029}{29}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+\Hypertarget{class_environment_a73ba03219c8fa68d9d670b71df001b5a}\label{class_environment_a73ba03219c8fa68d9d670b71df001b5a} 
+\index{Environment@{Environment}!IsJapanMoving@{IsJapanMoving}}
+\index{IsJapanMoving@{IsJapanMoving}!Environment@{Environment}}
+\doxysubsubsection{\texorpdfstring{IsJapanMoving}{IsJapanMoving}}
+{\footnotesize\ttfamily bool Environment.\+Is\+Japan\+Moving\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00027}{27}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+\Hypertarget{class_environment_aa27de6928f38099fade808f504b146b6}\label{class_environment_aa27de6928f38099fade808f504b146b6} 
+\index{Environment@{Environment}!IsMainHall@{IsMainHall}}
+\index{IsMainHall@{IsMainHall}!Environment@{Environment}}
+\doxysubsubsection{\texorpdfstring{IsMainHall}{IsMainHall}}
+{\footnotesize\ttfamily bool Environment.\+Is\+Main\+Hall\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00026}{26}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+\Hypertarget{class_environment_a991b4d5a7f92ccef0e9c014df8e0c927}\label{class_environment_a991b4d5a7f92ccef0e9c014df8e0c927} 
+\index{Environment@{Environment}!SightPoints@{SightPoints}}
+\index{SightPoints@{SightPoints}!Environment@{Environment}}
+\doxysubsubsection{\texorpdfstring{SightPoints}{SightPoints}}
+{\footnotesize\ttfamily List$<$Game\+Object$>$ Environment.\+Sight\+Points\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00024}{24}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+\Hypertarget{class_environment_a347026000738cc642c084a4adb08e278}\label{class_environment_a347026000738cc642c084a4adb08e278} 
+\index{Environment@{Environment}!SkyMaterial@{SkyMaterial}}
+\index{SkyMaterial@{SkyMaterial}!Environment@{Environment}}
+\doxysubsubsection{\texorpdfstring{SkyMaterial}{SkyMaterial}}
+{\footnotesize\ttfamily Material Environment.\+Sky\+Material\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00030}{30}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Environment/\mbox{\hyperlink{_environment_8cs}{Environment.\+cs}}\end{DoxyCompactItemize}

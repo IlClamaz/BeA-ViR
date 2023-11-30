@@ -1,0 +1,61 @@
+\doxysection{Gate.\+cs}
+\hypertarget{_gate_8cs_source}{}\label{_gate_8cs_source}\index{Transport/Gate.cs@{Transport/Gate.cs}}
+\mbox{\hyperlink{_gate_8cs}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00001}00001\ \textcolor{keyword}{using\ }System.Collections;}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00002}00002\ \textcolor{keyword}{using\ }System.Collections.Generic;}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00003}00003\ \textcolor{keyword}{using\ }UnityEngine;}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00004}00004\ }
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00005}\mbox{\hyperlink{class_gate}{00005}}\ \textcolor{keyword}{public}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_gate}{Gate}}\ :\ MonoBehaviour}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00006}00006\ \{}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00007}\mbox{\hyperlink{class_gate_acac7d9dcde983cdc4b927871413989fa}{00007}}\ \ \ \ \ [SerializeField]\ \textcolor{keyword}{private}\ List<GameObject>\ \mbox{\hyperlink{class_gate_a1eb1b736533c02ea4b85daac2a77bde8}{mapElementsToDisable}},\ \mbox{\hyperlink{class_gate_acac7d9dcde983cdc4b927871413989fa}{footboards}};}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00008}\mbox{\hyperlink{class_gate_af6fcfebaa2451f4de50cfb98825d9e95}{00008}}\ \ \ \ \ [SerializeField]\ \textcolor{keyword}{private}\ GameObject\ \mbox{\hyperlink{class_gate_af6fcfebaa2451f4de50cfb98825d9e95}{beam}};}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00009}\mbox{\hyperlink{class_gate_add494b5775d2583a34e915da9c8f34be}{00009}}\ \ \ \ \ [SerializeField]\ \textcolor{keyword}{private}\ List<Animator>\ \mbox{\hyperlink{class_gate_add494b5775d2583a34e915da9c8f34be}{mapElementsAnimators}};}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00010}\mbox{\hyperlink{class_gate_af596b695ab8ec10d67884bab5499c293}{00010}}\ \ \ \ \ [SerializeField]\ \textcolor{keyword}{private}\ \mbox{\hyperlink{class_collider_proxy}{ColliderProxy}}\ \mbox{\hyperlink{class_gate_aa5e3af3343fa06f5b9f2cd329ba4aa26}{geoTrigger}},\ \mbox{\hyperlink{class_gate_af596b695ab8ec10d67884bab5499c293}{gateModel}};}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00011}00011\ }
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00012}\mbox{\hyperlink{class_gate_a9f521b4eb32ac34a1332e7ba5c587c50}{00012}}\ \ \ \ \ \textcolor{keyword}{private}\ \mbox{\hyperlink{class_e2_e_obj}{E2EObj}}\ \mbox{\hyperlink{class_gate_a9f521b4eb32ac34a1332e7ba5c587c50}{e2EObj}};}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00013}\mbox{\hyperlink{class_gate_a262556dc7ef492bcc6f7af20a74d8f38}{00013}}\ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_gate_a262556dc7ef492bcc6f7af20a74d8f38}{swapped}}\ =\ \textcolor{keyword}{false};}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00014}00014\ }
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00015}\mbox{\hyperlink{class_gate_a0dccf9660a1f69914ba657fdbaecf665}{00015}}\ \ \ \ \ \textcolor{keyword}{public}\ GameObject\ \mbox{\hyperlink{class_gate_a0dccf9660a1f69914ba657fdbaecf665}{Beam}}\ \{\ \textcolor{keyword}{get}\ =>\ \mbox{\hyperlink{class_gate_af6fcfebaa2451f4de50cfb98825d9e95}{beam}};\ \textcolor{keyword}{set}\ =>\ \mbox{\hyperlink{class_gate_af6fcfebaa2451f4de50cfb98825d9e95}{beam}}\ =\ value;\ \}}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00016}00016\ }
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00017}00017\ \ \ \ \ \textcolor{comment}{//\ Start\ is\ called\ before\ the\ first\ frame\ update}}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00018}\mbox{\hyperlink{class_gate_ab2a9122bc8912d607920a7f72f49d2a8}{00018}}\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_gate_ab2a9122bc8912d607920a7f72f49d2a8}{Start}}()}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00019}00019\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00020}00020\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_gate_a9f521b4eb32ac34a1332e7ba5c587c50}{e2EObj}}\ =\ GetComponent<E2EObj>();}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00021}00021\ \ \ \ \ \ \ \ \ geoTrigger.OnTriggerEnter\_Action\ +=\ (Collider\ c)\ =>}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00022}00022\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00023}00023\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_object_enabler}{ObjectEnabler}}.\mbox{\hyperlink{class_object_enabler_abe17a0bfcdf5a2cf9766982d74128854}{Instance}}.\mbox{\hyperlink{class_object_enabler_a4a991a41d0138b674cfb423bed3f86a3}{ActivateGameObject}}(\mbox{\hyperlink{class_gate_af6fcfebaa2451f4de50cfb98825d9e95}{beam}},\ 0);}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00024}00024\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_object_enabler}{ObjectEnabler}}.\mbox{\hyperlink{class_object_enabler_abe17a0bfcdf5a2cf9766982d74128854}{Instance}}.\mbox{\hyperlink{class_object_enabler_ae8d0c4e8045a44ce68cbb9e266440256}{DeactivateGameObject}}(\mbox{\hyperlink{class_gate_a1eb1b736533c02ea4b85daac2a77bde8}{mapElementsToDisable}},\ 0);}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00025}00025\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_object_animator}{ObjectAnimator}}.\mbox{\hyperlink{class_object_animator_a0cad70b40f51c8b8cf4d5e2ba711e947}{Instance}}.\mbox{\hyperlink{class_object_animator_a98d8f90853dc2777920bcb625c22d0c2}{PlayAnimation}}(\mbox{\hyperlink{class_gate_add494b5775d2583a34e915da9c8f34be}{mapElementsAnimators}},\ \textcolor{stringliteral}{"{}ZoomTrigger"{}});}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00026}00026\ \ \ \ \ \ \ \ \ \};}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00027}00027\ }
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00028}00028\ \ \ \ \ \ \ \ \ geoTrigger.OnTriggerExit\_Action\ +=\ (Collider\ c)\ =>}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00029}00029\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00030}00030\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_object_enabler}{ObjectEnabler}}.\mbox{\hyperlink{class_object_enabler_abe17a0bfcdf5a2cf9766982d74128854}{Instance}}.\mbox{\hyperlink{class_object_enabler_ae8d0c4e8045a44ce68cbb9e266440256}{DeactivateGameObject}}(\mbox{\hyperlink{class_gate_af6fcfebaa2451f4de50cfb98825d9e95}{beam}},\ 0);}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00031}00031\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_object_enabler}{ObjectEnabler}}.\mbox{\hyperlink{class_object_enabler_abe17a0bfcdf5a2cf9766982d74128854}{Instance}}.\mbox{\hyperlink{class_object_enabler_a4a991a41d0138b674cfb423bed3f86a3}{ActivateGameObject}}(\mbox{\hyperlink{class_gate_a1eb1b736533c02ea4b85daac2a77bde8}{mapElementsToDisable}},\ 0);}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00032}00032\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_object_animator}{ObjectAnimator}}.\mbox{\hyperlink{class_object_animator_a0cad70b40f51c8b8cf4d5e2ba711e947}{Instance}}.\mbox{\hyperlink{class_object_animator_a770e66ea51995e550f3177d6783483a0}{StopAnimation}}(\mbox{\hyperlink{class_gate_add494b5775d2583a34e915da9c8f34be}{mapElementsAnimators}},\ \textcolor{stringliteral}{"{}ZoomTrigger"{}});}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00033}00033\ \ \ \ \ \ \ \ \ \};}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00034}00034\ }
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00035}00035\ \ \ \ \ \ \ \ \ gateModel.OnTriggerEnter\_Action\ +=\ \mbox{\hyperlink{class_gate_a520b515558bdcf66f7f7fe21c9d18e0b}{GateModel\_OnTriggerEnter}};}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00036}00036\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00037}00037\ }
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00038}\mbox{\hyperlink{class_gate_a520b515558bdcf66f7f7fe21c9d18e0b}{00038}}\ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_gate_a520b515558bdcf66f7f7fe21c9d18e0b}{GateModel\_OnTriggerEnter}}(Collider\ c)}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00039}00039\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00040}00040\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_gate_a23cd80687ff4bd5b724f1a7381e53804}{Reset}}();}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00041}00041\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (!\mbox{\hyperlink{class_gate_a262556dc7ef492bcc6f7af20a74d8f38}{swapped}})}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00042}00042\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00043}00043\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_object_enabler}{ObjectEnabler}}.\mbox{\hyperlink{class_object_enabler_abe17a0bfcdf5a2cf9766982d74128854}{Instance}}.\mbox{\hyperlink{class_object_enabler_a686fed73559c20ddcb293585e904209b}{ToggleGameObject}}(\mbox{\hyperlink{class_gate_acac7d9dcde983cdc4b927871413989fa}{footboards}},\ 0);}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00044}00044\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_gate_a262556dc7ef492bcc6f7af20a74d8f38}{swapped}}\ =\ \textcolor{keyword}{true};}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00045}00045\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00046}00046\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_gate_a9f521b4eb32ac34a1332e7ba5c587c50}{e2EObj}}.\mbox{\hyperlink{class_e2_e_obj_a700d1c5efef30bb4dbbe71cc4dc32f70}{OnTriggerEnter}}(c);}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00047}00047\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00048}00048\ }
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00049}\mbox{\hyperlink{class_gate_a23cd80687ff4bd5b724f1a7381e53804}{00049}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_gate_a23cd80687ff4bd5b724f1a7381e53804}{Reset}}()}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00050}00050\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00051}00051\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_object_enabler}{ObjectEnabler}}.\mbox{\hyperlink{class_object_enabler_abe17a0bfcdf5a2cf9766982d74128854}{Instance}}.\mbox{\hyperlink{class_object_enabler_ae8d0c4e8045a44ce68cbb9e266440256}{DeactivateGameObject}}(\mbox{\hyperlink{class_gate_af6fcfebaa2451f4de50cfb98825d9e95}{beam}},\ 0);}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00052}00052\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_object_enabler}{ObjectEnabler}}.\mbox{\hyperlink{class_object_enabler_abe17a0bfcdf5a2cf9766982d74128854}{Instance}}.\mbox{\hyperlink{class_object_enabler_a4a991a41d0138b674cfb423bed3f86a3}{ActivateGameObject}}(\mbox{\hyperlink{class_gate_a1eb1b736533c02ea4b85daac2a77bde8}{mapElementsToDisable}},\ 0);}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00053}00053\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_object_animator}{ObjectAnimator}}.\mbox{\hyperlink{class_object_animator_a0cad70b40f51c8b8cf4d5e2ba711e947}{Instance}}.\mbox{\hyperlink{class_object_animator_a4da0362421133f5a5ba0546696150790}{ResetAnimator}}(\mbox{\hyperlink{class_gate_add494b5775d2583a34e915da9c8f34be}{mapElementsAnimators}});}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00054}00054\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_gate_8cs_source_l00055}00055\ \}}
+
+\end{DoxyCode}

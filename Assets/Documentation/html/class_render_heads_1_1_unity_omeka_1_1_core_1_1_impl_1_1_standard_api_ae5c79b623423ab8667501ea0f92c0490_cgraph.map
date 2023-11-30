@@ -1,0 +1,7 @@
+<map id="RenderHeads.UnityOmeka.Core.Impl.StandardApi.SearchItems" name="RenderHeads.UnityOmeka.Core.Impl.StandardApi.SearchItems">
+<area shape="rect" id="Node000001" title="Search the api for item sets." alt="" coords="5,5,216,48"/>
+<area shape="rect" id="Node000002" href="$class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api.html#ab2d83c8975ebd0fea066b02bdf71a158" title="Search the api for a given resource type." alt="" coords="264,5,474,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="216,24,248,24,248,29,216,29"/>
+<area shape="rect" id="Node000003" href="$class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api.html#ab124ff34c850fb6070e275a234daacd8" title="Using reflection we can turn our parameters into a query string." alt="" coords="522,5,766,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="474,24,507,24,507,29,474,29"/>
+</map>

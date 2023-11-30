@@ -1,0 +1,27 @@
+var class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager =
+[
+    [ "SearchItemSet", "class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#a0128f7494f162a302c3de09920b04091", null ],
+    [ "SearchItemSets", "class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#ac8aa96c6a982455288be88c8b0bba8bd", null ],
+    [ "SearchMedia", "class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#ada9ddb04f0d6e5dad910ff54da95ca94", null ],
+    [ "ShowMedia", "class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#abc86ebd442716a61a7197bf4dfc3b8f7", null ],
+    [ "Start", "class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#ac526ce111f1ba3125dd211fab1fa138c", null ],
+    [ "UpdateDRCanvases", "class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#af8d1a6c9c25527cca1487c6bf8a75f87", null ],
+    [ "UpdateGPCanvases", "class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#aa168f07e7c52007bf77e19be3a53f5dc", null ],
+    [ "UpdateIcpCanvases", "class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#a05bd418c8672fa166158b5c5ed2fdc67", null ],
+    [ "UpdateIcpPMCanvases", "class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#a1e46af8f0d5e4e8f946e7f0389517be5", null ],
+    [ "UpdateOMforSEMCanvases", "class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#ae7a336e103619c8515afec5b7ff319d8", null ],
+    [ "UpdatePLMCanvases", "class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#ad592a7076d66a9220fc80caf600e3355", null ],
+    [ "UpdateSEMCanvases", "class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#ab23bc09f47375d5ed2a337b9e4e18c87", null ],
+    [ "_client", "class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#a46af54b4286427d543fad5fdbee3bf5a", null ],
+    [ "_mediaDisplayTexture", "class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#ab88a8288f58b9574736a6b0b654d2c12", null ],
+    [ "dBReportsCollection", "class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#a141da5f5a0bd38201e873b928b82953b", null ],
+    [ "drReportsCollection", "class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#a21c90773f3951fbf16b1eaddc7ad4709", null ],
+    [ "icpPMReportsCollection", "class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#aa013af5c8e64b1081692578eb7d0f08c", null ],
+    [ "icpReportsCollection", "class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#aa377020845e429c822e531525076bc62", null ],
+    [ "omForSemReportsCollection", "class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#a5c9940bd7a98927da0dca01240d612b0", null ],
+    [ "plmReportsCollection", "class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#adefb6374e09f30cd3f96433e24d5280e", null ],
+    [ "printDB", "class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#a891773d1aafeaca09dcf2294ae3ca8f9", null ],
+    [ "processedImages", "class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#abcdc29ece77720b6968714dc64f46928", null ],
+    [ "semReportsCollection", "class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#ab56654b5c2fbe893693e0942f3bc3e95", null ],
+    [ "ProcessedImages", "class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#a68b69e821e117c45847922c8dcf4fd62", null ]
+];

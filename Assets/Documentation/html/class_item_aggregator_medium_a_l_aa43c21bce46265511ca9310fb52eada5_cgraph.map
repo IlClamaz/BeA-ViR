@@ -1,0 +1,10 @@
+<map id="ItemAggregatorMediumAL.Reset" name="ItemAggregatorMediumAL.Reset">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,47,215,73"/>
+<area shape="rect" id="Node000002" href="$class_object_enabler.html#a4a991a41d0138b674cfb423bed3f86a3" title=" " alt="" coords="263,5,451,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="213,43,247,39,248,44,214,49"/>
+<area shape="rect" id="Node000004" href="$class_object_enabler.html#ae8d0c4e8045a44ce68cbb9e266440256" title=" " alt="" coords="273,72,441,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="214,71,258,77,257,83,213,77"/>
+<area shape="rect" id="Node000003" href="$class_object_enabler.html#aab231006a4f1c0adf379276ec6be7c47" title=" " alt="" coords="499,47,709,73"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="452,37,486,41,485,47,451,42"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="441,79,485,73,486,79,441,85"/>
+</map>

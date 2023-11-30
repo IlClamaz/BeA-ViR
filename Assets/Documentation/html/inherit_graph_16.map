@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_vocabulary.html" title="Base object that defines the concept of a &quot;Vocabulary&quot;." alt="" coords="5,96,216,139"/>
+<area shape="rect" id="Node000001" href="$class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_archaeological_finding_record_vocabulary.html" title=" " alt="" coords="278,5,505,64"/>
+<area shape="poly" id="edge34_Node000000_Node000001" title=" " alt="" coords="199,89,288,62,290,67,201,94"/>
+<area shape="rect" id="Node000002" href="$class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_archaeometric_investigation_record_vocabulary.html" title=" " alt="" coords="264,88,519,147"/>
+<area shape="poly" id="edge35_Node000000_Node000002" title=" " alt="" coords="232,115,263,115,263,120,232,120"/>
+<area shape="rect" id="Node000003" href="$class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary.html" title="Definition for the Dublic Core vocabulary." alt="" coords="277,171,506,213"/>
+<area shape="poly" id="edge36_Node000000_Node000003" title=" " alt="" coords="207,141,264,156,307,167,306,173,263,161,206,146"/>
+</map>

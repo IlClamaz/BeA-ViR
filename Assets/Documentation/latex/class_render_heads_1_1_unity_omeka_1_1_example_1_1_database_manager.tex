@@ -1,0 +1,510 @@
+\doxysection{Render\+Heads.\+Unity\+Omeka.\+Example.\+Database\+Manager Class Reference}
+\hypertarget{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager}{}\label{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager}\index{RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}}
+
+
+An example script that lets us drill down from an item\+\_\+set and display a piece of media.  
+
+
+
+
+Inheritance diagram for Render\+Heads.\+Unity\+Omeka.\+Example.\+Database\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Render\+Heads.\+Unity\+Omeka.\+Example.\+Database\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+async Task$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_set_search_response}{Item\+Set\+Search\+Response}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary}{Dublic\+Core\+Vocabulary}} $>$ $>$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_ac8aa96c6a982455288be88c8b0bba8bd}{Search\+Item\+Sets}} ()
+\begin{DoxyCompactList}\small\item\em Callback that searchs for item sets. \end{DoxyCompactList}\item 
+async Task$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_search_response}{Item\+Search\+Response}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary}{Dublic\+Core\+Vocabulary}} $>$ $>$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_a0128f7494f162a302c3de09920b04091}{Search\+Item\+Set}} (\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_id_object}{Id\+Object}} index)
+\begin{DoxyCompactList}\small\item\em Search a specific item set and returns all its items. \end{DoxyCompactList}\item 
+async void \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_ada9ddb04f0d6e5dad910ff54da95ca94}{Search\+Media}} (int index, int media\+Index, Raw\+Image image\+Container)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_a68b69e821e117c45847922c8dcf4fd62}{Processed\+Images}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+async void \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_ac526ce111f1ba3125dd211fab1fa138c}{Start}} ()
+\item 
+void \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_aa168f07e7c52007bf77e19be3a53f5dc}{Update\+GPCanvases}} (\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_search_response}{Item\+Search\+Response}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary}{Dublic\+Core\+Vocabulary}} $>$ response)
+\item 
+void \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_a1e46af8f0d5e4e8f946e7f0389517be5}{Update\+Icp\+PMCanvases}} (\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_search_response}{Item\+Search\+Response}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary}{Dublic\+Core\+Vocabulary}} $>$ response)
+\item 
+void \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_af8d1a6c9c25527cca1487c6bf8a75f87}{Update\+DRCanvases}} (\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_search_response}{Item\+Search\+Response}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary}{Dublic\+Core\+Vocabulary}} $>$ response)
+\item 
+void \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_a05bd418c8672fa166158b5c5ed2fdc67}{Update\+Icp\+Canvases}} (\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_search_response}{Item\+Search\+Response}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary}{Dublic\+Core\+Vocabulary}} $>$ response)
+\item 
+void \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_ad592a7076d66a9220fc80caf600e3355}{Update\+PLMCanvases}} (\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_search_response}{Item\+Search\+Response}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary}{Dublic\+Core\+Vocabulary}} $>$ response)
+\item 
+void \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_ab23bc09f47375d5ed2a337b9e4e18c87}{Update\+SEMCanvases}} (\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_search_response}{Item\+Search\+Response}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary}{Dublic\+Core\+Vocabulary}} $>$ response)
+\item 
+void \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_ae7a336e103619c8515afec5b7ff319d8}{Update\+OMfor\+SEMCanvases}} (\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_search_response}{Item\+Search\+Response}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary}{Dublic\+Core\+Vocabulary}} $>$ response)
+\item 
+async void \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_abc86ebd442716a61a7197bf4dfc3b8f7}{Show\+Media}} (string url, Raw\+Image container)
+\begin{DoxyCompactList}\small\item\em Downloads a specific piece of media from a URL and displays it. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_components_1_1_omeka_client}{Omeka\+Client}} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_a46af54b4286427d543fad5fdbee3bf5a}{\+\_\+client}} = null
+\begin{DoxyCompactList}\small\item\em Reference to the API client. \end{DoxyCompactList}\item 
+Game\+Object\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_a141da5f5a0bd38201e873b928b82953b}{d\+BReports\+Collection}}
+\item 
+Game\+Object\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_aa013af5c8e64b1081692578eb7d0f08c}{icp\+PMReports\+Collection}}
+\item 
+Game\+Object\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_aa377020845e429c822e531525076bc62}{icp\+Reports\+Collection}}
+\item 
+Game\+Object\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_adefb6374e09f30cd3f96433e24d5280e}{plm\+Reports\+Collection}}
+\item 
+Game\+Object\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_ab56654b5c2fbe893693e0942f3bc3e95}{sem\+Reports\+Collection}}
+\item 
+Game\+Object\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_a21c90773f3951fbf16b1eaddc7ad4709}{dr\+Reports\+Collection}}
+\item 
+Game\+Object\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_a5c9940bd7a98927da0dca01240d612b0}{om\+For\+Sem\+Reports\+Collection}}
+\item 
+bool \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_a891773d1aafeaca09dcf2294ae3ca8f9}{print\+DB}}
+\item 
+Texture2D \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_ab88a8288f58b9574736a6b0b654d2c12}{\+\_\+media\+Display\+Texture}}
+\item 
+int \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_abcdc29ece77720b6968714dc64f46928}{processed\+Images}} = 0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+An example script that lets us drill down from an item\+\_\+set and display a piece of media. 
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00017}{17}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_a0128f7494f162a302c3de09920b04091}\label{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_a0128f7494f162a302c3de09920b04091} 
+\index{RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}!SearchItemSet@{SearchItemSet}}
+\index{SearchItemSet@{SearchItemSet}!RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{SearchItemSet()}{SearchItemSet()}}
+{\footnotesize\ttfamily async Task$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_search_response}{Item\+Search\+Response}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary}{Dublic\+Core\+Vocabulary}} $>$ $>$ Render\+Heads.\+Unity\+Omeka.\+Example.\+Database\+Manager.\+Search\+Item\+Set (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_id_object}{Id\+Object}}}]{index }\end{DoxyParamCaption})}
+
+
+
+Search a specific item set and returns all its items. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & The ID of the item set to search\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00081}{81}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_a0128f7494f162a302c3de09920b04091_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_ac8aa96c6a982455288be88c8b0bba8bd}\label{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_ac8aa96c6a982455288be88c8b0bba8bd} 
+\index{RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}!SearchItemSets@{SearchItemSets}}
+\index{SearchItemSets@{SearchItemSets}!RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{SearchItemSets()}{SearchItemSets()}}
+{\footnotesize\ttfamily async Task$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_set_search_response}{Item\+Set\+Search\+Response}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary}{Dublic\+Core\+Vocabulary}} $>$ $>$ Render\+Heads.\+Unity\+Omeka.\+Example.\+Database\+Manager.\+Search\+Item\+Sets (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Callback that searchs for item sets. 
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00066}{66}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_ac8aa96c6a982455288be88c8b0bba8bd_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_ada9ddb04f0d6e5dad910ff54da95ca94}\label{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_ada9ddb04f0d6e5dad910ff54da95ca94} 
+\index{RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}!SearchMedia@{SearchMedia}}
+\index{SearchMedia@{SearchMedia}!RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{SearchMedia()}{SearchMedia()}}
+{\footnotesize\ttfamily async void Render\+Heads.\+Unity\+Omeka.\+Example.\+Database\+Manager.\+Search\+Media (\begin{DoxyParamCaption}\item[{int}]{index,  }\item[{int}]{media\+Index,  }\item[{Raw\+Image}]{image\+Container }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00257}{257}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_ada9ddb04f0d6e5dad910ff54da95ca94_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_ada9ddb04f0d6e5dad910ff54da95ca94_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_abc86ebd442716a61a7197bf4dfc3b8f7}\label{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_abc86ebd442716a61a7197bf4dfc3b8f7} 
+\index{RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}!ShowMedia@{ShowMedia}}
+\index{ShowMedia@{ShowMedia}!RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{ShowMedia()}{ShowMedia()}}
+{\footnotesize\ttfamily async void Render\+Heads.\+Unity\+Omeka.\+Example.\+Database\+Manager.\+Show\+Media (\begin{DoxyParamCaption}\item[{string}]{url,  }\item[{Raw\+Image}]{container }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Downloads a specific piece of media from a URL and displays it. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em url} & The path to the file\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00266}{266}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_abc86ebd442716a61a7197bf4dfc3b8f7_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_ac526ce111f1ba3125dd211fab1fa138c}\label{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_ac526ce111f1ba3125dd211fab1fa138c} 
+\index{RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}!Start@{Start}}
+\index{Start@{Start}!RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily async void Render\+Heads.\+Unity\+Omeka.\+Example.\+Database\+Manager.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00038}{38}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_ac526ce111f1ba3125dd211fab1fa138c_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_af8d1a6c9c25527cca1487c6bf8a75f87}\label{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_af8d1a6c9c25527cca1487c6bf8a75f87} 
+\index{RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}!UpdateDRCanvases@{UpdateDRCanvases}}
+\index{UpdateDRCanvases@{UpdateDRCanvases}!RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{UpdateDRCanvases()}{UpdateDRCanvases()}}
+{\footnotesize\ttfamily void Render\+Heads.\+Unity\+Omeka.\+Example.\+Database\+Manager.\+Update\+DRCanvases (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_search_response}{Item\+Search\+Response}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary}{Dublic\+Core\+Vocabulary}} $>$}]{response }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00135}{135}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_af8d1a6c9c25527cca1487c6bf8a75f87_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_af8d1a6c9c25527cca1487c6bf8a75f87_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_aa168f07e7c52007bf77e19be3a53f5dc}\label{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_aa168f07e7c52007bf77e19be3a53f5dc} 
+\index{RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}!UpdateGPCanvases@{UpdateGPCanvases}}
+\index{UpdateGPCanvases@{UpdateGPCanvases}!RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{UpdateGPCanvases()}{UpdateGPCanvases()}}
+{\footnotesize\ttfamily void Render\+Heads.\+Unity\+Omeka.\+Example.\+Database\+Manager.\+Update\+GPCanvases (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_search_response}{Item\+Search\+Response}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary}{Dublic\+Core\+Vocabulary}} $>$}]{response }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00092}{92}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_aa168f07e7c52007bf77e19be3a53f5dc_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_a05bd418c8672fa166158b5c5ed2fdc67}\label{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_a05bd418c8672fa166158b5c5ed2fdc67} 
+\index{RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}!UpdateIcpCanvases@{UpdateIcpCanvases}}
+\index{UpdateIcpCanvases@{UpdateIcpCanvases}!RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{UpdateIcpCanvases()}{UpdateIcpCanvases()}}
+{\footnotesize\ttfamily void Render\+Heads.\+Unity\+Omeka.\+Example.\+Database\+Manager.\+Update\+Icp\+Canvases (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_search_response}{Item\+Search\+Response}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary}{Dublic\+Core\+Vocabulary}} $>$}]{response }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00163}{163}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_a05bd418c8672fa166158b5c5ed2fdc67_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_a1e46af8f0d5e4e8f946e7f0389517be5}\label{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_a1e46af8f0d5e4e8f946e7f0389517be5} 
+\index{RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}!UpdateIcpPMCanvases@{UpdateIcpPMCanvases}}
+\index{UpdateIcpPMCanvases@{UpdateIcpPMCanvases}!RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{UpdateIcpPMCanvases()}{UpdateIcpPMCanvases()}}
+{\footnotesize\ttfamily void Render\+Heads.\+Unity\+Omeka.\+Example.\+Database\+Manager.\+Update\+Icp\+PMCanvases (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_search_response}{Item\+Search\+Response}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary}{Dublic\+Core\+Vocabulary}} $>$}]{response }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00112}{112}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_a1e46af8f0d5e4e8f946e7f0389517be5_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_a1e46af8f0d5e4e8f946e7f0389517be5_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_ae7a336e103619c8515afec5b7ff319d8}\label{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_ae7a336e103619c8515afec5b7ff319d8} 
+\index{RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}!UpdateOMforSEMCanvases@{UpdateOMforSEMCanvases}}
+\index{UpdateOMforSEMCanvases@{UpdateOMforSEMCanvases}!RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{UpdateOMforSEMCanvases()}{UpdateOMforSEMCanvases()}}
+{\footnotesize\ttfamily void Render\+Heads.\+Unity\+Omeka.\+Example.\+Database\+Manager.\+Update\+OMfor\+SEMCanvases (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_search_response}{Item\+Search\+Response}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary}{Dublic\+Core\+Vocabulary}} $>$}]{response }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00230}{230}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_ae7a336e103619c8515afec5b7ff319d8_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_ae7a336e103619c8515afec5b7ff319d8_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_ad592a7076d66a9220fc80caf600e3355}\label{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_ad592a7076d66a9220fc80caf600e3355} 
+\index{RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}!UpdatePLMCanvases@{UpdatePLMCanvases}}
+\index{UpdatePLMCanvases@{UpdatePLMCanvases}!RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{UpdatePLMCanvases()}{UpdatePLMCanvases()}}
+{\footnotesize\ttfamily void Render\+Heads.\+Unity\+Omeka.\+Example.\+Database\+Manager.\+Update\+PLMCanvases (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_search_response}{Item\+Search\+Response}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary}{Dublic\+Core\+Vocabulary}} $>$}]{response }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00184}{184}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_ad592a7076d66a9220fc80caf600e3355_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_ab23bc09f47375d5ed2a337b9e4e18c87}\label{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_ab23bc09f47375d5ed2a337b9e4e18c87} 
+\index{RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}!UpdateSEMCanvases@{UpdateSEMCanvases}}
+\index{UpdateSEMCanvases@{UpdateSEMCanvases}!RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{UpdateSEMCanvases()}{UpdateSEMCanvases()}}
+{\footnotesize\ttfamily void Render\+Heads.\+Unity\+Omeka.\+Example.\+Database\+Manager.\+Update\+SEMCanvases (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_search_response}{Item\+Search\+Response}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary}{Dublic\+Core\+Vocabulary}} $>$}]{response }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00208}{208}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_ab23bc09f47375d5ed2a337b9e4e18c87_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_ab23bc09f47375d5ed2a337b9e4e18c87_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_a46af54b4286427d543fad5fdbee3bf5a}\label{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_a46af54b4286427d543fad5fdbee3bf5a} 
+\index{RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}!\_client@{\_client}}
+\index{\_client@{\_client}!RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{\_client}{\_client}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_components_1_1_omeka_client}{Omeka\+Client}} Render\+Heads.\+Unity\+Omeka.\+Example.\+Database\+Manager.\+\_\+client = null\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Reference to the API client. 
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00022}{22}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_ab88a8288f58b9574736a6b0b654d2c12}\label{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_ab88a8288f58b9574736a6b0b654d2c12} 
+\index{RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}!\_mediaDisplayTexture@{\_mediaDisplayTexture}}
+\index{\_mediaDisplayTexture@{\_mediaDisplayTexture}!RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{\_mediaDisplayTexture}{\_mediaDisplayTexture}}
+{\footnotesize\ttfamily Texture2D Render\+Heads.\+Unity\+Omeka.\+Example.\+Database\+Manager.\+\_\+media\+Display\+Texture\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00032}{32}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_a141da5f5a0bd38201e873b928b82953b}\label{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_a141da5f5a0bd38201e873b928b82953b} 
+\index{RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}!dBReportsCollection@{dBReportsCollection}}
+\index{dBReportsCollection@{dBReportsCollection}!RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{dBReportsCollection}{dBReportsCollection}}
+{\footnotesize\ttfamily Game\+Object \mbox{[}$\,$\mbox{]} Render\+Heads.\+Unity\+Omeka.\+Example.\+Database\+Manager.\+d\+BReports\+Collection\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00023}{23}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_a21c90773f3951fbf16b1eaddc7ad4709}\label{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_a21c90773f3951fbf16b1eaddc7ad4709} 
+\index{RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}!drReportsCollection@{drReportsCollection}}
+\index{drReportsCollection@{drReportsCollection}!RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{drReportsCollection}{drReportsCollection}}
+{\footnotesize\ttfamily Game\+Object \mbox{[}$\,$\mbox{]} Render\+Heads.\+Unity\+Omeka.\+Example.\+Database\+Manager.\+dr\+Reports\+Collection\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00028}{28}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_aa013af5c8e64b1081692578eb7d0f08c}\label{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_aa013af5c8e64b1081692578eb7d0f08c} 
+\index{RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}!icpPMReportsCollection@{icpPMReportsCollection}}
+\index{icpPMReportsCollection@{icpPMReportsCollection}!RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{icpPMReportsCollection}{icpPMReportsCollection}}
+{\footnotesize\ttfamily Game\+Object \mbox{[}$\,$\mbox{]} Render\+Heads.\+Unity\+Omeka.\+Example.\+Database\+Manager.\+icp\+PMReports\+Collection\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00024}{24}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_aa377020845e429c822e531525076bc62}\label{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_aa377020845e429c822e531525076bc62} 
+\index{RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}!icpReportsCollection@{icpReportsCollection}}
+\index{icpReportsCollection@{icpReportsCollection}!RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{icpReportsCollection}{icpReportsCollection}}
+{\footnotesize\ttfamily Game\+Object \mbox{[}$\,$\mbox{]} Render\+Heads.\+Unity\+Omeka.\+Example.\+Database\+Manager.\+icp\+Reports\+Collection\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00025}{25}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_a5c9940bd7a98927da0dca01240d612b0}\label{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_a5c9940bd7a98927da0dca01240d612b0} 
+\index{RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}!omForSemReportsCollection@{omForSemReportsCollection}}
+\index{omForSemReportsCollection@{omForSemReportsCollection}!RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{omForSemReportsCollection}{omForSemReportsCollection}}
+{\footnotesize\ttfamily Game\+Object \mbox{[}$\,$\mbox{]} Render\+Heads.\+Unity\+Omeka.\+Example.\+Database\+Manager.\+om\+For\+Sem\+Reports\+Collection\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00029}{29}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_adefb6374e09f30cd3f96433e24d5280e}\label{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_adefb6374e09f30cd3f96433e24d5280e} 
+\index{RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}!plmReportsCollection@{plmReportsCollection}}
+\index{plmReportsCollection@{plmReportsCollection}!RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{plmReportsCollection}{plmReportsCollection}}
+{\footnotesize\ttfamily Game\+Object \mbox{[}$\,$\mbox{]} Render\+Heads.\+Unity\+Omeka.\+Example.\+Database\+Manager.\+plm\+Reports\+Collection\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00026}{26}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_a891773d1aafeaca09dcf2294ae3ca8f9}\label{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_a891773d1aafeaca09dcf2294ae3ca8f9} 
+\index{RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}!printDB@{printDB}}
+\index{printDB@{printDB}!RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{printDB}{printDB}}
+{\footnotesize\ttfamily bool Render\+Heads.\+Unity\+Omeka.\+Example.\+Database\+Manager.\+print\+DB\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00031}{31}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_abcdc29ece77720b6968714dc64f46928}\label{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_abcdc29ece77720b6968714dc64f46928} 
+\index{RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}!processedImages@{processedImages}}
+\index{processedImages@{processedImages}!RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{processedImages}{processedImages}}
+{\footnotesize\ttfamily int Render\+Heads.\+Unity\+Omeka.\+Example.\+Database\+Manager.\+processed\+Images = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00033}{33}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_ab56654b5c2fbe893693e0942f3bc3e95}\label{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_ab56654b5c2fbe893693e0942f3bc3e95} 
+\index{RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}!semReportsCollection@{semReportsCollection}}
+\index{semReportsCollection@{semReportsCollection}!RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{semReportsCollection}{semReportsCollection}}
+{\footnotesize\ttfamily Game\+Object \mbox{[}$\,$\mbox{]} Render\+Heads.\+Unity\+Omeka.\+Example.\+Database\+Manager.\+sem\+Reports\+Collection\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00027}{27}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_a68b69e821e117c45847922c8dcf4fd62}\label{class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager_a68b69e821e117c45847922c8dcf4fd62} 
+\index{RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}!ProcessedImages@{ProcessedImages}}
+\index{ProcessedImages@{ProcessedImages}!RenderHeads.UnityOmeka.Example.DatabaseManager@{RenderHeads.UnityOmeka.Example.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{ProcessedImages}{ProcessedImages}}
+{\footnotesize\ttfamily int Render\+Heads.\+Unity\+Omeka.\+Example.\+Database\+Manager.\+Processed\+Images\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00035}{35}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Omeka\+DB/\mbox{\hyperlink{_database_manager_8cs}{Database\+Manager.\+cs}}\end{DoxyCompactItemize}

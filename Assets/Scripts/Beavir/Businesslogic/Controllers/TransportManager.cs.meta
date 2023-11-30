@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: e1e58c123a9f8b8418deb29f883e6e1a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - inputReader: {fileID: 11400000, guid: 594a829c47819814d86ff5de498f0d3f, type: 2}
+  - reset: {fileID: 11400000, guid: 7c35fbdbe7d7b2e4aaf3bedc65d52461, type: 2}
+  - fadeCamera: {fileID: 11400000, guid: 5a607c9d2033b0643b4bced35afdf0bc, type: 2}
+  - fadeInter: {fileID: 11400000, guid: 58e62108ff0eb794e83c2aa85513a8bd, type: 2}
+  - fadeIntra: {fileID: 11400000, guid: 708f54a42610c494c85ae98bd33ff9dd, type: 2}
+  - player: {instanceID: 0}
+  - curEnv: {instanceID: 0}
+  - curObj: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

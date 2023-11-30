@@ -1,0 +1,242 @@
+\doxysection{Screensaver\+Manager Class Reference}
+\hypertarget{class_screensaver_manager}{}\label{class_screensaver_manager}\index{ScreensaverManager@{ScreensaverManager}}
+
+
+Inheritance diagram for Screensaver\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=190pt]{class_screensaver_manager__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Screensaver\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=190pt]{class_screensaver_manager__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_screensaver_manager_a27db5eeee03975bacdc72fec27c59465}{Start}} ()
+\item 
+void \mbox{\hyperlink{class_screensaver_manager_a773ddd183e4937d4c425c518460af916}{Awake}} ()
+\item 
+void \mbox{\hyperlink{class_screensaver_manager_ad08d970b48ddf3a6c1dc6125b580ac8b}{Update}} ()
+\item 
+void \mbox{\hyperlink{class_screensaver_manager_a8f9ea089cef627d227c76769d619f1c9}{On\+Move}} (Vector2 \+\_\+movement)
+\item 
+void \mbox{\hyperlink{class_screensaver_manager_a4c644271d136c17973a70b43ac95a92b}{On\+Rotate\+Camera}} (Vector2 \+\_\+movement)
+\item 
+bool \mbox{\hyperlink{class_screensaver_manager_ac84f9f06f43fabb0b5d1e776baba27e8}{Idle\+Check}} ()
+\item 
+void \mbox{\hyperlink{class_screensaver_manager_a64917992e4d9dcfc8d4e443d85ffc0a0}{On\+Destroy}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object \mbox{\hyperlink{class_screensaver_manager_ab37389aed6ec0bdd2cbbbb8c54808d1f}{screen\+Saver}}
+\item 
+int \mbox{\hyperlink{class_screensaver_manager_ab5c8c9090ddb635bb522b09e03ca9456}{idle\+Time\+Setting}}
+\item 
+float \mbox{\hyperlink{class_screensaver_manager_adac514e4162800b32dc89dd7a9612d49}{last\+Idle\+Time}}
+\item 
+IDisposable \mbox{\hyperlink{class_screensaver_manager_ab68bdf3f893c1607740d29ff9b7dbcdf}{button\+Press\+Listener}}
+\item 
+Vector2 \mbox{\hyperlink{class_screensaver_manager_a1b45b124aa4a4c2dfaa40f705b0aa7d9}{movement}}
+\item 
+Vector2 \mbox{\hyperlink{class_screensaver_manager_a9ee70ff9e32b4592700357e935fd38b1}{new\+Camera\+Movement}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line \mbox{\hyperlink{_screensaver_manager_8cs_source_l00007}{7}} of file \mbox{\hyperlink{_screensaver_manager_8cs_source}{Screensaver\+Manager.\+cs}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_screensaver_manager_a773ddd183e4937d4c425c518460af916}\label{class_screensaver_manager_a773ddd183e4937d4c425c518460af916} 
+\index{ScreensaverManager@{ScreensaverManager}!Awake@{Awake}}
+\index{Awake@{Awake}!ScreensaverManager@{ScreensaverManager}}
+\doxysubsubsection{\texorpdfstring{Awake()}{Awake()}}
+{\footnotesize\ttfamily void Screensaver\+Manager.\+Awake (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_screensaver_manager_8cs_source_l00022}{22}} of file \mbox{\hyperlink{_screensaver_manager_8cs_source}{Screensaver\+Manager.\+cs}}.
+
+\Hypertarget{class_screensaver_manager_ac84f9f06f43fabb0b5d1e776baba27e8}\label{class_screensaver_manager_ac84f9f06f43fabb0b5d1e776baba27e8} 
+\index{ScreensaverManager@{ScreensaverManager}!IdleCheck@{IdleCheck}}
+\index{IdleCheck@{IdleCheck}!ScreensaverManager@{ScreensaverManager}}
+\doxysubsubsection{\texorpdfstring{IdleCheck()}{IdleCheck()}}
+{\footnotesize\ttfamily bool Screensaver\+Manager.\+Idle\+Check (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_screensaver_manager_8cs_source_l00055}{55}} of file \mbox{\hyperlink{_screensaver_manager_8cs_source}{Screensaver\+Manager.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_screensaver_manager_ac84f9f06f43fabb0b5d1e776baba27e8_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_screensaver_manager_a64917992e4d9dcfc8d4e443d85ffc0a0}\label{class_screensaver_manager_a64917992e4d9dcfc8d4e443d85ffc0a0} 
+\index{ScreensaverManager@{ScreensaverManager}!OnDestroy@{OnDestroy}}
+\index{OnDestroy@{OnDestroy}!ScreensaverManager@{ScreensaverManager}}
+\doxysubsubsection{\texorpdfstring{OnDestroy()}{OnDestroy()}}
+{\footnotesize\ttfamily void Screensaver\+Manager.\+On\+Destroy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_screensaver_manager_8cs_source_l00060}{60}} of file \mbox{\hyperlink{_screensaver_manager_8cs_source}{Screensaver\+Manager.\+cs}}.
+
+\Hypertarget{class_screensaver_manager_a8f9ea089cef627d227c76769d619f1c9}\label{class_screensaver_manager_a8f9ea089cef627d227c76769d619f1c9} 
+\index{ScreensaverManager@{ScreensaverManager}!OnMove@{OnMove}}
+\index{OnMove@{OnMove}!ScreensaverManager@{ScreensaverManager}}
+\doxysubsubsection{\texorpdfstring{OnMove()}{OnMove()}}
+{\footnotesize\ttfamily void Screensaver\+Manager.\+On\+Move (\begin{DoxyParamCaption}\item[{Vector2}]{\+\_\+movement }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_screensaver_manager_8cs_source_l00045}{45}} of file \mbox{\hyperlink{_screensaver_manager_8cs_source}{Screensaver\+Manager.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_screensaver_manager_a8f9ea089cef627d227c76769d619f1c9_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_screensaver_manager_a4c644271d136c17973a70b43ac95a92b}\label{class_screensaver_manager_a4c644271d136c17973a70b43ac95a92b} 
+\index{ScreensaverManager@{ScreensaverManager}!OnRotateCamera@{OnRotateCamera}}
+\index{OnRotateCamera@{OnRotateCamera}!ScreensaverManager@{ScreensaverManager}}
+\doxysubsubsection{\texorpdfstring{OnRotateCamera()}{OnRotateCamera()}}
+{\footnotesize\ttfamily void Screensaver\+Manager.\+On\+Rotate\+Camera (\begin{DoxyParamCaption}\item[{Vector2}]{\+\_\+movement }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_screensaver_manager_8cs_source_l00050}{50}} of file \mbox{\hyperlink{_screensaver_manager_8cs_source}{Screensaver\+Manager.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_screensaver_manager_a4c644271d136c17973a70b43ac95a92b_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_screensaver_manager_a27db5eeee03975bacdc72fec27c59465}\label{class_screensaver_manager_a27db5eeee03975bacdc72fec27c59465} 
+\index{ScreensaverManager@{ScreensaverManager}!Start@{Start}}
+\index{Start@{Start}!ScreensaverManager@{ScreensaverManager}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily void Screensaver\+Manager.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_screensaver_manager_8cs_source_l00015}{15}} of file \mbox{\hyperlink{_screensaver_manager_8cs_source}{Screensaver\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_screensaver_manager_a27db5eeee03975bacdc72fec27c59465_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_screensaver_manager_ad08d970b48ddf3a6c1dc6125b580ac8b}\label{class_screensaver_manager_ad08d970b48ddf3a6c1dc6125b580ac8b} 
+\index{ScreensaverManager@{ScreensaverManager}!Update@{Update}}
+\index{Update@{Update}!ScreensaverManager@{ScreensaverManager}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Screensaver\+Manager.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_screensaver_manager_8cs_source_l00028}{28}} of file \mbox{\hyperlink{_screensaver_manager_8cs_source}{Screensaver\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_screensaver_manager_ad08d970b48ddf3a6c1dc6125b580ac8b_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_screensaver_manager_ab68bdf3f893c1607740d29ff9b7dbcdf}\label{class_screensaver_manager_ab68bdf3f893c1607740d29ff9b7dbcdf} 
+\index{ScreensaverManager@{ScreensaverManager}!buttonPressListener@{buttonPressListener}}
+\index{buttonPressListener@{buttonPressListener}!ScreensaverManager@{ScreensaverManager}}
+\doxysubsubsection{\texorpdfstring{buttonPressListener}{buttonPressListener}}
+{\footnotesize\ttfamily IDisposable Screensaver\+Manager.\+button\+Press\+Listener\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_screensaver_manager_8cs_source_l00012}{12}} of file \mbox{\hyperlink{_screensaver_manager_8cs_source}{Screensaver\+Manager.\+cs}}.
+
+\Hypertarget{class_screensaver_manager_ab5c8c9090ddb635bb522b09e03ca9456}\label{class_screensaver_manager_ab5c8c9090ddb635bb522b09e03ca9456} 
+\index{ScreensaverManager@{ScreensaverManager}!idleTimeSetting@{idleTimeSetting}}
+\index{idleTimeSetting@{idleTimeSetting}!ScreensaverManager@{ScreensaverManager}}
+\doxysubsubsection{\texorpdfstring{idleTimeSetting}{idleTimeSetting}}
+{\footnotesize\ttfamily int Screensaver\+Manager.\+idle\+Time\+Setting\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_screensaver_manager_8cs_source_l00010}{10}} of file \mbox{\hyperlink{_screensaver_manager_8cs_source}{Screensaver\+Manager.\+cs}}.
+
+\Hypertarget{class_screensaver_manager_adac514e4162800b32dc89dd7a9612d49}\label{class_screensaver_manager_adac514e4162800b32dc89dd7a9612d49} 
+\index{ScreensaverManager@{ScreensaverManager}!lastIdleTime@{lastIdleTime}}
+\index{lastIdleTime@{lastIdleTime}!ScreensaverManager@{ScreensaverManager}}
+\doxysubsubsection{\texorpdfstring{lastIdleTime}{lastIdleTime}}
+{\footnotesize\ttfamily float Screensaver\+Manager.\+last\+Idle\+Time\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_screensaver_manager_8cs_source_l00011}{11}} of file \mbox{\hyperlink{_screensaver_manager_8cs_source}{Screensaver\+Manager.\+cs}}.
+
+\Hypertarget{class_screensaver_manager_a1b45b124aa4a4c2dfaa40f705b0aa7d9}\label{class_screensaver_manager_a1b45b124aa4a4c2dfaa40f705b0aa7d9} 
+\index{ScreensaverManager@{ScreensaverManager}!movement@{movement}}
+\index{movement@{movement}!ScreensaverManager@{ScreensaverManager}}
+\doxysubsubsection{\texorpdfstring{movement}{movement}}
+{\footnotesize\ttfamily Vector2 Screensaver\+Manager.\+movement\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_screensaver_manager_8cs_source_l00013}{13}} of file \mbox{\hyperlink{_screensaver_manager_8cs_source}{Screensaver\+Manager.\+cs}}.
+
+\Hypertarget{class_screensaver_manager_a9ee70ff9e32b4592700357e935fd38b1}\label{class_screensaver_manager_a9ee70ff9e32b4592700357e935fd38b1} 
+\index{ScreensaverManager@{ScreensaverManager}!newCameraMovement@{newCameraMovement}}
+\index{newCameraMovement@{newCameraMovement}!ScreensaverManager@{ScreensaverManager}}
+\doxysubsubsection{\texorpdfstring{newCameraMovement}{newCameraMovement}}
+{\footnotesize\ttfamily Vector2 Screensaver\+Manager.\+new\+Camera\+Movement\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_screensaver_manager_8cs_source_l00013}{13}} of file \mbox{\hyperlink{_screensaver_manager_8cs_source}{Screensaver\+Manager.\+cs}}.
+
+\Hypertarget{class_screensaver_manager_ab37389aed6ec0bdd2cbbbb8c54808d1f}\label{class_screensaver_manager_ab37389aed6ec0bdd2cbbbb8c54808d1f} 
+\index{ScreensaverManager@{ScreensaverManager}!screenSaver@{screenSaver}}
+\index{screenSaver@{screenSaver}!ScreensaverManager@{ScreensaverManager}}
+\doxysubsubsection{\texorpdfstring{screenSaver}{screenSaver}}
+{\footnotesize\ttfamily Game\+Object Screensaver\+Manager.\+screen\+Saver\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_screensaver_manager_8cs_source_l00009}{9}} of file \mbox{\hyperlink{_screensaver_manager_8cs_source}{Screensaver\+Manager.\+cs}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Managers/\mbox{\hyperlink{_screensaver_manager_8cs}{Screensaver\+Manager.\+cs}}\end{DoxyCompactItemize}

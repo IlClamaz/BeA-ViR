@@ -1,0 +1,11 @@
+<map id="ItemInteractor" name="ItemInteractor">
+<area shape="rect" id="Node000001" title=" " alt="" coords="101,123,219,213"/>
+<area shape="rect" id="Node000003" href="$class_item_aggregator_large.html" title=" " alt="" coords="5,320,139,453"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="139,228,101,321,96,319,134,226"/>
+<area shape="rect" id="Node000004" href="$class_item_aggregator_medium.html" title=" " alt="" coords="163,261,336,512"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="186,226,201,261,196,263,181,228"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="109,5,211,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,89,163,123,157,123,157,89"/>
+<area shape="rect" id="Node000005" href="$class_item_aggregator_medium_a_l.html" title=" " alt="" coords="168,560,331,693"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="252,527,252,560,247,560,247,527"/>
+</map>

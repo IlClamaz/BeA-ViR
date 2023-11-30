@@ -1,0 +1,11 @@
+<map id="RenderHeads.UnityOmeka.Core.Impl.StandardApi.GenerateParameters" name="RenderHeads.UnityOmeka.Core.Impl.StandardApi.GenerateParameters">
+<area shape="rect" id="Node000001" title="Using reflection we can turn our parameters into a query string." alt="" coords="529,72,773,115"/>
+<area shape="rect" id="Node000002" href="$class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api.html#ab2d83c8975ebd0fea066b02bdf71a158" title="Search the api for a given resource type." alt="" coords="271,72,481,115"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="513,96,481,96,481,91,513,91"/>
+<area shape="rect" id="Node000003" href="$class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api.html#ae5c79b623423ab8667501ea0f92c0490" title="Search the api for item sets." alt="" coords="9,5,219,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="274,70,200,51,201,46,275,65"/>
+<area shape="rect" id="Node000004" href="$class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api.html#a8f5d8dc7e1169fcb08fbc596e3be60ff" title="Search the api for item sets." alt="" coords="5,72,223,115"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="255,96,223,96,223,91,255,91"/>
+<area shape="rect" id="Node000005" href="$class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api.html#aaccf569688aa0dbb5e7994010f23a831" title="Search For Media." alt="" coords="9,139,219,181"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="275,122,201,141,200,135,274,116"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="ItemInteractor.OnTriggerExit" name="ItemInteractor.OnTriggerExit">
+<area shape="rect" id="Node000001" title=" " alt="" coords="496,85,679,112"/>
+<area shape="rect" id="Node000002" href="$class_item_aggregator_large.html#adedeb4f106571636c9ce91420d02e285" title=" " alt="" coords="255,5,434,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="540,81,447,47,407,35,408,30,449,41,542,76"/>
+<area shape="rect" id="Node000003" href="$class_item_aggregator_medium.html#a80029f92c08a3d9fa6f1b54d841d14d9" title=" " alt="" coords="248,56,441,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="480,88,441,84,442,78,481,83"/>
+<area shape="rect" id="Node000004" href="$class_item_aggregator_medium.html#a51d3335f10436511a32ccf4aba45c83f" title=" " alt="" coords="241,107,448,149"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="481,114,449,118,448,113,480,109"/>
+<area shape="rect" id="Node000006" href="$class_item_aggregator_large.html#ad3fb9d1cc5e9331986a91ae1cd0a0218" title=" " alt="" coords="258,173,431,200"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="547,122,449,164,410,175,409,170,447,159,545,117"/>
+<area shape="rect" id="Node000005" href="$class_item_aggregator_medium.html#a7271300a3a4ce13ac78b19151c1fec57" title=" " alt="" coords="5,115,193,141"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="225,131,193,131,193,125,225,125"/>
+</map>

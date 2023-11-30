@@ -1,0 +1,494 @@
+\doxysection{First\+Person\+Controller Class Reference}
+\hypertarget{class_first_person_controller}{}\label{class_first_person_controller}\index{FirstPersonController@{FirstPersonController}}
+
+
+Inheritance diagram for First\+Person\+Controller\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_first_person_controller__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for First\+Person\+Controller\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_first_person_controller__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_first_person_controller_aee12a955eb565d3321fea68f3c92a4d2}{Awake}} ()
+\item 
+void \mbox{\hyperlink{class_first_person_controller_ac461c06f89aa88ab228dec2a6cffbcfe}{On\+Enable}} ()
+\item 
+void \mbox{\hyperlink{class_first_person_controller_a4c29122fb73431869f2e18bb0692b76d}{On\+Disable}} ()
+\item 
+void \mbox{\hyperlink{class_first_person_controller_a4bbf6c3bd24164281971557b0423ea99}{On\+Move}} (Vector2 \+\_\+movement)
+\item 
+void \mbox{\hyperlink{class_first_person_controller_abb7d58c7fdba91f2b5d7d07a0ebbed87}{On\+Rotate\+Camera}} (Vector2 \+\_\+movement)
+\item 
+void \mbox{\hyperlink{class_first_person_controller_a63110b5a23df2cb2f91ddee52ac4e4d3}{On\+Jump}} ()
+\item 
+void \mbox{\hyperlink{class_first_person_controller_ad8be90f92632fc9f5a730e55775b7bcc}{Update}} ()
+\item 
+void \mbox{\hyperlink{class_first_person_controller_ab4e56859a4b4db39fab997f9ecf6b251}{Late\+Update}} ()
+\item 
+void \mbox{\hyperlink{class_first_person_controller_a82b76528dd78578237493ac6fcae1857}{Recalculate\+Movement}} ()
+\item 
+void \mbox{\hyperlink{class_first_person_controller_aef2e8c3f0108047c050202f8d75a00be}{Rotate\+Camera}} ()
+\item 
+void \mbox{\hyperlink{class_first_person_controller_a374b1386c47640b726f8787157a0a8ac}{Jump}} ()
+\item 
+bool \mbox{\hyperlink{class_first_person_controller_a85fed7471b65fa6ce021442a6f0a3717}{Is\+Grounded}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Input\+Reader \mbox{\hyperlink{class_first_person_controller_a327d4f289a18056ae72ced34b55758b0}{input\+Reader}} = default
+\item 
+Transform \mbox{\hyperlink{class_first_person_controller_a79bd7a50fc078adf6b17cc5d28948aac}{player\+Camera}} = default
+\item 
+float \mbox{\hyperlink{class_first_person_controller_abec644cee97fa537a71d964c3e1ded18}{speed}} = 11f
+\item 
+float \mbox{\hyperlink{class_first_person_controller_a201b634c909d2b62154e9b0fab606e8d}{jump\+Height}} = 3.\+5f
+\item 
+float \mbox{\hyperlink{class_first_person_controller_aaab3bbf17570440553dc3bd593f096e1}{gravity}} = -\/15f
+\item 
+Layer\+Mask \mbox{\hyperlink{class_first_person_controller_aa07b292979e6148b07408838679fb756}{ground\+Mask}} = default
+\item 
+bool \mbox{\hyperlink{class_first_person_controller_a9edfd655edca90e48611b1f4d176af1a}{fly}} = true
+\item 
+float \mbox{\hyperlink{class_first_person_controller_afc2f5b2460927635b49b7238997f4de2}{sensitivityX}} = 0.\+1f
+\item 
+float \mbox{\hyperlink{class_first_person_controller_a526b4b051f198fc9879a7543e41d945e}{sensitivityY}} = 0.\+1f
+\item 
+float \mbox{\hyperlink{class_first_person_controller_ae3d5976772795c4bf92fdf0a84b8ae88}{y\+Clamp}} = 35f
+\item 
+Character\+Controller \mbox{\hyperlink{class_first_person_controller_adfc2bf6d002589ba34ed622c5415233d}{character\+Controller}}
+\item 
+Vector2 \mbox{\hyperlink{class_first_person_controller_a5add9e598205fb42df81331f9f19b5ed}{movement}}
+\item 
+Vector2 \mbox{\hyperlink{class_first_person_controller_a0290b977a06eccd75e4b9891efe8ab79}{camera\+Movement}}
+\item 
+Vector2 \mbox{\hyperlink{class_first_person_controller_acbbe9b05fdbdb612384ad0ce8d7ee9fe}{new\+Camera\+Movement}}
+\item 
+Vector3 \mbox{\hyperlink{class_first_person_controller_af8707b45fa8bcd8ceaddfa80044cce39}{horizontal\+Velocity}}
+\item 
+Vector3 \mbox{\hyperlink{class_first_person_controller_a57d7ba2165cab4296abf3ef771fbea85}{vertical\+Velocity}}
+\item 
+bool \mbox{\hyperlink{class_first_person_controller_a16c8fc91cee319f625f614271acc9fcb}{jump}}
+\item 
+bool \mbox{\hyperlink{class_first_person_controller_a110f6bb643dda16b838ca5156d316310}{is\+Grounded}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line \mbox{\hyperlink{_first_person_controller_8cs_source_l00003}{3}} of file \mbox{\hyperlink{_first_person_controller_8cs_source}{First\+Person\+Controller.\+cs}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_first_person_controller_aee12a955eb565d3321fea68f3c92a4d2}\label{class_first_person_controller_aee12a955eb565d3321fea68f3c92a4d2} 
+\index{FirstPersonController@{FirstPersonController}!Awake@{Awake}}
+\index{Awake@{Awake}!FirstPersonController@{FirstPersonController}}
+\doxysubsubsection{\texorpdfstring{Awake()}{Awake()}}
+{\footnotesize\ttfamily void First\+Person\+Controller.\+Awake (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_first_person_controller_8cs_source_l00020}{20}} of file \mbox{\hyperlink{_first_person_controller_8cs_source}{First\+Person\+Controller.\+cs}}.
+
+\Hypertarget{class_first_person_controller_a85fed7471b65fa6ce021442a6f0a3717}\label{class_first_person_controller_a85fed7471b65fa6ce021442a6f0a3717} 
+\index{FirstPersonController@{FirstPersonController}!IsGrounded@{IsGrounded}}
+\index{IsGrounded@{IsGrounded}!FirstPersonController@{FirstPersonController}}
+\doxysubsubsection{\texorpdfstring{IsGrounded()}{IsGrounded()}}
+{\footnotesize\ttfamily bool First\+Person\+Controller.\+Is\+Grounded (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_first_person_controller_8cs_source_l00103}{103}} of file \mbox{\hyperlink{_first_person_controller_8cs_source}{First\+Person\+Controller.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_first_person_controller_a85fed7471b65fa6ce021442a6f0a3717_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_first_person_controller_a374b1386c47640b726f8787157a0a8ac}\label{class_first_person_controller_a374b1386c47640b726f8787157a0a8ac} 
+\index{FirstPersonController@{FirstPersonController}!Jump@{Jump}}
+\index{Jump@{Jump}!FirstPersonController@{FirstPersonController}}
+\doxysubsubsection{\texorpdfstring{Jump()}{Jump()}}
+{\footnotesize\ttfamily void First\+Person\+Controller.\+Jump (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_first_person_controller_8cs_source_l00094}{94}} of file \mbox{\hyperlink{_first_person_controller_8cs_source}{First\+Person\+Controller.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_first_person_controller_a374b1386c47640b726f8787157a0a8ac_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_first_person_controller_ab4e56859a4b4db39fab997f9ecf6b251}\label{class_first_person_controller_ab4e56859a4b4db39fab997f9ecf6b251} 
+\index{FirstPersonController@{FirstPersonController}!LateUpdate@{LateUpdate}}
+\index{LateUpdate@{LateUpdate}!FirstPersonController@{FirstPersonController}}
+\doxysubsubsection{\texorpdfstring{LateUpdate()}{LateUpdate()}}
+{\footnotesize\ttfamily void First\+Person\+Controller.\+Late\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_first_person_controller_8cs_source_l00070}{70}} of file \mbox{\hyperlink{_first_person_controller_8cs_source}{First\+Person\+Controller.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_first_person_controller_ab4e56859a4b4db39fab997f9ecf6b251_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_first_person_controller_a4c29122fb73431869f2e18bb0692b76d}\label{class_first_person_controller_a4c29122fb73431869f2e18bb0692b76d} 
+\index{FirstPersonController@{FirstPersonController}!OnDisable@{OnDisable}}
+\index{OnDisable@{OnDisable}!FirstPersonController@{FirstPersonController}}
+\doxysubsubsection{\texorpdfstring{OnDisable()}{OnDisable()}}
+{\footnotesize\ttfamily void First\+Person\+Controller.\+On\+Disable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_first_person_controller_8cs_source_l00037}{37}} of file \mbox{\hyperlink{_first_person_controller_8cs_source}{First\+Person\+Controller.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_first_person_controller_a4c29122fb73431869f2e18bb0692b76d_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_first_person_controller_ac461c06f89aa88ab228dec2a6cffbcfe}\label{class_first_person_controller_ac461c06f89aa88ab228dec2a6cffbcfe} 
+\index{FirstPersonController@{FirstPersonController}!OnEnable@{OnEnable}}
+\index{OnEnable@{OnEnable}!FirstPersonController@{FirstPersonController}}
+\doxysubsubsection{\texorpdfstring{OnEnable()}{OnEnable()}}
+{\footnotesize\ttfamily void First\+Person\+Controller.\+On\+Enable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_first_person_controller_8cs_source_l00029}{29}} of file \mbox{\hyperlink{_first_person_controller_8cs_source}{First\+Person\+Controller.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_first_person_controller_ac461c06f89aa88ab228dec2a6cffbcfe_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_first_person_controller_a63110b5a23df2cb2f91ddee52ac4e4d3}\label{class_first_person_controller_a63110b5a23df2cb2f91ddee52ac4e4d3} 
+\index{FirstPersonController@{FirstPersonController}!OnJump@{OnJump}}
+\index{OnJump@{OnJump}!FirstPersonController@{FirstPersonController}}
+\doxysubsubsection{\texorpdfstring{OnJump()}{OnJump()}}
+{\footnotesize\ttfamily void First\+Person\+Controller.\+On\+Jump (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_first_person_controller_8cs_source_l00054}{54}} of file \mbox{\hyperlink{_first_person_controller_8cs_source}{First\+Person\+Controller.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_first_person_controller_a63110b5a23df2cb2f91ddee52ac4e4d3_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_first_person_controller_a4bbf6c3bd24164281971557b0423ea99}\label{class_first_person_controller_a4bbf6c3bd24164281971557b0423ea99} 
+\index{FirstPersonController@{FirstPersonController}!OnMove@{OnMove}}
+\index{OnMove@{OnMove}!FirstPersonController@{FirstPersonController}}
+\doxysubsubsection{\texorpdfstring{OnMove()}{OnMove()}}
+{\footnotesize\ttfamily void First\+Person\+Controller.\+On\+Move (\begin{DoxyParamCaption}\item[{Vector2}]{\+\_\+movement }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_first_person_controller_8cs_source_l00044}{44}} of file \mbox{\hyperlink{_first_person_controller_8cs_source}{First\+Person\+Controller.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_first_person_controller_a4bbf6c3bd24164281971557b0423ea99_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_first_person_controller_abb7d58c7fdba91f2b5d7d07a0ebbed87}\label{class_first_person_controller_abb7d58c7fdba91f2b5d7d07a0ebbed87} 
+\index{FirstPersonController@{FirstPersonController}!OnRotateCamera@{OnRotateCamera}}
+\index{OnRotateCamera@{OnRotateCamera}!FirstPersonController@{FirstPersonController}}
+\doxysubsubsection{\texorpdfstring{OnRotateCamera()}{OnRotateCamera()}}
+{\footnotesize\ttfamily void First\+Person\+Controller.\+On\+Rotate\+Camera (\begin{DoxyParamCaption}\item[{Vector2}]{\+\_\+movement }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_first_person_controller_8cs_source_l00049}{49}} of file \mbox{\hyperlink{_first_person_controller_8cs_source}{First\+Person\+Controller.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_first_person_controller_abb7d58c7fdba91f2b5d7d07a0ebbed87_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_first_person_controller_a82b76528dd78578237493ac6fcae1857}\label{class_first_person_controller_a82b76528dd78578237493ac6fcae1857} 
+\index{FirstPersonController@{FirstPersonController}!RecalculateMovement@{RecalculateMovement}}
+\index{RecalculateMovement@{RecalculateMovement}!FirstPersonController@{FirstPersonController}}
+\doxysubsubsection{\texorpdfstring{RecalculateMovement()}{RecalculateMovement()}}
+{\footnotesize\ttfamily void First\+Person\+Controller.\+Recalculate\+Movement (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_first_person_controller_8cs_source_l00075}{75}} of file \mbox{\hyperlink{_first_person_controller_8cs_source}{First\+Person\+Controller.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_first_person_controller_a82b76528dd78578237493ac6fcae1857_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_first_person_controller_aef2e8c3f0108047c050202f8d75a00be}\label{class_first_person_controller_aef2e8c3f0108047c050202f8d75a00be} 
+\index{FirstPersonController@{FirstPersonController}!RotateCamera@{RotateCamera}}
+\index{RotateCamera@{RotateCamera}!FirstPersonController@{FirstPersonController}}
+\doxysubsubsection{\texorpdfstring{RotateCamera()}{RotateCamera()}}
+{\footnotesize\ttfamily void First\+Person\+Controller.\+Rotate\+Camera (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_first_person_controller_8cs_source_l00084}{84}} of file \mbox{\hyperlink{_first_person_controller_8cs_source}{First\+Person\+Controller.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_first_person_controller_aef2e8c3f0108047c050202f8d75a00be_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_first_person_controller_ad8be90f92632fc9f5a730e55775b7bcc}\label{class_first_person_controller_ad8be90f92632fc9f5a730e55775b7bcc} 
+\index{FirstPersonController@{FirstPersonController}!Update@{Update}}
+\index{Update@{Update}!FirstPersonController@{FirstPersonController}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void First\+Person\+Controller.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_first_person_controller_8cs_source_l00060}{60}} of file \mbox{\hyperlink{_first_person_controller_8cs_source}{First\+Person\+Controller.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_first_person_controller_ad8be90f92632fc9f5a730e55775b7bcc_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_first_person_controller_a0290b977a06eccd75e4b9891efe8ab79}\label{class_first_person_controller_a0290b977a06eccd75e4b9891efe8ab79} 
+\index{FirstPersonController@{FirstPersonController}!cameraMovement@{cameraMovement}}
+\index{cameraMovement@{cameraMovement}!FirstPersonController@{FirstPersonController}}
+\doxysubsubsection{\texorpdfstring{cameraMovement}{cameraMovement}}
+{\footnotesize\ttfamily Vector2 First\+Person\+Controller.\+camera\+Movement\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_first_person_controller_8cs_source_l00016}{16}} of file \mbox{\hyperlink{_first_person_controller_8cs_source}{First\+Person\+Controller.\+cs}}.
+
+\Hypertarget{class_first_person_controller_adfc2bf6d002589ba34ed622c5415233d}\label{class_first_person_controller_adfc2bf6d002589ba34ed622c5415233d} 
+\index{FirstPersonController@{FirstPersonController}!characterController@{characterController}}
+\index{characterController@{characterController}!FirstPersonController@{FirstPersonController}}
+\doxysubsubsection{\texorpdfstring{characterController}{characterController}}
+{\footnotesize\ttfamily Character\+Controller First\+Person\+Controller.\+character\+Controller\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_first_person_controller_8cs_source_l00015}{15}} of file \mbox{\hyperlink{_first_person_controller_8cs_source}{First\+Person\+Controller.\+cs}}.
+
+\Hypertarget{class_first_person_controller_a9edfd655edca90e48611b1f4d176af1a}\label{class_first_person_controller_a9edfd655edca90e48611b1f4d176af1a} 
+\index{FirstPersonController@{FirstPersonController}!fly@{fly}}
+\index{fly@{fly}!FirstPersonController@{FirstPersonController}}
+\doxysubsubsection{\texorpdfstring{fly}{fly}}
+{\footnotesize\ttfamily bool First\+Person\+Controller.\+fly = true\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_first_person_controller_8cs_source_l00011}{11}} of file \mbox{\hyperlink{_first_person_controller_8cs_source}{First\+Person\+Controller.\+cs}}.
+
+\Hypertarget{class_first_person_controller_aaab3bbf17570440553dc3bd593f096e1}\label{class_first_person_controller_aaab3bbf17570440553dc3bd593f096e1} 
+\index{FirstPersonController@{FirstPersonController}!gravity@{gravity}}
+\index{gravity@{gravity}!FirstPersonController@{FirstPersonController}}
+\doxysubsubsection{\texorpdfstring{gravity}{gravity}}
+{\footnotesize\ttfamily float First\+Person\+Controller.\+gravity = -\/15f\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_first_person_controller_8cs_source_l00009}{9}} of file \mbox{\hyperlink{_first_person_controller_8cs_source}{First\+Person\+Controller.\+cs}}.
+
+\Hypertarget{class_first_person_controller_aa07b292979e6148b07408838679fb756}\label{class_first_person_controller_aa07b292979e6148b07408838679fb756} 
+\index{FirstPersonController@{FirstPersonController}!groundMask@{groundMask}}
+\index{groundMask@{groundMask}!FirstPersonController@{FirstPersonController}}
+\doxysubsubsection{\texorpdfstring{groundMask}{groundMask}}
+{\footnotesize\ttfamily Layer\+Mask First\+Person\+Controller.\+ground\+Mask = default\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_first_person_controller_8cs_source_l00010}{10}} of file \mbox{\hyperlink{_first_person_controller_8cs_source}{First\+Person\+Controller.\+cs}}.
+
+\Hypertarget{class_first_person_controller_af8707b45fa8bcd8ceaddfa80044cce39}\label{class_first_person_controller_af8707b45fa8bcd8ceaddfa80044cce39} 
+\index{FirstPersonController@{FirstPersonController}!horizontalVelocity@{horizontalVelocity}}
+\index{horizontalVelocity@{horizontalVelocity}!FirstPersonController@{FirstPersonController}}
+\doxysubsubsection{\texorpdfstring{horizontalVelocity}{horizontalVelocity}}
+{\footnotesize\ttfamily Vector3 First\+Person\+Controller.\+horizontal\+Velocity\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_first_person_controller_8cs_source_l00017}{17}} of file \mbox{\hyperlink{_first_person_controller_8cs_source}{First\+Person\+Controller.\+cs}}.
+
+\Hypertarget{class_first_person_controller_a327d4f289a18056ae72ced34b55758b0}\label{class_first_person_controller_a327d4f289a18056ae72ced34b55758b0} 
+\index{FirstPersonController@{FirstPersonController}!inputReader@{inputReader}}
+\index{inputReader@{inputReader}!FirstPersonController@{FirstPersonController}}
+\doxysubsubsection{\texorpdfstring{inputReader}{inputReader}}
+{\footnotesize\ttfamily Input\+Reader First\+Person\+Controller.\+input\+Reader = default\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_first_person_controller_8cs_source_l00005}{5}} of file \mbox{\hyperlink{_first_person_controller_8cs_source}{First\+Person\+Controller.\+cs}}.
+
+\Hypertarget{class_first_person_controller_a110f6bb643dda16b838ca5156d316310}\label{class_first_person_controller_a110f6bb643dda16b838ca5156d316310} 
+\index{FirstPersonController@{FirstPersonController}!isGrounded@{isGrounded}}
+\index{isGrounded@{isGrounded}!FirstPersonController@{FirstPersonController}}
+\doxysubsubsection{\texorpdfstring{isGrounded}{isGrounded}}
+{\footnotesize\ttfamily bool First\+Person\+Controller.\+is\+Grounded\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_first_person_controller_8cs_source_l00018}{18}} of file \mbox{\hyperlink{_first_person_controller_8cs_source}{First\+Person\+Controller.\+cs}}.
+
+\Hypertarget{class_first_person_controller_a16c8fc91cee319f625f614271acc9fcb}\label{class_first_person_controller_a16c8fc91cee319f625f614271acc9fcb} 
+\index{FirstPersonController@{FirstPersonController}!jump@{jump}}
+\index{jump@{jump}!FirstPersonController@{FirstPersonController}}
+\doxysubsubsection{\texorpdfstring{jump}{jump}}
+{\footnotesize\ttfamily bool First\+Person\+Controller.\+jump\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_first_person_controller_8cs_source_l00018}{18}} of file \mbox{\hyperlink{_first_person_controller_8cs_source}{First\+Person\+Controller.\+cs}}.
+
+\Hypertarget{class_first_person_controller_a201b634c909d2b62154e9b0fab606e8d}\label{class_first_person_controller_a201b634c909d2b62154e9b0fab606e8d} 
+\index{FirstPersonController@{FirstPersonController}!jumpHeight@{jumpHeight}}
+\index{jumpHeight@{jumpHeight}!FirstPersonController@{FirstPersonController}}
+\doxysubsubsection{\texorpdfstring{jumpHeight}{jumpHeight}}
+{\footnotesize\ttfamily float First\+Person\+Controller.\+jump\+Height = 3.\+5f\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_first_person_controller_8cs_source_l00008}{8}} of file \mbox{\hyperlink{_first_person_controller_8cs_source}{First\+Person\+Controller.\+cs}}.
+
+\Hypertarget{class_first_person_controller_a5add9e598205fb42df81331f9f19b5ed}\label{class_first_person_controller_a5add9e598205fb42df81331f9f19b5ed} 
+\index{FirstPersonController@{FirstPersonController}!movement@{movement}}
+\index{movement@{movement}!FirstPersonController@{FirstPersonController}}
+\doxysubsubsection{\texorpdfstring{movement}{movement}}
+{\footnotesize\ttfamily Vector2 First\+Person\+Controller.\+movement\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_first_person_controller_8cs_source_l00016}{16}} of file \mbox{\hyperlink{_first_person_controller_8cs_source}{First\+Person\+Controller.\+cs}}.
+
+\Hypertarget{class_first_person_controller_acbbe9b05fdbdb612384ad0ce8d7ee9fe}\label{class_first_person_controller_acbbe9b05fdbdb612384ad0ce8d7ee9fe} 
+\index{FirstPersonController@{FirstPersonController}!newCameraMovement@{newCameraMovement}}
+\index{newCameraMovement@{newCameraMovement}!FirstPersonController@{FirstPersonController}}
+\doxysubsubsection{\texorpdfstring{newCameraMovement}{newCameraMovement}}
+{\footnotesize\ttfamily Vector2 First\+Person\+Controller.\+new\+Camera\+Movement\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_first_person_controller_8cs_source_l00016}{16}} of file \mbox{\hyperlink{_first_person_controller_8cs_source}{First\+Person\+Controller.\+cs}}.
+
+\Hypertarget{class_first_person_controller_a79bd7a50fc078adf6b17cc5d28948aac}\label{class_first_person_controller_a79bd7a50fc078adf6b17cc5d28948aac} 
+\index{FirstPersonController@{FirstPersonController}!playerCamera@{playerCamera}}
+\index{playerCamera@{playerCamera}!FirstPersonController@{FirstPersonController}}
+\doxysubsubsection{\texorpdfstring{playerCamera}{playerCamera}}
+{\footnotesize\ttfamily Transform First\+Person\+Controller.\+player\+Camera = default\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_first_person_controller_8cs_source_l00006}{6}} of file \mbox{\hyperlink{_first_person_controller_8cs_source}{First\+Person\+Controller.\+cs}}.
+
+\Hypertarget{class_first_person_controller_afc2f5b2460927635b49b7238997f4de2}\label{class_first_person_controller_afc2f5b2460927635b49b7238997f4de2} 
+\index{FirstPersonController@{FirstPersonController}!sensitivityX@{sensitivityX}}
+\index{sensitivityX@{sensitivityX}!FirstPersonController@{FirstPersonController}}
+\doxysubsubsection{\texorpdfstring{sensitivityX}{sensitivityX}}
+{\footnotesize\ttfamily float First\+Person\+Controller.\+sensitivityX = 0.\+1f\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_first_person_controller_8cs_source_l00012}{12}} of file \mbox{\hyperlink{_first_person_controller_8cs_source}{First\+Person\+Controller.\+cs}}.
+
+\Hypertarget{class_first_person_controller_a526b4b051f198fc9879a7543e41d945e}\label{class_first_person_controller_a526b4b051f198fc9879a7543e41d945e} 
+\index{FirstPersonController@{FirstPersonController}!sensitivityY@{sensitivityY}}
+\index{sensitivityY@{sensitivityY}!FirstPersonController@{FirstPersonController}}
+\doxysubsubsection{\texorpdfstring{sensitivityY}{sensitivityY}}
+{\footnotesize\ttfamily float First\+Person\+Controller.\+sensitivityY = 0.\+1f\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_first_person_controller_8cs_source_l00013}{13}} of file \mbox{\hyperlink{_first_person_controller_8cs_source}{First\+Person\+Controller.\+cs}}.
+
+\Hypertarget{class_first_person_controller_abec644cee97fa537a71d964c3e1ded18}\label{class_first_person_controller_abec644cee97fa537a71d964c3e1ded18} 
+\index{FirstPersonController@{FirstPersonController}!speed@{speed}}
+\index{speed@{speed}!FirstPersonController@{FirstPersonController}}
+\doxysubsubsection{\texorpdfstring{speed}{speed}}
+{\footnotesize\ttfamily float First\+Person\+Controller.\+speed = 11f\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_first_person_controller_8cs_source_l00007}{7}} of file \mbox{\hyperlink{_first_person_controller_8cs_source}{First\+Person\+Controller.\+cs}}.
+
+\Hypertarget{class_first_person_controller_a57d7ba2165cab4296abf3ef771fbea85}\label{class_first_person_controller_a57d7ba2165cab4296abf3ef771fbea85} 
+\index{FirstPersonController@{FirstPersonController}!verticalVelocity@{verticalVelocity}}
+\index{verticalVelocity@{verticalVelocity}!FirstPersonController@{FirstPersonController}}
+\doxysubsubsection{\texorpdfstring{verticalVelocity}{verticalVelocity}}
+{\footnotesize\ttfamily Vector3 First\+Person\+Controller.\+vertical\+Velocity\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_first_person_controller_8cs_source_l00017}{17}} of file \mbox{\hyperlink{_first_person_controller_8cs_source}{First\+Person\+Controller.\+cs}}.
+
+\Hypertarget{class_first_person_controller_ae3d5976772795c4bf92fdf0a84b8ae88}\label{class_first_person_controller_ae3d5976772795c4bf92fdf0a84b8ae88} 
+\index{FirstPersonController@{FirstPersonController}!yClamp@{yClamp}}
+\index{yClamp@{yClamp}!FirstPersonController@{FirstPersonController}}
+\doxysubsubsection{\texorpdfstring{yClamp}{yClamp}}
+{\footnotesize\ttfamily float First\+Person\+Controller.\+y\+Clamp = 35f\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_first_person_controller_8cs_source_l00014}{14}} of file \mbox{\hyperlink{_first_person_controller_8cs_source}{First\+Person\+Controller.\+cs}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Player/\mbox{\hyperlink{_first_person_controller_8cs}{First\+Person\+Controller.\+cs}}\end{DoxyCompactItemize}

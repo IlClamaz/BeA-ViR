@@ -1,0 +1,247 @@
+\doxysection{Render\+Heads.\+Unity\+Omeka.\+Data.\+Vocabularies.\+Property Class Reference}
+\hypertarget{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property}{}\label{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property}\index{RenderHeads.UnityOmeka.Data.Vocabularies.Property@{RenderHeads.UnityOmeka.Data.Vocabularies.Property}}
+
+
+Definition of a Vocabulary property.  
+
+
+
+
+Collaboration diagram for Render\+Heads.\+Unity\+Omeka.\+Data.\+Vocabularies.\+Property\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=231pt]{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property}{Property}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_aaab021bdf1a19d4d8949e81b18f103ea}{From\+Root}} (JObject root, string term)
+\begin{DoxyCompactList}\small\item\em Finds a term/property array in a json object and returns it as an array of properties. \end{DoxyCompactList}\item 
+static \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property}{Property}} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_a487a129e6b41083dfc41efbfd6d0af85}{From\+JObject}} (JObject j\+Object)
+\begin{DoxyCompactList}\small\item\em Converts a Jobject (assumed to be in the "{}shape"{} of a property) to a Property object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_a7444532c339f9cf0b49bce5d5ed744c2}{Type}}
+\item 
+int? \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_a16bdf04bbc7af179e527107cb97df514}{Property\+Id}}
+\item 
+string \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_afc99e24fd136aa8127fdc20d25fc6df4}{Property\+Label}}
+\item 
+bool? \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_ac166531afd28024f10cd5b1e9591f687}{Is\+Public}}
+\item 
+string \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_ac0eed98c4a45ef38198d53ee64c3240d}{Value}}
+\item 
+string \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_a772f2954f966004e7b2e056d26c72050}{Language}}
+\item 
+string \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_a1ce64bf4ee75747f2a0497a4babf1490}{Large}}
+\item 
+string \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_ab17aa64cf56aa4359fc8e1086134d728}{Medium}}
+\item 
+string \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_a62ed59073d7f449b1d9cc3da05c05205}{Square}}
+\item 
+string \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_a1b005ca5810bdf91e1898d4289bf5306}{Display\+Title}}
+\item 
+int? \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_a6a7f874bd4a4862830ae1fab26690b9d}{Value\+Resource\+Id}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Definition of a Vocabulary property. 
+
+Definition at line \mbox{\hyperlink{_dublic_core_vocabulary_8cs_source_l00013}{13}} of file \mbox{\hyperlink{_dublic_core_vocabulary_8cs_source}{Dublic\+Core\+Vocabulary.\+cs}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_a487a129e6b41083dfc41efbfd6d0af85}\label{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_a487a129e6b41083dfc41efbfd6d0af85} 
+\index{RenderHeads.UnityOmeka.Data.Vocabularies.Property@{RenderHeads.UnityOmeka.Data.Vocabularies.Property}!FromJObject@{FromJObject}}
+\index{FromJObject@{FromJObject}!RenderHeads.UnityOmeka.Data.Vocabularies.Property@{RenderHeads.UnityOmeka.Data.Vocabularies.Property}}
+\doxysubsubsection{\texorpdfstring{FromJObject()}{FromJObject()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property}{Property}} Render\+Heads.\+Unity\+Omeka.\+Data.\+Vocabularies.\+Property.\+From\+JObject (\begin{DoxyParamCaption}\item[{JObject}]{j\+Object }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Converts a Jobject (assumed to be in the "{}shape"{} of a property) to a Property object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em j\+Object} & The JObject to convert\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A Property, if the Jobject does not conform, the values will be null
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_dublic_core_vocabulary_8cs_source_l00062}{62}} of file \mbox{\hyperlink{_dublic_core_vocabulary_8cs_source}{Dublic\+Core\+Vocabulary.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_a487a129e6b41083dfc41efbfd6d0af85_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_aaab021bdf1a19d4d8949e81b18f103ea}\label{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_aaab021bdf1a19d4d8949e81b18f103ea} 
+\index{RenderHeads.UnityOmeka.Data.Vocabularies.Property@{RenderHeads.UnityOmeka.Data.Vocabularies.Property}!FromRoot@{FromRoot}}
+\index{FromRoot@{FromRoot}!RenderHeads.UnityOmeka.Data.Vocabularies.Property@{RenderHeads.UnityOmeka.Data.Vocabularies.Property}}
+\doxysubsubsection{\texorpdfstring{FromRoot()}{FromRoot()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property}{Property}}\mbox{[}$\,$\mbox{]} Render\+Heads.\+Unity\+Omeka.\+Data.\+Vocabularies.\+Property.\+From\+Root (\begin{DoxyParamCaption}\item[{JObject}]{root,  }\item[{string}]{term }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Finds a term/property array in a json object and returns it as an array of properties. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em root} & The object to search (typically a response from a search)\\
+\hline
+{\em term} & The term to search for, e.\+g. dcterms\+:title\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An array of properties, otherwise null if it can\textquotesingle{}t find the property
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_dublic_core_vocabulary_8cs_source_l00034}{34}} of file \mbox{\hyperlink{_dublic_core_vocabulary_8cs_source}{Dublic\+Core\+Vocabulary.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_aaab021bdf1a19d4d8949e81b18f103ea_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_aaab021bdf1a19d4d8949e81b18f103ea_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_a1b005ca5810bdf91e1898d4289bf5306}\label{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_a1b005ca5810bdf91e1898d4289bf5306} 
+\index{RenderHeads.UnityOmeka.Data.Vocabularies.Property@{RenderHeads.UnityOmeka.Data.Vocabularies.Property}!DisplayTitle@{DisplayTitle}}
+\index{DisplayTitle@{DisplayTitle}!RenderHeads.UnityOmeka.Data.Vocabularies.Property@{RenderHeads.UnityOmeka.Data.Vocabularies.Property}}
+\doxysubsubsection{\texorpdfstring{DisplayTitle}{DisplayTitle}}
+{\footnotesize\ttfamily string Render\+Heads.\+Unity\+Omeka.\+Data.\+Vocabularies.\+Property.\+Display\+Title}
+
+
+
+Definition at line \mbox{\hyperlink{_dublic_core_vocabulary_8cs_source_l00025}{25}} of file \mbox{\hyperlink{_dublic_core_vocabulary_8cs_source}{Dublic\+Core\+Vocabulary.\+cs}}.
+
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_ac166531afd28024f10cd5b1e9591f687}\label{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_ac166531afd28024f10cd5b1e9591f687} 
+\index{RenderHeads.UnityOmeka.Data.Vocabularies.Property@{RenderHeads.UnityOmeka.Data.Vocabularies.Property}!IsPublic@{IsPublic}}
+\index{IsPublic@{IsPublic}!RenderHeads.UnityOmeka.Data.Vocabularies.Property@{RenderHeads.UnityOmeka.Data.Vocabularies.Property}}
+\doxysubsubsection{\texorpdfstring{IsPublic}{IsPublic}}
+{\footnotesize\ttfamily bool? Render\+Heads.\+Unity\+Omeka.\+Data.\+Vocabularies.\+Property.\+Is\+Public}
+
+
+
+Definition at line \mbox{\hyperlink{_dublic_core_vocabulary_8cs_source_l00018}{18}} of file \mbox{\hyperlink{_dublic_core_vocabulary_8cs_source}{Dublic\+Core\+Vocabulary.\+cs}}.
+
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_a772f2954f966004e7b2e056d26c72050}\label{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_a772f2954f966004e7b2e056d26c72050} 
+\index{RenderHeads.UnityOmeka.Data.Vocabularies.Property@{RenderHeads.UnityOmeka.Data.Vocabularies.Property}!Language@{Language}}
+\index{Language@{Language}!RenderHeads.UnityOmeka.Data.Vocabularies.Property@{RenderHeads.UnityOmeka.Data.Vocabularies.Property}}
+\doxysubsubsection{\texorpdfstring{Language}{Language}}
+{\footnotesize\ttfamily string Render\+Heads.\+Unity\+Omeka.\+Data.\+Vocabularies.\+Property.\+Language}
+
+
+
+Definition at line \mbox{\hyperlink{_dublic_core_vocabulary_8cs_source_l00020}{20}} of file \mbox{\hyperlink{_dublic_core_vocabulary_8cs_source}{Dublic\+Core\+Vocabulary.\+cs}}.
+
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_a1ce64bf4ee75747f2a0497a4babf1490}\label{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_a1ce64bf4ee75747f2a0497a4babf1490} 
+\index{RenderHeads.UnityOmeka.Data.Vocabularies.Property@{RenderHeads.UnityOmeka.Data.Vocabularies.Property}!Large@{Large}}
+\index{Large@{Large}!RenderHeads.UnityOmeka.Data.Vocabularies.Property@{RenderHeads.UnityOmeka.Data.Vocabularies.Property}}
+\doxysubsubsection{\texorpdfstring{Large}{Large}}
+{\footnotesize\ttfamily string Render\+Heads.\+Unity\+Omeka.\+Data.\+Vocabularies.\+Property.\+Large}
+
+
+
+Definition at line \mbox{\hyperlink{_dublic_core_vocabulary_8cs_source_l00021}{21}} of file \mbox{\hyperlink{_dublic_core_vocabulary_8cs_source}{Dublic\+Core\+Vocabulary.\+cs}}.
+
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_ab17aa64cf56aa4359fc8e1086134d728}\label{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_ab17aa64cf56aa4359fc8e1086134d728} 
+\index{RenderHeads.UnityOmeka.Data.Vocabularies.Property@{RenderHeads.UnityOmeka.Data.Vocabularies.Property}!Medium@{Medium}}
+\index{Medium@{Medium}!RenderHeads.UnityOmeka.Data.Vocabularies.Property@{RenderHeads.UnityOmeka.Data.Vocabularies.Property}}
+\doxysubsubsection{\texorpdfstring{Medium}{Medium}}
+{\footnotesize\ttfamily string Render\+Heads.\+Unity\+Omeka.\+Data.\+Vocabularies.\+Property.\+Medium}
+
+
+
+Definition at line \mbox{\hyperlink{_dublic_core_vocabulary_8cs_source_l00022}{22}} of file \mbox{\hyperlink{_dublic_core_vocabulary_8cs_source}{Dublic\+Core\+Vocabulary.\+cs}}.
+
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_a16bdf04bbc7af179e527107cb97df514}\label{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_a16bdf04bbc7af179e527107cb97df514} 
+\index{RenderHeads.UnityOmeka.Data.Vocabularies.Property@{RenderHeads.UnityOmeka.Data.Vocabularies.Property}!PropertyId@{PropertyId}}
+\index{PropertyId@{PropertyId}!RenderHeads.UnityOmeka.Data.Vocabularies.Property@{RenderHeads.UnityOmeka.Data.Vocabularies.Property}}
+\doxysubsubsection{\texorpdfstring{PropertyId}{PropertyId}}
+{\footnotesize\ttfamily int? Render\+Heads.\+Unity\+Omeka.\+Data.\+Vocabularies.\+Property.\+Property\+Id}
+
+
+
+Definition at line \mbox{\hyperlink{_dublic_core_vocabulary_8cs_source_l00016}{16}} of file \mbox{\hyperlink{_dublic_core_vocabulary_8cs_source}{Dublic\+Core\+Vocabulary.\+cs}}.
+
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_afc99e24fd136aa8127fdc20d25fc6df4}\label{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_afc99e24fd136aa8127fdc20d25fc6df4} 
+\index{RenderHeads.UnityOmeka.Data.Vocabularies.Property@{RenderHeads.UnityOmeka.Data.Vocabularies.Property}!PropertyLabel@{PropertyLabel}}
+\index{PropertyLabel@{PropertyLabel}!RenderHeads.UnityOmeka.Data.Vocabularies.Property@{RenderHeads.UnityOmeka.Data.Vocabularies.Property}}
+\doxysubsubsection{\texorpdfstring{PropertyLabel}{PropertyLabel}}
+{\footnotesize\ttfamily string Render\+Heads.\+Unity\+Omeka.\+Data.\+Vocabularies.\+Property.\+Property\+Label}
+
+
+
+Definition at line \mbox{\hyperlink{_dublic_core_vocabulary_8cs_source_l00017}{17}} of file \mbox{\hyperlink{_dublic_core_vocabulary_8cs_source}{Dublic\+Core\+Vocabulary.\+cs}}.
+
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_a62ed59073d7f449b1d9cc3da05c05205}\label{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_a62ed59073d7f449b1d9cc3da05c05205} 
+\index{RenderHeads.UnityOmeka.Data.Vocabularies.Property@{RenderHeads.UnityOmeka.Data.Vocabularies.Property}!Square@{Square}}
+\index{Square@{Square}!RenderHeads.UnityOmeka.Data.Vocabularies.Property@{RenderHeads.UnityOmeka.Data.Vocabularies.Property}}
+\doxysubsubsection{\texorpdfstring{Square}{Square}}
+{\footnotesize\ttfamily string Render\+Heads.\+Unity\+Omeka.\+Data.\+Vocabularies.\+Property.\+Square}
+
+
+
+Definition at line \mbox{\hyperlink{_dublic_core_vocabulary_8cs_source_l00023}{23}} of file \mbox{\hyperlink{_dublic_core_vocabulary_8cs_source}{Dublic\+Core\+Vocabulary.\+cs}}.
+
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_a7444532c339f9cf0b49bce5d5ed744c2}\label{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_a7444532c339f9cf0b49bce5d5ed744c2} 
+\index{RenderHeads.UnityOmeka.Data.Vocabularies.Property@{RenderHeads.UnityOmeka.Data.Vocabularies.Property}!Type@{Type}}
+\index{Type@{Type}!RenderHeads.UnityOmeka.Data.Vocabularies.Property@{RenderHeads.UnityOmeka.Data.Vocabularies.Property}}
+\doxysubsubsection{\texorpdfstring{Type}{Type}}
+{\footnotesize\ttfamily string Render\+Heads.\+Unity\+Omeka.\+Data.\+Vocabularies.\+Property.\+Type}
+
+
+
+Definition at line \mbox{\hyperlink{_dublic_core_vocabulary_8cs_source_l00015}{15}} of file \mbox{\hyperlink{_dublic_core_vocabulary_8cs_source}{Dublic\+Core\+Vocabulary.\+cs}}.
+
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_ac0eed98c4a45ef38198d53ee64c3240d}\label{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_ac0eed98c4a45ef38198d53ee64c3240d} 
+\index{RenderHeads.UnityOmeka.Data.Vocabularies.Property@{RenderHeads.UnityOmeka.Data.Vocabularies.Property}!Value@{Value}}
+\index{Value@{Value}!RenderHeads.UnityOmeka.Data.Vocabularies.Property@{RenderHeads.UnityOmeka.Data.Vocabularies.Property}}
+\doxysubsubsection{\texorpdfstring{Value}{Value}}
+{\footnotesize\ttfamily string Render\+Heads.\+Unity\+Omeka.\+Data.\+Vocabularies.\+Property.\+Value}
+
+
+
+Definition at line \mbox{\hyperlink{_dublic_core_vocabulary_8cs_source_l00019}{19}} of file \mbox{\hyperlink{_dublic_core_vocabulary_8cs_source}{Dublic\+Core\+Vocabulary.\+cs}}.
+
+\Hypertarget{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_a6a7f874bd4a4862830ae1fab26690b9d}\label{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property_a6a7f874bd4a4862830ae1fab26690b9d} 
+\index{RenderHeads.UnityOmeka.Data.Vocabularies.Property@{RenderHeads.UnityOmeka.Data.Vocabularies.Property}!ValueResourceId@{ValueResourceId}}
+\index{ValueResourceId@{ValueResourceId}!RenderHeads.UnityOmeka.Data.Vocabularies.Property@{RenderHeads.UnityOmeka.Data.Vocabularies.Property}}
+\doxysubsubsection{\texorpdfstring{ValueResourceId}{ValueResourceId}}
+{\footnotesize\ttfamily int? Render\+Heads.\+Unity\+Omeka.\+Data.\+Vocabularies.\+Property.\+Value\+Resource\+Id}
+
+
+
+Definition at line \mbox{\hyperlink{_dublic_core_vocabulary_8cs_source_l00026}{26}} of file \mbox{\hyperlink{_dublic_core_vocabulary_8cs_source}{Dublic\+Core\+Vocabulary.\+cs}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Omeka\+DB/\+Lib/\+Scripts/\+Data/\+Vocabularies/\mbox{\hyperlink{_dublic_core_vocabulary_8cs}{Dublic\+Core\+Vocabulary.\+cs}}\end{DoxyCompactItemize}

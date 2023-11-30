@@ -1,0 +1,13 @@
+<map id="RenderHeads.UnityOmeka.Data.SearchParams" name="RenderHeads.UnityOmeka.Data.SearchParams">
+<area shape="rect" id="Node000001" title=" " alt="" coords="231,368,432,603"/>
+<area shape="rect" id="Node000004" href="$class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_search_params.html" title=" " alt="" coords="5,651,207,779"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="222,600,170,653,166,649,219,596"/>
+<area shape="rect" id="Node000005" href="$class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_sets_search_params.html" title=" " alt="" coords="231,661,432,768"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="334,618,334,662,329,662,329,618"/>
+<area shape="rect" id="Node000006" href="$class_render_heads_1_1_unity_omeka_1_1_data_1_1_media_search_params.html" title=" " alt="" coords="456,651,657,779"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="444,596,497,649,493,653,440,600"/>
+<area shape="rect" id="Node000002" href="$class_render_heads_1_1_unity_omeka_1_1_data_1_1_common_params.html" title=" " alt="" coords="277,144,386,320"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="334,335,334,368,329,368,329,335"/>
+<area shape="rect" id="Node000003" href="$class_render_heads_1_1_unity_omeka_1_1_data_1_1_parameters.html" title=" " alt="" coords="277,5,385,96"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="334,111,334,144,329,144,329,111"/>
+</map>

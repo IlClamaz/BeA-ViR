@@ -1,0 +1,25 @@
+<map id="ObjectEnabler.ToggleGameObject" name="ObjectEnabler.ToggleGameObject">
+<area shape="rect" id="Node000001" title=" " alt="" coords="492,115,672,157"/>
+<area shape="rect" id="Node000002" href="$class_gate.html#a520b515558bdcf66f7f7fe21c9d18e0b" title=" " alt="" coords="244,5,424,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="532,109,443,62,413,51,415,46,445,58,534,104"/>
+<area shape="rect" id="Node000004" href="$class_environment.html#a49a679f0bded916619ff9ad0404b1895" title=" " alt="" coords="246,123,422,149"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="476,139,422,139,422,133,476,133"/>
+<area shape="rect" id="Node000007" href="$class_game_manager.html#a2a3cc5ca2dfca50dcec6606217a8e9ea" title=" " alt="" coords="224,173,444,200"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="477,160,403,175,402,170,476,155"/>
+<area shape="rect" id="Node000010" href="$class_environment.html#a66794719c1464e2e707138de6c1c15cd" title=" " alt="" coords="248,72,420,99"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="476,117,402,102,403,97,477,112"/>
+<area shape="rect" id="Node000011" href="$class_item_aggregator_large.html#ad3fb9d1cc5e9331986a91ae1cd0a0218" title=" " alt="" coords="247,224,421,251"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="536,168,493,192,445,214,409,226,407,221,443,210,491,188,534,163"/>
+<area shape="rect" id="Node000003" href="$class_gate.html#ab2a9122bc8912d607920a7f72f49d2a8" title=" " alt="" coords="50,13,131,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="228,29,131,29,131,24,228,24"/>
+<area shape="rect" id="Node000005" href="$class_environment.html#ab335d60a2f2f7fe5039140cbc04ba842" title=" " alt="" coords="12,123,169,149"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="231,139,169,139,169,133,231,133"/>
+<area shape="rect" id="Node000006" href="$class_environment.html#a94c29e764c18186d6317260b82c37eac" title=" " alt="" coords="14,72,167,99"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="251,121,157,102,159,97,252,116"/>
+<area shape="rect" id="Node000008" href="$class_game_manager.html#a538c5b310a8ee2cdf3b2ea36c91c7a50" title=" " alt="" coords="5,224,176,251"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="252,206,159,226,157,221,251,201"/>
+<area shape="rect" id="Node000009" href="$class_game_manager.html#ac68d06321520b6b17beb92a3cfa29ffa" title=" " alt="" coords="7,173,174,200"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="208,189,175,189,175,184,208,184"/>
+<area shape="poly" id="edge10_Node000010_Node000005" title=" " alt="" coords="252,105,159,125,157,119,251,100"/>
+<area shape="poly" id="edge11_Node000010_Node000006" title=" " alt="" coords="233,88,168,88,168,83,233,83"/>
+</map>

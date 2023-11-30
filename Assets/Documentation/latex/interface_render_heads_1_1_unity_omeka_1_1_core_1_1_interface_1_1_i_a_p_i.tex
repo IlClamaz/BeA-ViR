@@ -1,0 +1,198 @@
+\doxysection{Render\+Heads.\+Unity\+Omeka.\+Core.\+Interface.\+IAPI\texorpdfstring{$<$}{<} T \texorpdfstring{$>$}{>} Interface Template Reference}
+\hypertarget{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i}{}\label{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i}\index{RenderHeads.UnityOmeka.Core.Interface.IAPI$<$ T $>$@{RenderHeads.UnityOmeka.Core.Interface.IAPI$<$ T $>$}}
+
+
+Business logic interface for our API.  
+
+
+
+
+Inheritance diagram for Render\+Heads.\+Unity\+Omeka.\+Core.\+Interface.\+IAPI\texorpdfstring{$<$}{<} T \texorpdfstring{$>$}{>}\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=231pt]{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Render\+Heads.\+Unity\+Omeka.\+Core.\+Interface.\+IAPI\texorpdfstring{$<$}{<} T \texorpdfstring{$>$}{>}\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=231pt]{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i_ab67739068c80f9898419cc4b89b10722}{Set\+Rest\+End\+Point}} (string endpoint)
+\begin{DoxyCompactList}\small\item\em Sets the rest endpoint to communicate with. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i_abf383803b8055e83bcc6e6c189297019}{Set\+Credentials}} (string id, string key)
+\begin{DoxyCompactList}\small\item\em Set the credentials for the API communication, if you need to access protected data. \end{DoxyCompactList}\item 
+Task$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_search_response}{Search\+Response}} $>$ \mbox{\hyperlink{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i_a72b7aa012c3ec161a42b55d62931a73a}{Search}} (\mbox{\hyperlink{namespace_render_heads_1_1_unity_omeka_1_1_core_aac27bc1318149450d409a6d275660cdb}{Resource\+Type}} resource\+Type, \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_search_params}{Search\+Params}} searchparams)
+\begin{DoxyCompactList}\small\item\em Search the api for a given resource type. \end{DoxyCompactList}\item 
+Task$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_search_response}{Item\+Search\+Response}}$<$ T $>$ $>$ \mbox{\hyperlink{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i_afa965ebd77aaa106a8f2b7ac85b2e026}{Search\+Items}} (\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_search_params}{Item\+Search\+Params}} searchparams)
+\begin{DoxyCompactList}\small\item\em Search the api for item sets. \end{DoxyCompactList}\item 
+Task$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_set_search_response}{Item\+Set\+Search\+Response}}$<$ T $>$ $>$ \mbox{\hyperlink{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i_a044404d4292be8b2d41d0479793b1049}{Search\+Item\+Sets}} (\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_sets_search_params}{Item\+Sets\+Search\+Params}} searchparams)
+\begin{DoxyCompactList}\small\item\em Search the api for item sets. \end{DoxyCompactList}\item 
+Task$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_media_search_response}{Media\+Search\+Response}}$<$ T $>$ $>$ \mbox{\hyperlink{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i_ae6d8b606fa5dc710d26a54601ad39267}{Search\+Media}} (\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_media_search_params}{Media\+Search\+Params}} searchparams)
+\begin{DoxyCompactList}\small\item\em Search For Media. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Business logic interface for our API. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & A type of Vocabulary (e.\+g. Dublin\+Core\+Vocabulary)\\
+\hline
+\end{DoxyTemplParams}
+\begin{Desc}
+\item[Type Constraints]\begin{description}
+\item[{\em T} : {\em Vocabulary}]\item[{\em T} : {\em new()}]\end{description}
+\end{Desc}
+
+
+Definition at line \mbox{\hyperlink{_i_a_p_i_8cs_source_l00017}{17}} of file \mbox{\hyperlink{_i_a_p_i_8cs_source}{IAPI.\+cs}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i_a72b7aa012c3ec161a42b55d62931a73a}\label{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i_a72b7aa012c3ec161a42b55d62931a73a} 
+\index{RenderHeads.UnityOmeka.Core.Interface.IAPI$<$ T $>$@{RenderHeads.UnityOmeka.Core.Interface.IAPI$<$ T $>$}!Search@{Search}}
+\index{Search@{Search}!RenderHeads.UnityOmeka.Core.Interface.IAPI$<$ T $>$@{RenderHeads.UnityOmeka.Core.Interface.IAPI$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Search()}{Search()}}
+{\footnotesize\ttfamily Task$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_search_response}{Search\+Response}} $>$ \mbox{\hyperlink{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i}{Render\+Heads.\+Unity\+Omeka.\+Core.\+Interface.\+IAPI}}$<$ T $>$.Search (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespace_render_heads_1_1_unity_omeka_1_1_core_aac27bc1318149450d409a6d275660cdb}{Resource\+Type}}}]{resource\+Type,  }\item[{\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_search_params}{Search\+Params}}}]{searchparams }\end{DoxyParamCaption})}
+
+
+
+Search the api for a given resource type. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em resource\+Type} & Supported resource types are item, item set and media\\
+\hline
+{\em searchparams} & The search paramters to filter the search (create an appropriate search param instance for your resource type)\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A json object containing the data you need
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api_ab2d83c8975ebd0fea066b02bdf71a158}{Render\+Heads.\+Unity\+Omeka.\+Core.\+Impl.\+Standard\+Api$<$ T $>$}}.
+
+\Hypertarget{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i_afa965ebd77aaa106a8f2b7ac85b2e026}\label{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i_afa965ebd77aaa106a8f2b7ac85b2e026} 
+\index{RenderHeads.UnityOmeka.Core.Interface.IAPI$<$ T $>$@{RenderHeads.UnityOmeka.Core.Interface.IAPI$<$ T $>$}!SearchItems@{SearchItems}}
+\index{SearchItems@{SearchItems}!RenderHeads.UnityOmeka.Core.Interface.IAPI$<$ T $>$@{RenderHeads.UnityOmeka.Core.Interface.IAPI$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{SearchItems()}{SearchItems()}}
+{\footnotesize\ttfamily Task$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_search_response}{Item\+Search\+Response}}$<$ T $>$ $>$ \mbox{\hyperlink{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i}{Render\+Heads.\+Unity\+Omeka.\+Core.\+Interface.\+IAPI}}$<$ T $>$.Search\+Items (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_search_params}{Item\+Search\+Params}}}]{searchparams }\end{DoxyParamCaption})}
+
+
+
+Search the api for item sets. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em searchparams} & The search paramters to filter the search (create an appropriate search param instance for your resource type)\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A json object containing the data you need
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api_ae5c79b623423ab8667501ea0f92c0490}{Render\+Heads.\+Unity\+Omeka.\+Core.\+Impl.\+Standard\+Api$<$ T $>$}}.
+
+\Hypertarget{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i_a044404d4292be8b2d41d0479793b1049}\label{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i_a044404d4292be8b2d41d0479793b1049} 
+\index{RenderHeads.UnityOmeka.Core.Interface.IAPI$<$ T $>$@{RenderHeads.UnityOmeka.Core.Interface.IAPI$<$ T $>$}!SearchItemSets@{SearchItemSets}}
+\index{SearchItemSets@{SearchItemSets}!RenderHeads.UnityOmeka.Core.Interface.IAPI$<$ T $>$@{RenderHeads.UnityOmeka.Core.Interface.IAPI$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{SearchItemSets()}{SearchItemSets()}}
+{\footnotesize\ttfamily Task$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_set_search_response}{Item\+Set\+Search\+Response}}$<$ T $>$ $>$ \mbox{\hyperlink{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i}{Render\+Heads.\+Unity\+Omeka.\+Core.\+Interface.\+IAPI}}$<$ T $>$.Search\+Item\+Sets (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_sets_search_params}{Item\+Sets\+Search\+Params}}}]{searchparams }\end{DoxyParamCaption})}
+
+
+
+Search the api for item sets. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em searchparams} & The search paramters to filter the search (create an appropriate search param instance for your resource type)\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A json object containing the data you need
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api_a8f5d8dc7e1169fcb08fbc596e3be60ff}{Render\+Heads.\+Unity\+Omeka.\+Core.\+Impl.\+Standard\+Api$<$ T $>$}}.
+
+\Hypertarget{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i_ae6d8b606fa5dc710d26a54601ad39267}\label{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i_ae6d8b606fa5dc710d26a54601ad39267} 
+\index{RenderHeads.UnityOmeka.Core.Interface.IAPI$<$ T $>$@{RenderHeads.UnityOmeka.Core.Interface.IAPI$<$ T $>$}!SearchMedia@{SearchMedia}}
+\index{SearchMedia@{SearchMedia}!RenderHeads.UnityOmeka.Core.Interface.IAPI$<$ T $>$@{RenderHeads.UnityOmeka.Core.Interface.IAPI$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{SearchMedia()}{SearchMedia()}}
+{\footnotesize\ttfamily Task$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_media_search_response}{Media\+Search\+Response}}$<$ T $>$ $>$ \mbox{\hyperlink{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i}{Render\+Heads.\+Unity\+Omeka.\+Core.\+Interface.\+IAPI}}$<$ T $>$.Search\+Media (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_media_search_params}{Media\+Search\+Params}}}]{searchparams }\end{DoxyParamCaption})}
+
+
+
+Search For Media. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em searchparams} & The media to search for\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A json object containing the data you
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api_aaccf569688aa0dbb5e7994010f23a831}{Render\+Heads.\+Unity\+Omeka.\+Core.\+Impl.\+Standard\+Api$<$ T $>$}}.
+
+\Hypertarget{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i_abf383803b8055e83bcc6e6c189297019}\label{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i_abf383803b8055e83bcc6e6c189297019} 
+\index{RenderHeads.UnityOmeka.Core.Interface.IAPI$<$ T $>$@{RenderHeads.UnityOmeka.Core.Interface.IAPI$<$ T $>$}!SetCredentials@{SetCredentials}}
+\index{SetCredentials@{SetCredentials}!RenderHeads.UnityOmeka.Core.Interface.IAPI$<$ T $>$@{RenderHeads.UnityOmeka.Core.Interface.IAPI$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{SetCredentials()}{SetCredentials()}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i}{Render\+Heads.\+Unity\+Omeka.\+Core.\+Interface.\+IAPI}}$<$ T $>$.Set\+Credentials (\begin{DoxyParamCaption}\item[{string}]{id,  }\item[{string}]{key }\end{DoxyParamCaption})}
+
+
+
+Set the credentials for the API communication, if you need to access protected data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & The username\\
+\hline
+{\em key} & the api key associated with the user\\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api_aabb51a8af1eb4be843966ad7c8ecefbe}{Render\+Heads.\+Unity\+Omeka.\+Core.\+Impl.\+Standard\+Api$<$ T $>$}}.
+
+\Hypertarget{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i_ab67739068c80f9898419cc4b89b10722}\label{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i_ab67739068c80f9898419cc4b89b10722} 
+\index{RenderHeads.UnityOmeka.Core.Interface.IAPI$<$ T $>$@{RenderHeads.UnityOmeka.Core.Interface.IAPI$<$ T $>$}!SetRestEndPoint@{SetRestEndPoint}}
+\index{SetRestEndPoint@{SetRestEndPoint}!RenderHeads.UnityOmeka.Core.Interface.IAPI$<$ T $>$@{RenderHeads.UnityOmeka.Core.Interface.IAPI$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{SetRestEndPoint()}{SetRestEndPoint()}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i}{Render\+Heads.\+Unity\+Omeka.\+Core.\+Interface.\+IAPI}}$<$ T $>$.Set\+Rest\+End\+Point (\begin{DoxyParamCaption}\item[{string}]{endpoint }\end{DoxyParamCaption})}
+
+
+
+Sets the rest endpoint to communicate with. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em endpoint} & The endpoint to communicate with\\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api_aade6ceca2f72dddaf7367f1375e2f4c2}{Render\+Heads.\+Unity\+Omeka.\+Core.\+Impl.\+Standard\+Api$<$ T $>$}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Omeka\+DB/\+Lib/\+Scripts/\+Core/\+Interface/\mbox{\hyperlink{_i_a_p_i_8cs}{IAPI.\+cs}}\end{DoxyCompactItemize}

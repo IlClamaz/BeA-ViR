@@ -1,0 +1,7 @@
+<map id="RenderHeads.UnityOmeka.Example.DatabaseManager.UpdateIcpPMCanvases" name="RenderHeads.UnityOmeka.Example.DatabaseManager.UpdateIcpPMCanvases">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,270,48"/>
+<area shape="rect" id="Node000002" href="$class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#ada9ddb04f0d6e5dad910ff54da95ca94" title=" " alt="" coords="318,5,552,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="270,24,302,24,302,29,270,29"/>
+<area shape="rect" id="Node000003" href="$class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#abc86ebd442716a61a7197bf4dfc3b8f7" title="Downloads a specific piece of media from a URL and displays it." alt="" coords="600,5,834,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="552,24,584,24,584,29,552,29"/>
+</map>

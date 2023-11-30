@@ -1,0 +1,7 @@
+<map id="RenderHeads.UnityOmeka.Data.Vocabularies.DublicCoreVocabulary" name="RenderHeads.UnityOmeka.Data.Vocabularies.DublicCoreVocabulary">
+<area shape="rect" id="Node000001" title="Definition for the Dublic Core vocabulary." alt="" coords="55,597,275,896"/>
+<area shape="rect" id="Node000002" href="$class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_vocabulary.html" title="Base object that defines the concept of a &quot;Vocabulary&quot;." alt="" coords="5,131,135,200"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,214,143,597,138,598,75,215"/>
+<area shape="rect" id="Node000003" href="$class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property.html" title="Definition of a Vocabulary property." alt="" coords="159,5,360,325"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="236,326,194,581,189,580,231,325"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="RenderHeads.UnityOmeka.Data.Media.FromJObject" name="RenderHeads.UnityOmeka.Data.Media.FromJObject">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,72,216,115"/>
+<area shape="rect" id="Node000002" href="$class_render_heads_1_1_unity_omeka_1_1_data_1_1_helpers.html#ab0b5c2fae44c9d10038eb3839d8ae130" title=" " alt="" coords="264,5,474,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="195,69,268,50,269,55,197,74"/>
+<area shape="rect" id="Node000003" href="$class_render_heads_1_1_unity_omeka_1_1_data_1_1_id_object.html#a5a5aad0d46f43503d4b7ffe9ea35dbd7" title=" " alt="" coords="264,72,474,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="216,91,248,91,248,96,216,96"/>
+<area shape="rect" id="Node000004" href="$class_render_heads_1_1_unity_omeka_1_1_data_1_1_thumbnail_url.html#a537e9786cfb98d8a03b035e8b47a1f50" title=" " alt="" coords="264,139,474,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="197,113,269,132,268,137,195,118"/>
+</map>

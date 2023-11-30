@@ -1,0 +1,5 @@
+<map id="RenderHeads.UnityOmeka.Data.Helpers.TryGet&lt; T &gt;" name="RenderHeads.UnityOmeka.Data.Helpers.TryGet&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Helper function to try get a token from a Json.NET object and cast it to a specific type...." alt="" coords="5,5,216,48"/>
+<area shape="rect" id="Node000002" href="$class_render_heads_1_1_unity_omeka_1_1_data_1_1_helpers.html#ab97299d23f77c51cbfb733cecdf5d3d6" title="Helper method to check if the a token is empty. This code comes from: https://stackoverflow...." alt="" coords="264,5,474,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="216,24,248,24,248,29,216,29"/>
+</map>

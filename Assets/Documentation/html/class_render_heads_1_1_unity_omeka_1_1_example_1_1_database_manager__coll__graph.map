@@ -1,0 +1,12 @@
+<map id="RenderHeads.UnityOmeka.Example.DatabaseManager" name="RenderHeads.UnityOmeka.Example.DatabaseManager">
+<area shape="rect" id="Node000001" title="An example script that lets us drill down from an item_set and display a piece of media." alt="" coords="5,465,231,999"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="46,153,147,223"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,237,110,465,105,466,96,238"/>
+<area shape="rect" id="Node000003" href="$class_render_heads_1_1_unity_omeka_1_1_components_1_1_omeka_client.html" title="Main component that initializes our API." alt="" coords="134,316,382,401"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="141,232,221,315,217,318,137,235"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="245,402,227,450,222,448,240,400"/>
+<area shape="rect" id="Node000004" href="$class_render_heads_1_1_unity_omeka_1_1_core_1_1_client_settings.html" title="Settings for our Omeka Client." alt="" coords="172,124,373,252"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="270,252,266,299,260,299,265,252"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="218,5,327,75"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="275,89,275,124,270,124,270,89"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="ItemAggregatorLarge" name="ItemAggregatorLarge">
+<area shape="rect" id="Node000001" title=" " alt="" coords="78,300,211,412"/>
+<area shape="rect" id="Node000002" href="$class_item_interactor.html" title=" " alt="" coords="5,135,124,225"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,237,122,299,117,302,89,240"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="94,5,195,75"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="120,89,93,136,88,133,115,86"/>
+<area shape="rect" id="Node000004" href="$class_collider_proxy.html" title=" " alt="" coords="149,124,303,236"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="174,86,196,123,192,126,170,89"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="203,237,180,286,175,284,198,235"/>
+</map>

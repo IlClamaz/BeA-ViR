@@ -1,0 +1,20 @@
+<map id="E2EObj.Env2Home" name="E2EObj.Env2Home">
+<area shape="rect" id="Node000001" title=" " alt="" coords="624,81,757,108"/>
+<area shape="rect" id="Node000002" href="$class_e2_e_obj.html#af17854505a56dcff86b6914d7e8245a1" title="Funzione che permette il ritorno alla home." alt="" coords="206,56,357,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="609,92,357,77,358,71,609,87"/>
+<area shape="rect" id="Node000005" href="$class_e2_e_obj.html#a700d1c5efef30bb4dbbe71cc4dc32f70" title=" " alt="" coords="419,107,576,133"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="609,108,577,112,576,107,608,103"/>
+<area shape="rect" id="Node000003" href="$class_e2_e_obj.html#ae8237315b71522e5fe63632ba9c98fbf" title=" " alt="" coords="9,5,140,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="208,54,131,35,133,30,209,49"/>
+<area shape="rect" id="Node000004" href="$class_e2_e_obj.html#abb848d8bc5b3935e4e4cfeb7e3fd9187" title=" " alt="" coords="11,56,138,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="190,72,139,72,139,67,190,67"/>
+<area shape="poly" id="edge9_Node000005_Node000002" title=" " alt="" coords="422,105,341,86,342,81,423,100"/>
+<area shape="rect" id="Node000006" href="$class_timeline_period.html#a443d1d1cdb2cc3e810685bd73a37746d" title=" " alt="" coords="192,107,371,133"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="403,123,371,123,371,117,403,117"/>
+<area shape="rect" id="Node000008" href="$class_gate.html#a520b515558bdcf66f7f7fe21c9d18e0b" title=" " alt="" coords="192,157,371,200"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="432,140,363,159,362,154,430,135"/>
+<area shape="rect" id="Node000007" href="$class_timeline_period.html#a497ac2844d30bc4529bceed103f6dfae" title=" " alt="" coords="5,107,144,133"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="177,123,144,123,144,117,177,117"/>
+<area shape="rect" id="Node000009" href="$class_gate.html#ab2a9122bc8912d607920a7f72f49d2a8" title=" " alt="" coords="34,165,115,192"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="176,181,115,181,115,176,176,176"/>
+</map>

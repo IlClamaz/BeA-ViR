@@ -1,0 +1,62 @@
+\doxysection{Obj2\+Obj.\+cs}
+\hypertarget{_obj2_obj_8cs_source}{}\label{_obj2_obj_8cs_source}\index{Transport/Obj2Obj.cs@{Transport/Obj2Obj.cs}}
+\mbox{\hyperlink{_obj2_obj_8cs}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00001}\mbox{\hyperlink{class_obj2_obj}{00001}}\ \textcolor{keyword}{public}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_obj2_obj}{Obj2Obj}}\ :\ \mbox{\hyperlink{class_transport_obj}{TransportObj}}}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00002}00002\ \{}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00003}\mbox{\hyperlink{class_obj2_obj_aab7414af359dc39e0f8fd22ad534c28a}{00003}}\ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_obj2_obj_aab7414af359dc39e0f8fd22ad534c28a}{cooldown}}\ =\ \textcolor{keyword}{false};}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00004}\mbox{\hyperlink{class_obj2_obj_aaf44aa501164b04d852b1b1478b87551}{00004}}\ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_obj2_obj_aaf44aa501164b04d852b1b1478b87551}{valuePressed}}\ =\ 0;}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00005}00005\ }
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00006}\mbox{\hyperlink{class_obj2_obj_adb08b547b2da4580f823b0c7ce162850}{00006}}\ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_obj2_obj_adb08b547b2da4580f823b0c7ce162850}{OnEnable}}()}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00007}00007\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00008}00008\ \ \ \ \ \ \ \ \ GameManager.Instance.InputReader.sightSeeingEvent\ +=\ \mbox{\hyperlink{class_obj2_obj_a276822a82720afae91b82df65685067e}{OnSightSeeing}};}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00009}00009\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00010}00010\ }
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00011}\mbox{\hyperlink{class_obj2_obj_a768d170120dcee519cbd6336c79b098a}{00011}}\ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_obj2_obj_a768d170120dcee519cbd6336c79b098a}{OnDisable}}()}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00012}00012\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00013}00013\ \ \ \ \ \ \ \ \ GameManager.Instance.InputReader.sightSeeingEvent\ -\/=\ \mbox{\hyperlink{class_obj2_obj_a276822a82720afae91b82df65685067e}{OnSightSeeing}};}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00014}00014\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00015}00015\ }
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00016}\mbox{\hyperlink{class_obj2_obj_a276822a82720afae91b82df65685067e}{00016}}\ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_obj2_obj_a276822a82720afae91b82df65685067e}{OnSightSeeing}}(\textcolor{keywordtype}{float}\ value)\ \textcolor{comment}{//\ -\/1\ is\ Prev,\ 1\ is\ Next}}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00017}00017\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00018}00018\ \ \ \ \ \ \ \ \ var\ sightPoints\ =\ \mbox{\hyperlink{class_game_manager}{GameManager}}.\mbox{\hyperlink{class_game_manager_ad3e717f4fb0f378b969f4457de81f23e}{Instance}}.\mbox{\hyperlink{class_game_manager_a1dc0d3446d06dad0fd24da20de6471d3}{CurEnv}}.\mbox{\hyperlink{class_environment_a991b4d5a7f92ccef0e9c014df8e0c927}{SightPoints}};}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00019}00019\ \ \ \ \ \ \ \ \ var\ curSightPoint\ =\ \mbox{\hyperlink{class_game_manager}{GameManager}}.\mbox{\hyperlink{class_game_manager_ad3e717f4fb0f378b969f4457de81f23e}{Instance}}.\mbox{\hyperlink{class_game_manager_a1dc0d3446d06dad0fd24da20de6471d3}{CurEnv}}.\mbox{\hyperlink{class_environment_a11290a00e10d9562dc71ebcd3909c415}{CurSightPoint}};}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00020}00020\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (\mbox{\hyperlink{class_game_manager}{GameManager}}.\mbox{\hyperlink{class_game_manager_ad3e717f4fb0f378b969f4457de81f23e}{Instance}}.\mbox{\hyperlink{class_game_manager_a1dc0d3446d06dad0fd24da20de6471d3}{CurEnv}}.\mbox{\hyperlink{class_environment_a6419f89bf94702265b0e81f16b786a89}{Father}}\ !=\ \textcolor{keyword}{null}\ \&\&\ sightPoints.Count\ ==\ 0)}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00021}00021\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00022}00022\ \ \ \ \ \ \ \ \ \ \ \ \ sightPoints\ =\ \mbox{\hyperlink{class_game_manager}{GameManager}}.\mbox{\hyperlink{class_game_manager_ad3e717f4fb0f378b969f4457de81f23e}{Instance}}.\mbox{\hyperlink{class_game_manager_a1dc0d3446d06dad0fd24da20de6471d3}{CurEnv}}.\mbox{\hyperlink{class_environment_a6419f89bf94702265b0e81f16b786a89}{Father}}.\mbox{\hyperlink{class_environment_a991b4d5a7f92ccef0e9c014df8e0c927}{SightPoints}};}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00023}00023\ \ \ \ \ \ \ \ \ \ \ \ \ curSightPoint\ =\ \mbox{\hyperlink{class_game_manager}{GameManager}}.\mbox{\hyperlink{class_game_manager_ad3e717f4fb0f378b969f4457de81f23e}{Instance}}.\mbox{\hyperlink{class_game_manager_a1dc0d3446d06dad0fd24da20de6471d3}{CurEnv}}.\mbox{\hyperlink{class_environment_a6419f89bf94702265b0e81f16b786a89}{Father}}.\mbox{\hyperlink{class_environment_a11290a00e10d9562dc71ebcd3909c415}{CurSightPoint}};}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00024}00024\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00025}00025\ }
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00026}00026\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (sightPoints\ !=\ \textcolor{keyword}{null}\ \&\&\ sightPoints.Count\ >\ 0\ \&\&\ !\mbox{\hyperlink{class_obj2_obj_aab7414af359dc39e0f8fd22ad534c28a}{cooldown}})}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00027}00027\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00028}00028\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_game_manager}{GameManager}}.\mbox{\hyperlink{class_game_manager_ad3e717f4fb0f378b969f4457de81f23e}{Instance}}.\mbox{\hyperlink{class_game_manager_a3e454929a729b7c9cb77584e16893312}{SendFadeCamera}}();}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00029}00029\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_game_manager}{GameManager}}.\mbox{\hyperlink{class_game_manager_ad3e717f4fb0f378b969f4457de81f23e}{Instance}}.\mbox{\hyperlink{class_game_manager_add0ea24e1ed5b249ad01e79a9a511b75}{SendReset}}();}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00030}00030\ }
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00031}00031\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_obj2_obj_aab7414af359dc39e0f8fd22ad534c28a}{cooldown}}\ =\ \textcolor{keyword}{true};}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00032}00032\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_obj2_obj_aaf44aa501164b04d852b1b1478b87551}{valuePressed}}\ =\ value;}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00033}00033\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (\mbox{\hyperlink{class_obj2_obj_aaf44aa501164b04d852b1b1478b87551}{valuePressed}}\ <\ 0)\ \textcolor{comment}{//Travel\ to\ PREV}}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00034}00034\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00035}00035\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (curSightPoint\ ==\ 0)\ curSightPoint\ =\ sightPoints.Count;}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00036}00036\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ curSightPoint-\/-\/;}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00037}00037\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00038}00038\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}\ \textcolor{comment}{//Travel\ to\ NEXT}}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00039}00039\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00040}00040\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ curSightPoint++;}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00041}00041\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (curSightPoint\ ==\ sightPoints.Count)\ curSightPoint\ =\ 0;}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00042}00042\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00043}00043\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_transport_obj_aaa7347127f5f85fd1b62b3e1e0d1db86}{Teleport}}(sightPoints[curSightPoint].transform.position,\ -\/sightPoints[curSightPoint].transform.forward);}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00044}00044\ \ \ \ \ \ \ \ \ \ \ \ \ Invoke(\textcolor{stringliteral}{"{}CooldownReset"{}},\ \mbox{\hyperlink{class_game_manager}{GameManager}}.\mbox{\hyperlink{class_game_manager_ad3e717f4fb0f378b969f4457de81f23e}{Instance}}.\mbox{\hyperlink{class_game_manager_a08a37f6dd86f0212498391c0a4875872}{FadingDuration}}\ +\ 0.1f);}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00045}00045\ }
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00046}00046\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (\mbox{\hyperlink{class_game_manager}{GameManager}}.\mbox{\hyperlink{class_game_manager_ad3e717f4fb0f378b969f4457de81f23e}{Instance}}.\mbox{\hyperlink{class_game_manager_a1dc0d3446d06dad0fd24da20de6471d3}{CurEnv}}.\mbox{\hyperlink{class_environment_a6419f89bf94702265b0e81f16b786a89}{Father}}\ !=\ \textcolor{keyword}{null}\ \&\&\ \mbox{\hyperlink{class_game_manager}{GameManager}}.\mbox{\hyperlink{class_game_manager_ad3e717f4fb0f378b969f4457de81f23e}{Instance}}.\mbox{\hyperlink{class_game_manager_a1dc0d3446d06dad0fd24da20de6471d3}{CurEnv}}.\mbox{\hyperlink{class_environment_a991b4d5a7f92ccef0e9c014df8e0c927}{SightPoints}}.Count\ ==\ 0)}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00047}00047\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ GameManager.Instance.CurEnv.Father.CurSightPoint\ =\ curSightPoint;}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00048}00048\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}\ GameManager.Instance.CurEnv.CurSightPoint\ =\ curSightPoint;}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00049}00049\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00050}00050\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00051}00051\ }
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00052}\mbox{\hyperlink{class_obj2_obj_ab193feaf0985988e762e8b3466947af0}{00052}}\ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_obj2_obj_ab193feaf0985988e762e8b3466947af0}{CooldownReset}}()}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00053}00053\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00054}00054\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_obj2_obj_aab7414af359dc39e0f8fd22ad534c28a}{cooldown}}\ =\ \textcolor{keyword}{false};}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00055}00055\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_obj2_obj_8cs_source_l00056}00056\ \}}
+
+\end{DoxyCode}

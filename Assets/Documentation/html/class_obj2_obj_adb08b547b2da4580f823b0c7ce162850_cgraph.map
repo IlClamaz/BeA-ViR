@@ -1,0 +1,14 @@
+<map id="Obj2Obj.OnEnable" name="Obj2Obj.OnEnable">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,23,135,49"/>
+<area shape="rect" id="Node000002" href="$class_obj2_obj.html#a276822a82720afae91b82df65685067e" title=" " alt="" coords="183,23,342,49"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,33,167,33,167,39,135,39"/>
+<area shape="rect" id="Node000003" href="$class_game_manager.html#a3e454929a729b7c9cb77584e16893312" title=" " alt="" coords="612,23,827,49"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="320,20,390,8,477,3,565,8,634,17,633,22,564,13,477,8,390,13,321,25"/>
+<area shape="rect" id="Node000005" href="$class_game_manager.html#add0ea24e1ed5b249ad01e79a9a511b75" title=" " alt="" coords="390,23,564,49"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="342,33,374,33,374,39,342,39"/>
+<area shape="rect" id="Node000006" href="$class_transport_obj.html#aaa7347127f5f85fd1b62b3e1e0d1db86" title=" " alt="" coords="405,73,550,100"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="323,47,403,67,402,72,322,53"/>
+<area shape="rect" id="Node000004" href="$class_game_manager.html#a3484cbdf57841f3d21f32c279262280d" title=" " alt="" coords="875,15,1095,57"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="827,33,859,33,859,39,827,39"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="544,70,637,51,638,56,545,75"/>
+</map>

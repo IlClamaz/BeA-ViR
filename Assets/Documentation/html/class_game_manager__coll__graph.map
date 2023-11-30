@@ -1,0 +1,9 @@
+<map id="GameManager" name="GameManager">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,641,189,1415"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="41,5,143,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,89,98,642,93,642,90,89"/>
+<area shape="rect" id="Node000003" href="$class_environment.html" title=" " alt="" coords="114,124,225,577"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="107,88,117,129,111,130,101,90"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="148,577,143,625,138,624,143,577"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="226,302,236,307,244,317,249,332,251,351,249,373,241,389,236,387,243,372,246,351,244,333,239,320,232,311,223,307"/>
+</map>

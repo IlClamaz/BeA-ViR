@@ -1,0 +1,14 @@
+<map id="ItemAggregatorMedium.RotationTrigger_OnTriggerExit" name="ItemAggregatorMedium.RotationTrigger_OnTriggerExit">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,101,213,144"/>
+<area shape="rect" id="Node000002" href="$class_object_enabler.html#a4a991a41d0138b674cfb423bed3f86a3" title=" " alt="" coords="267,5,455,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="159,98,260,58,277,51,279,56,262,62,161,103"/>
+<area shape="rect" id="Node000004" href="$class_object_enabler.html#ae8d0c4e8045a44ce68cbb9e266440256" title=" " alt="" coords="277,72,445,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="213,108,261,102,262,108,213,113"/>
+<area shape="rect" id="Node000005" href="$class_item_interactor.html#acb88e885c923c28dfffb0a2c78085578" title=" " alt="" coords="269,139,453,165"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="213,132,254,137,253,142,213,137"/>
+<area shape="rect" id="Node000006" href="$class_object_animator.html#a770e66ea51995e550f3177d6783483a0" title=" " alt="" coords="261,189,461,216"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="168,142,261,175,287,182,286,187,260,180,166,147"/>
+<area shape="rect" id="Node000003" href="$class_object_enabler.html#aab231006a4f1c0adf379276ec6be7c47" title=" " alt="" coords="509,47,719,73"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="456,36,494,41,493,47,455,42"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="445,80,493,73,494,78,445,85"/>
+</map>

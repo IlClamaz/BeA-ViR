@@ -1,0 +1,33 @@
+\doxysection{Draw\+If\+Attribute.\+cs}
+\hypertarget{_draw_if_attribute_8cs_source}{}\label{_draw_if_attribute_8cs_source}\index{Utility/DrawIfAttribute.cs@{Utility/DrawIfAttribute.cs}}
+\mbox{\hyperlink{_draw_if_attribute_8cs}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_draw_if_attribute_8cs_source_l00001}00001\ \textcolor{keyword}{using\ }UnityEngine;}
+\DoxyCodeLine{\Hypertarget{_draw_if_attribute_8cs_source_l00002}00002\ \textcolor{keyword}{using\ }System;}
+\DoxyCodeLine{\Hypertarget{_draw_if_attribute_8cs_source_l00003}00003\ }
+\DoxyCodeLine{\Hypertarget{_draw_if_attribute_8cs_source_l00008}00008\ [AttributeUsage(AttributeTargets.Property\ |\ AttributeTargets.Field,\ AllowMultiple\ =\ \textcolor{keyword}{true})]}
+\DoxyCodeLine{\Hypertarget{_draw_if_attribute_8cs_source_l00009}\mbox{\hyperlink{class_draw_if_attribute}{00009}}\ \textcolor{keyword}{public}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_draw_if_attribute}{DrawIfAttribute}}\ :\ PropertyAttribute}
+\DoxyCodeLine{\Hypertarget{_draw_if_attribute_8cs_source_l00010}00010\ \{}
+\DoxyCodeLine{\Hypertarget{_draw_if_attribute_8cs_source_l00011}00011\ \textcolor{preprocessor}{\ \ \ \ \#region\ Fields}}
+\DoxyCodeLine{\Hypertarget{_draw_if_attribute_8cs_source_l00012}00012\ }
+\DoxyCodeLine{\Hypertarget{_draw_if_attribute_8cs_source_l00013}\mbox{\hyperlink{class_draw_if_attribute_ad197864633a1f0ad5ae768706ecdd250}{00013}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{class_draw_if_attribute_ad197864633a1f0ad5ae768706ecdd250}{comparedPropertyName}}\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{private}\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_draw_if_attribute_8cs_source_l00014}\mbox{\hyperlink{class_draw_if_attribute_ad650fdd217749af63fdcb2065736f383}{00014}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{object}\ \mbox{\hyperlink{class_draw_if_attribute_ad650fdd217749af63fdcb2065736f383}{comparedValue}}\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{private}\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_draw_if_attribute_8cs_source_l00015}\mbox{\hyperlink{class_draw_if_attribute_a3f8c32ec8d793ed0014e8c3cbcddf4cd}{00015}}\ \ \ \ \ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_draw_if_attribute_af6b2791e78c458eb8d790ab6eb8186be}{DisablingType}}\ \mbox{\hyperlink{class_draw_if_attribute_a3f8c32ec8d793ed0014e8c3cbcddf4cd}{disablingType}}\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{private}\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_draw_if_attribute_8cs_source_l00016}00016\ }
+\DoxyCodeLine{\Hypertarget{_draw_if_attribute_8cs_source_l00020}\mbox{\hyperlink{class_draw_if_attribute_af6b2791e78c458eb8d790ab6eb8186be}{00020}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{enum}\ \mbox{\hyperlink{class_draw_if_attribute_af6b2791e78c458eb8d790ab6eb8186be}{DisablingType}}}
+\DoxyCodeLine{\Hypertarget{_draw_if_attribute_8cs_source_l00021}00021\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_draw_if_attribute_8cs_source_l00022}00022\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_draw_if_attribute_af6b2791e78c458eb8d790ab6eb8186bea131fb182a881796e7606ed6da27f1197}{ReadOnly}}\ =\ 2,}
+\DoxyCodeLine{\Hypertarget{_draw_if_attribute_8cs_source_l00023}00023\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_draw_if_attribute_af6b2791e78c458eb8d790ab6eb8186bea66425c7e0ec27d60bd7c3efdc2786ba7}{DontDraw}}\ =\ 3}
+\DoxyCodeLine{\Hypertarget{_draw_if_attribute_8cs_source_l00024}00024\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_draw_if_attribute_8cs_source_l00025}00025\ }
+\DoxyCodeLine{\Hypertarget{_draw_if_attribute_8cs_source_l00026}00026\ \textcolor{preprocessor}{\ \ \ \ \#endregion}}
+\DoxyCodeLine{\Hypertarget{_draw_if_attribute_8cs_source_l00027}00027\ }
+\DoxyCodeLine{\Hypertarget{_draw_if_attribute_8cs_source_l00034}\mbox{\hyperlink{class_draw_if_attribute_a0f86d83c12dd3294c6cda5512aea952c}{00034}}\ \ \ \ \ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_draw_if_attribute_a0f86d83c12dd3294c6cda5512aea952c}{DrawIfAttribute}}(\textcolor{keywordtype}{string}\ \mbox{\hyperlink{class_draw_if_attribute_ad197864633a1f0ad5ae768706ecdd250}{comparedPropertyName}},\ \textcolor{keywordtype}{object}\ \mbox{\hyperlink{class_draw_if_attribute_ad650fdd217749af63fdcb2065736f383}{comparedValue}},\ \mbox{\hyperlink{class_draw_if_attribute_af6b2791e78c458eb8d790ab6eb8186be}{DisablingType}}\ \mbox{\hyperlink{class_draw_if_attribute_a3f8c32ec8d793ed0014e8c3cbcddf4cd}{disablingType}}\ =\ \mbox{\hyperlink{class_draw_if_attribute_af6b2791e78c458eb8d790ab6eb8186be}{DisablingType}}.DontDraw)}
+\DoxyCodeLine{\Hypertarget{_draw_if_attribute_8cs_source_l00035}00035\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_draw_if_attribute_8cs_source_l00036}00036\ \ \ \ \ \ \ \ \ this.comparedPropertyName\ =\ \mbox{\hyperlink{class_draw_if_attribute_ad197864633a1f0ad5ae768706ecdd250}{comparedPropertyName}};}
+\DoxyCodeLine{\Hypertarget{_draw_if_attribute_8cs_source_l00037}00037\ \ \ \ \ \ \ \ \ this.comparedValue\ =\ \mbox{\hyperlink{class_draw_if_attribute_ad650fdd217749af63fdcb2065736f383}{comparedValue}};}
+\DoxyCodeLine{\Hypertarget{_draw_if_attribute_8cs_source_l00038}00038\ \ \ \ \ \ \ \ \ this.disablingType\ =\ \mbox{\hyperlink{class_draw_if_attribute_a3f8c32ec8d793ed0014e8c3cbcddf4cd}{disablingType}};}
+\DoxyCodeLine{\Hypertarget{_draw_if_attribute_8cs_source_l00039}00039\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_draw_if_attribute_8cs_source_l00040}00040\ \}}
+
+\end{DoxyCode}

@@ -1,0 +1,7 @@
+<map id="RenderHeads.UnityOmeka.Data.Vocabularies.ArchaeometricInvestigationRecordVocabulary.ApplyVocabulary" name="RenderHeads.UnityOmeka.Data.Vocabularies.ArchaeometricInvestigationRecordVocabulary.ApplyVocabulary">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,261,64"/>
+<area shape="rect" id="Node000002" href="$class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property.html#aaab021bdf1a19d4d8949e81b18f103ea" title="Finds a term/property array in a json object and returns it as an array of properties." alt="" coords="309,13,519,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="261,32,293,32,293,37,261,37"/>
+<area shape="rect" id="Node000003" href="$class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property.html#a487a129e6b41083dfc41efbfd6d0af85" title="Converts a Jobject (assumed to be in the &quot;shape&quot; of a property) to a Property object." alt="" coords="567,13,794,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="520,32,551,32,551,37,520,37"/>
+</map>

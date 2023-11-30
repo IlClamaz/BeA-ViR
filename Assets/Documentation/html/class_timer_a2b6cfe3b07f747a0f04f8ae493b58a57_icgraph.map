@@ -1,0 +1,7 @@
+<map id="Timer.PauseTimer" name="Timer.PauseTimer">
+<area shape="rect" id="Node000001" title=" " alt="" coords="190,31,316,57"/>
+<area shape="rect" id="Node000002" href="$class_timer.html#a2d1b053c7f8a9724d08808cf34c3acbe" title=" " alt="" coords="15,5,132,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,36,132,30,133,24,175,30"/>
+<area shape="rect" id="Node000003" href="$class_timer.html#aac7d46dc92c59a9e79c403c7b5920338" title=" " alt="" coords="5,56,142,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="175,58,142,62,142,57,174,52"/>
+</map>

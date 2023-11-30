@@ -1,0 +1,68 @@
+\doxysection{Helpers.\+cs}
+\hypertarget{_helpers_8cs_source}{}\label{_helpers_8cs_source}\index{OmekaDB/Lib/Scripts/Data/Helpers.cs@{OmekaDB/Lib/Scripts/Data/Helpers.cs}}
+\mbox{\hyperlink{_helpers_8cs}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00001}00001\ \textcolor{keyword}{using\ }Newtonsoft.Json.Linq;}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00002}00002\ \textcolor{keyword}{using\ }System;}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00003}00003\ \textcolor{keyword}{using\ }System.Collections;}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00004}00004\ \textcolor{keyword}{using\ }System.Collections.Generic;}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00005}00005\ \textcolor{keyword}{using\ }UnityEngine;}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00006}00006\ }
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00007}\mbox{\hyperlink{namespace_render_heads_1_1_unity_omeka_1_1_data}{00007}}\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespace_render_heads_1_1_unity_omeka_1_1_data}{RenderHeads.UnityOmeka.Data}}}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00008}00008\ \{}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00009}\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_helpers}{00009}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{static}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_helpers}{Helpers}}}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00010}00010\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00019}\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_helpers_aeb6a65049a65caa0f73d6982e68fbd9b}{00019}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{static}\ T\ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_helpers_aeb6a65049a65caa0f73d6982e68fbd9b}{TryGet<T>}}(JObject\ root,\ \textcolor{keywordtype}{string}\ key,\ \textcolor{keywordtype}{bool}\ supressError=\textcolor{keyword}{false})\ where\ T:JToken}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00020}00020\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00021}00021\ \ \ \ \ \ \ \ \ \ \ \ \ JToken\ token;}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00022}00022\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (root.TryGetValue(key,\ out\ token))}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00023}00023\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00024}00024\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//it\ is\ possible\ for\ a\ token\ to\ be\ found\ but\ its\ value\ to\ be\ null,}}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00025}00025\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_helpers_ab97299d23f77c51cbfb733cecdf5d3d6}{IsNullOrEmpty}}(token))}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00026}00026\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00027}00027\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \textcolor{keyword}{null};}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00028}00028\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00029}00029\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{try}}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00030}00030\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00031}00031\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ T\ result\ =\ (T)token;}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00032}00032\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ result;}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00033}00033\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00034}00034\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{catch}}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00035}00035\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00036}00036\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Debug.LogWarning(\$\textcolor{stringliteral}{"{}[TryGetJobject]\ Found\ \{key\}\ in\ root\ object\ but\ could\ not\ cast\ value\ to\ JObject,\ \ value\ is:\ \{token\}"{}});}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00037}00037\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \textcolor{keyword}{null};}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00038}00038\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00039}00039\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00040}00040\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00041}00041\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00042}00042\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (!supressError)}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00043}00043\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00044}00044\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Debug.LogError(\$\textcolor{stringliteral}{"{}[TryGetJobject]\ Could\ not\ find\ \{key\}\ in\ root\ object"{}});}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00045}00045\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00046}00046\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \textcolor{keyword}{null};}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00047}00047\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00048}00048\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00049}00049\ }
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00050}\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_helpers_ab0b5c2fae44c9d10038eb3839d8ae130}{00050}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{static}\ DateTime?\ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_helpers_ab0b5c2fae44c9d10038eb3839d8ae130}{DateTimeFromJObject}}(JObject\ jobject)}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00051}00051\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00052}00052\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (jobject\ ==\ \textcolor{keyword}{null})}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00053}00053\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00054}00054\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \textcolor{keyword}{null};}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00055}00055\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00056}00056\ }
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00057}00057\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ DateTime.Parse(jobject[\textcolor{stringliteral}{"{}@value"{}}].ToString());}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00058}00058\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00059}00059\ }
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00066}\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_helpers_ab97299d23f77c51cbfb733cecdf5d3d6}{00066}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_helpers_ab97299d23f77c51cbfb733cecdf5d3d6}{IsNullOrEmpty}}(JToken\ token)}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00067}00067\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00068}00068\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ (token\ ==\ \textcolor{keyword}{null})\ ||}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00069}00069\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (token.Type\ ==\ JTokenType.Array\ \&\&\ !token.HasValues)\ ||}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00070}00070\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (token.Type\ ==\ JTokenType.Object\ \&\&\ !token.HasValues)\ ||}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00071}00071\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (token.Type\ ==\ JTokenType.String\ \&\&\ token.ToString()\ ==\ String.Empty)\ ||}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00072}00072\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (token.Type\ ==\ JTokenType.Null);}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00073}00073\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00074}00074\ }
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00075}00075\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_helpers_8cs_source_l00076}00076\ \}}
+
+\end{DoxyCode}

@@ -1,0 +1,5 @@
+<map id="Gate.GateModel_OnTriggerEnter" name="Gate.GateModel_OnTriggerEnter">
+<area shape="rect" id="Node000001" title=" " alt="" coords="135,5,314,48"/>
+<area shape="rect" id="Node000002" href="$class_gate.html#ab2a9122bc8912d607920a7f72f49d2a8" title=" " alt="" coords="5,13,87,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,29,87,29,87,24,119,24"/>
+</map>
