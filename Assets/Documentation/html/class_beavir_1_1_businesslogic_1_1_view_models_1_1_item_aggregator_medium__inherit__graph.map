@@ -1,0 +1,9 @@
+<map id="Beavir.Businesslogic.ViewModels.ItemAggregatorMedium" name="Beavir.Businesslogic.ViewModels.ItemAggregatorMedium">
+<area shape="rect" id="Node000001" title="Handles the enablement of objects related to medium content objects (DBReport and Pedestal) and their..." alt="" coords="13,261,207,560"/>
+<area shape="rect" id="Node000004" href="$class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_a_l.html" title="Handles the enablement of the archaeometric room and the objects related to ItemAggregatorMedium." alt="" coords="5,608,215,757"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="113,575,113,608,107,608,107,575"/>
+<area shape="rect" id="Node000002" href="$class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_interactor.html" title="Base class for handling Current Object updates after specific player actions." alt="" coords="51,123,169,213"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,228,113,262,107,262,107,228"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="52,5,168,75"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="113,89,113,123,107,123,107,89"/>
+</map>

@@ -1,0 +1,244 @@
+\doxysection{Beavir.\+Businesslogic.\+View\+Models.\+Gate Class Reference}
+\hypertarget{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate}{}\label{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate}\index{Beavir.Businesslogic.ViewModels.Gate@{Beavir.Businesslogic.ViewModels.Gate}}
+
+
+Contains the methods that handle the Gate animation (topology map and light beam) Contains a reference to E2\+EObj that leads to the destination Environment.  
+
+
+
+
+Inheritance diagram for Beavir.\+Businesslogic.\+View\+Models.\+Gate\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=204pt]{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Beavir.\+Businesslogic.\+View\+Models.\+Gate\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_af9451a54e44cf6a306668b10a9ded87a}{Reset}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_a3e1f7a41d743e2ad45ebbff18090dd47}{Beam}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_a21148a6e28c241d6a3de6ef8632f69dc}{Start}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_a4be414e31b9724800fbbefa509c5ca22}{Enter\+Gate}} (Collider c)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ Game\+Object $>$ \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_aa7f43a81f2125f028f76c12a64a5b075}{map\+Elements\+To\+Disable}}
+\item 
+List$<$ Game\+Object $>$ \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_a7a4b1327b35d50ad6a19fb426214cef6}{footboards}}
+\item 
+Game\+Object \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_a62c9f4ddf6031a39c4c13dbaf879972b}{beam}}
+\item 
+List$<$ Animator $>$ \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_aaedae8310ec4c51b64c9d4a474afd002}{map\+Elements\+Animators}}
+\item 
+\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_collider_proxy}{Collider\+Proxy}} \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_a81b44e464a672f3c4b6e11edacb74dcc}{geo\+Trigger}}
+\item 
+\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_collider_proxy}{Collider\+Proxy}} \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_ab8644dfd0be66353a92f95877bcabba6}{gate\+Model}}
+\item 
+\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_1_1_e2_e_obj}{E2\+EObj}} \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_a705b70a6589b53d09e3e076017b48f4f}{e2\+EObj}}
+\item 
+bool \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_a3ad44f7d4e943cc97d1ead8155197e09}{swapped}} = false
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Contains the methods that handle the Gate animation (topology map and light beam) Contains a reference to E2\+EObj that leads to the destination Environment. 
+
+Definition at line \mbox{\hyperlink{_gate_8cs_source_l00012}{12}} of file \mbox{\hyperlink{_gate_8cs_source}{Gate.\+cs}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_a4be414e31b9724800fbbefa509c5ca22}\label{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_a4be414e31b9724800fbbefa509c5ca22} 
+\index{Beavir.Businesslogic.ViewModels.Gate@{Beavir.Businesslogic.ViewModels.Gate}!EnterGate@{EnterGate}}
+\index{EnterGate@{EnterGate}!Beavir.Businesslogic.ViewModels.Gate@{Beavir.Businesslogic.ViewModels.Gate}}
+\doxysubsubsection{\texorpdfstring{EnterGate()}{EnterGate()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+View\+Models.\+Gate.\+Enter\+Gate (\begin{DoxyParamCaption}\item[{Collider}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_gate_8cs_source_l00045}{45}} of file \mbox{\hyperlink{_gate_8cs_source}{Gate.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_a4be414e31b9724800fbbefa509c5ca22_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_a4be414e31b9724800fbbefa509c5ca22_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_af9451a54e44cf6a306668b10a9ded87a}\label{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_af9451a54e44cf6a306668b10a9ded87a} 
+\index{Beavir.Businesslogic.ViewModels.Gate@{Beavir.Businesslogic.ViewModels.Gate}!Reset@{Reset}}
+\index{Reset@{Reset}!Beavir.Businesslogic.ViewModels.Gate@{Beavir.Businesslogic.ViewModels.Gate}}
+\doxysubsubsection{\texorpdfstring{Reset()}{Reset()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+View\+Models.\+Gate.\+Reset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_gate_8cs_source_l00056}{56}} of file \mbox{\hyperlink{_gate_8cs_source}{Gate.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_af9451a54e44cf6a306668b10a9ded87a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_af9451a54e44cf6a306668b10a9ded87a_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_a21148a6e28c241d6a3de6ef8632f69dc}\label{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_a21148a6e28c241d6a3de6ef8632f69dc} 
+\index{Beavir.Businesslogic.ViewModels.Gate@{Beavir.Businesslogic.ViewModels.Gate}!Start@{Start}}
+\index{Start@{Start}!Beavir.Businesslogic.ViewModels.Gate@{Beavir.Businesslogic.ViewModels.Gate}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+View\+Models.\+Gate.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_gate_8cs_source_l00025}{25}} of file \mbox{\hyperlink{_gate_8cs_source}{Gate.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_a21148a6e28c241d6a3de6ef8632f69dc_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_a62c9f4ddf6031a39c4c13dbaf879972b}\label{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_a62c9f4ddf6031a39c4c13dbaf879972b} 
+\index{Beavir.Businesslogic.ViewModels.Gate@{Beavir.Businesslogic.ViewModels.Gate}!beam@{beam}}
+\index{beam@{beam}!Beavir.Businesslogic.ViewModels.Gate@{Beavir.Businesslogic.ViewModels.Gate}}
+\doxysubsubsection{\texorpdfstring{beam}{beam}}
+{\footnotesize\ttfamily Game\+Object Beavir.\+Businesslogic.\+View\+Models.\+Gate.\+beam\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_gate_8cs_source_l00015}{15}} of file \mbox{\hyperlink{_gate_8cs_source}{Gate.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_a705b70a6589b53d09e3e076017b48f4f}\label{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_a705b70a6589b53d09e3e076017b48f4f} 
+\index{Beavir.Businesslogic.ViewModels.Gate@{Beavir.Businesslogic.ViewModels.Gate}!e2EObj@{e2EObj}}
+\index{e2EObj@{e2EObj}!Beavir.Businesslogic.ViewModels.Gate@{Beavir.Businesslogic.ViewModels.Gate}}
+\doxysubsubsection{\texorpdfstring{e2EObj}{e2EObj}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_1_1_e2_e_obj}{E2\+EObj}} Beavir.\+Businesslogic.\+View\+Models.\+Gate.\+e2\+EObj\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_gate_8cs_source_l00019}{19}} of file \mbox{\hyperlink{_gate_8cs_source}{Gate.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_a7a4b1327b35d50ad6a19fb426214cef6}\label{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_a7a4b1327b35d50ad6a19fb426214cef6} 
+\index{Beavir.Businesslogic.ViewModels.Gate@{Beavir.Businesslogic.ViewModels.Gate}!footboards@{footboards}}
+\index{footboards@{footboards}!Beavir.Businesslogic.ViewModels.Gate@{Beavir.Businesslogic.ViewModels.Gate}}
+\doxysubsubsection{\texorpdfstring{footboards}{footboards}}
+{\footnotesize\ttfamily List$<$Game\+Object$>$ Beavir.\+Businesslogic.\+View\+Models.\+Gate.\+footboards\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_gate_8cs_source_l00014}{14}} of file \mbox{\hyperlink{_gate_8cs_source}{Gate.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_ab8644dfd0be66353a92f95877bcabba6}\label{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_ab8644dfd0be66353a92f95877bcabba6} 
+\index{Beavir.Businesslogic.ViewModels.Gate@{Beavir.Businesslogic.ViewModels.Gate}!gateModel@{gateModel}}
+\index{gateModel@{gateModel}!Beavir.Businesslogic.ViewModels.Gate@{Beavir.Businesslogic.ViewModels.Gate}}
+\doxysubsubsection{\texorpdfstring{gateModel}{gateModel}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_collider_proxy}{Collider\+Proxy}} Beavir.\+Businesslogic.\+View\+Models.\+Gate.\+gate\+Model\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_gate_8cs_source_l00017}{17}} of file \mbox{\hyperlink{_gate_8cs_source}{Gate.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_a81b44e464a672f3c4b6e11edacb74dcc}\label{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_a81b44e464a672f3c4b6e11edacb74dcc} 
+\index{Beavir.Businesslogic.ViewModels.Gate@{Beavir.Businesslogic.ViewModels.Gate}!geoTrigger@{geoTrigger}}
+\index{geoTrigger@{geoTrigger}!Beavir.Businesslogic.ViewModels.Gate@{Beavir.Businesslogic.ViewModels.Gate}}
+\doxysubsubsection{\texorpdfstring{geoTrigger}{geoTrigger}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_collider_proxy}{Collider\+Proxy}} Beavir.\+Businesslogic.\+View\+Models.\+Gate.\+geo\+Trigger\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_gate_8cs_source_l00017}{17}} of file \mbox{\hyperlink{_gate_8cs_source}{Gate.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_aaedae8310ec4c51b64c9d4a474afd002}\label{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_aaedae8310ec4c51b64c9d4a474afd002} 
+\index{Beavir.Businesslogic.ViewModels.Gate@{Beavir.Businesslogic.ViewModels.Gate}!mapElementsAnimators@{mapElementsAnimators}}
+\index{mapElementsAnimators@{mapElementsAnimators}!Beavir.Businesslogic.ViewModels.Gate@{Beavir.Businesslogic.ViewModels.Gate}}
+\doxysubsubsection{\texorpdfstring{mapElementsAnimators}{mapElementsAnimators}}
+{\footnotesize\ttfamily List$<$Animator$>$ Beavir.\+Businesslogic.\+View\+Models.\+Gate.\+map\+Elements\+Animators\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_gate_8cs_source_l00016}{16}} of file \mbox{\hyperlink{_gate_8cs_source}{Gate.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_aa7f43a81f2125f028f76c12a64a5b075}\label{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_aa7f43a81f2125f028f76c12a64a5b075} 
+\index{Beavir.Businesslogic.ViewModels.Gate@{Beavir.Businesslogic.ViewModels.Gate}!mapElementsToDisable@{mapElementsToDisable}}
+\index{mapElementsToDisable@{mapElementsToDisable}!Beavir.Businesslogic.ViewModels.Gate@{Beavir.Businesslogic.ViewModels.Gate}}
+\doxysubsubsection{\texorpdfstring{mapElementsToDisable}{mapElementsToDisable}}
+{\footnotesize\ttfamily List$<$Game\+Object$>$ Beavir.\+Businesslogic.\+View\+Models.\+Gate.\+map\+Elements\+To\+Disable\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_gate_8cs_source_l00014}{14}} of file \mbox{\hyperlink{_gate_8cs_source}{Gate.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_a3ad44f7d4e943cc97d1ead8155197e09}\label{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_a3ad44f7d4e943cc97d1ead8155197e09} 
+\index{Beavir.Businesslogic.ViewModels.Gate@{Beavir.Businesslogic.ViewModels.Gate}!swapped@{swapped}}
+\index{swapped@{swapped}!Beavir.Businesslogic.ViewModels.Gate@{Beavir.Businesslogic.ViewModels.Gate}}
+\doxysubsubsection{\texorpdfstring{swapped}{swapped}}
+{\footnotesize\ttfamily bool Beavir.\+Businesslogic.\+View\+Models.\+Gate.\+swapped = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_gate_8cs_source_l00020}{20}} of file \mbox{\hyperlink{_gate_8cs_source}{Gate.\+cs}}.
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_a3e1f7a41d743e2ad45ebbff18090dd47}\label{class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate_a3e1f7a41d743e2ad45ebbff18090dd47} 
+\index{Beavir.Businesslogic.ViewModels.Gate@{Beavir.Businesslogic.ViewModels.Gate}!Beam@{Beam}}
+\index{Beam@{Beam}!Beavir.Businesslogic.ViewModels.Gate@{Beavir.Businesslogic.ViewModels.Gate}}
+\doxysubsubsection{\texorpdfstring{Beam}{Beam}}
+{\footnotesize\ttfamily Game\+Object Beavir.\+Businesslogic.\+View\+Models.\+Gate.\+Beam\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line \mbox{\hyperlink{_gate_8cs_source_l00022}{22}} of file \mbox{\hyperlink{_gate_8cs_source}{Gate.\+cs}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Beavir/\+Businesslogic/\+View\+Models/\mbox{\hyperlink{_gate_8cs}{Gate.\+cs}}\end{DoxyCompactItemize}

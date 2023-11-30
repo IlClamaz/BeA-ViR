@@ -1,0 +1,293 @@
+\doxysection{Beavir.\+Businesslogic.\+View\+Models.\+Item\+Aggregator\+Medium Class Reference}
+\hypertarget{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium}{}\label{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium}\index{Beavir.Businesslogic.ViewModels.ItemAggregatorMedium@{Beavir.Businesslogic.ViewModels.ItemAggregatorMedium}}
+
+
+Handles the enablement of objects related to medium content objects (DBReport and Pedestal) and their animation.  
+
+
+
+
+Inheritance diagram for Beavir.\+Businesslogic.\+View\+Models.\+Item\+Aggregator\+Medium\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Beavir.\+Businesslogic.\+View\+Models.\+Item\+Aggregator\+Medium\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=326pt]{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_aa1baea4ac644265ab88093a46fbe868e}{Start}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_a33446b83f711cc96dfb6862bbd1f5d4d}{Reset}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_interactor}{Beavir.\+Businesslogic.\+View\+Models.\+Item\+Interactor}}}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_interactor_adf6ce6ff8d8cc30edc0ac095cf644daa}{On\+Trigger\+Enter}} (Collider other)
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_interactor_a02877fd05997db0f01570a43c2e71867}{On\+Trigger\+Exit}} (Collider other)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_a890b8bd7aa778df4359aa9fbaa9562c7}{db\+Report}}
+\item 
+Game\+Object \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_aad7bbafcf90ff12b4180c50a09438c6b}{pedestal}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes inherited from \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_interactor}{Beavir.\+Businesslogic.\+View\+Models.\+Item\+Interactor}}}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_interactor_a1f91a0a904b3269b43ea2f103a4ef67c}{item}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_ac1afad1e08bc4f064a706b1694a1f146}{On\+Enable}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_a6123ac4299b93e7891998170039db48d}{On\+Disable}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_a721f3e1aac48006bc1d40684c1570cb7}{Enter\+Rotation\+Trigger}} (Collider collision)
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_ab9b0eff7eeffe0c76c902aa10547e287}{Exit\+Rotation\+Trigger}} (Collider collision)
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_a7c34331688e5adcc12109fb3714c96d7}{Pause\+Resume\+Rotation}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_collider_proxy}{Collider\+Proxy}} \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_a98d1b1853535a5ef80bb8977a841db73}{rotation\+Trigger}}
+\item 
+\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_collider_proxy}{Collider\+Proxy}} \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_af7b15824656ff9753eed8dd1f0a486bf}{zoom\+Trigger}}
+\item 
+Animator \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_a367976322e534f4f006ee0e57d89b619}{item\+Animator}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Handles the enablement of objects related to medium content objects (DBReport and Pedestal) and their animation. 
+
+Definition at line \mbox{\hyperlink{_item_aggregator_medium_8cs_source_l00011}{11}} of file \mbox{\hyperlink{_item_aggregator_medium_8cs_source}{Item\+Aggregator\+Medium.\+cs}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_a721f3e1aac48006bc1d40684c1570cb7}\label{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_a721f3e1aac48006bc1d40684c1570cb7} 
+\index{Beavir.Businesslogic.ViewModels.ItemAggregatorMedium@{Beavir.Businesslogic.ViewModels.ItemAggregatorMedium}!EnterRotationTrigger@{EnterRotationTrigger}}
+\index{EnterRotationTrigger@{EnterRotationTrigger}!Beavir.Businesslogic.ViewModels.ItemAggregatorMedium@{Beavir.Businesslogic.ViewModels.ItemAggregatorMedium}}
+\doxysubsubsection{\texorpdfstring{EnterRotationTrigger()}{EnterRotationTrigger()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+View\+Models.\+Item\+Aggregator\+Medium.\+Enter\+Rotation\+Trigger (\begin{DoxyParamCaption}\item[{Collider}]{collision }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_item_aggregator_medium_8cs_source_l00046}{46}} of file \mbox{\hyperlink{_item_aggregator_medium_8cs_source}{Item\+Aggregator\+Medium.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_a721f3e1aac48006bc1d40684c1570cb7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_a721f3e1aac48006bc1d40684c1570cb7_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_ab9b0eff7eeffe0c76c902aa10547e287}\label{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_ab9b0eff7eeffe0c76c902aa10547e287} 
+\index{Beavir.Businesslogic.ViewModels.ItemAggregatorMedium@{Beavir.Businesslogic.ViewModels.ItemAggregatorMedium}!ExitRotationTrigger@{ExitRotationTrigger}}
+\index{ExitRotationTrigger@{ExitRotationTrigger}!Beavir.Businesslogic.ViewModels.ItemAggregatorMedium@{Beavir.Businesslogic.ViewModels.ItemAggregatorMedium}}
+\doxysubsubsection{\texorpdfstring{ExitRotationTrigger()}{ExitRotationTrigger()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+View\+Models.\+Item\+Aggregator\+Medium.\+Exit\+Rotation\+Trigger (\begin{DoxyParamCaption}\item[{Collider}]{collision }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_item_aggregator_medium_8cs_source_l00054}{54}} of file \mbox{\hyperlink{_item_aggregator_medium_8cs_source}{Item\+Aggregator\+Medium.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_ab9b0eff7eeffe0c76c902aa10547e287_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_ab9b0eff7eeffe0c76c902aa10547e287_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_a6123ac4299b93e7891998170039db48d}\label{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_a6123ac4299b93e7891998170039db48d} 
+\index{Beavir.Businesslogic.ViewModels.ItemAggregatorMedium@{Beavir.Businesslogic.ViewModels.ItemAggregatorMedium}!OnDisable@{OnDisable}}
+\index{OnDisable@{OnDisable}!Beavir.Businesslogic.ViewModels.ItemAggregatorMedium@{Beavir.Businesslogic.ViewModels.ItemAggregatorMedium}}
+\doxysubsubsection{\texorpdfstring{OnDisable()}{OnDisable()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+View\+Models.\+Item\+Aggregator\+Medium.\+On\+Disable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_item_aggregator_medium_8cs_source_l00033}{33}} of file \mbox{\hyperlink{_item_aggregator_medium_8cs_source}{Item\+Aggregator\+Medium.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_a6123ac4299b93e7891998170039db48d_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_ac1afad1e08bc4f064a706b1694a1f146}\label{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_ac1afad1e08bc4f064a706b1694a1f146} 
+\index{Beavir.Businesslogic.ViewModels.ItemAggregatorMedium@{Beavir.Businesslogic.ViewModels.ItemAggregatorMedium}!OnEnable@{OnEnable}}
+\index{OnEnable@{OnEnable}!Beavir.Businesslogic.ViewModels.ItemAggregatorMedium@{Beavir.Businesslogic.ViewModels.ItemAggregatorMedium}}
+\doxysubsubsection{\texorpdfstring{OnEnable()}{OnEnable()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+View\+Models.\+Item\+Aggregator\+Medium.\+On\+Enable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_item_aggregator_medium_8cs_source_l00028}{28}} of file \mbox{\hyperlink{_item_aggregator_medium_8cs_source}{Item\+Aggregator\+Medium.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_ac1afad1e08bc4f064a706b1694a1f146_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_a7c34331688e5adcc12109fb3714c96d7}\label{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_a7c34331688e5adcc12109fb3714c96d7} 
+\index{Beavir.Businesslogic.ViewModels.ItemAggregatorMedium@{Beavir.Businesslogic.ViewModels.ItemAggregatorMedium}!PauseResumeRotation@{PauseResumeRotation}}
+\index{PauseResumeRotation@{PauseResumeRotation}!Beavir.Businesslogic.ViewModels.ItemAggregatorMedium@{Beavir.Businesslogic.ViewModels.ItemAggregatorMedium}}
+\doxysubsubsection{\texorpdfstring{PauseResumeRotation()}{PauseResumeRotation()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+View\+Models.\+Item\+Aggregator\+Medium.\+Pause\+Resume\+Rotation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_item_aggregator_medium_8cs_source_l00063}{63}} of file \mbox{\hyperlink{_item_aggregator_medium_8cs_source}{Item\+Aggregator\+Medium.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_a7c34331688e5adcc12109fb3714c96d7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_a7c34331688e5adcc12109fb3714c96d7_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_a33446b83f711cc96dfb6862bbd1f5d4d}\label{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_a33446b83f711cc96dfb6862bbd1f5d4d} 
+\index{Beavir.Businesslogic.ViewModels.ItemAggregatorMedium@{Beavir.Businesslogic.ViewModels.ItemAggregatorMedium}!Reset@{Reset}}
+\index{Reset@{Reset}!Beavir.Businesslogic.ViewModels.ItemAggregatorMedium@{Beavir.Businesslogic.ViewModels.ItemAggregatorMedium}}
+\doxysubsubsection{\texorpdfstring{Reset()}{Reset()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+View\+Models.\+Item\+Aggregator\+Medium.\+Reset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_item_aggregator_medium_8cs_source_l00038}{38}} of file \mbox{\hyperlink{_item_aggregator_medium_8cs_source}{Item\+Aggregator\+Medium.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_a33446b83f711cc96dfb6862bbd1f5d4d_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_aa1baea4ac644265ab88093a46fbe868e}\label{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_aa1baea4ac644265ab88093a46fbe868e} 
+\index{Beavir.Businesslogic.ViewModels.ItemAggregatorMedium@{Beavir.Businesslogic.ViewModels.ItemAggregatorMedium}!Start@{Start}}
+\index{Start@{Start}!Beavir.Businesslogic.ViewModels.ItemAggregatorMedium@{Beavir.Businesslogic.ViewModels.ItemAggregatorMedium}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+View\+Models.\+Item\+Aggregator\+Medium.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_item_aggregator_medium_8cs_source_l00017}{17}} of file \mbox{\hyperlink{_item_aggregator_medium_8cs_source}{Item\+Aggregator\+Medium.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_aa1baea4ac644265ab88093a46fbe868e_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_a890b8bd7aa778df4359aa9fbaa9562c7}\label{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_a890b8bd7aa778df4359aa9fbaa9562c7} 
+\index{Beavir.Businesslogic.ViewModels.ItemAggregatorMedium@{Beavir.Businesslogic.ViewModels.ItemAggregatorMedium}!dbReport@{dbReport}}
+\index{dbReport@{dbReport}!Beavir.Businesslogic.ViewModels.ItemAggregatorMedium@{Beavir.Businesslogic.ViewModels.ItemAggregatorMedium}}
+\doxysubsubsection{\texorpdfstring{dbReport}{dbReport}}
+{\footnotesize\ttfamily Game\+Object Beavir.\+Businesslogic.\+View\+Models.\+Item\+Aggregator\+Medium.\+db\+Report}
+
+
+
+Definition at line \mbox{\hyperlink{_item_aggregator_medium_8cs_source_l00014}{14}} of file \mbox{\hyperlink{_item_aggregator_medium_8cs_source}{Item\+Aggregator\+Medium.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_a367976322e534f4f006ee0e57d89b619}\label{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_a367976322e534f4f006ee0e57d89b619} 
+\index{Beavir.Businesslogic.ViewModels.ItemAggregatorMedium@{Beavir.Businesslogic.ViewModels.ItemAggregatorMedium}!itemAnimator@{itemAnimator}}
+\index{itemAnimator@{itemAnimator}!Beavir.Businesslogic.ViewModels.ItemAggregatorMedium@{Beavir.Businesslogic.ViewModels.ItemAggregatorMedium}}
+\doxysubsubsection{\texorpdfstring{itemAnimator}{itemAnimator}}
+{\footnotesize\ttfamily Animator Beavir.\+Businesslogic.\+View\+Models.\+Item\+Aggregator\+Medium.\+item\+Animator\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_item_aggregator_medium_8cs_source_l00015}{15}} of file \mbox{\hyperlink{_item_aggregator_medium_8cs_source}{Item\+Aggregator\+Medium.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_aad7bbafcf90ff12b4180c50a09438c6b}\label{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_aad7bbafcf90ff12b4180c50a09438c6b} 
+\index{Beavir.Businesslogic.ViewModels.ItemAggregatorMedium@{Beavir.Businesslogic.ViewModels.ItemAggregatorMedium}!pedestal@{pedestal}}
+\index{pedestal@{pedestal}!Beavir.Businesslogic.ViewModels.ItemAggregatorMedium@{Beavir.Businesslogic.ViewModels.ItemAggregatorMedium}}
+\doxysubsubsection{\texorpdfstring{pedestal}{pedestal}}
+{\footnotesize\ttfamily Game\+Object Beavir.\+Businesslogic.\+View\+Models.\+Item\+Aggregator\+Medium.\+pedestal}
+
+
+
+Definition at line \mbox{\hyperlink{_item_aggregator_medium_8cs_source_l00014}{14}} of file \mbox{\hyperlink{_item_aggregator_medium_8cs_source}{Item\+Aggregator\+Medium.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_a98d1b1853535a5ef80bb8977a841db73}\label{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_a98d1b1853535a5ef80bb8977a841db73} 
+\index{Beavir.Businesslogic.ViewModels.ItemAggregatorMedium@{Beavir.Businesslogic.ViewModels.ItemAggregatorMedium}!rotationTrigger@{rotationTrigger}}
+\index{rotationTrigger@{rotationTrigger}!Beavir.Businesslogic.ViewModels.ItemAggregatorMedium@{Beavir.Businesslogic.ViewModels.ItemAggregatorMedium}}
+\doxysubsubsection{\texorpdfstring{rotationTrigger}{rotationTrigger}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_collider_proxy}{Collider\+Proxy}} Beavir.\+Businesslogic.\+View\+Models.\+Item\+Aggregator\+Medium.\+rotation\+Trigger\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_item_aggregator_medium_8cs_source_l00013}{13}} of file \mbox{\hyperlink{_item_aggregator_medium_8cs_source}{Item\+Aggregator\+Medium.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_af7b15824656ff9753eed8dd1f0a486bf}\label{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_af7b15824656ff9753eed8dd1f0a486bf} 
+\index{Beavir.Businesslogic.ViewModels.ItemAggregatorMedium@{Beavir.Businesslogic.ViewModels.ItemAggregatorMedium}!zoomTrigger@{zoomTrigger}}
+\index{zoomTrigger@{zoomTrigger}!Beavir.Businesslogic.ViewModels.ItemAggregatorMedium@{Beavir.Businesslogic.ViewModels.ItemAggregatorMedium}}
+\doxysubsubsection{\texorpdfstring{zoomTrigger}{zoomTrigger}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_collider_proxy}{Collider\+Proxy}} Beavir.\+Businesslogic.\+View\+Models.\+Item\+Aggregator\+Medium.\+zoom\+Trigger\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_item_aggregator_medium_8cs_source_l00013}{13}} of file \mbox{\hyperlink{_item_aggregator_medium_8cs_source}{Item\+Aggregator\+Medium.\+cs}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Beavir/\+Businesslogic/\+View\+Models/\mbox{\hyperlink{_item_aggregator_medium_8cs}{Item\+Aggregator\+Medium.\+cs}}\end{DoxyCompactItemize}

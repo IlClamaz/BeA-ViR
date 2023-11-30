@@ -1,0 +1,14 @@
+<map id="Beavir.Businesslogic.Utilities.InputReader" name="Beavir.Businesslogic.Utilities.InputReader">
+<area shape="rect" id="Node000001" title=" " alt="" coords="60,1136,244,1541"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,696,115,765"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="70,780,124,1136,119,1136,65,780"/>
+<area shape="rect" id="Node000003" href="$interface_game_input_1_1_i_gameplay_actions.html" title=" " alt="" coords="80,5,269,309"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="174,324,159,1136,153,1136,169,324"/>
+<area shape="rect" id="Node000004" href="$class_game_input.html" title=" " alt="" coords="238,389,453,1072"/>
+<area shape="poly" id="edge6_Node000004_Node000003" title=" " alt="" coords="185,309,196,365,213,425,234,486,229,488,208,427,190,366,180,310"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="241,1069,224,1121,219,1119,236,1067"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="322,123,467,192"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="393,207,377,390,372,389,388,206"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="492,123,572,192"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="519,207,455,402,450,400,514,205"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="Beavir.Businesslogic.Models.Environment" name="Beavir.Businesslogic.Models.Environment">
+<area shape="rect" id="Node000001" title="An Environment is an object that hosts objects." alt="" coords="5,636,188,1084"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="41,5,142,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,89,98,636,93,636,89,89"/>
+<area shape="rect" id="Node000003" href="$class_beavir_1_1_businesslogic_1_1_models_1_1_environment.html" title="An Environment is an object that hosts objects." alt="" coords="113,124,296,572"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="111,88,125,124,120,125,106,90"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="160,573,150,620,145,619,155,571"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="297,303,315,319,321,332,323,348,320,368,312,382,307,380,315,366,317,348,316,333,311,322,294,307"/>
+</map>

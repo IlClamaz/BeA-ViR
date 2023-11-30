@@ -1,5 +1,51 @@
 var annotated_dup =
 [
+    [ "Beavir", "namespace_beavir.html", [
+      [ "Businesslogic", "namespace_beavir_1_1_businesslogic.html", [
+        [ "Controllers", "namespace_beavir_1_1_businesslogic_1_1_controllers.html", [
+          [ "BeavirAppManager", "class_beavir_1_1_businesslogic_1_1_controllers_1_1_beavir_app_manager.html", "class_beavir_1_1_businesslogic_1_1_controllers_1_1_beavir_app_manager" ],
+          [ "SoundManager", "class_beavir_1_1_businesslogic_1_1_controllers_1_1_sound_manager.html", "class_beavir_1_1_businesslogic_1_1_controllers_1_1_sound_manager" ],
+          [ "TransportManager", "class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager.html", "class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager" ],
+          [ "UIManager", "class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager.html", "class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager" ],
+          [ "UserManager", "class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager.html", "class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager" ]
+        ] ],
+        [ "Models", "namespace_beavir_1_1_businesslogic_1_1_models.html", [
+          [ "Environment", "class_beavir_1_1_businesslogic_1_1_models_1_1_environment.html", "class_beavir_1_1_businesslogic_1_1_models_1_1_environment" ],
+          [ "Player", "class_beavir_1_1_businesslogic_1_1_models_1_1_player.html", "class_beavir_1_1_businesslogic_1_1_models_1_1_player" ]
+        ] ],
+        [ "Utilities", "namespace_beavir_1_1_businesslogic_1_1_utilities.html", [
+          [ "ColliderProxy", "class_beavir_1_1_businesslogic_1_1_utilities_1_1_collider_proxy.html", "class_beavir_1_1_businesslogic_1_1_utilities_1_1_collider_proxy" ],
+          [ "DrawIfAttribute", "class_beavir_1_1_businesslogic_1_1_utilities_1_1_draw_if_attribute.html", "class_beavir_1_1_businesslogic_1_1_utilities_1_1_draw_if_attribute" ],
+          [ "FadingAnimation", "class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation.html", "class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation" ],
+          [ "InputReader", "class_beavir_1_1_businesslogic_1_1_utilities_1_1_input_reader.html", "class_beavir_1_1_businesslogic_1_1_utilities_1_1_input_reader" ],
+          [ "LookAtCamera", "class_beavir_1_1_businesslogic_1_1_utilities_1_1_look_at_camera.html", "class_beavir_1_1_businesslogic_1_1_utilities_1_1_look_at_camera" ],
+          [ "MoveAroundHemi", "class_beavir_1_1_businesslogic_1_1_utilities_1_1_move_around_hemi.html", "class_beavir_1_1_businesslogic_1_1_utilities_1_1_move_around_hemi" ],
+          [ "ObjectAnimator", "class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_animator.html", "class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_animator" ],
+          [ "ObjectEnabler", "class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_enabler.html", "class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_enabler" ],
+          [ "PlayerLogger", "class_beavir_1_1_businesslogic_1_1_utilities_1_1_player_logger.html", "class_beavir_1_1_businesslogic_1_1_utilities_1_1_player_logger" ],
+          [ "Timer", "class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer.html", "class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer" ],
+          [ "VideoPlayerRestart", "class_beavir_1_1_businesslogic_1_1_utilities_1_1_video_player_restart.html", "class_beavir_1_1_businesslogic_1_1_utilities_1_1_video_player_restart" ],
+          [ "WriteDebugToFile", "class_beavir_1_1_businesslogic_1_1_utilities_1_1_write_debug_to_file.html", "class_beavir_1_1_businesslogic_1_1_utilities_1_1_write_debug_to_file" ]
+        ] ],
+        [ "View", "namespace_beavir_1_1_businesslogic_1_1_view.html", [
+          [ "E2EObj", "class_beavir_1_1_businesslogic_1_1_view_1_1_e2_e_obj.html", "class_beavir_1_1_businesslogic_1_1_view_1_1_e2_e_obj" ]
+        ] ],
+        [ "ViewModels", "namespace_beavir_1_1_businesslogic_1_1_view_models.html", [
+          [ "Gate", "class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate.html", "class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate" ],
+          [ "ItemAggregatorLarge", "class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_large.html", "class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_large" ],
+          [ "ItemAggregatorMedium", "class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium.html", "class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium" ],
+          [ "ItemAggregatorMediumAL", "class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_a_l.html", "class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_a_l" ],
+          [ "ItemInteractor", "class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_interactor.html", "class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_interactor" ],
+          [ "Timeline", "class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline.html", "class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline" ],
+          [ "TimelinePeriod", "class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_period.html", "class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_period" ]
+        ] ]
+      ] ],
+      [ "Persistance", "namespace_beavir_1_1_persistance.html", [
+        [ "Database", "namespace_beavir_1_1_persistance_1_1_database.html", [
+          [ "DatabaseManager", "class_beavir_1_1_persistance_1_1_database_1_1_database_manager.html", "class_beavir_1_1_persistance_1_1_database_1_1_database_manager" ]
+        ] ]
+      ] ]
+    ] ],
     [ "RenderHeads", "namespace_render_heads.html", [
       [ "UnityOmeka", "namespace_render_heads_1_1_unity_omeka.html", [
         [ "Components", "namespace_render_heads_1_1_unity_omeka_1_1_components.html", [
@@ -41,35 +87,8 @@ var annotated_dup =
           [ "SearchParams", "class_render_heads_1_1_unity_omeka_1_1_data_1_1_search_params.html", "class_render_heads_1_1_unity_omeka_1_1_data_1_1_search_params" ],
           [ "SearchResponse", "class_render_heads_1_1_unity_omeka_1_1_data_1_1_search_response.html", "class_render_heads_1_1_unity_omeka_1_1_data_1_1_search_response" ],
           [ "ThumbnailUrl", "class_render_heads_1_1_unity_omeka_1_1_data_1_1_thumbnail_url.html", "class_render_heads_1_1_unity_omeka_1_1_data_1_1_thumbnail_url" ]
-        ] ],
-        [ "Example", "namespace_render_heads_1_1_unity_omeka_1_1_example.html", [
-          [ "DatabaseManager", "class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html", "class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager" ]
         ] ]
       ] ]
     ] ],
-    [ "ColliderProxy", "class_collider_proxy.html", "class_collider_proxy" ],
-    [ "DrawIfAttribute", "class_draw_if_attribute.html", "class_draw_if_attribute" ],
-    [ "E2EObj", "class_e2_e_obj.html", "class_e2_e_obj" ],
-    [ "Environment", "class_environment.html", "class_environment" ],
-    [ "FadingAnimation", "class_fading_animation.html", "class_fading_animation" ],
-    [ "FirstPersonController", "class_first_person_controller.html", "class_first_person_controller" ],
-    [ "GameManager", "class_game_manager.html", "class_game_manager" ],
-    [ "Gate", "class_gate.html", "class_gate" ],
-    [ "Initializer", "class_initializer.html", "class_initializer" ],
-    [ "ItemAggregatorLarge", "class_item_aggregator_large.html", "class_item_aggregator_large" ],
-    [ "ItemAggregatorMedium", "class_item_aggregator_medium.html", "class_item_aggregator_medium" ],
-    [ "ItemAggregatorMediumAL", "class_item_aggregator_medium_a_l.html", "class_item_aggregator_medium_a_l" ],
-    [ "ItemInteractor", "class_item_interactor.html", "class_item_interactor" ],
-    [ "LookAtCamera", "class_look_at_camera.html", "class_look_at_camera" ],
-    [ "MoveAroundHemi", "class_move_around_hemi.html", "class_move_around_hemi" ],
-    [ "Obj2Obj", "class_obj2_obj.html", "class_obj2_obj" ],
-    [ "ObjectAnimator", "class_object_animator.html", "class_object_animator" ],
-    [ "ObjectEnabler", "class_object_enabler.html", "class_object_enabler" ],
-    [ "PlayerLogger", "class_player_logger.html", "class_player_logger" ],
-    [ "ScreensaverManager", "class_screensaver_manager.html", "class_screensaver_manager" ],
-    [ "Timeline", "class_timeline.html", "class_timeline" ],
-    [ "TimelinePeriod", "class_timeline_period.html", "class_timeline_period" ],
-    [ "Timer", "class_timer.html", "class_timer" ],
-    [ "TransportObj", "class_transport_obj.html", "class_transport_obj" ],
-    [ "WriteDebugToFile", "class_write_debug_to_file.html", "class_write_debug_to_file" ]
+    [ "GameInput", "class_game_input.html", "class_game_input" ]
 ];

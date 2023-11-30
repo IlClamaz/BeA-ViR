@@ -1,0 +1,28 @@
+<map id="Beavir.Businesslogic.ViewModels.ItemAggregatorMedium.Start" name="Beavir.Businesslogic.ViewModels.ItemAggregatorMedium.Start">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,172,239,215"/>
+<area shape="rect" id="Node000002" href="$class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium.html#a721f3e1aac48006bc1d40684c1570cb7" title=" " alt="" coords="287,205,523,264"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="240,208,272,213,271,218,239,213"/>
+<area shape="rect" id="Node000008" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_animator.html#adc7b252bae340e6509e82db10f11b68d" title=" " alt="" coords="592,339,791,381"/>
+<area shape="poly" id="edge14_Node000001_Node000008" title=" " alt="" coords="161,213,219,244,288,273,361,296,437,315,576,342,575,347,436,320,360,301,286,279,217,249,158,218"/>
+<area shape="rect" id="Node000009" href="$class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium.html#ab9b0eff7eeffe0c76c902aa10547e287" title=" " alt="" coords="291,123,519,181"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="239,174,275,168,276,174,240,179"/>
+<area shape="rect" id="Node000011" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_animator.html#aac5e019c0f16bc1952fa76f8e547e16a" title=" " alt="" coords="591,5,791,48"/>
+<area shape="poly" id="edge15_Node000001_Node000011" title=" " alt="" coords="158,169,217,138,286,108,360,85,435,66,575,40,576,45,437,72,361,90,288,113,219,142,161,174"/>
+<area shape="rect" id="Node000003" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_enabler.html#ab3c4bd42d30a2ff934a0e0c22b1d3f55" title=" " alt="" coords="578,205,804,248"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="524,229,562,228,563,233,524,234"/>
+<area shape="rect" id="Node000005" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_enabler.html#aee48268fec72bc9a02a6ae87102a93b2" title=" " alt="" coords="571,139,811,181"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="519,202,592,183,593,188,521,207"/>
+<area shape="rect" id="Node000006" href="$class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_interactor.html#adf6ce6ff8d8cc30edc0ac095cf644daa" title=" " alt="" coords="573,272,810,315"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="524,256,569,266,568,271,523,262"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="454,262,510,294,572,324,590,331,588,336,570,329,507,299,451,267"/>
+<area shape="rect" id="Node000004" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_enabler.html#a1429d4ffb865f1ec7f63a551eee6fdb9" title=" " alt="" coords="870,172,1081,215"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="804,211,854,205,855,210,805,216"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="812,171,855,177,854,182,812,177"/>
+<area shape="rect" id="Node000007" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager.html#a0c21fc531f37c4eb0ec1fe862dbace1e" title=" " alt="" coords="859,272,1092,315"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="810,291,844,291,844,296,810,296"/>
+<area shape="poly" id="edge10_Node000009_Node000003" title=" " alt="" coords="520,179,593,198,591,204,519,184"/>
+<area shape="poly" id="edge11_Node000009_Node000005" title=" " alt="" coords="520,153,556,154,555,159,519,158"/>
+<area shape="rect" id="Node000010" href="$class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_interactor.html#a02877fd05997db0f01570a43c2e71867" title=" " alt="" coords="577,72,806,115"/>
+<area shape="poly" id="edge12_Node000009_Node000010" title=" " alt="" coords="519,126,568,116,569,121,520,131"/>
+<area shape="poly" id="edge13_Node000009_Node000011" title=" " alt="" coords="451,120,507,88,570,58,588,51,590,56,572,62,510,92,454,124"/>
+</map>

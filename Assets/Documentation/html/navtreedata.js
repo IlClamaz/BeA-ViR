@@ -38,10 +38,11 @@ var NAVTREE =
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
-        [ "Functions", "functions_func.html", null ],
+        [ "Functions", "functions_func.html", "functions_func" ],
         [ "Variables", "functions_vars.html", "functions_vars" ],
         [ "Enumerations", "functions_enum.html", null ],
-        [ "Properties", "functions_prop.html", null ]
+        [ "Properties", "functions_prop.html", null ],
+        [ "Events", "functions_evnt.html", null ]
       ] ]
     ] ],
     [ "Files", "files.html", [
@@ -53,10 +54,13 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_archaeological_finding_record_vocabulary_8cs.html",
-"class_item_aggregator_medium.html#a5d4d8f9c458c1ab76e5a8c998c811e43",
-"class_render_heads_1_1_unity_omeka_1_1_data_1_1_media.html#a6f94a5f7a27ee76f0111a729b897ff12",
-"class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_archaeometric_investigation_record_vocabulary.html#a7194d14cbd2c3b17e4519977d4b18e25",
-"class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html#abc86ebd442716a61a7197bf4dfc3b8f7"
+"class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager.html#a4b88456ddef869a7c7589f76d100c063",
+"class_beavir_1_1_businesslogic_1_1_utilities_1_1_input_reader.html#a78481dbfc5a86603b4c7070f3b8a477e",
+"class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium.html#aa1baea4ac644265ab88093a46fbe868e",
+"class_render_heads_1_1_unity_omeka_1_1_data_1_1_common_params.html#ac0f574c23f3c979941b605835223ccac",
+"class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_archaeological_finding_record_vocabulary.html#a61c828ce620f513403f9421d77f09bfd",
+"class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary.html#a720255633eb421c137bff95e5821fc1a",
+"struct_game_input_1_1_gameplay_actions.html#a4967681434a3071a88acc7ce818895c6"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

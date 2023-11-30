@@ -1,0 +1,440 @@
+\doxysection{Beavir.\+Businesslogic.\+Controllers.\+UIManager Class Reference}
+\hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager}{}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager}\index{Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}}
+
+
+Controller that manages full screen UIs (Overlays, Commands\+UI, Title UIs, Screensaver)  
+
+
+
+
+Inheritance diagram for Beavir.\+Businesslogic.\+Controllers.\+UIManager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Beavir.\+Businesslogic.\+Controllers.\+UIManager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a46cb31f53553bfd90ea608ead0afc9ae}{Show\+Title\+UI}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Image \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a141809119c69fc8c4d14ec75ec817bbd}{Progress\+Bar}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+Game\+Object \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_af090e44a9b9fb9235163bff2faa7e6a2}{No\+Internet\+UI}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a13631ca1b0a8cf2d845e5b9b2ee3c202}{On\+Enable}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a150e672fc857d78b78845fd22fe44b1d}{On\+Disable}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a1a73d41fc6fdf49951a86b89be476040}{Start}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a46eacee728ec55accf2ca73fd0224b03}{Update}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a5b9327f4672a4fae3aeb38d397140ff3}{On\+Move}} (Vector2 \+\_\+movement)
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a8abe05cc464e79832063473bd2757c66}{On\+Rotate\+Camera}} (Vector2 \+\_\+movement)
+\item 
+bool \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a0dbb4ef7a7cf10f1581abb6bfded919b}{Idle\+Check}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a23c37998ab80774deb56d29651f97259}{Show\+Overlay}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a2f6dc2cedfd4371f50d4ca9f29eb7916}{Show\+Commands\+UI}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a4b88456ddef869a7c7589f76d100c063}{On\+Destroy}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a0fdd40deda8c167e091e167083abcfe2}{commands\+UI}}
+\item 
+Game\+Object \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_abb4df78cfe33338f3d664b7481872c65}{no\+Internet\+UI}}
+\item 
+Image \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a4abad31f3fbbcd50d294dae12fe65fd2}{progress\+Bar}}
+\item 
+bool \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a1b05a86d8e540f121a3afbf4a10e7528}{use\+Screen\+Saver}} = true
+\item 
+Game\+Object \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a55ed0937c131782002c809151913bee6}{screen\+Saver}}
+\item 
+int \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a855ae5679da1b9b7790d7190fda2ea8d}{idle\+Time\+Setting}}
+\item 
+float \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_acb94adb8698e3c168aa0280f42f4f799}{last\+Idle\+Time}}
+\item 
+IDisposable \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a5b49af7da71ccd70efe120cecf619b18}{button\+Press\+Listener}}
+\item 
+Vector2 \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_ab14cbea68fda97b3ca653cfea94d1790}{movement}}
+\item 
+Vector2 \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a37275d13578d4834767db563e7e97ad6}{new\+Camera\+Movement}}
+\item 
+bool \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a4e649a76d225de7d096575621a2b8d6a}{overlay\+Is\+On}}
+\item 
+bool \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_aa513639567628d0683c4127e76efbdd4}{commands\+UIIs\+On}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Controller that manages full screen UIs (Overlays, Commands\+UI, Title UIs, Screensaver) 
+
+Definition at line \mbox{\hyperlink{_u_i_manager_8cs_source_l00015}{15}} of file \mbox{\hyperlink{_u_i_manager_8cs_source}{UIManager.\+cs}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a0dbb4ef7a7cf10f1581abb6bfded919b}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a0dbb4ef7a7cf10f1581abb6bfded919b} 
+\index{Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}!IdleCheck@{IdleCheck}}
+\index{IdleCheck@{IdleCheck}!Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}}
+\doxysubsubsection{\texorpdfstring{IdleCheck()}{IdleCheck()}}
+{\footnotesize\ttfamily bool Beavir.\+Businesslogic.\+Controllers.\+UIManager.\+Idle\+Check (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_u_i_manager_8cs_source_l00094}{94}} of file \mbox{\hyperlink{_u_i_manager_8cs_source}{UIManager.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a0dbb4ef7a7cf10f1581abb6bfded919b_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a4b88456ddef869a7c7589f76d100c063}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a4b88456ddef869a7c7589f76d100c063} 
+\index{Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}!OnDestroy@{OnDestroy}}
+\index{OnDestroy@{OnDestroy}!Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}}
+\doxysubsubsection{\texorpdfstring{OnDestroy()}{OnDestroy()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+UIManager.\+On\+Destroy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_u_i_manager_8cs_source_l00118}{118}} of file \mbox{\hyperlink{_u_i_manager_8cs_source}{UIManager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a150e672fc857d78b78845fd22fe44b1d}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a150e672fc857d78b78845fd22fe44b1d} 
+\index{Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}!OnDisable@{OnDisable}}
+\index{OnDisable@{OnDisable}!Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}}
+\doxysubsubsection{\texorpdfstring{OnDisable()}{OnDisable()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+UIManager.\+On\+Disable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_u_i_manager_8cs_source_l00044}{44}} of file \mbox{\hyperlink{_u_i_manager_8cs_source}{UIManager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a150e672fc857d78b78845fd22fe44b1d_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a13631ca1b0a8cf2d845e5b9b2ee3c202}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a13631ca1b0a8cf2d845e5b9b2ee3c202} 
+\index{Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}!OnEnable@{OnEnable}}
+\index{OnEnable@{OnEnable}!Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}}
+\doxysubsubsection{\texorpdfstring{OnEnable()}{OnEnable()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+UIManager.\+On\+Enable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_u_i_manager_8cs_source_l00036}{36}} of file \mbox{\hyperlink{_u_i_manager_8cs_source}{UIManager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a13631ca1b0a8cf2d845e5b9b2ee3c202_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a5b9327f4672a4fae3aeb38d397140ff3}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a5b9327f4672a4fae3aeb38d397140ff3} 
+\index{Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}!OnMove@{OnMove}}
+\index{OnMove@{OnMove}!Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}}
+\doxysubsubsection{\texorpdfstring{OnMove()}{OnMove()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+UIManager.\+On\+Move (\begin{DoxyParamCaption}\item[{Vector2}]{\+\_\+movement }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_u_i_manager_8cs_source_l00084}{84}} of file \mbox{\hyperlink{_u_i_manager_8cs_source}{UIManager.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a5b9327f4672a4fae3aeb38d397140ff3_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a8abe05cc464e79832063473bd2757c66}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a8abe05cc464e79832063473bd2757c66} 
+\index{Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}!OnRotateCamera@{OnRotateCamera}}
+\index{OnRotateCamera@{OnRotateCamera}!Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}}
+\doxysubsubsection{\texorpdfstring{OnRotateCamera()}{OnRotateCamera()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+UIManager.\+On\+Rotate\+Camera (\begin{DoxyParamCaption}\item[{Vector2}]{\+\_\+movement }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_u_i_manager_8cs_source_l00089}{89}} of file \mbox{\hyperlink{_u_i_manager_8cs_source}{UIManager.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a8abe05cc464e79832063473bd2757c66_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a2f6dc2cedfd4371f50d4ca9f29eb7916}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a2f6dc2cedfd4371f50d4ca9f29eb7916} 
+\index{Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}!ShowCommandsUI@{ShowCommandsUI}}
+\index{ShowCommandsUI@{ShowCommandsUI}!Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}}
+\doxysubsubsection{\texorpdfstring{ShowCommandsUI()}{ShowCommandsUI()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+UIManager.\+Show\+Commands\+UI (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_u_i_manager_8cs_source_l00111}{111}} of file \mbox{\hyperlink{_u_i_manager_8cs_source}{UIManager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a2f6dc2cedfd4371f50d4ca9f29eb7916_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a2f6dc2cedfd4371f50d4ca9f29eb7916_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a23c37998ab80774deb56d29651f97259}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a23c37998ab80774deb56d29651f97259} 
+\index{Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}!ShowOverlay@{ShowOverlay}}
+\index{ShowOverlay@{ShowOverlay}!Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}}
+\doxysubsubsection{\texorpdfstring{ShowOverlay()}{ShowOverlay()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+UIManager.\+Show\+Overlay (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_u_i_manager_8cs_source_l00105}{105}} of file \mbox{\hyperlink{_u_i_manager_8cs_source}{UIManager.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a23c37998ab80774deb56d29651f97259_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a46cb31f53553bfd90ea608ead0afc9ae}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a46cb31f53553bfd90ea608ead0afc9ae} 
+\index{Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}!ShowTitleUI@{ShowTitleUI}}
+\index{ShowTitleUI@{ShowTitleUI}!Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}}
+\doxysubsubsection{\texorpdfstring{ShowTitleUI()}{ShowTitleUI()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+UIManager.\+Show\+Title\+UI (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_u_i_manager_8cs_source_l00100}{100}} of file \mbox{\hyperlink{_u_i_manager_8cs_source}{UIManager.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a46cb31f53553bfd90ea608ead0afc9ae_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a1a73d41fc6fdf49951a86b89be476040}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a1a73d41fc6fdf49951a86b89be476040} 
+\index{Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}!Start@{Start}}
+\index{Start@{Start}!Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+UIManager.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_u_i_manager_8cs_source_l00053}{53}} of file \mbox{\hyperlink{_u_i_manager_8cs_source}{UIManager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a46eacee728ec55accf2ca73fd0224b03}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a46eacee728ec55accf2ca73fd0224b03} 
+\index{Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}!Update@{Update}}
+\index{Update@{Update}!Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+UIManager.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_u_i_manager_8cs_source_l00064}{64}} of file \mbox{\hyperlink{_u_i_manager_8cs_source}{UIManager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a46eacee728ec55accf2ca73fd0224b03_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a5b49af7da71ccd70efe120cecf619b18}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a5b49af7da71ccd70efe120cecf619b18} 
+\index{Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}!buttonPressListener@{buttonPressListener}}
+\index{buttonPressListener@{buttonPressListener}!Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}}
+\doxysubsubsection{\texorpdfstring{buttonPressListener}{buttonPressListener}}
+{\footnotesize\ttfamily IDisposable Beavir.\+Businesslogic.\+Controllers.\+UIManager.\+button\+Press\+Listener\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_u_i_manager_8cs_source_l00029}{29}} of file \mbox{\hyperlink{_u_i_manager_8cs_source}{UIManager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a0fdd40deda8c167e091e167083abcfe2}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a0fdd40deda8c167e091e167083abcfe2} 
+\index{Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}!commandsUI@{commandsUI}}
+\index{commandsUI@{commandsUI}!Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}}
+\doxysubsubsection{\texorpdfstring{commandsUI}{commandsUI}}
+{\footnotesize\ttfamily Game\+Object Beavir.\+Businesslogic.\+Controllers.\+UIManager.\+commands\+UI\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_u_i_manager_8cs_source_l00017}{17}} of file \mbox{\hyperlink{_u_i_manager_8cs_source}{UIManager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_aa513639567628d0683c4127e76efbdd4}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_aa513639567628d0683c4127e76efbdd4} 
+\index{Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}!commandsUIIsOn@{commandsUIIsOn}}
+\index{commandsUIIsOn@{commandsUIIsOn}!Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}}
+\doxysubsubsection{\texorpdfstring{commandsUIIsOn}{commandsUIIsOn}}
+{\footnotesize\ttfamily bool Beavir.\+Businesslogic.\+Controllers.\+UIManager.\+commands\+UIIs\+On\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_u_i_manager_8cs_source_l00031}{31}} of file \mbox{\hyperlink{_u_i_manager_8cs_source}{UIManager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a855ae5679da1b9b7790d7190fda2ea8d}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a855ae5679da1b9b7790d7190fda2ea8d} 
+\index{Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}!idleTimeSetting@{idleTimeSetting}}
+\index{idleTimeSetting@{idleTimeSetting}!Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}}
+\doxysubsubsection{\texorpdfstring{idleTimeSetting}{idleTimeSetting}}
+{\footnotesize\ttfamily int Beavir.\+Businesslogic.\+Controllers.\+UIManager.\+idle\+Time\+Setting\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_u_i_manager_8cs_source_l00026}{26}} of file \mbox{\hyperlink{_u_i_manager_8cs_source}{UIManager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_acb94adb8698e3c168aa0280f42f4f799}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_acb94adb8698e3c168aa0280f42f4f799} 
+\index{Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}!lastIdleTime@{lastIdleTime}}
+\index{lastIdleTime@{lastIdleTime}!Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}}
+\doxysubsubsection{\texorpdfstring{lastIdleTime}{lastIdleTime}}
+{\footnotesize\ttfamily float Beavir.\+Businesslogic.\+Controllers.\+UIManager.\+last\+Idle\+Time\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_u_i_manager_8cs_source_l00028}{28}} of file \mbox{\hyperlink{_u_i_manager_8cs_source}{UIManager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_ab14cbea68fda97b3ca653cfea94d1790}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_ab14cbea68fda97b3ca653cfea94d1790} 
+\index{Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}!movement@{movement}}
+\index{movement@{movement}!Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}}
+\doxysubsubsection{\texorpdfstring{movement}{movement}}
+{\footnotesize\ttfamily Vector2 Beavir.\+Businesslogic.\+Controllers.\+UIManager.\+movement\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_u_i_manager_8cs_source_l00030}{30}} of file \mbox{\hyperlink{_u_i_manager_8cs_source}{UIManager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a37275d13578d4834767db563e7e97ad6}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a37275d13578d4834767db563e7e97ad6} 
+\index{Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}!newCameraMovement@{newCameraMovement}}
+\index{newCameraMovement@{newCameraMovement}!Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}}
+\doxysubsubsection{\texorpdfstring{newCameraMovement}{newCameraMovement}}
+{\footnotesize\ttfamily Vector2 Beavir.\+Businesslogic.\+Controllers.\+UIManager.\+new\+Camera\+Movement\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_u_i_manager_8cs_source_l00030}{30}} of file \mbox{\hyperlink{_u_i_manager_8cs_source}{UIManager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_abb4df78cfe33338f3d664b7481872c65}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_abb4df78cfe33338f3d664b7481872c65} 
+\index{Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}!noInternetUI@{noInternetUI}}
+\index{noInternetUI@{noInternetUI}!Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}}
+\doxysubsubsection{\texorpdfstring{noInternetUI}{noInternetUI}}
+{\footnotesize\ttfamily Game\+Object Beavir.\+Businesslogic.\+Controllers.\+UIManager.\+no\+Internet\+UI\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_u_i_manager_8cs_source_l00018}{18}} of file \mbox{\hyperlink{_u_i_manager_8cs_source}{UIManager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a4e649a76d225de7d096575621a2b8d6a}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a4e649a76d225de7d096575621a2b8d6a} 
+\index{Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}!overlayIsOn@{overlayIsOn}}
+\index{overlayIsOn@{overlayIsOn}!Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}}
+\doxysubsubsection{\texorpdfstring{overlayIsOn}{overlayIsOn}}
+{\footnotesize\ttfamily bool Beavir.\+Businesslogic.\+Controllers.\+UIManager.\+overlay\+Is\+On\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_u_i_manager_8cs_source_l00031}{31}} of file \mbox{\hyperlink{_u_i_manager_8cs_source}{UIManager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a4abad31f3fbbcd50d294dae12fe65fd2}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a4abad31f3fbbcd50d294dae12fe65fd2} 
+\index{Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}!progressBar@{progressBar}}
+\index{progressBar@{progressBar}!Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}}
+\doxysubsubsection{\texorpdfstring{progressBar}{progressBar}}
+{\footnotesize\ttfamily Image Beavir.\+Businesslogic.\+Controllers.\+UIManager.\+progress\+Bar\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_u_i_manager_8cs_source_l00019}{19}} of file \mbox{\hyperlink{_u_i_manager_8cs_source}{UIManager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a55ed0937c131782002c809151913bee6}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a55ed0937c131782002c809151913bee6} 
+\index{Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}!screenSaver@{screenSaver}}
+\index{screenSaver@{screenSaver}!Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}}
+\doxysubsubsection{\texorpdfstring{screenSaver}{screenSaver}}
+{\footnotesize\ttfamily Game\+Object Beavir.\+Businesslogic.\+Controllers.\+UIManager.\+screen\+Saver\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_u_i_manager_8cs_source_l00023}{23}} of file \mbox{\hyperlink{_u_i_manager_8cs_source}{UIManager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a1b05a86d8e540f121a3afbf4a10e7528}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a1b05a86d8e540f121a3afbf4a10e7528} 
+\index{Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}!useScreenSaver@{useScreenSaver}}
+\index{useScreenSaver@{useScreenSaver}!Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}}
+\doxysubsubsection{\texorpdfstring{useScreenSaver}{useScreenSaver}}
+{\footnotesize\ttfamily bool Beavir.\+Businesslogic.\+Controllers.\+UIManager.\+use\+Screen\+Saver = true\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_u_i_manager_8cs_source_l00020}{20}} of file \mbox{\hyperlink{_u_i_manager_8cs_source}{UIManager.\+cs}}.
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_af090e44a9b9fb9235163bff2faa7e6a2}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_af090e44a9b9fb9235163bff2faa7e6a2} 
+\index{Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}!NoInternetUI@{NoInternetUI}}
+\index{NoInternetUI@{NoInternetUI}!Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}}
+\doxysubsubsection{\texorpdfstring{NoInternetUI}{NoInternetUI}}
+{\footnotesize\ttfamily Game\+Object Beavir.\+Businesslogic.\+Controllers.\+UIManager.\+No\+Internet\+UI\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line \mbox{\hyperlink{_u_i_manager_8cs_source_l00034}{34}} of file \mbox{\hyperlink{_u_i_manager_8cs_source}{UIManager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a141809119c69fc8c4d14ec75ec817bbd}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager_a141809119c69fc8c4d14ec75ec817bbd} 
+\index{Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}!ProgressBar@{ProgressBar}}
+\index{ProgressBar@{ProgressBar}!Beavir.Businesslogic.Controllers.UIManager@{Beavir.Businesslogic.Controllers.UIManager}}
+\doxysubsubsection{\texorpdfstring{ProgressBar}{ProgressBar}}
+{\footnotesize\ttfamily Image Beavir.\+Businesslogic.\+Controllers.\+UIManager.\+Progress\+Bar\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line \mbox{\hyperlink{_u_i_manager_8cs_source_l00033}{33}} of file \mbox{\hyperlink{_u_i_manager_8cs_source}{UIManager.\+cs}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Beavir/\+Businesslogic/\+Controllers/\mbox{\hyperlink{_u_i_manager_8cs}{UIManager.\+cs}}\end{DoxyCompactItemize}

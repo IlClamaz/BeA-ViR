@@ -1,0 +1,9 @@
+<map id="Beavir.Persistance.Database.DatabaseManager" name="Beavir.Persistance.Database.DatabaseManager">
+<area shape="rect" id="Node000001" title="Controller that manages the data from the OmekaS database (both text data and images)" alt="" coords="25,316,214,977"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,153,121,223"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="72,237,82,316,76,317,67,238"/>
+<area shape="rect" id="Node000003" href="$class_render_heads_1_1_unity_omeka_1_1_core_1_1_client_settings.html" title="Settings for our Omeka Client." alt="" coords="145,124,347,252"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="231,252,218,300,213,299,226,251"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="191,5,301,75"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="249,89,249,124,243,124,243,89"/>
+</map>

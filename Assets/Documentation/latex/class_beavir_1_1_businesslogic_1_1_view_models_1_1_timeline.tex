@@ -1,0 +1,266 @@
+\doxysection{Beavir.\+Businesslogic.\+View\+Models.\+Timeline Class Reference}
+\hypertarget{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline}{}\label{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline}\index{Beavir.Businesslogic.ViewModels.Timeline@{Beavir.Businesslogic.ViewModels.Timeline}}
+
+
+Handles the enablement of the Timeline model and periods and their animation.  
+
+
+
+
+Inheritance diagram for Beavir.\+Businesslogic.\+View\+Models.\+Timeline\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=204pt]{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Beavir.\+Businesslogic.\+View\+Models.\+Timeline\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=292pt]{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_a35a2571198a7f8f9ca4d087d33e3ef54}{Reset}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_a53fe1cd77e1ddbf8cf1ec89dde3caffe}{Start}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_acfd9c7f00aae5f7b6c2a5ce40e3fae52}{Enter\+Timeline\+Big}} (Collider c)
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_ab84f056c084488bd2101885b5c3ab570}{Exit\+Timeline\+Big}} (Collider c)
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_ab54c775c7d424473afe366583e8c045f}{Exit\+Timeline\+Small}} (Collider c)
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_a961154db37cb0cea8bdd9e542b5c9b74}{Enter\+Timeline\+Small}} (Collider c)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ Animator $>$ \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_a522b82634355a9482d7e2d79bb42ce90}{timeline\+Animators}}
+\item 
+Game\+Object \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_a8106567ebe7c106316aa394963867872}{timeline\+Model}}
+\item 
+Game\+Object \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_aaaf4074d7161ddc52dc268d333062d1c}{timeline\+Periods}}
+\item 
+\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_collider_proxy}{Collider\+Proxy}} \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_a11d830d452326f9ae13f9c169bf3550a}{enabler\+Big}}
+\item 
+\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_collider_proxy}{Collider\+Proxy}} \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_a590f27ed0e4cda9f7d5e5951fbb91b88}{enabler\+Small}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Handles the enablement of the Timeline model and periods and their animation. 
+
+Definition at line \mbox{\hyperlink{_timeline_8cs_source_l00011}{11}} of file \mbox{\hyperlink{_timeline_8cs_source}{Timeline.\+cs}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_acfd9c7f00aae5f7b6c2a5ce40e3fae52}\label{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_acfd9c7f00aae5f7b6c2a5ce40e3fae52} 
+\index{Beavir.Businesslogic.ViewModels.Timeline@{Beavir.Businesslogic.ViewModels.Timeline}!EnterTimelineBig@{EnterTimelineBig}}
+\index{EnterTimelineBig@{EnterTimelineBig}!Beavir.Businesslogic.ViewModels.Timeline@{Beavir.Businesslogic.ViewModels.Timeline}}
+\doxysubsubsection{\texorpdfstring{EnterTimelineBig()}{EnterTimelineBig()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+View\+Models.\+Timeline.\+Enter\+Timeline\+Big (\begin{DoxyParamCaption}\item[{Collider}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timeline_8cs_source_l00026}{26}} of file \mbox{\hyperlink{_timeline_8cs_source}{Timeline.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_acfd9c7f00aae5f7b6c2a5ce40e3fae52_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_acfd9c7f00aae5f7b6c2a5ce40e3fae52_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_a961154db37cb0cea8bdd9e542b5c9b74}\label{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_a961154db37cb0cea8bdd9e542b5c9b74} 
+\index{Beavir.Businesslogic.ViewModels.Timeline@{Beavir.Businesslogic.ViewModels.Timeline}!EnterTimelineSmall@{EnterTimelineSmall}}
+\index{EnterTimelineSmall@{EnterTimelineSmall}!Beavir.Businesslogic.ViewModels.Timeline@{Beavir.Businesslogic.ViewModels.Timeline}}
+\doxysubsubsection{\texorpdfstring{EnterTimelineSmall()}{EnterTimelineSmall()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+View\+Models.\+Timeline.\+Enter\+Timeline\+Small (\begin{DoxyParamCaption}\item[{Collider}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timeline_8cs_source_l00043}{43}} of file \mbox{\hyperlink{_timeline_8cs_source}{Timeline.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_a961154db37cb0cea8bdd9e542b5c9b74_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_a961154db37cb0cea8bdd9e542b5c9b74_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_ab84f056c084488bd2101885b5c3ab570}\label{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_ab84f056c084488bd2101885b5c3ab570} 
+\index{Beavir.Businesslogic.ViewModels.Timeline@{Beavir.Businesslogic.ViewModels.Timeline}!ExitTimelineBig@{ExitTimelineBig}}
+\index{ExitTimelineBig@{ExitTimelineBig}!Beavir.Businesslogic.ViewModels.Timeline@{Beavir.Businesslogic.ViewModels.Timeline}}
+\doxysubsubsection{\texorpdfstring{ExitTimelineBig()}{ExitTimelineBig()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+View\+Models.\+Timeline.\+Exit\+Timeline\+Big (\begin{DoxyParamCaption}\item[{Collider}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timeline_8cs_source_l00032}{32}} of file \mbox{\hyperlink{_timeline_8cs_source}{Timeline.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_ab84f056c084488bd2101885b5c3ab570_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_ab84f056c084488bd2101885b5c3ab570_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_ab54c775c7d424473afe366583e8c045f}\label{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_ab54c775c7d424473afe366583e8c045f} 
+\index{Beavir.Businesslogic.ViewModels.Timeline@{Beavir.Businesslogic.ViewModels.Timeline}!ExitTimelineSmall@{ExitTimelineSmall}}
+\index{ExitTimelineSmall@{ExitTimelineSmall}!Beavir.Businesslogic.ViewModels.Timeline@{Beavir.Businesslogic.ViewModels.Timeline}}
+\doxysubsubsection{\texorpdfstring{ExitTimelineSmall()}{ExitTimelineSmall()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+View\+Models.\+Timeline.\+Exit\+Timeline\+Small (\begin{DoxyParamCaption}\item[{Collider}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timeline_8cs_source_l00038}{38}} of file \mbox{\hyperlink{_timeline_8cs_source}{Timeline.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_ab54c775c7d424473afe366583e8c045f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_ab54c775c7d424473afe366583e8c045f_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_a35a2571198a7f8f9ca4d087d33e3ef54}\label{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_a35a2571198a7f8f9ca4d087d33e3ef54} 
+\index{Beavir.Businesslogic.ViewModels.Timeline@{Beavir.Businesslogic.ViewModels.Timeline}!Reset@{Reset}}
+\index{Reset@{Reset}!Beavir.Businesslogic.ViewModels.Timeline@{Beavir.Businesslogic.ViewModels.Timeline}}
+\doxysubsubsection{\texorpdfstring{Reset()}{Reset()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+View\+Models.\+Timeline.\+Reset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_timeline_8cs_source_l00048}{48}} of file \mbox{\hyperlink{_timeline_8cs_source}{Timeline.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_a35a2571198a7f8f9ca4d087d33e3ef54_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_a53fe1cd77e1ddbf8cf1ec89dde3caffe}\label{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_a53fe1cd77e1ddbf8cf1ec89dde3caffe} 
+\index{Beavir.Businesslogic.ViewModels.Timeline@{Beavir.Businesslogic.ViewModels.Timeline}!Start@{Start}}
+\index{Start@{Start}!Beavir.Businesslogic.ViewModels.Timeline@{Beavir.Businesslogic.ViewModels.Timeline}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+View\+Models.\+Timeline.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timeline_8cs_source_l00017}{17}} of file \mbox{\hyperlink{_timeline_8cs_source}{Timeline.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_a53fe1cd77e1ddbf8cf1ec89dde3caffe_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_a11d830d452326f9ae13f9c169bf3550a}\label{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_a11d830d452326f9ae13f9c169bf3550a} 
+\index{Beavir.Businesslogic.ViewModels.Timeline@{Beavir.Businesslogic.ViewModels.Timeline}!enablerBig@{enablerBig}}
+\index{enablerBig@{enablerBig}!Beavir.Businesslogic.ViewModels.Timeline@{Beavir.Businesslogic.ViewModels.Timeline}}
+\doxysubsubsection{\texorpdfstring{enablerBig}{enablerBig}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_collider_proxy}{Collider\+Proxy}} Beavir.\+Businesslogic.\+View\+Models.\+Timeline.\+enabler\+Big\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timeline_8cs_source_l00015}{15}} of file \mbox{\hyperlink{_timeline_8cs_source}{Timeline.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_a590f27ed0e4cda9f7d5e5951fbb91b88}\label{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_a590f27ed0e4cda9f7d5e5951fbb91b88} 
+\index{Beavir.Businesslogic.ViewModels.Timeline@{Beavir.Businesslogic.ViewModels.Timeline}!enablerSmall@{enablerSmall}}
+\index{enablerSmall@{enablerSmall}!Beavir.Businesslogic.ViewModels.Timeline@{Beavir.Businesslogic.ViewModels.Timeline}}
+\doxysubsubsection{\texorpdfstring{enablerSmall}{enablerSmall}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_collider_proxy}{Collider\+Proxy}} Beavir.\+Businesslogic.\+View\+Models.\+Timeline.\+enabler\+Small\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timeline_8cs_source_l00015}{15}} of file \mbox{\hyperlink{_timeline_8cs_source}{Timeline.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_a522b82634355a9482d7e2d79bb42ce90}\label{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_a522b82634355a9482d7e2d79bb42ce90} 
+\index{Beavir.Businesslogic.ViewModels.Timeline@{Beavir.Businesslogic.ViewModels.Timeline}!timelineAnimators@{timelineAnimators}}
+\index{timelineAnimators@{timelineAnimators}!Beavir.Businesslogic.ViewModels.Timeline@{Beavir.Businesslogic.ViewModels.Timeline}}
+\doxysubsubsection{\texorpdfstring{timelineAnimators}{timelineAnimators}}
+{\footnotesize\ttfamily List$<$Animator$>$ Beavir.\+Businesslogic.\+View\+Models.\+Timeline.\+timeline\+Animators\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timeline_8cs_source_l00013}{13}} of file \mbox{\hyperlink{_timeline_8cs_source}{Timeline.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_a8106567ebe7c106316aa394963867872}\label{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_a8106567ebe7c106316aa394963867872} 
+\index{Beavir.Businesslogic.ViewModels.Timeline@{Beavir.Businesslogic.ViewModels.Timeline}!timelineModel@{timelineModel}}
+\index{timelineModel@{timelineModel}!Beavir.Businesslogic.ViewModels.Timeline@{Beavir.Businesslogic.ViewModels.Timeline}}
+\doxysubsubsection{\texorpdfstring{timelineModel}{timelineModel}}
+{\footnotesize\ttfamily Game\+Object Beavir.\+Businesslogic.\+View\+Models.\+Timeline.\+timeline\+Model\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timeline_8cs_source_l00014}{14}} of file \mbox{\hyperlink{_timeline_8cs_source}{Timeline.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_aaaf4074d7161ddc52dc268d333062d1c}\label{class_beavir_1_1_businesslogic_1_1_view_models_1_1_timeline_aaaf4074d7161ddc52dc268d333062d1c} 
+\index{Beavir.Businesslogic.ViewModels.Timeline@{Beavir.Businesslogic.ViewModels.Timeline}!timelinePeriods@{timelinePeriods}}
+\index{timelinePeriods@{timelinePeriods}!Beavir.Businesslogic.ViewModels.Timeline@{Beavir.Businesslogic.ViewModels.Timeline}}
+\doxysubsubsection{\texorpdfstring{timelinePeriods}{timelinePeriods}}
+{\footnotesize\ttfamily Game\+Object Beavir.\+Businesslogic.\+View\+Models.\+Timeline.\+timeline\+Periods\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timeline_8cs_source_l00014}{14}} of file \mbox{\hyperlink{_timeline_8cs_source}{Timeline.\+cs}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Beavir/\+Businesslogic/\+View\+Models/\mbox{\hyperlink{_timeline_8cs}{Timeline.\+cs}}\end{DoxyCompactItemize}

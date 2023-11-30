@@ -1,0 +1,7 @@
+<map id="GameInput.IGameplayActions.OnJump" name="GameInput.IGameplayActions.OnJump">
+<area shape="rect" id="Node000001" title=" " alt="" coords="489,5,687,48"/>
+<area shape="rect" id="Node000002" href="$struct_game_input_1_1_gameplay_actions.html#a9cb872c0b987ca72a3735d41e4bc8a6c" title=" " alt="" coords="246,5,441,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="473,29,442,29,442,24,473,24"/>
+<area shape="rect" id="Node000003" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_input_reader.html#a94cf0ca518d0221b34451446359ce35a" title=" " alt="" coords="5,5,198,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="230,29,198,29,198,24,230,24"/>
+</map>

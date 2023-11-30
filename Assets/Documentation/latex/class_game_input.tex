@@ -1,0 +1,453 @@
+\doxysection{Game\+Input Class Reference}
+\hypertarget{class_game_input}{}\label{class_game_input}\index{GameInput@{GameInput}}
+
+
+Inheritance diagram for Game\+Input\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_game_input__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Game\+Input\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_game_input__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_game_input_1_1_gameplay_actions}{Gameplay\+Actions}}
+\item 
+interface \mbox{\hyperlink{interface_game_input_1_1_i_gameplay_actions}{IGameplay\+Actions}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_game_input_a60fa907641498448e9a2c68d82d700da}{Game\+Input}} ()
+\item 
+void \mbox{\hyperlink{class_game_input_a02f449b8cbc9ed8d761f939ac9eef7a9}{Dispose}} ()
+\item 
+bool \mbox{\hyperlink{class_game_input_aa2bc755a52a36b128db9a9d944ca563b}{Contains}} (Input\+Action action)
+\item 
+IEnumerator$<$ Input\+Action $>$ \mbox{\hyperlink{class_game_input_a178758fd9892b6e1dc6d8dce6352e1cc}{Get\+Enumerator}} ()
+\item 
+void \mbox{\hyperlink{class_game_input_ad53e3d9746e5723d0490b8479931e5f9}{Enable}} ()
+\item 
+void \mbox{\hyperlink{class_game_input_a0bfd55877546b4113e5051cd6702712f}{Disable}} ()
+\item 
+Input\+Action \mbox{\hyperlink{class_game_input_afe7b05c4cfb99b5431788fc8304f10bb}{Find\+Action}} (string action\+Name\+Or\+Id, bool throw\+If\+Not\+Found=false)
+\item 
+int \mbox{\hyperlink{class_game_input_ad401b279dce27673f7e83b6c47a4606c}{Find\+Binding}} (Input\+Binding \mbox{\hyperlink{class_game_input_aadaf0423888011f14fce83722506634f}{binding\+Mask}}, out Input\+Action action)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Input\+Action\+Asset \mbox{\hyperlink{class_game_input_a1448a49a1e718253fea59c76fc0f38b8}{asset}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+Input\+Binding? \mbox{\hyperlink{class_game_input_aadaf0423888011f14fce83722506634f}{binding\+Mask}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+Read\+Only\+Array$<$ Input\+Device $>$? \mbox{\hyperlink{class_game_input_a9879a4c457934ef85faf4a50c963a860}{devices}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+Read\+Only\+Array$<$ Input\+Control\+Scheme $>$ \mbox{\hyperlink{class_game_input_a077ae54f0ba86fbc8d5555fa75c7c6f0}{control\+Schemes}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+IEnumerable$<$ Input\+Binding $>$ \mbox{\hyperlink{class_game_input_a6d8d9f4c7dd0719980b5f87fd2a068e5}{bindings}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{struct_game_input_1_1_gameplay_actions}{Gameplay\+Actions}} \mbox{\hyperlink{class_game_input_ab582306207c9e0211a4c8fe7103c5774}{Gameplay}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+Input\+Control\+Scheme \mbox{\hyperlink{class_game_input_a48c72e8c77022abef383ec4794737216}{Keyboard\+Or\+Gamepad\+Scheme}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+IEnumerator IEnumerable. \mbox{\hyperlink{class_game_input_ab12993f560a5dfd45a46032aa340bbd7}{Get\+Enumerator}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+readonly Input\+Action\+Map \mbox{\hyperlink{class_game_input_a443915fb1a320a1a72f8eb3dd0854694}{m\+\_\+\+Gameplay}}
+\item 
+\mbox{\hyperlink{interface_game_input_1_1_i_gameplay_actions}{IGameplay\+Actions}} \mbox{\hyperlink{class_game_input_a15cb551821042880e98176a27a00d080}{m\+\_\+\+Gameplay\+Actions\+Callback\+Interface}}
+\item 
+readonly Input\+Action \mbox{\hyperlink{class_game_input_a7839a55da7aaa7e7bcb0a3fe00481107}{m\+\_\+\+Gameplay\+\_\+\+Move}}
+\item 
+readonly Input\+Action \mbox{\hyperlink{class_game_input_a5d55c1930b9dd6ee7cbc5558ed66fb75}{m\+\_\+\+Gameplay\+\_\+\+Jump}}
+\item 
+readonly Input\+Action \mbox{\hyperlink{class_game_input_afc463e926d0cdfa29cdedcd8fb14ec4e}{m\+\_\+\+Gameplay\+\_\+\+Pause}}
+\item 
+readonly Input\+Action \mbox{\hyperlink{class_game_input_aca848f27446232697a7c6d0658ad598c}{m\+\_\+\+Gameplay\+\_\+\+Show\+Overlay}}
+\item 
+readonly Input\+Action \mbox{\hyperlink{class_game_input_a2952fd53d4a45f6e2c02d077474140fd}{m\+\_\+\+Gameplay\+\_\+\+Show\+Commands}}
+\item 
+readonly Input\+Action \mbox{\hyperlink{class_game_input_a913d5053ab2eafde9789e3cd5dc2292e}{m\+\_\+\+Gameplay\+\_\+\+Audio\+Enabler}}
+\item 
+readonly Input\+Action \mbox{\hyperlink{class_game_input_a2d0eff12c260e6c7e0f06ba9b885cf29}{m\+\_\+\+Gameplay\+\_\+\+Run}}
+\item 
+readonly Input\+Action \mbox{\hyperlink{class_game_input_aee1b3cb50a6c7a9cd9a0eb73808b0d21}{m\+\_\+\+Gameplay\+\_\+\+Reset}}
+\item 
+readonly Input\+Action \mbox{\hyperlink{class_game_input_ae34f7ff06db9badd8f122ed807615acc}{m\+\_\+\+Gameplay\+\_\+\+Sight\+Seeing}}
+\item 
+readonly Input\+Action \mbox{\hyperlink{class_game_input_af880c3a24658758ccc1ebbec9f4370ea}{m\+\_\+\+Gameplay\+\_\+\+Go\+Back\+Home}}
+\item 
+readonly Input\+Action \mbox{\hyperlink{class_game_input_a9f50240461cec166eabc6ae3ab0dcb5f}{m\+\_\+\+Gameplay\+\_\+\+Rotate\+Camera}}
+\item 
+readonly Input\+Action \mbox{\hyperlink{class_game_input_ab10414a26bb669bca46fd7ed85c875c9}{m\+\_\+\+Gameplay\+\_\+\+Item\+Rotation}}
+\item 
+int \mbox{\hyperlink{class_game_input_a2ef055ebaecdd066699278a31c39e337}{m\+\_\+\+Keyboard\+Or\+Gamepad\+Scheme\+Index}} = -\/1
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line \mbox{\hyperlink{_game_input_8cs_source_l00018}{18}} of file \mbox{\hyperlink{_game_input_8cs_source}{Game\+Input.\+cs}}.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_game_input_a60fa907641498448e9a2c68d82d700da}\label{class_game_input_a60fa907641498448e9a2c68d82d700da} 
+\index{GameInput@{GameInput}!GameInput@{GameInput}}
+\index{GameInput@{GameInput}!GameInput@{GameInput}}
+\doxysubsubsection{\texorpdfstring{GameInput()}{GameInput()}}
+{\footnotesize\ttfamily Game\+Input.\+Game\+Input (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_game_input_8cs_source_l00021}{21}} of file \mbox{\hyperlink{_game_input_8cs_source}{Game\+Input.\+cs}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_game_input_aa2bc755a52a36b128db9a9d944ca563b}\label{class_game_input_aa2bc755a52a36b128db9a9d944ca563b} 
+\index{GameInput@{GameInput}!Contains@{Contains}}
+\index{Contains@{Contains}!GameInput@{GameInput}}
+\doxysubsubsection{\texorpdfstring{Contains()}{Contains()}}
+{\footnotesize\ttfamily bool Game\+Input.\+Contains (\begin{DoxyParamCaption}\item[{Input\+Action}]{action }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_game_input_8cs_source_l00708}{708}} of file \mbox{\hyperlink{_game_input_8cs_source}{Game\+Input.\+cs}}.
+
+\Hypertarget{class_game_input_a0bfd55877546b4113e5051cd6702712f}\label{class_game_input_a0bfd55877546b4113e5051cd6702712f} 
+\index{GameInput@{GameInput}!Disable@{Disable}}
+\index{Disable@{Disable}!GameInput@{GameInput}}
+\doxysubsubsection{\texorpdfstring{Disable()}{Disable()}}
+{\footnotesize\ttfamily void Game\+Input.\+Disable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_game_input_8cs_source_l00728}{728}} of file \mbox{\hyperlink{_game_input_8cs_source}{Game\+Input.\+cs}}.
+
+\Hypertarget{class_game_input_a02f449b8cbc9ed8d761f939ac9eef7a9}\label{class_game_input_a02f449b8cbc9ed8d761f939ac9eef7a9} 
+\index{GameInput@{GameInput}!Dispose@{Dispose}}
+\index{Dispose@{Dispose}!GameInput@{GameInput}}
+\doxysubsubsection{\texorpdfstring{Dispose()}{Dispose()}}
+{\footnotesize\ttfamily void Game\+Input.\+Dispose (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_game_input_8cs_source_l00689}{689}} of file \mbox{\hyperlink{_game_input_8cs_source}{Game\+Input.\+cs}}.
+
+\Hypertarget{class_game_input_ad53e3d9746e5723d0490b8479931e5f9}\label{class_game_input_ad53e3d9746e5723d0490b8479931e5f9} 
+\index{GameInput@{GameInput}!Enable@{Enable}}
+\index{Enable@{Enable}!GameInput@{GameInput}}
+\doxysubsubsection{\texorpdfstring{Enable()}{Enable()}}
+{\footnotesize\ttfamily void Game\+Input.\+Enable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_game_input_8cs_source_l00723}{723}} of file \mbox{\hyperlink{_game_input_8cs_source}{Game\+Input.\+cs}}.
+
+\Hypertarget{class_game_input_afe7b05c4cfb99b5431788fc8304f10bb}\label{class_game_input_afe7b05c4cfb99b5431788fc8304f10bb} 
+\index{GameInput@{GameInput}!FindAction@{FindAction}}
+\index{FindAction@{FindAction}!GameInput@{GameInput}}
+\doxysubsubsection{\texorpdfstring{FindAction()}{FindAction()}}
+{\footnotesize\ttfamily Input\+Action Game\+Input.\+Find\+Action (\begin{DoxyParamCaption}\item[{string}]{action\+Name\+Or\+Id,  }\item[{bool}]{throw\+If\+Not\+Found = {\ttfamily false} }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_game_input_8cs_source_l00734}{734}} of file \mbox{\hyperlink{_game_input_8cs_source}{Game\+Input.\+cs}}.
+
+\Hypertarget{class_game_input_ad401b279dce27673f7e83b6c47a4606c}\label{class_game_input_ad401b279dce27673f7e83b6c47a4606c} 
+\index{GameInput@{GameInput}!FindBinding@{FindBinding}}
+\index{FindBinding@{FindBinding}!GameInput@{GameInput}}
+\doxysubsubsection{\texorpdfstring{FindBinding()}{FindBinding()}}
+{\footnotesize\ttfamily int Game\+Input.\+Find\+Binding (\begin{DoxyParamCaption}\item[{Input\+Binding}]{binding\+Mask,  }\item[{out Input\+Action}]{action }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_game_input_8cs_source_l00738}{738}} of file \mbox{\hyperlink{_game_input_8cs_source}{Game\+Input.\+cs}}.
+
+\Hypertarget{class_game_input_a178758fd9892b6e1dc6d8dce6352e1cc}\label{class_game_input_a178758fd9892b6e1dc6d8dce6352e1cc} 
+\index{GameInput@{GameInput}!GetEnumerator@{GetEnumerator}}
+\index{GetEnumerator@{GetEnumerator}!GameInput@{GameInput}}
+\doxysubsubsection{\texorpdfstring{GetEnumerator()}{GetEnumerator()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily IEnumerator$<$ Input\+Action $>$ Game\+Input.\+Get\+Enumerator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_game_input_8cs_source_l00713}{713}} of file \mbox{\hyperlink{_game_input_8cs_source}{Game\+Input.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_input_a178758fd9892b6e1dc6d8dce6352e1cc_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_game_input_ab12993f560a5dfd45a46032aa340bbd7}\label{class_game_input_ab12993f560a5dfd45a46032aa340bbd7} 
+\index{GameInput@{GameInput}!GetEnumerator@{GetEnumerator}}
+\index{GetEnumerator@{GetEnumerator}!GameInput@{GameInput}}
+\doxysubsubsection{\texorpdfstring{GetEnumerator()}{GetEnumerator()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily IEnumerator IEnumerable. Game\+Input.\+Get\+Enumerator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_game_input_8cs_source_l00718}{718}} of file \mbox{\hyperlink{_game_input_8cs_source}{Game\+Input.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_input_ab12993f560a5dfd45a46032aa340bbd7_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_game_input_a443915fb1a320a1a72f8eb3dd0854694}\label{class_game_input_a443915fb1a320a1a72f8eb3dd0854694} 
+\index{GameInput@{GameInput}!m\_Gameplay@{m\_Gameplay}}
+\index{m\_Gameplay@{m\_Gameplay}!GameInput@{GameInput}}
+\doxysubsubsection{\texorpdfstring{m\_Gameplay}{m\_Gameplay}}
+{\footnotesize\ttfamily readonly Input\+Action\+Map Game\+Input.\+m\+\_\+\+Gameplay\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_game_input_8cs_source_l00744}{744}} of file \mbox{\hyperlink{_game_input_8cs_source}{Game\+Input.\+cs}}.
+
+\Hypertarget{class_game_input_a913d5053ab2eafde9789e3cd5dc2292e}\label{class_game_input_a913d5053ab2eafde9789e3cd5dc2292e} 
+\index{GameInput@{GameInput}!m\_Gameplay\_AudioEnabler@{m\_Gameplay\_AudioEnabler}}
+\index{m\_Gameplay\_AudioEnabler@{m\_Gameplay\_AudioEnabler}!GameInput@{GameInput}}
+\doxysubsubsection{\texorpdfstring{m\_Gameplay\_AudioEnabler}{m\_Gameplay\_AudioEnabler}}
+{\footnotesize\ttfamily readonly Input\+Action Game\+Input.\+m\+\_\+\+Gameplay\+\_\+\+Audio\+Enabler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_game_input_8cs_source_l00751}{751}} of file \mbox{\hyperlink{_game_input_8cs_source}{Game\+Input.\+cs}}.
+
+\Hypertarget{class_game_input_af880c3a24658758ccc1ebbec9f4370ea}\label{class_game_input_af880c3a24658758ccc1ebbec9f4370ea} 
+\index{GameInput@{GameInput}!m\_Gameplay\_GoBackHome@{m\_Gameplay\_GoBackHome}}
+\index{m\_Gameplay\_GoBackHome@{m\_Gameplay\_GoBackHome}!GameInput@{GameInput}}
+\doxysubsubsection{\texorpdfstring{m\_Gameplay\_GoBackHome}{m\_Gameplay\_GoBackHome}}
+{\footnotesize\ttfamily readonly Input\+Action Game\+Input.\+m\+\_\+\+Gameplay\+\_\+\+Go\+Back\+Home\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_game_input_8cs_source_l00755}{755}} of file \mbox{\hyperlink{_game_input_8cs_source}{Game\+Input.\+cs}}.
+
+\Hypertarget{class_game_input_ab10414a26bb669bca46fd7ed85c875c9}\label{class_game_input_ab10414a26bb669bca46fd7ed85c875c9} 
+\index{GameInput@{GameInput}!m\_Gameplay\_ItemRotation@{m\_Gameplay\_ItemRotation}}
+\index{m\_Gameplay\_ItemRotation@{m\_Gameplay\_ItemRotation}!GameInput@{GameInput}}
+\doxysubsubsection{\texorpdfstring{m\_Gameplay\_ItemRotation}{m\_Gameplay\_ItemRotation}}
+{\footnotesize\ttfamily readonly Input\+Action Game\+Input.\+m\+\_\+\+Gameplay\+\_\+\+Item\+Rotation\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_game_input_8cs_source_l00757}{757}} of file \mbox{\hyperlink{_game_input_8cs_source}{Game\+Input.\+cs}}.
+
+\Hypertarget{class_game_input_a5d55c1930b9dd6ee7cbc5558ed66fb75}\label{class_game_input_a5d55c1930b9dd6ee7cbc5558ed66fb75} 
+\index{GameInput@{GameInput}!m\_Gameplay\_Jump@{m\_Gameplay\_Jump}}
+\index{m\_Gameplay\_Jump@{m\_Gameplay\_Jump}!GameInput@{GameInput}}
+\doxysubsubsection{\texorpdfstring{m\_Gameplay\_Jump}{m\_Gameplay\_Jump}}
+{\footnotesize\ttfamily readonly Input\+Action Game\+Input.\+m\+\_\+\+Gameplay\+\_\+\+Jump\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_game_input_8cs_source_l00747}{747}} of file \mbox{\hyperlink{_game_input_8cs_source}{Game\+Input.\+cs}}.
+
+\Hypertarget{class_game_input_a7839a55da7aaa7e7bcb0a3fe00481107}\label{class_game_input_a7839a55da7aaa7e7bcb0a3fe00481107} 
+\index{GameInput@{GameInput}!m\_Gameplay\_Move@{m\_Gameplay\_Move}}
+\index{m\_Gameplay\_Move@{m\_Gameplay\_Move}!GameInput@{GameInput}}
+\doxysubsubsection{\texorpdfstring{m\_Gameplay\_Move}{m\_Gameplay\_Move}}
+{\footnotesize\ttfamily readonly Input\+Action Game\+Input.\+m\+\_\+\+Gameplay\+\_\+\+Move\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_game_input_8cs_source_l00746}{746}} of file \mbox{\hyperlink{_game_input_8cs_source}{Game\+Input.\+cs}}.
+
+\Hypertarget{class_game_input_afc463e926d0cdfa29cdedcd8fb14ec4e}\label{class_game_input_afc463e926d0cdfa29cdedcd8fb14ec4e} 
+\index{GameInput@{GameInput}!m\_Gameplay\_Pause@{m\_Gameplay\_Pause}}
+\index{m\_Gameplay\_Pause@{m\_Gameplay\_Pause}!GameInput@{GameInput}}
+\doxysubsubsection{\texorpdfstring{m\_Gameplay\_Pause}{m\_Gameplay\_Pause}}
+{\footnotesize\ttfamily readonly Input\+Action Game\+Input.\+m\+\_\+\+Gameplay\+\_\+\+Pause\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_game_input_8cs_source_l00748}{748}} of file \mbox{\hyperlink{_game_input_8cs_source}{Game\+Input.\+cs}}.
+
+\Hypertarget{class_game_input_aee1b3cb50a6c7a9cd9a0eb73808b0d21}\label{class_game_input_aee1b3cb50a6c7a9cd9a0eb73808b0d21} 
+\index{GameInput@{GameInput}!m\_Gameplay\_Reset@{m\_Gameplay\_Reset}}
+\index{m\_Gameplay\_Reset@{m\_Gameplay\_Reset}!GameInput@{GameInput}}
+\doxysubsubsection{\texorpdfstring{m\_Gameplay\_Reset}{m\_Gameplay\_Reset}}
+{\footnotesize\ttfamily readonly Input\+Action Game\+Input.\+m\+\_\+\+Gameplay\+\_\+\+Reset\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_game_input_8cs_source_l00753}{753}} of file \mbox{\hyperlink{_game_input_8cs_source}{Game\+Input.\+cs}}.
+
+\Hypertarget{class_game_input_a9f50240461cec166eabc6ae3ab0dcb5f}\label{class_game_input_a9f50240461cec166eabc6ae3ab0dcb5f} 
+\index{GameInput@{GameInput}!m\_Gameplay\_RotateCamera@{m\_Gameplay\_RotateCamera}}
+\index{m\_Gameplay\_RotateCamera@{m\_Gameplay\_RotateCamera}!GameInput@{GameInput}}
+\doxysubsubsection{\texorpdfstring{m\_Gameplay\_RotateCamera}{m\_Gameplay\_RotateCamera}}
+{\footnotesize\ttfamily readonly Input\+Action Game\+Input.\+m\+\_\+\+Gameplay\+\_\+\+Rotate\+Camera\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_game_input_8cs_source_l00756}{756}} of file \mbox{\hyperlink{_game_input_8cs_source}{Game\+Input.\+cs}}.
+
+\Hypertarget{class_game_input_a2d0eff12c260e6c7e0f06ba9b885cf29}\label{class_game_input_a2d0eff12c260e6c7e0f06ba9b885cf29} 
+\index{GameInput@{GameInput}!m\_Gameplay\_Run@{m\_Gameplay\_Run}}
+\index{m\_Gameplay\_Run@{m\_Gameplay\_Run}!GameInput@{GameInput}}
+\doxysubsubsection{\texorpdfstring{m\_Gameplay\_Run}{m\_Gameplay\_Run}}
+{\footnotesize\ttfamily readonly Input\+Action Game\+Input.\+m\+\_\+\+Gameplay\+\_\+\+Run\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_game_input_8cs_source_l00752}{752}} of file \mbox{\hyperlink{_game_input_8cs_source}{Game\+Input.\+cs}}.
+
+\Hypertarget{class_game_input_a2952fd53d4a45f6e2c02d077474140fd}\label{class_game_input_a2952fd53d4a45f6e2c02d077474140fd} 
+\index{GameInput@{GameInput}!m\_Gameplay\_ShowCommands@{m\_Gameplay\_ShowCommands}}
+\index{m\_Gameplay\_ShowCommands@{m\_Gameplay\_ShowCommands}!GameInput@{GameInput}}
+\doxysubsubsection{\texorpdfstring{m\_Gameplay\_ShowCommands}{m\_Gameplay\_ShowCommands}}
+{\footnotesize\ttfamily readonly Input\+Action Game\+Input.\+m\+\_\+\+Gameplay\+\_\+\+Show\+Commands\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_game_input_8cs_source_l00750}{750}} of file \mbox{\hyperlink{_game_input_8cs_source}{Game\+Input.\+cs}}.
+
+\Hypertarget{class_game_input_aca848f27446232697a7c6d0658ad598c}\label{class_game_input_aca848f27446232697a7c6d0658ad598c} 
+\index{GameInput@{GameInput}!m\_Gameplay\_ShowOverlay@{m\_Gameplay\_ShowOverlay}}
+\index{m\_Gameplay\_ShowOverlay@{m\_Gameplay\_ShowOverlay}!GameInput@{GameInput}}
+\doxysubsubsection{\texorpdfstring{m\_Gameplay\_ShowOverlay}{m\_Gameplay\_ShowOverlay}}
+{\footnotesize\ttfamily readonly Input\+Action Game\+Input.\+m\+\_\+\+Gameplay\+\_\+\+Show\+Overlay\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_game_input_8cs_source_l00749}{749}} of file \mbox{\hyperlink{_game_input_8cs_source}{Game\+Input.\+cs}}.
+
+\Hypertarget{class_game_input_ae34f7ff06db9badd8f122ed807615acc}\label{class_game_input_ae34f7ff06db9badd8f122ed807615acc} 
+\index{GameInput@{GameInput}!m\_Gameplay\_SightSeeing@{m\_Gameplay\_SightSeeing}}
+\index{m\_Gameplay\_SightSeeing@{m\_Gameplay\_SightSeeing}!GameInput@{GameInput}}
+\doxysubsubsection{\texorpdfstring{m\_Gameplay\_SightSeeing}{m\_Gameplay\_SightSeeing}}
+{\footnotesize\ttfamily readonly Input\+Action Game\+Input.\+m\+\_\+\+Gameplay\+\_\+\+Sight\+Seeing\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_game_input_8cs_source_l00754}{754}} of file \mbox{\hyperlink{_game_input_8cs_source}{Game\+Input.\+cs}}.
+
+\Hypertarget{class_game_input_a15cb551821042880e98176a27a00d080}\label{class_game_input_a15cb551821042880e98176a27a00d080} 
+\index{GameInput@{GameInput}!m\_GameplayActionsCallbackInterface@{m\_GameplayActionsCallbackInterface}}
+\index{m\_GameplayActionsCallbackInterface@{m\_GameplayActionsCallbackInterface}!GameInput@{GameInput}}
+\doxysubsubsection{\texorpdfstring{m\_GameplayActionsCallbackInterface}{m\_GameplayActionsCallbackInterface}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interface_game_input_1_1_i_gameplay_actions}{IGameplay\+Actions}} Game\+Input.\+m\+\_\+\+Gameplay\+Actions\+Callback\+Interface\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_game_input_8cs_source_l00745}{745}} of file \mbox{\hyperlink{_game_input_8cs_source}{Game\+Input.\+cs}}.
+
+\Hypertarget{class_game_input_a2ef055ebaecdd066699278a31c39e337}\label{class_game_input_a2ef055ebaecdd066699278a31c39e337} 
+\index{GameInput@{GameInput}!m\_KeyboardOrGamepadSchemeIndex@{m\_KeyboardOrGamepadSchemeIndex}}
+\index{m\_KeyboardOrGamepadSchemeIndex@{m\_KeyboardOrGamepadSchemeIndex}!GameInput@{GameInput}}
+\doxysubsubsection{\texorpdfstring{m\_KeyboardOrGamepadSchemeIndex}{m\_KeyboardOrGamepadSchemeIndex}}
+{\footnotesize\ttfamily int Game\+Input.\+m\+\_\+\+Keyboard\+Or\+Gamepad\+Scheme\+Index = -\/1\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_game_input_8cs_source_l00863}{863}} of file \mbox{\hyperlink{_game_input_8cs_source}{Game\+Input.\+cs}}.
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_game_input_a1448a49a1e718253fea59c76fc0f38b8}\label{class_game_input_a1448a49a1e718253fea59c76fc0f38b8} 
+\index{GameInput@{GameInput}!asset@{asset}}
+\index{asset@{asset}!GameInput@{GameInput}}
+\doxysubsubsection{\texorpdfstring{asset}{asset}}
+{\footnotesize\ttfamily Input\+Action\+Asset Game\+Input.\+asset\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line \mbox{\hyperlink{_game_input_8cs_source_l00020}{20}} of file \mbox{\hyperlink{_game_input_8cs_source}{Game\+Input.\+cs}}.
+
+\Hypertarget{class_game_input_aadaf0423888011f14fce83722506634f}\label{class_game_input_aadaf0423888011f14fce83722506634f} 
+\index{GameInput@{GameInput}!bindingMask@{bindingMask}}
+\index{bindingMask@{bindingMask}!GameInput@{GameInput}}
+\doxysubsubsection{\texorpdfstring{bindingMask}{bindingMask}}
+{\footnotesize\ttfamily Input\+Binding? Game\+Input.\+binding\+Mask\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line \mbox{\hyperlink{_game_input_8cs_source_l00694}{694}} of file \mbox{\hyperlink{_game_input_8cs_source}{Game\+Input.\+cs}}.
+
+\Hypertarget{class_game_input_a6d8d9f4c7dd0719980b5f87fd2a068e5}\label{class_game_input_a6d8d9f4c7dd0719980b5f87fd2a068e5} 
+\index{GameInput@{GameInput}!bindings@{bindings}}
+\index{bindings@{bindings}!GameInput@{GameInput}}
+\doxysubsubsection{\texorpdfstring{bindings}{bindings}}
+{\footnotesize\ttfamily IEnumerable$<$Input\+Binding$>$ Game\+Input.\+bindings\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line \mbox{\hyperlink{_game_input_8cs_source_l00732}{732}} of file \mbox{\hyperlink{_game_input_8cs_source}{Game\+Input.\+cs}}.
+
+\Hypertarget{class_game_input_a077ae54f0ba86fbc8d5555fa75c7c6f0}\label{class_game_input_a077ae54f0ba86fbc8d5555fa75c7c6f0} 
+\index{GameInput@{GameInput}!controlSchemes@{controlSchemes}}
+\index{controlSchemes@{controlSchemes}!GameInput@{GameInput}}
+\doxysubsubsection{\texorpdfstring{controlSchemes}{controlSchemes}}
+{\footnotesize\ttfamily Read\+Only\+Array$<$Input\+Control\+Scheme$>$ Game\+Input.\+control\+Schemes\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line \mbox{\hyperlink{_game_input_8cs_source_l00706}{706}} of file \mbox{\hyperlink{_game_input_8cs_source}{Game\+Input.\+cs}}.
+
+\Hypertarget{class_game_input_a9879a4c457934ef85faf4a50c963a860}\label{class_game_input_a9879a4c457934ef85faf4a50c963a860} 
+\index{GameInput@{GameInput}!devices@{devices}}
+\index{devices@{devices}!GameInput@{GameInput}}
+\doxysubsubsection{\texorpdfstring{devices}{devices}}
+{\footnotesize\ttfamily Read\+Only\+Array$<$Input\+Device$>$? Game\+Input.\+devices\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line \mbox{\hyperlink{_game_input_8cs_source_l00700}{700}} of file \mbox{\hyperlink{_game_input_8cs_source}{Game\+Input.\+cs}}.
+
+\Hypertarget{class_game_input_ab582306207c9e0211a4c8fe7103c5774}\label{class_game_input_ab582306207c9e0211a4c8fe7103c5774} 
+\index{GameInput@{GameInput}!Gameplay@{Gameplay}}
+\index{Gameplay@{Gameplay}!GameInput@{GameInput}}
+\doxysubsubsection{\texorpdfstring{Gameplay}{Gameplay}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_game_input_1_1_gameplay_actions}{Gameplay\+Actions}} Game\+Input.\+Gameplay\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line \mbox{\hyperlink{_game_input_8cs_source_l00862}{862}} of file \mbox{\hyperlink{_game_input_8cs_source}{Game\+Input.\+cs}}.
+
+\Hypertarget{class_game_input_a48c72e8c77022abef383ec4794737216}\label{class_game_input_a48c72e8c77022abef383ec4794737216} 
+\index{GameInput@{GameInput}!KeyboardOrGamepadScheme@{KeyboardOrGamepadScheme}}
+\index{KeyboardOrGamepadScheme@{KeyboardOrGamepadScheme}!GameInput@{GameInput}}
+\doxysubsubsection{\texorpdfstring{KeyboardOrGamepadScheme}{KeyboardOrGamepadScheme}}
+{\footnotesize\ttfamily Input\+Control\+Scheme Game\+Input.\+Keyboard\+Or\+Gamepad\+Scheme\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line \mbox{\hyperlink{_game_input_8cs_source_l00864}{864}} of file \mbox{\hyperlink{_game_input_8cs_source}{Game\+Input.\+cs}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Beavir/\+Businesslogic/\+Utilities/\+Input/\mbox{\hyperlink{_game_input_8cs}{Game\+Input.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,17 @@
+<map id="Beavir.Businesslogic.Utilities.FadingAnimation.OnEnable" name="Beavir.Businesslogic.Utilities.FadingAnimation.OnEnable">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,68,198,111"/>
+<area shape="rect" id="Node000002" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation.html#ae0b7425760f54b4c32d2e1753bae6765" title=" " alt="" coords="750,39,1007,81"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="182,65,245,53,374,43,504,40,734,47,734,52,504,45,375,48,246,59,183,70"/>
+<area shape="rect" id="Node000005" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation.html#ab34f121abb31c36329f759058f388a03" title=" " alt="" coords="246,68,438,111"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="198,87,230,87,230,92,198,92"/>
+<area shape="rect" id="Node000007" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation.html#a6f5262d2144a7d5eca657940719a7001" title=" " alt="" coords="246,135,438,177"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="181,109,248,127,247,133,180,114"/>
+<area shape="rect" id="Node000003" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation.html#aa289694085b0ac15c2d46ea1ba4374fe" title=" " alt="" coords="1063,5,1260,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1007,42,1047,37,1047,43,1008,47"/>
+<area shape="rect" id="Node000004" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation.html#aa7e12f2fb9b2ac572065893568261434" title=" " alt="" coords="1055,72,1268,115"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="1008,73,1040,76,1039,82,1007,78"/>
+<area shape="rect" id="Node000006" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation.html#a9718ea207afd9c05d065567bfe686f48" title=" " alt="" coords="486,68,702,111"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="439,87,470,87,470,92,439,92"/>
+<area shape="poly" id="edge6_Node000006_Node000002" title=" " alt="" coords="703,76,734,72,735,77,703,81"/>
+<area shape="poly" id="edge8_Node000007_Node000006" title=" " alt="" coords="425,132,496,113,497,118,426,137"/>
+</map>

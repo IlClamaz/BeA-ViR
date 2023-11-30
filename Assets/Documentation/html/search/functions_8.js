@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['jump_0',['Jump',['../class_first_person_controller.html#a374b1386c47640b726f8787157a0a8ac',1,'FirstPersonController']]]
+  ['jump_0',['Jump',['../class_beavir_1_1_businesslogic_1_1_models_1_1_player.html#a52bf820acf26f7132551e31ece4d235d',1,'Beavir::Businesslogic::Models::Player']]]
 ];

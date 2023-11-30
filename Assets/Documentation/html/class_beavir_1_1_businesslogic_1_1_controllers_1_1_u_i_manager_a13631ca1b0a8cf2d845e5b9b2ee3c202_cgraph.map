@@ -1,0 +1,18 @@
+<map id="Beavir.Businesslogic.Controllers.UIManager.OnEnable" name="Beavir.Businesslogic.Controllers.UIManager.OnEnable">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,105,217,148"/>
+<area shape="rect" id="Node000002" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager.html#a5b9327f4672a4fae3aeb38d397140ff3" title=" " alt="" coords="265,5,476,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,102,264,58,282,51,283,56,266,62,160,107"/>
+<area shape="rect" id="Node000003" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager.html#a8abe05cc464e79832063473bd2757c66" title=" " alt="" coords="265,72,476,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="217,110,249,106,249,112,217,116"/>
+<area shape="rect" id="Node000004" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager.html#a2f6dc2cedfd4371f50d4ca9f29eb7916" title=" " alt="" coords="265,139,476,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="217,138,249,142,249,147,217,143"/>
+<area shape="rect" id="Node000008" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager.html#a23c37998ab80774deb56d29651f97259" title=" " alt="" coords="265,205,476,248"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="160,146,266,191,283,197,282,202,264,196,158,151"/>
+<area shape="rect" id="Node000005" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_enabler.html#ab3c4bd42d30a2ff934a0e0c22b1d3f55" title=" " alt="" coords="531,105,757,148"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="476,144,515,140,516,145,477,150"/>
+<area shape="rect" id="Node000007" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_enabler.html#aee48268fec72bc9a02a6ae87102a93b2" title=" " alt="" coords="524,172,764,215"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="477,170,509,174,508,179,476,176"/>
+<area shape="rect" id="Node000006" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_enabler.html#a1429d4ffb865f1ec7f63a551eee6fdb9" title=" " alt="" coords="812,139,1023,181"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="758,138,797,143,797,148,758,143"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="764,176,797,172,797,177,765,181"/>
+</map>

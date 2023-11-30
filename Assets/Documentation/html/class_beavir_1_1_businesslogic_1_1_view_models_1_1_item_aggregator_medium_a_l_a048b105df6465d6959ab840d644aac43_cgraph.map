@@ -1,0 +1,10 @@
+<map id="Beavir.Businesslogic.ViewModels.ItemAggregatorMediumAL.Start" name="Beavir.Businesslogic.ViewModels.ItemAggregatorMediumAL.Start">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,255,81"/>
+<area shape="rect" id="Node000002" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_enabler.html#ab3c4bd42d30a2ff934a0e0c22b1d3f55" title=" " alt="" coords="310,5,536,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="255,43,294,39,294,44,256,48"/>
+<area shape="rect" id="Node000004" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_enabler.html#aee48268fec72bc9a02a6ae87102a93b2" title=" " alt="" coords="303,72,543,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="256,72,287,75,287,81,255,77"/>
+<area shape="rect" id="Node000003" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_enabler.html#a1429d4ffb865f1ec7f63a551eee6fdb9" title=" " alt="" coords="591,39,801,81"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="537,38,576,43,575,48,536,43"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="543,76,575,72,576,77,544,81"/>
+</map>

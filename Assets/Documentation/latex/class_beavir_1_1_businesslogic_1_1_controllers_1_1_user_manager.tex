@@ -1,0 +1,452 @@
+\doxysection{Beavir.\+Businesslogic.\+Controllers.\+User\+Manager Class Reference}
+\hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager}{}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager}\index{Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}}
+
+
+Controller that manages the User (virtualized through the Player) and devices input (through the Input Reader).  
+
+
+
+
+Inheritance diagram for Beavir.\+Businesslogic.\+Controllers.\+User\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Beavir.\+Businesslogic.\+Controllers.\+User\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a892559a4629e1b5cb87dfc204cdf9885}{Start}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_ab09c63a22fb6812f568797de9f523676}{Disable\+All\+Input}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a59d81b84a6fbd964441e3eccc92396a7}{Temporarily\+Disable\+All\+Input}} (float duration)
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a73837d4663d1cecccb1f01bd26cc0d38}{Enable\+All\+Input}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_abc48f314a9d7d9f616709fe4257f3af9}{Update\+Player\+Position}} (Vector3 destination)
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a7ddf6d8af443b8eb805e4877cd4c1ca8}{Update\+Player\+Rotation}} (Vector3 direction)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_input_reader}{Input\+Reader}} \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a437629fb353643297e1ede470017862f}{Input\+Reader}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_player}{Player}} \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a2720a8dffe8bc0cd596216c8ca0edbd7}{Player}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a34e6f6151695e1cad01cb648fed746a4}{Controls\+Enabled}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a71bad5ec48df696539aa53e789e033ff}{On\+Enable}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_ae98e92ecbfc08037fc99688511d91945}{On\+Disable}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a901857d9dd6b9c732e22651e728d92de}{On\+Move}} (Vector2 movement)
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_ae04a9d248436ef39dc154ba97da87e6f}{On\+Rotate\+Camera}} (Vector2 rotation)
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_acb06f257aa518aa6c79fd5af158f7b2a}{On\+Jump}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_ab1128f1cfa7cdb3ef6ac31deb1dfd719}{Late\+Update}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_ac61d39e7e4999e1e8687bc650a1589ce}{Update}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_input_reader}{Input\+Reader}} \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a591968a49ed8e60c143e2c3395cf426e}{input\+Reader}}
+\item 
+\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_player}{Player}} \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_af704a207356b3c4f71f6e3d7e9087104}{player}}
+\item 
+bool \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a9ea9bdce2fa7fc38e17975a48718f9fa}{controls\+Enabled}} = true
+\item 
+Vector2 \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a7cce3ed26d57877ae81f1aee132f32bc}{next\+Movement}}
+\item 
+Vector2 \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a963102c05dcfc1bbef804fa52f1b3892}{next\+Camera\+Rotation}}
+\item 
+bool \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a1b3e8a27fca0462c36d8937015b0ac6b}{is\+Jumping}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Controller that manages the User (virtualized through the Player) and devices input (through the Input Reader). 
+
+Definition at line \mbox{\hyperlink{_user_manager_8cs_source_l00010}{10}} of file \mbox{\hyperlink{_user_manager_8cs_source}{User\+Manager.\+cs}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_ab09c63a22fb6812f568797de9f523676}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_ab09c63a22fb6812f568797de9f523676} 
+\index{Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}!DisableAllInput@{DisableAllInput}}
+\index{DisableAllInput@{DisableAllInput}!Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}}
+\doxysubsubsection{\texorpdfstring{DisableAllInput()}{DisableAllInput()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+User\+Manager.\+Disable\+All\+Input (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_user_manager_8cs_source_l00078}{78}} of file \mbox{\hyperlink{_user_manager_8cs_source}{User\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_ab09c63a22fb6812f568797de9f523676_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a73837d4663d1cecccb1f01bd26cc0d38}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a73837d4663d1cecccb1f01bd26cc0d38} 
+\index{Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}!EnableAllInput@{EnableAllInput}}
+\index{EnableAllInput@{EnableAllInput}!Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}}
+\doxysubsubsection{\texorpdfstring{EnableAllInput()}{EnableAllInput()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+User\+Manager.\+Enable\+All\+Input (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_user_manager_8cs_source_l00097}{97}} of file \mbox{\hyperlink{_user_manager_8cs_source}{User\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a73837d4663d1cecccb1f01bd26cc0d38_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a73837d4663d1cecccb1f01bd26cc0d38_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_ab1128f1cfa7cdb3ef6ac31deb1dfd719}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_ab1128f1cfa7cdb3ef6ac31deb1dfd719} 
+\index{Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}!LateUpdate@{LateUpdate}}
+\index{LateUpdate@{LateUpdate}!Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}}
+\doxysubsubsection{\texorpdfstring{LateUpdate()}{LateUpdate()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+User\+Manager.\+Late\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_user_manager_8cs_source_l00063}{63}} of file \mbox{\hyperlink{_user_manager_8cs_source}{User\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_ab1128f1cfa7cdb3ef6ac31deb1dfd719_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_ae98e92ecbfc08037fc99688511d91945}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_ae98e92ecbfc08037fc99688511d91945} 
+\index{Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}!OnDisable@{OnDisable}}
+\index{OnDisable@{OnDisable}!Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}}
+\doxysubsubsection{\texorpdfstring{OnDisable()}{OnDisable()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+User\+Manager.\+On\+Disable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_user_manager_8cs_source_l00033}{33}} of file \mbox{\hyperlink{_user_manager_8cs_source}{User\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_ae98e92ecbfc08037fc99688511d91945_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a71bad5ec48df696539aa53e789e033ff}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a71bad5ec48df696539aa53e789e033ff} 
+\index{Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}!OnEnable@{OnEnable}}
+\index{OnEnable@{OnEnable}!Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}}
+\doxysubsubsection{\texorpdfstring{OnEnable()}{OnEnable()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+User\+Manager.\+On\+Enable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_user_manager_8cs_source_l00025}{25}} of file \mbox{\hyperlink{_user_manager_8cs_source}{User\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a71bad5ec48df696539aa53e789e033ff_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_acb06f257aa518aa6c79fd5af158f7b2a}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_acb06f257aa518aa6c79fd5af158f7b2a} 
+\index{Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}!OnJump@{OnJump}}
+\index{OnJump@{OnJump}!Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}}
+\doxysubsubsection{\texorpdfstring{OnJump()}{OnJump()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+User\+Manager.\+On\+Jump (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_user_manager_8cs_source_l00050}{50}} of file \mbox{\hyperlink{_user_manager_8cs_source}{User\+Manager.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_acb06f257aa518aa6c79fd5af158f7b2a_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a901857d9dd6b9c732e22651e728d92de}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a901857d9dd6b9c732e22651e728d92de} 
+\index{Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}!OnMove@{OnMove}}
+\index{OnMove@{OnMove}!Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}}
+\doxysubsubsection{\texorpdfstring{OnMove()}{OnMove()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+User\+Manager.\+On\+Move (\begin{DoxyParamCaption}\item[{Vector2}]{movement }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_user_manager_8cs_source_l00040}{40}} of file \mbox{\hyperlink{_user_manager_8cs_source}{User\+Manager.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a901857d9dd6b9c732e22651e728d92de_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_ae04a9d248436ef39dc154ba97da87e6f}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_ae04a9d248436ef39dc154ba97da87e6f} 
+\index{Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}!OnRotateCamera@{OnRotateCamera}}
+\index{OnRotateCamera@{OnRotateCamera}!Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}}
+\doxysubsubsection{\texorpdfstring{OnRotateCamera()}{OnRotateCamera()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+User\+Manager.\+On\+Rotate\+Camera (\begin{DoxyParamCaption}\item[{Vector2}]{rotation }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_user_manager_8cs_source_l00045}{45}} of file \mbox{\hyperlink{_user_manager_8cs_source}{User\+Manager.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_ae04a9d248436ef39dc154ba97da87e6f_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a892559a4629e1b5cb87dfc204cdf9885}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a892559a4629e1b5cb87dfc204cdf9885} 
+\index{Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}!Start@{Start}}
+\index{Start@{Start}!Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+User\+Manager.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_user_manager_8cs_source_l00055}{55}} of file \mbox{\hyperlink{_user_manager_8cs_source}{User\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a59d81b84a6fbd964441e3eccc92396a7}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a59d81b84a6fbd964441e3eccc92396a7} 
+\index{Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}!TemporarilyDisableAllInput@{TemporarilyDisableAllInput}}
+\index{TemporarilyDisableAllInput@{TemporarilyDisableAllInput}!Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}}
+\doxysubsubsection{\texorpdfstring{TemporarilyDisableAllInput()}{TemporarilyDisableAllInput()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+User\+Manager.\+Temporarily\+Disable\+All\+Input (\begin{DoxyParamCaption}\item[{float}]{duration }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_user_manager_8cs_source_l00087}{87}} of file \mbox{\hyperlink{_user_manager_8cs_source}{User\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a59d81b84a6fbd964441e3eccc92396a7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a59d81b84a6fbd964441e3eccc92396a7_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_ac61d39e7e4999e1e8687bc650a1589ce}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_ac61d39e7e4999e1e8687bc650a1589ce} 
+\index{Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}!Update@{Update}}
+\index{Update@{Update}!Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+User\+Manager.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_user_manager_8cs_source_l00068}{68}} of file \mbox{\hyperlink{_user_manager_8cs_source}{User\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_ac61d39e7e4999e1e8687bc650a1589ce_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_abc48f314a9d7d9f616709fe4257f3af9}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_abc48f314a9d7d9f616709fe4257f3af9} 
+\index{Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}!UpdatePlayerPosition@{UpdatePlayerPosition}}
+\index{UpdatePlayerPosition@{UpdatePlayerPosition}!Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}}
+\doxysubsubsection{\texorpdfstring{UpdatePlayerPosition()}{UpdatePlayerPosition()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+User\+Manager.\+Update\+Player\+Position (\begin{DoxyParamCaption}\item[{Vector3}]{destination }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_user_manager_8cs_source_l00106}{106}} of file \mbox{\hyperlink{_user_manager_8cs_source}{User\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_abc48f314a9d7d9f616709fe4257f3af9_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_abc48f314a9d7d9f616709fe4257f3af9_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a7ddf6d8af443b8eb805e4877cd4c1ca8}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a7ddf6d8af443b8eb805e4877cd4c1ca8} 
+\index{Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}!UpdatePlayerRotation@{UpdatePlayerRotation}}
+\index{UpdatePlayerRotation@{UpdatePlayerRotation}!Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}}
+\doxysubsubsection{\texorpdfstring{UpdatePlayerRotation()}{UpdatePlayerRotation()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+User\+Manager.\+Update\+Player\+Rotation (\begin{DoxyParamCaption}\item[{Vector3}]{direction }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_user_manager_8cs_source_l00111}{111}} of file \mbox{\hyperlink{_user_manager_8cs_source}{User\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a7ddf6d8af443b8eb805e4877cd4c1ca8_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a7ddf6d8af443b8eb805e4877cd4c1ca8_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a9ea9bdce2fa7fc38e17975a48718f9fa}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a9ea9bdce2fa7fc38e17975a48718f9fa} 
+\index{Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}!controlsEnabled@{controlsEnabled}}
+\index{controlsEnabled@{controlsEnabled}!Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}}
+\doxysubsubsection{\texorpdfstring{controlsEnabled}{controlsEnabled}}
+{\footnotesize\ttfamily bool Beavir.\+Businesslogic.\+Controllers.\+User\+Manager.\+controls\+Enabled = true\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_user_manager_8cs_source_l00015}{15}} of file \mbox{\hyperlink{_user_manager_8cs_source}{User\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a591968a49ed8e60c143e2c3395cf426e}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a591968a49ed8e60c143e2c3395cf426e} 
+\index{Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}!inputReader@{inputReader}}
+\index{inputReader@{inputReader}!Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}}
+\doxysubsubsection{\texorpdfstring{inputReader}{inputReader}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_input_reader}{Input\+Reader}} Beavir.\+Businesslogic.\+Controllers.\+User\+Manager.\+input\+Reader\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_user_manager_8cs_source_l00012}{12}} of file \mbox{\hyperlink{_user_manager_8cs_source}{User\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a1b3e8a27fca0462c36d8937015b0ac6b}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a1b3e8a27fca0462c36d8937015b0ac6b} 
+\index{Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}!isJumping@{isJumping}}
+\index{isJumping@{isJumping}!Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}}
+\doxysubsubsection{\texorpdfstring{isJumping}{isJumping}}
+{\footnotesize\ttfamily bool Beavir.\+Businesslogic.\+Controllers.\+User\+Manager.\+is\+Jumping\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_user_manager_8cs_source_l00018}{18}} of file \mbox{\hyperlink{_user_manager_8cs_source}{User\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a963102c05dcfc1bbef804fa52f1b3892}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a963102c05dcfc1bbef804fa52f1b3892} 
+\index{Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}!nextCameraRotation@{nextCameraRotation}}
+\index{nextCameraRotation@{nextCameraRotation}!Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}}
+\doxysubsubsection{\texorpdfstring{nextCameraRotation}{nextCameraRotation}}
+{\footnotesize\ttfamily Vector2 Beavir.\+Businesslogic.\+Controllers.\+User\+Manager.\+next\+Camera\+Rotation\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_user_manager_8cs_source_l00017}{17}} of file \mbox{\hyperlink{_user_manager_8cs_source}{User\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a7cce3ed26d57877ae81f1aee132f32bc}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a7cce3ed26d57877ae81f1aee132f32bc} 
+\index{Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}!nextMovement@{nextMovement}}
+\index{nextMovement@{nextMovement}!Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}}
+\doxysubsubsection{\texorpdfstring{nextMovement}{nextMovement}}
+{\footnotesize\ttfamily Vector2 Beavir.\+Businesslogic.\+Controllers.\+User\+Manager.\+next\+Movement\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_user_manager_8cs_source_l00016}{16}} of file \mbox{\hyperlink{_user_manager_8cs_source}{User\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_af704a207356b3c4f71f6e3d7e9087104}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_af704a207356b3c4f71f6e3d7e9087104} 
+\index{Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}!player@{player}}
+\index{player@{player}!Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}}
+\doxysubsubsection{\texorpdfstring{player}{player}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_player}{Player}} Beavir.\+Businesslogic.\+Controllers.\+User\+Manager.\+player\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_user_manager_8cs_source_l00013}{13}} of file \mbox{\hyperlink{_user_manager_8cs_source}{User\+Manager.\+cs}}.
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a34e6f6151695e1cad01cb648fed746a4}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a34e6f6151695e1cad01cb648fed746a4} 
+\index{Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}!ControlsEnabled@{ControlsEnabled}}
+\index{ControlsEnabled@{ControlsEnabled}!Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}}
+\doxysubsubsection{\texorpdfstring{ControlsEnabled}{ControlsEnabled}}
+{\footnotesize\ttfamily bool Beavir.\+Businesslogic.\+Controllers.\+User\+Manager.\+Controls\+Enabled\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line \mbox{\hyperlink{_user_manager_8cs_source_l00022}{22}} of file \mbox{\hyperlink{_user_manager_8cs_source}{User\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a437629fb353643297e1ede470017862f}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a437629fb353643297e1ede470017862f} 
+\index{Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}!InputReader@{InputReader}}
+\index{InputReader@{InputReader}!Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}}
+\doxysubsubsection{\texorpdfstring{InputReader}{InputReader}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_input_reader}{Input\+Reader}} Beavir.\+Businesslogic.\+Controllers.\+User\+Manager.\+Input\+Reader\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line \mbox{\hyperlink{_user_manager_8cs_source_l00020}{20}} of file \mbox{\hyperlink{_user_manager_8cs_source}{User\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a2720a8dffe8bc0cd596216c8ca0edbd7}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager_a2720a8dffe8bc0cd596216c8ca0edbd7} 
+\index{Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}!Player@{Player}}
+\index{Player@{Player}!Beavir.Businesslogic.Controllers.UserManager@{Beavir.Businesslogic.Controllers.UserManager}}
+\doxysubsubsection{\texorpdfstring{Player}{Player}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_player}{Player}} Beavir.\+Businesslogic.\+Controllers.\+User\+Manager.\+Player\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line \mbox{\hyperlink{_user_manager_8cs_source_l00021}{21}} of file \mbox{\hyperlink{_user_manager_8cs_source}{User\+Manager.\+cs}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Beavir/\+Businesslogic/\+Controllers/\mbox{\hyperlink{_user_manager_8cs}{User\+Manager.\+cs}}\end{DoxyCompactItemize}

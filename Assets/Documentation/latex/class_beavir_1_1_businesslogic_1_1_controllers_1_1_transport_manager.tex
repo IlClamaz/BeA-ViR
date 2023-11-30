@@ -1,0 +1,919 @@
+\doxysection{Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager Class Reference}
+\hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager}{}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager}\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+
+
+Controller that manages travels inter/intra Environments.  
+
+
+
+
+Inheritance diagram for Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a0c21fc531f37c4eb0ec1fe862dbace1e}{Update\+Loc\+History}} (Game\+Object game\+Object)
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a22d10b84925ed4f63476784875cd4a6e}{Set\+Japan}} (bool is\+Moving)
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a39fd0e7daa280914f2a46c1546f10d44}{Send\+Fade\+Inter}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a1852faa429c55291731c5ad7e3cff1f9}{Send\+Fade\+Intra}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_aa361915dd5954f16898502b650e68884}{Send\+Fade\+Camera}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_aaea566860fd90579d73e879fa28a4b42}{Send\+Reset}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a7adefecaae77bb08c5a5babb751316be}{Env2\+Home}} (\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment}{Environment}} destination\+Environment)
+\begin{DoxyCompactList}\small\item\em Method that disables the current Environment and activates 
+\begin{DoxyParams}{Parameters}
+{\em destination\+Environment} & \\
+\hline
+\end{DoxyParams}
+after fading the player camera e teleporting the player to the starting point. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_ab21b0b627f48a59dacf53102e1cbfbb6}{Sub\+Env2\+Home}} (\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment}{Environment}} destination\+Environment)
+\begin{DoxyCompactList}\small\item\em Method that disables the current Sub\+Environment and activates 
+\begin{DoxyParams}{Parameters}
+{\em destination\+Environment} & \\
+\hline
+\end{DoxyParams}
+after the reactivation of the objects disabled in the father Environment and fading the player camera e teleporting the player to the starting point. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_ac7f2f4305c170946cfe63441c4292eb1}{Home2\+Env}} (\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment}{Environment}} destination\+Environment)
+\begin{DoxyCompactList}\small\item\em Method that disables the current Environment and activates 
+\begin{DoxyParams}{Parameters}
+{\em destination\+Environment} & \\
+\hline
+\end{DoxyParams}
+after fading all the objects. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a05a0751de710a7b580a9c45219dc041d}{Sub\+Env2\+Env}} (\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment}{Environment}} destination\+Environment)
+\begin{DoxyCompactList}\small\item\em Method that disables the current Sub\+Environment and activates 
+\begin{DoxyParams}{Parameters}
+{\em destination\+Environment} & \\
+\hline
+\end{DoxyParams}
+after fading some objects in the Environment and reactivating the objects disabled in the Father. In case that the Sub\+Environment Father is not the destination Environment, Home2\+Env is called. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_af1bb891f5c3f76e8fc8b292d8a36ff68}{Env2\+Sub\+Env}} (\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment}{Environment}} destination\+Environment)
+\begin{DoxyCompactList}\small\item\em Method that disables the current Environment and activates 
+\begin{DoxyParams}{Parameters}
+{\em destination\+Environment} & \\
+\hline
+\end{DoxyParams}
+after fading and disabling some objects in the Environment. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a677073788d8e0ebc90b05d90e4b6faaa}{Sub\+Env2\+Sub\+Env}} (\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment}{Environment}} destination\+Environment)
+\begin{DoxyCompactList}\small\item\em Method that disables the current Sub\+Environment and activates 
+\begin{DoxyParams}{Parameters}
+{\em destination\+Environment} & \\
+\hline
+\end{DoxyParams}
+after fading some objects in the Environment and reactivating the objects disabled in the Father but not disabled in destination Environment. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a8a8eebec68370b277c9696d6aebf2525}{Travel\+To}} (\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment}{Environment}} destination\+Environment)
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_ad2ea07fabb64475dba105a46dc56c485}{Teleport}} (Vector3 destination, Vector3 look\+Direction)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment}{Environment}} \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a4456b23989c5b9d98397a7c651746389}{Cur\+Env}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+Game\+Object \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_ae5888cd0ad6ec67231ee9125471ac54a}{Cur\+Obj}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+List$<$ Game\+Object $>$ \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a793fac008ea9ffa929c763b824ee3c45}{Loc\+History}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+float \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a1f24f4989a89a159177597e342312274}{Fading\+Duration}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+Game\+Object \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a33bed99c6652271dcda22ac2e7d8a968}{Starting\+Point}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment}{Environment}} \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a77bb349a3da6573ad57f0b70efe1fd1e}{Starting\+Environment}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+Unity\+Action \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a5aa7f3505b66ec2f5095ade5c497cb5b}{Fade\+Inter\+Event}} = delegate \{ \}
+\item 
+Unity\+Action \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_ad79486d6ef693ebf2d23e8eed7acdb23}{Fade\+Intra\+Event}} = delegate \{ \}
+\item 
+Unity\+Action \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_ac6df22843348bfe2f9c3a54fa2079227}{Fade\+Camera\+Event}} = delegate \{ \}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a5812bc3cbebc9ac992b9d3802c77b9ad}{Start}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a68fc4e01feaa12b378b3f50e0af72427}{On\+Enable}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_af530d76f2519aab21c0d8b83ee7029c4}{On\+Disable}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a69dbe2b7bc63a1b521ff4c847a7472ae}{On\+Go\+Back\+Home}} ()
+\begin{DoxyCompactList}\small\item\em Method that handles the action "{}\+Go\+Back\+Home"{} after input request. ~\newline
+ \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a37a46cbf5c1636d2ddf35480dbbeeeb4}{Change\+Environment}} (\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment}{Environment}} destination\+Environment)
+\begin{DoxyCompactList}\small\item\em Method that updates the current Environment with 
+\begin{DoxyParams}{Parameters}
+{\em destination\+Environment} & \\
+\hline
+\end{DoxyParams}
+and activates it. It also changes the mobility of Flying Japan, changes the Sky color, activate Title UI and manages Audio. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_adcde6f3277dc18645a6bae1963d53afc}{On\+Sight\+Seeing}} (float value\+Pressed)
+\begin{DoxyCompactList}\small\item\em Method that manages the Guided Tour, teleporting the player according to the sight points in the current Environment. If the current Environment has no sight Points but has a father, it uses the father\textquotesingle{}s ones. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a9b8da975762782f4085aa4d2acb248e3}{Cooldown\+Reset}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+float \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_ab9bad3e7f90d37c55ab18ca04ace4126}{fading\+Duration}}
+\item 
+Game\+Object \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_abc2064e19e88a4b7518d3d0a92ccd6f5}{starting\+Point}}
+\item 
+\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment}{Environment}} \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a0563db9aa276e0c3a2d1519b91a5561e}{starting\+Environment}}
+\item 
+Game\+Object \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a39c37809e5af08d0a8024dfa9c368241}{flying\+Japan}}
+\item 
+Game\+Event \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a0d9d4cb0ddfe7c8aca82b4b659d6f2cb}{reset}}
+\item 
+List$<$ Game\+Object $>$ \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a2d647adbeac3926cd9d7a544cde8a226}{loc\+History}}
+\item 
+\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment}{Environment}} \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a0df72999965662159e394a2446b0edda}{cur\+Env}}
+\item 
+Game\+Object \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a583e780bd5e1aadefcc6bc01a0e71433}{cur\+Obj}}
+\item 
+bool \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a8e2ca0d9f9eb9c239f72fcfad3c6de40}{cooldown}} = false
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Controller that manages travels inter/intra Environments. 
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00015}{15}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a37a46cbf5c1636d2ddf35480dbbeeeb4}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a37a46cbf5c1636d2ddf35480dbbeeeb4} 
+\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}!ChangeEnvironment@{ChangeEnvironment}}
+\index{ChangeEnvironment@{ChangeEnvironment}!Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+\doxysubsubsection{\texorpdfstring{ChangeEnvironment()}{ChangeEnvironment()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager.\+Change\+Environment (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment}{Environment}}}]{destination\+Environment }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Method that updates the current Environment with 
+\begin{DoxyParams}{Parameters}
+{\em destination\+Environment} & \\
+\hline
+\end{DoxyParams}
+and activates it. It also changes the mobility of Flying Japan, changes the Sky color, activate Title UI and manages Audio. 
+
+
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00203}{203}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a37a46cbf5c1636d2ddf35480dbbeeeb4_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a37a46cbf5c1636d2ddf35480dbbeeeb4_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a9b8da975762782f4085aa4d2acb248e3}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a9b8da975762782f4085aa4d2acb248e3} 
+\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}!CooldownReset@{CooldownReset}}
+\index{CooldownReset@{CooldownReset}!Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+\doxysubsubsection{\texorpdfstring{CooldownReset()}{CooldownReset()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager.\+Cooldown\+Reset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00281}{281}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a9b8da975762782f4085aa4d2acb248e3_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a7adefecaae77bb08c5a5babb751316be}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a7adefecaae77bb08c5a5babb751316be} 
+\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}!Env2Home@{Env2Home}}
+\index{Env2Home@{Env2Home}!Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+\doxysubsubsection{\texorpdfstring{Env2Home()}{Env2Home()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager.\+Env2\+Home (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment}{Environment}}}]{destination\+Environment }\end{DoxyParamCaption})}
+
+
+
+Method that disables the current Environment and activates 
+\begin{DoxyParams}{Parameters}
+{\em destination\+Environment} & \\
+\hline
+\end{DoxyParams}
+after fading the player camera e teleporting the player to the starting point. 
+
+
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00104}{104}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a7adefecaae77bb08c5a5babb751316be_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a7adefecaae77bb08c5a5babb751316be_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_af1bb891f5c3f76e8fc8b292d8a36ff68}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_af1bb891f5c3f76e8fc8b292d8a36ff68} 
+\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}!Env2SubEnv@{Env2SubEnv}}
+\index{Env2SubEnv@{Env2SubEnv}!Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+\doxysubsubsection{\texorpdfstring{Env2SubEnv()}{Env2SubEnv()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager.\+Env2\+Sub\+Env (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment}{Environment}}}]{destination\+Environment }\end{DoxyParamCaption})}
+
+
+
+Method that disables the current Environment and activates 
+\begin{DoxyParams}{Parameters}
+{\em destination\+Environment} & \\
+\hline
+\end{DoxyParams}
+after fading and disabling some objects in the Environment. 
+
+
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00166}{166}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_af1bb891f5c3f76e8fc8b292d8a36ff68_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_af1bb891f5c3f76e8fc8b292d8a36ff68_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_ac7f2f4305c170946cfe63441c4292eb1}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_ac7f2f4305c170946cfe63441c4292eb1} 
+\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}!Home2Env@{Home2Env}}
+\index{Home2Env@{Home2Env}!Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+\doxysubsubsection{\texorpdfstring{Home2Env()}{Home2Env()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager.\+Home2\+Env (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment}{Environment}}}]{destination\+Environment }\end{DoxyParamCaption})}
+
+
+
+Method that disables the current Environment and activates 
+\begin{DoxyParams}{Parameters}
+{\em destination\+Environment} & \\
+\hline
+\end{DoxyParams}
+after fading all the objects. 
+
+
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00134}{134}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_ac7f2f4305c170946cfe63441c4292eb1_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_ac7f2f4305c170946cfe63441c4292eb1_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_af530d76f2519aab21c0d8b83ee7029c4}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_af530d76f2519aab21c0d8b83ee7029c4} 
+\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}!OnDisable@{OnDisable}}
+\index{OnDisable@{OnDisable}!Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+\doxysubsubsection{\texorpdfstring{OnDisable()}{OnDisable()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager.\+On\+Disable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00049}{49}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_af530d76f2519aab21c0d8b83ee7029c4_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a68fc4e01feaa12b378b3f50e0af72427}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a68fc4e01feaa12b378b3f50e0af72427} 
+\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}!OnEnable@{OnEnable}}
+\index{OnEnable@{OnEnable}!Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+\doxysubsubsection{\texorpdfstring{OnEnable()}{OnEnable()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager.\+On\+Enable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00043}{43}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a68fc4e01feaa12b378b3f50e0af72427_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a69dbe2b7bc63a1b521ff4c847a7472ae}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a69dbe2b7bc63a1b521ff4c847a7472ae} 
+\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}!OnGoBackHome@{OnGoBackHome}}
+\index{OnGoBackHome@{OnGoBackHome}!Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+\doxysubsubsection{\texorpdfstring{OnGoBackHome()}{OnGoBackHome()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager.\+On\+Go\+Back\+Home (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Method that handles the action "{}\+Go\+Back\+Home"{} after input request. ~\newline
+ 
+
+
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00093}{93}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a69dbe2b7bc63a1b521ff4c847a7472ae_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a69dbe2b7bc63a1b521ff4c847a7472ae_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_adcde6f3277dc18645a6bae1963d53afc}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_adcde6f3277dc18645a6bae1963d53afc} 
+\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}!OnSightSeeing@{OnSightSeeing}}
+\index{OnSightSeeing@{OnSightSeeing}!Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+\doxysubsubsection{\texorpdfstring{OnSightSeeing()}{OnSightSeeing()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager.\+On\+Sight\+Seeing (\begin{DoxyParamCaption}\item[{float}]{value\+Pressed }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Method that manages the Guided Tour, teleporting the player according to the sight points in the current Environment. If the current Environment has no sight Points but has a father, it uses the father\textquotesingle{}s ones. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value\+Pressed} & \\
+\hline
+\end{DoxyParams}
+is the key pressed by the user and leads to next or prev item. 
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00246}{246}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_adcde6f3277dc18645a6bae1963d53afc_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_adcde6f3277dc18645a6bae1963d53afc_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_aa361915dd5954f16898502b650e68884}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_aa361915dd5954f16898502b650e68884} 
+\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}!SendFadeCamera@{SendFadeCamera}}
+\index{SendFadeCamera@{SendFadeCamera}!Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+\doxysubsubsection{\texorpdfstring{SendFadeCamera()}{SendFadeCamera()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager.\+Send\+Fade\+Camera (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00078}{78}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_aa361915dd5954f16898502b650e68884_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_aa361915dd5954f16898502b650e68884_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a39fd0e7daa280914f2a46c1546f10d44}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a39fd0e7daa280914f2a46c1546f10d44} 
+\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}!SendFadeInter@{SendFadeInter}}
+\index{SendFadeInter@{SendFadeInter}!Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+\doxysubsubsection{\texorpdfstring{SendFadeInter()}{SendFadeInter()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager.\+Send\+Fade\+Inter (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00066}{66}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a39fd0e7daa280914f2a46c1546f10d44_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a39fd0e7daa280914f2a46c1546f10d44_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a1852faa429c55291731c5ad7e3cff1f9}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a1852faa429c55291731c5ad7e3cff1f9} 
+\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}!SendFadeIntra@{SendFadeIntra}}
+\index{SendFadeIntra@{SendFadeIntra}!Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+\doxysubsubsection{\texorpdfstring{SendFadeIntra()}{SendFadeIntra()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager.\+Send\+Fade\+Intra (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00072}{72}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a1852faa429c55291731c5ad7e3cff1f9_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a1852faa429c55291731c5ad7e3cff1f9_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_aaea566860fd90579d73e879fa28a4b42}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_aaea566860fd90579d73e879fa28a4b42} 
+\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}!SendReset@{SendReset}}
+\index{SendReset@{SendReset}!Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+\doxysubsubsection{\texorpdfstring{SendReset()}{SendReset()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager.\+Send\+Reset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00084}{84}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_aaea566860fd90579d73e879fa28a4b42_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a22d10b84925ed4f63476784875cd4a6e}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a22d10b84925ed4f63476784875cd4a6e} 
+\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}!SetJapan@{SetJapan}}
+\index{SetJapan@{SetJapan}!Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+\doxysubsubsection{\texorpdfstring{SetJapan()}{SetJapan()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager.\+Set\+Japan (\begin{DoxyParamCaption}\item[{bool}]{is\+Moving }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00061}{61}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a22d10b84925ed4f63476784875cd4a6e_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a5812bc3cbebc9ac992b9d3802c77b9ad}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a5812bc3cbebc9ac992b9d3802c77b9ad} 
+\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}!Start@{Start}}
+\index{Start@{Start}!Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00038}{38}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a05a0751de710a7b580a9c45219dc041d}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a05a0751de710a7b580a9c45219dc041d} 
+\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}!SubEnv2Env@{SubEnv2Env}}
+\index{SubEnv2Env@{SubEnv2Env}!Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+\doxysubsubsection{\texorpdfstring{SubEnv2Env()}{SubEnv2Env()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager.\+Sub\+Env2\+Env (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment}{Environment}}}]{destination\+Environment }\end{DoxyParamCaption})}
+
+
+
+Method that disables the current Sub\+Environment and activates 
+\begin{DoxyParams}{Parameters}
+{\em destination\+Environment} & \\
+\hline
+\end{DoxyParams}
+after fading some objects in the Environment and reactivating the objects disabled in the Father. In case that the Sub\+Environment Father is not the destination Environment, Home2\+Env is called. 
+
+
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00147}{147}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a05a0751de710a7b580a9c45219dc041d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a05a0751de710a7b580a9c45219dc041d_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_ab21b0b627f48a59dacf53102e1cbfbb6}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_ab21b0b627f48a59dacf53102e1cbfbb6} 
+\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}!SubEnv2Home@{SubEnv2Home}}
+\index{SubEnv2Home@{SubEnv2Home}!Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+\doxysubsubsection{\texorpdfstring{SubEnv2Home()}{SubEnv2Home()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager.\+Sub\+Env2\+Home (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment}{Environment}}}]{destination\+Environment }\end{DoxyParamCaption})}
+
+
+
+Method that disables the current Sub\+Environment and activates 
+\begin{DoxyParams}{Parameters}
+{\em destination\+Environment} & \\
+\hline
+\end{DoxyParams}
+after the reactivation of the objects disabled in the father Environment and fading the player camera e teleporting the player to the starting point. 
+
+
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00118}{118}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_ab21b0b627f48a59dacf53102e1cbfbb6_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_ab21b0b627f48a59dacf53102e1cbfbb6_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a677073788d8e0ebc90b05d90e4b6faaa}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a677073788d8e0ebc90b05d90e4b6faaa} 
+\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}!SubEnv2SubEnv@{SubEnv2SubEnv}}
+\index{SubEnv2SubEnv@{SubEnv2SubEnv}!Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+\doxysubsubsection{\texorpdfstring{SubEnv2SubEnv()}{SubEnv2SubEnv()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager.\+Sub\+Env2\+Sub\+Env (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment}{Environment}}}]{destination\+Environment }\end{DoxyParamCaption})}
+
+
+
+Method that disables the current Sub\+Environment and activates 
+\begin{DoxyParams}{Parameters}
+{\em destination\+Environment} & \\
+\hline
+\end{DoxyParams}
+after fading some objects in the Environment and reactivating the objects disabled in the Father but not disabled in destination Environment. 
+
+
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00179}{179}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a677073788d8e0ebc90b05d90e4b6faaa_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a677073788d8e0ebc90b05d90e4b6faaa_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_ad2ea07fabb64475dba105a46dc56c485}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_ad2ea07fabb64475dba105a46dc56c485} 
+\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}!Teleport@{Teleport}}
+\index{Teleport@{Teleport}!Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+\doxysubsubsection{\texorpdfstring{Teleport()}{Teleport()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager.\+Teleport (\begin{DoxyParamCaption}\item[{Vector3}]{destination,  }\item[{Vector3}]{look\+Direction }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00285}{285}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_ad2ea07fabb64475dba105a46dc56c485_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_ad2ea07fabb64475dba105a46dc56c485_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a8a8eebec68370b277c9696d6aebf2525}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a8a8eebec68370b277c9696d6aebf2525} 
+\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}!TravelTo@{TravelTo}}
+\index{TravelTo@{TravelTo}!Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+\doxysubsubsection{\texorpdfstring{TravelTo()}{TravelTo()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager.\+Travel\+To (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment}{Environment}}}]{destination\+Environment }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00214}{214}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a8a8eebec68370b277c9696d6aebf2525_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a8a8eebec68370b277c9696d6aebf2525_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a0c21fc531f37c4eb0ec1fe862dbace1e}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a0c21fc531f37c4eb0ec1fe862dbace1e} 
+\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}!UpdateLocHistory@{UpdateLocHistory}}
+\index{UpdateLocHistory@{UpdateLocHistory}!Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+\doxysubsubsection{\texorpdfstring{UpdateLocHistory()}{UpdateLocHistory()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager.\+Update\+Loc\+History (\begin{DoxyParamCaption}\item[{Game\+Object}]{game\+Object }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00055}{55}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a0c21fc531f37c4eb0ec1fe862dbace1e_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a8e2ca0d9f9eb9c239f72fcfad3c6de40}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a8e2ca0d9f9eb9c239f72fcfad3c6de40} 
+\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}!cooldown@{cooldown}}
+\index{cooldown@{cooldown}!Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+\doxysubsubsection{\texorpdfstring{cooldown}{cooldown}}
+{\footnotesize\ttfamily bool Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager.\+cooldown = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00026}{26}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a0df72999965662159e394a2446b0edda}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a0df72999965662159e394a2446b0edda} 
+\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}!curEnv@{curEnv}}
+\index{curEnv@{curEnv}!Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+\doxysubsubsection{\texorpdfstring{curEnv}{curEnv}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment}{Environment}} Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager.\+cur\+Env\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00024}{24}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a583e780bd5e1aadefcc6bc01a0e71433}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a583e780bd5e1aadefcc6bc01a0e71433} 
+\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}!curObj@{curObj}}
+\index{curObj@{curObj}!Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+\doxysubsubsection{\texorpdfstring{curObj}{curObj}}
+{\footnotesize\ttfamily Game\+Object Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager.\+cur\+Obj\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00025}{25}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_ab9bad3e7f90d37c55ab18ca04ace4126}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_ab9bad3e7f90d37c55ab18ca04ace4126} 
+\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}!fadingDuration@{fadingDuration}}
+\index{fadingDuration@{fadingDuration}!Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+\doxysubsubsection{\texorpdfstring{fadingDuration}{fadingDuration}}
+{\footnotesize\ttfamily float Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager.\+fading\+Duration\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00017}{17}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a39c37809e5af08d0a8024dfa9c368241}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a39c37809e5af08d0a8024dfa9c368241} 
+\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}!flyingJapan@{flyingJapan}}
+\index{flyingJapan@{flyingJapan}!Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+\doxysubsubsection{\texorpdfstring{flyingJapan}{flyingJapan}}
+{\footnotesize\ttfamily Game\+Object Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager.\+flying\+Japan\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00020}{20}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a2d647adbeac3926cd9d7a544cde8a226}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a2d647adbeac3926cd9d7a544cde8a226} 
+\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}!locHistory@{locHistory}}
+\index{locHistory@{locHistory}!Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+\doxysubsubsection{\texorpdfstring{locHistory}{locHistory}}
+{\footnotesize\ttfamily List$<$Game\+Object$>$ Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager.\+loc\+History\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00023}{23}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a0d9d4cb0ddfe7c8aca82b4b659d6f2cb}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a0d9d4cb0ddfe7c8aca82b4b659d6f2cb} 
+\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}!reset@{reset}}
+\index{reset@{reset}!Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+\doxysubsubsection{\texorpdfstring{reset}{reset}}
+{\footnotesize\ttfamily Game\+Event Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager.\+reset\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00021}{21}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a0563db9aa276e0c3a2d1519b91a5561e}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a0563db9aa276e0c3a2d1519b91a5561e} 
+\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}!startingEnvironment@{startingEnvironment}}
+\index{startingEnvironment@{startingEnvironment}!Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+\doxysubsubsection{\texorpdfstring{startingEnvironment}{startingEnvironment}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment}{Environment}} Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager.\+starting\+Environment\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00019}{19}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_abc2064e19e88a4b7518d3d0a92ccd6f5}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_abc2064e19e88a4b7518d3d0a92ccd6f5} 
+\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}!startingPoint@{startingPoint}}
+\index{startingPoint@{startingPoint}!Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+\doxysubsubsection{\texorpdfstring{startingPoint}{startingPoint}}
+{\footnotesize\ttfamily Game\+Object Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager.\+starting\+Point\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00018}{18}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a4456b23989c5b9d98397a7c651746389}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a4456b23989c5b9d98397a7c651746389} 
+\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}!CurEnv@{CurEnv}}
+\index{CurEnv@{CurEnv}!Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+\doxysubsubsection{\texorpdfstring{CurEnv}{CurEnv}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment}{Environment}} Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager.\+Cur\+Env\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00028}{28}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_ae5888cd0ad6ec67231ee9125471ac54a}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_ae5888cd0ad6ec67231ee9125471ac54a} 
+\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}!CurObj@{CurObj}}
+\index{CurObj@{CurObj}!Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+\doxysubsubsection{\texorpdfstring{CurObj}{CurObj}}
+{\footnotesize\ttfamily Game\+Object Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager.\+Cur\+Obj\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00029}{29}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a1f24f4989a89a159177597e342312274}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a1f24f4989a89a159177597e342312274} 
+\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}!FadingDuration@{FadingDuration}}
+\index{FadingDuration@{FadingDuration}!Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+\doxysubsubsection{\texorpdfstring{FadingDuration}{FadingDuration}}
+{\footnotesize\ttfamily float Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager.\+Fading\+Duration\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00031}{31}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a793fac008ea9ffa929c763b824ee3c45}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a793fac008ea9ffa929c763b824ee3c45} 
+\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}!LocHistory@{LocHistory}}
+\index{LocHistory@{LocHistory}!Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+\doxysubsubsection{\texorpdfstring{LocHistory}{LocHistory}}
+{\footnotesize\ttfamily List$<$Game\+Object$>$ Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager.\+Loc\+History\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00030}{30}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a77bb349a3da6573ad57f0b70efe1fd1e}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a77bb349a3da6573ad57f0b70efe1fd1e} 
+\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}!StartingEnvironment@{StartingEnvironment}}
+\index{StartingEnvironment@{StartingEnvironment}!Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+\doxysubsubsection{\texorpdfstring{StartingEnvironment}{StartingEnvironment}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment}{Environment}} Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager.\+Starting\+Environment\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00033}{33}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a33bed99c6652271dcda22ac2e7d8a968}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a33bed99c6652271dcda22ac2e7d8a968} 
+\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}!StartingPoint@{StartingPoint}}
+\index{StartingPoint@{StartingPoint}!Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+\doxysubsubsection{\texorpdfstring{StartingPoint}{StartingPoint}}
+{\footnotesize\ttfamily Game\+Object Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager.\+Starting\+Point\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00032}{32}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+
+
+\doxysubsection{Event Documentation}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_ac6df22843348bfe2f9c3a54fa2079227}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_ac6df22843348bfe2f9c3a54fa2079227} 
+\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}!FadeCameraEvent@{FadeCameraEvent}}
+\index{FadeCameraEvent@{FadeCameraEvent}!Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+\doxysubsubsection{\texorpdfstring{FadeCameraEvent}{FadeCameraEvent}}
+{\footnotesize\ttfamily Unity\+Action Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager.\+Fade\+Camera\+Event = delegate \{ \}}
+
+
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00036}{36}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a5aa7f3505b66ec2f5095ade5c497cb5b}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a5aa7f3505b66ec2f5095ade5c497cb5b} 
+\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}!FadeInterEvent@{FadeInterEvent}}
+\index{FadeInterEvent@{FadeInterEvent}!Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+\doxysubsubsection{\texorpdfstring{FadeInterEvent}{FadeInterEvent}}
+{\footnotesize\ttfamily Unity\+Action Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager.\+Fade\+Inter\+Event = delegate \{ \}}
+
+
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00034}{34}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_ad79486d6ef693ebf2d23e8eed7acdb23}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_ad79486d6ef693ebf2d23e8eed7acdb23} 
+\index{Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}!FadeIntraEvent@{FadeIntraEvent}}
+\index{FadeIntraEvent@{FadeIntraEvent}!Beavir.Businesslogic.Controllers.TransportManager@{Beavir.Businesslogic.Controllers.TransportManager}}
+\doxysubsubsection{\texorpdfstring{FadeIntraEvent}{FadeIntraEvent}}
+{\footnotesize\ttfamily Unity\+Action Beavir.\+Businesslogic.\+Controllers.\+Transport\+Manager.\+Fade\+Intra\+Event = delegate \{ \}}
+
+
+
+Definition at line \mbox{\hyperlink{_transport_manager_8cs_source_l00035}{35}} of file \mbox{\hyperlink{_transport_manager_8cs_source}{Transport\+Manager.\+cs}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Beavir/\+Businesslogic/\+Controllers/\mbox{\hyperlink{_transport_manager_8cs}{Transport\+Manager.\+cs}}\end{DoxyCompactItemize}

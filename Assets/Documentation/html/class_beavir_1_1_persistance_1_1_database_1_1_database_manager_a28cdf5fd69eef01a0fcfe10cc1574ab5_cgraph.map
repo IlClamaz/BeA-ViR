@@ -1,0 +1,7 @@
+<map id="Beavir.Persistance.Database.DatabaseManager.Start" name="Beavir.Persistance.Database.DatabaseManager.Start">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,198,81"/>
+<area shape="rect" id="Node000002" href="$class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api.html#aabb51a8af1eb4be843966ad7c8ecefbe" title="Set the credentials for the API communication, if you need to access protected data." alt="" coords="253,5,463,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="198,45,237,40,238,45,198,50"/>
+<area shape="rect" id="Node000003" href="$class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api.html#aade6ceca2f72dddaf7367f1375e2f4c2" title="Sets the rest endpoint to communicate with." alt="" coords="246,72,470,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="198,70,231,74,230,79,198,75"/>
+</map>

@@ -1,0 +1,192 @@
+\doxysection{Beavir.\+Businesslogic.\+Controllers.\+Sound\+Manager Class Reference}
+\hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_sound_manager}{}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_sound_manager}\index{Beavir.Businesslogic.Controllers.SoundManager@{Beavir.Businesslogic.Controllers.SoundManager}}
+
+
+Controller that manages audio play/stop requests (both soundtrack and single sounds)  
+
+
+
+
+Inheritance diagram for Beavir.\+Businesslogic.\+Controllers.\+Sound\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=232pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_sound_manager__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Beavir.\+Businesslogic.\+Controllers.\+Sound\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=232pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_sound_manager__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_sound_manager_aae5a7a68bd36e50182cbfa8ee484a1ea}{Play\+Audio}} (Audio\+Source audio\+Source, Vector3 position)
+\begin{DoxyCompactList}\small\item\em Method that plays a single sound (a clip in a {\itshape audio\+Source} ) in a specific position {\itshape position}  \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_sound_manager_a8c9ac379ebb05d56691c1fb82dfb8338}{Audio\+Is\+On}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_sound_manager_a16b9bbe10e291108f5b84241133325c1}{On\+Enable}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_sound_manager_a8b7746b36df87161fedb6f37ad4afa2a}{On\+Disable}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_sound_manager_a1f846790d9ce1f60a84600e3e350e082}{Start}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_sound_manager_ac63c592e4023550e31c085cd13e36093}{Manage\+Audio}} ()
+\begin{DoxyCompactList}\small\item\em Method that changes the Environment soundtrack reproduction. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_sound_manager_a31806f59474afbc91f1bad5e45c67972}{audio\+Is\+On}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Controller that manages audio play/stop requests (both soundtrack and single sounds) 
+
+Definition at line \mbox{\hyperlink{_sound_manager_8cs_source_l00009}{9}} of file \mbox{\hyperlink{_sound_manager_8cs_source}{Sound\+Manager.\+cs}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_sound_manager_ac63c592e4023550e31c085cd13e36093}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_sound_manager_ac63c592e4023550e31c085cd13e36093} 
+\index{Beavir.Businesslogic.Controllers.SoundManager@{Beavir.Businesslogic.Controllers.SoundManager}!ManageAudio@{ManageAudio}}
+\index{ManageAudio@{ManageAudio}!Beavir.Businesslogic.Controllers.SoundManager@{Beavir.Businesslogic.Controllers.SoundManager}}
+\doxysubsubsection{\texorpdfstring{ManageAudio()}{ManageAudio()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+Sound\+Manager.\+Manage\+Audio (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Method that changes the Environment soundtrack reproduction. 
+
+
+
+Definition at line \mbox{\hyperlink{_sound_manager_8cs_source_l00034}{34}} of file \mbox{\hyperlink{_sound_manager_8cs_source}{Sound\+Manager.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_sound_manager_ac63c592e4023550e31c085cd13e36093_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_sound_manager_a8b7746b36df87161fedb6f37ad4afa2a}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_sound_manager_a8b7746b36df87161fedb6f37ad4afa2a} 
+\index{Beavir.Businesslogic.Controllers.SoundManager@{Beavir.Businesslogic.Controllers.SoundManager}!OnDisable@{OnDisable}}
+\index{OnDisable@{OnDisable}!Beavir.Businesslogic.Controllers.SoundManager@{Beavir.Businesslogic.Controllers.SoundManager}}
+\doxysubsubsection{\texorpdfstring{OnDisable()}{OnDisable()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+Sound\+Manager.\+On\+Disable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_sound_manager_8cs_source_l00018}{18}} of file \mbox{\hyperlink{_sound_manager_8cs_source}{Sound\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_sound_manager_a8b7746b36df87161fedb6f37ad4afa2a_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_sound_manager_a16b9bbe10e291108f5b84241133325c1}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_sound_manager_a16b9bbe10e291108f5b84241133325c1} 
+\index{Beavir.Businesslogic.Controllers.SoundManager@{Beavir.Businesslogic.Controllers.SoundManager}!OnEnable@{OnEnable}}
+\index{OnEnable@{OnEnable}!Beavir.Businesslogic.Controllers.SoundManager@{Beavir.Businesslogic.Controllers.SoundManager}}
+\doxysubsubsection{\texorpdfstring{OnEnable()}{OnEnable()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+Sound\+Manager.\+On\+Enable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_sound_manager_8cs_source_l00013}{13}} of file \mbox{\hyperlink{_sound_manager_8cs_source}{Sound\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_sound_manager_a16b9bbe10e291108f5b84241133325c1_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_sound_manager_aae5a7a68bd36e50182cbfa8ee484a1ea}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_sound_manager_aae5a7a68bd36e50182cbfa8ee484a1ea} 
+\index{Beavir.Businesslogic.Controllers.SoundManager@{Beavir.Businesslogic.Controllers.SoundManager}!PlayAudio@{PlayAudio}}
+\index{PlayAudio@{PlayAudio}!Beavir.Businesslogic.Controllers.SoundManager@{Beavir.Businesslogic.Controllers.SoundManager}}
+\doxysubsubsection{\texorpdfstring{PlayAudio()}{PlayAudio()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+Sound\+Manager.\+Play\+Audio (\begin{DoxyParamCaption}\item[{Audio\+Source}]{audio\+Source,  }\item[{Vector3}]{position }\end{DoxyParamCaption})}
+
+
+
+Method that plays a single sound (a clip in a {\itshape audio\+Source} ) in a specific position {\itshape position}  
+
+
+
+Definition at line \mbox{\hyperlink{_sound_manager_8cs_source_l00045}{45}} of file \mbox{\hyperlink{_sound_manager_8cs_source}{Sound\+Manager.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_sound_manager_aae5a7a68bd36e50182cbfa8ee484a1ea_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_sound_manager_a1f846790d9ce1f60a84600e3e350e082}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_sound_manager_a1f846790d9ce1f60a84600e3e350e082} 
+\index{Beavir.Businesslogic.Controllers.SoundManager@{Beavir.Businesslogic.Controllers.SoundManager}!Start@{Start}}
+\index{Start@{Start}!Beavir.Businesslogic.Controllers.SoundManager@{Beavir.Businesslogic.Controllers.SoundManager}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Controllers.\+Sound\+Manager.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_sound_manager_8cs_source_l00023}{23}} of file \mbox{\hyperlink{_sound_manager_8cs_source}{Sound\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_controllers_1_1_sound_manager_a1f846790d9ce1f60a84600e3e350e082_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_sound_manager_a31806f59474afbc91f1bad5e45c67972}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_sound_manager_a31806f59474afbc91f1bad5e45c67972} 
+\index{Beavir.Businesslogic.Controllers.SoundManager@{Beavir.Businesslogic.Controllers.SoundManager}!audioIsOn@{audioIsOn}}
+\index{audioIsOn@{audioIsOn}!Beavir.Businesslogic.Controllers.SoundManager@{Beavir.Businesslogic.Controllers.SoundManager}}
+\doxysubsubsection{\texorpdfstring{audioIsOn}{audioIsOn}}
+{\footnotesize\ttfamily bool Beavir.\+Businesslogic.\+Controllers.\+Sound\+Manager.\+audio\+Is\+On\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_sound_manager_8cs_source_l00011}{11}} of file \mbox{\hyperlink{_sound_manager_8cs_source}{Sound\+Manager.\+cs}}.
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_controllers_1_1_sound_manager_a8c9ac379ebb05d56691c1fb82dfb8338}\label{class_beavir_1_1_businesslogic_1_1_controllers_1_1_sound_manager_a8c9ac379ebb05d56691c1fb82dfb8338} 
+\index{Beavir.Businesslogic.Controllers.SoundManager@{Beavir.Businesslogic.Controllers.SoundManager}!AudioIsOn@{AudioIsOn}}
+\index{AudioIsOn@{AudioIsOn}!Beavir.Businesslogic.Controllers.SoundManager@{Beavir.Businesslogic.Controllers.SoundManager}}
+\doxysubsubsection{\texorpdfstring{AudioIsOn}{AudioIsOn}}
+{\footnotesize\ttfamily bool Beavir.\+Businesslogic.\+Controllers.\+Sound\+Manager.\+Audio\+Is\+On\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line \mbox{\hyperlink{_sound_manager_8cs_source_l00012}{12}} of file \mbox{\hyperlink{_sound_manager_8cs_source}{Sound\+Manager.\+cs}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Beavir/\+Businesslogic/\+Controllers/\mbox{\hyperlink{_sound_manager_8cs}{Sound\+Manager.\+cs}}\end{DoxyCompactItemize}

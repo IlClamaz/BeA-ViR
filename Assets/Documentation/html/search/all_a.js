@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['jump_0',['jump',['../class_first_person_controller.html#a16c8fc91cee319f625f614271acc9fcb',1,'FirstPersonController.jump'],['../class_first_person_controller.html#a374b1386c47640b726f8787157a0a8ac',1,'FirstPersonController.Jump()']]],
-  ['jumpcount_1',['jumpCount',['../class_player_logger.html#a7458c98c98ed560561e7516131ed9d2a',1,'PlayerLogger']]],
-  ['jumpheight_2',['jumpHeight',['../class_first_person_controller.html#a201b634c909d2b62154e9b0fab606e8d',1,'FirstPersonController']]]
+  ['jump_0',['jump',['../struct_game_input_1_1_gameplay_actions.html#a8dbe0f9a1e81610c652d3e64aaea4e2a',1,'GameInput.GameplayActions.Jump'],['../class_beavir_1_1_businesslogic_1_1_models_1_1_player.html#a52bf820acf26f7132551e31ece4d235d',1,'Beavir.Businesslogic.Models.Player.Jump()']]],
+  ['jumpcanceledevent_1',['jumpCanceledEvent',['../class_beavir_1_1_businesslogic_1_1_utilities_1_1_input_reader.html#a14e40ca135eb80eb48da7f06e457258e',1,'Beavir::Businesslogic::Utilities::InputReader']]],
+  ['jumpcount_2',['jumpCount',['../class_beavir_1_1_businesslogic_1_1_utilities_1_1_player_logger.html#a67ad41c8b7c1b361880eb6086c19e4c4',1,'Beavir::Businesslogic::Utilities::PlayerLogger']]],
+  ['jumpevent_3',['jumpEvent',['../class_beavir_1_1_businesslogic_1_1_utilities_1_1_input_reader.html#a5760fff4477fe6730087a6ed5a985c75',1,'Beavir::Businesslogic::Utilities::InputReader']]],
+  ['jumpheight_4',['jumpHeight',['../class_beavir_1_1_businesslogic_1_1_models_1_1_player.html#a96bfef03686869e41947b969295a27c6',1,'Beavir::Businesslogic::Models::Player']]]
 ];

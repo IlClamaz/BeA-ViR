@@ -1,4 +1,4 @@
 var _timer_8cs =
 [
-    [ "Timer", "class_timer.html", "class_timer" ]
+    [ "Beavir.Businesslogic.Utilities.Timer", "class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer.html", "class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer" ]
 ];

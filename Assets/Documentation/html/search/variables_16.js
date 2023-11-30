@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['zoomtrigger_0',['zoomTrigger',['../class_item_aggregator_medium.html#a9329b0f952cf839371a03f3d8c5722af',1,'ItemAggregatorMedium']]]
+  ['yclamp_0',['yClamp',['../class_beavir_1_1_businesslogic_1_1_models_1_1_player.html#aab5a5358aa2e9691ba0f1c37b4e63818',1,'Beavir::Businesslogic::Models::Player']]]
 ];

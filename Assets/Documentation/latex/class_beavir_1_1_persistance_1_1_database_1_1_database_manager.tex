@@ -1,0 +1,900 @@
+\doxysection{Beavir.\+Persistance.\+Database.\+Database\+Manager Class Reference}
+\hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager}{}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager}\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+
+
+Controller that manages the data from the OmekaS database (both text data and images)  
+
+
+
+
+Inheritance diagram for Beavir.\+Persistance.\+Database.\+Database\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_beavir_1_1_persistance_1_1_database_1_1_database_manager__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Beavir.\+Persistance.\+Database.\+Database\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_beavir_1_1_persistance_1_1_database_1_1_database_manager__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{async}} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{void}} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a1dc2769f8bc2e47d07483696df6851eb}{Initialize}} ()
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{async}} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{Task}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_set_search_response}{Item\+Set\+Search\+Response}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary}{Dublic\+Core\+Vocabulary}} $>$ $>$ \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a9e30e3c0a977c1b38ff62f5881dfe9bc}{Search\+Item\+Sets}} ()
+\begin{DoxyCompactList}\small\item\em Callback that searchs for item sets. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{async}} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{Task}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_search_response}{Item\+Search\+Response}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary}{Dublic\+Core\+Vocabulary}} $>$ $>$ \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a168a61f33bfb64d05d56609aacb386f2}{Search\+Item\+Set}} (\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_id_object}{Id\+Object}} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{index}})
+\begin{DoxyCompactList}\small\item\em Search a specific item set and returns all its items. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{async}} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{Task}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{byte}}\mbox{[}$\,$\mbox{]}$>$ \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a47cd8202fef3f824a7a93488cb74dd30}{Search\+Media}} (\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{int}} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{index}}, \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{int}} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{media\+Index}})
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{float}} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_afec577c849fb9580ffc7d4da813bba9b}{delay}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{int}} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_aa60dac76db50fb257a0d6106b7507b2b}{Processed\+Images}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i}{IAPI}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary}{Dublic\+Core\+Vocabulary}} $>$ \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a4de264b44be6903ce3ae345adb88de2f}{Api}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, private set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Reference to our api business logic. The type definition defines the vocabulary that api will know about. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{void}} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a28cdf5fd69eef01a0fcfe10cc1574ab5}{Start}} ()
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{void}} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a6c9c86c1abf6c466c41b7ce30cdff5e7}{Update}} ()
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{void}} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a9c1dbedb029afdc2765e1701c05a86b4}{Update\+GPCanvases}} (\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_search_response}{Item\+Search\+Response}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary}{Dublic\+Core\+Vocabulary}} $>$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{response}})
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{void}} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_abaaedd93cde5355a6d137803c16219e4}{Update\+Single\+GPCanvas}} (\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{text}})
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{async}} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{void}} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a45952f5724c7eacc98634ca27d480575}{Update\+Icp\+PMCanvases}} (\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_search_response}{Item\+Search\+Response}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary}{Dublic\+Core\+Vocabulary}} $>$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{response}})
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{void}} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a56c0fb5d8ed06b86078e39c9821a9a1c}{Update\+Singleicp\+PMCanvas}} (\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{text}}, \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{byte}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{image}})
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{async}} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{void}} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a86e6a81f63cb67b9a4b9b33043860d7b}{Update\+DRCanvases}} (\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_search_response}{Item\+Search\+Response}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary}{Dublic\+Core\+Vocabulary}} $>$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{response}})
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{void}} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_ac336b8155914f670788745ee4502a140}{Update\+Single\+DRCanvas}} (\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{text}}, \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{byte}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{image}})
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{void}} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a9ecc04d0bb4e7328f4b685d986f5e2fa}{Update\+Icp\+Canvases}} (\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_search_response}{Item\+Search\+Response}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary}{Dublic\+Core\+Vocabulary}} $>$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{response}})
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{void}} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a3615e17796d07e7e79068507366a0773}{Update\+Single\+Icp\+Canvas}} (\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{text}})
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{void}} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a5142c17d6447041d5ef838a25770869e}{Update\+PLMCanvases}} (\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_search_response}{Item\+Search\+Response}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary}{Dublic\+Core\+Vocabulary}} $>$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{response}})
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{void}} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a12bfa377e2b2ebbd7c69d6515d9c6954}{Update\+Single\+PLMCanvas}} (\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{text}})
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{async}} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{void}} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a2ae0bc4354e0e37bc3aaa5b6047e1d4b}{Update\+SEMCanvases}} (\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_search_response}{Item\+Search\+Response}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary}{Dublic\+Core\+Vocabulary}} $>$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{response}})
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{void}} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a54eb2b712fe680f5f5b01959a8b964f3}{Update\+Single\+SEMCanvas}} (\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{text}}, \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{byte}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{image}})
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{async}} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{void}} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_ac70838d62295aae08b4f66854c846042}{Update\+OMfor\+SEMCanvases}} (\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_search_response}{Item\+Search\+Response}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary}{Dublic\+Core\+Vocabulary}} $>$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{response}})
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{void}} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_af5fa95227dcbea3a68c466aec41a6e19}{Update\+Single\+OMfor\+SEMCanvas}} (\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{text}}, \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{byte}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{image}})
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{async}} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{Task}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{byte}}\mbox{[}$\,$\mbox{]}$>$ \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a8323d4a3a2de4824bb88c25f9f4157bf}{Show\+Media}} (\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{url}})
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_client_settings}{Client\+Settings}} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a46c71d279bb9d2b4ac334aa541384557}{\+\_\+client\+Settings}} = \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{null}}
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{Game\+Object}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_ab44a2ebcfd1601f5913f4589c41b34c0}{d\+BReports\+Collection}}
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{Game\+Object}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a7e31428f0dd9b61c30b7c0dce36c55ad}{icp\+PMReports\+Collection}}
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{Game\+Object}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_ac3121763b3a40bbdce7aa430aef7bf70}{icp\+Reports\+Collection}}
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{Game\+Object}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a743dd70e655c92549ce02ef8c362be19}{plm\+Reports\+Collection}}
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{Game\+Object}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a695090089d7e4032afb77f607534af94}{sem\+Reports\+Collection}}
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{Game\+Object}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_acc50d7ac376ee84d7a528bc32bee29e0}{dr\+Reports\+Collection}}
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{Game\+Object}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_af6b8ecf72fd2cd9f62eec91458fcc1bc}{om\+For\+Sem\+Reports\+Collection}}
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{bool}} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a4088c539058770b2259a1dd11bff2c26}{print\+DB}}
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a64dca358844fce3e03b65ab793fdc6ca}{gp\+Text}} = \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{new}} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}}\mbox{[}3\mbox{]}
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a1679c6789e6ab7393a8d398bf7f11074}{icp\+PMText}} = \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{new}} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}}\mbox{[}3\mbox{]}
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a56aa79bd6835bc3ef48a132f818264a0}{icp\+Text}} = \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{new}} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}}\mbox{[}3\mbox{]}
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a841284da24f3983d97af9a4eedc9beda}{dr\+Text}} = \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{new}} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}}\mbox{[}3\mbox{]}
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a686765294231b2fb6fd71b869c476e72}{sem\+Text}} = \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{new}} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}}\mbox{[}3\mbox{]}
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a04ac54d1f8830e70df9acfd52f818912}{om\+For\+Sem\+Text}} = \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{new}} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}}\mbox{[}3\mbox{]}
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a7da8b6fe40f833eea56368b5acb440e9}{plm\+Text}} = \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{new}} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}}\mbox{[}2\mbox{]}
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{byte}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_ae812f47d87a8c79bc77cbddb1b0c8d3a}{icp\+PMImage}}
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{byte}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_aba6a594f82841f2f74dcb69986bf8728}{dr\+Image}}
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{byte}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_aedee1d8dbdd3d76f605a5570b9022136}{sem\+Image}}
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{byte}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a678b43d7399758b909c603096b3f15d6}{om\+For\+Sem\+Image}}
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{int}} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a58efe1e2e807a054f229be7988cb0a59}{processed\+Images}} = 0
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{float}} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a787c1f9eb8bbade65cebd21c4429d40f}{timer}}
+\item 
+\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{bool}} \mbox{\hyperlink{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_abfa9c11d9bf9f513eae3cb3a7e9df8af}{called}} = \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{false}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Controller that manages the data from the OmekaS database (both text data and images) 
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00018}{18}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a1dc2769f8bc2e47d07483696df6851eb}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a1dc2769f8bc2e47d07483696df6851eb} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!Initialize@{Initialize}}
+\index{Initialize@{Initialize}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{Initialize()}{Initialize()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{async}} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{void}} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+Initialize (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00082}{82}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a1dc2769f8bc2e47d07483696df6851eb_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a1dc2769f8bc2e47d07483696df6851eb_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a168a61f33bfb64d05d56609aacb386f2}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a168a61f33bfb64d05d56609aacb386f2} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!SearchItemSet@{SearchItemSet}}
+\index{SearchItemSet@{SearchItemSet}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{SearchItemSet()}{SearchItemSet()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{async}} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{Task}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_search_response}{Item\+Search\+Response}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary}{Dublic\+Core\+Vocabulary}} $>$ $>$ Beavir.\+Persistance.\+Database.\+Database\+Manager.\+Search\+Item\+Set (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_id_object}{Id\+Object}}}]{index }\end{DoxyParamCaption})}
+
+
+
+Search a specific item set and returns all its items. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & The ID of the item set to search\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00123}{123}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a168a61f33bfb64d05d56609aacb386f2_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a168a61f33bfb64d05d56609aacb386f2_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a9e30e3c0a977c1b38ff62f5881dfe9bc}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a9e30e3c0a977c1b38ff62f5881dfe9bc} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!SearchItemSets@{SearchItemSets}}
+\index{SearchItemSets@{SearchItemSets}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{SearchItemSets()}{SearchItemSets()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{async}} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{Task}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_set_search_response}{Item\+Set\+Search\+Response}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary}{Dublic\+Core\+Vocabulary}} $>$ $>$ Beavir.\+Persistance.\+Database.\+Database\+Manager.\+Search\+Item\+Sets (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Callback that searchs for item sets. 
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00108}{108}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a9e30e3c0a977c1b38ff62f5881dfe9bc_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a9e30e3c0a977c1b38ff62f5881dfe9bc_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a47cd8202fef3f824a7a93488cb74dd30}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a47cd8202fef3f824a7a93488cb74dd30} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!SearchMedia@{SearchMedia}}
+\index{SearchMedia@{SearchMedia}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{SearchMedia()}{SearchMedia()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{async}} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{Task}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{byte}}\mbox{[}$\,$\mbox{]}$>$ Beavir.\+Persistance.\+Database.\+Database\+Manager.\+Search\+Media (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{int}}}]{index,  }\item[{\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{int}}}]{media\+Index }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00442}{442}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a47cd8202fef3f824a7a93488cb74dd30_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a47cd8202fef3f824a7a93488cb74dd30_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a8323d4a3a2de4824bb88c25f9f4157bf}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a8323d4a3a2de4824bb88c25f9f4157bf} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!ShowMedia@{ShowMedia}}
+\index{ShowMedia@{ShowMedia}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{ShowMedia()}{ShowMedia()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{async}} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{Task}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{byte}}\mbox{[}$\,$\mbox{]}$>$ Beavir.\+Persistance.\+Database.\+Database\+Manager.\+Show\+Media (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}}}]{url }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00449}{449}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a8323d4a3a2de4824bb88c25f9f4157bf_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a28cdf5fd69eef01a0fcfe10cc1574ab5}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a28cdf5fd69eef01a0fcfe10cc1574ab5} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!Start@{Start}}
+\index{Start@{Start}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{void}} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00051}{51}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a28cdf5fd69eef01a0fcfe10cc1574ab5_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a6c9c86c1abf6c466c41b7ce30cdff5e7}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a6c9c86c1abf6c466c41b7ce30cdff5e7} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!Update@{Update}}
+\index{Update@{Update}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{void}} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00068}{68}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a6c9c86c1abf6c466c41b7ce30cdff5e7_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a86e6a81f63cb67b9a4b9b33043860d7b}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a86e6a81f63cb67b9a4b9b33043860d7b} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!UpdateDRCanvases@{UpdateDRCanvases}}
+\index{UpdateDRCanvases@{UpdateDRCanvases}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{UpdateDRCanvases()}{UpdateDRCanvases()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{async}} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{void}} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+Update\+DRCanvases (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_search_response}{Item\+Search\+Response}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary}{Dublic\+Core\+Vocabulary}} $>$}]{response }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00217}{217}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a86e6a81f63cb67b9a4b9b33043860d7b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a86e6a81f63cb67b9a4b9b33043860d7b_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a9c1dbedb029afdc2765e1701c05a86b4}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a9c1dbedb029afdc2765e1701c05a86b4} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!UpdateGPCanvases@{UpdateGPCanvases}}
+\index{UpdateGPCanvases@{UpdateGPCanvases}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{UpdateGPCanvases()}{UpdateGPCanvases()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{void}} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+Update\+GPCanvases (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_search_response}{Item\+Search\+Response}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary}{Dublic\+Core\+Vocabulary}} $>$}]{response }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00134}{134}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a9c1dbedb029afdc2765e1701c05a86b4_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a9c1dbedb029afdc2765e1701c05a86b4_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a9ecc04d0bb4e7328f4b685d986f5e2fa}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a9ecc04d0bb4e7328f4b685d986f5e2fa} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!UpdateIcpCanvases@{UpdateIcpCanvases}}
+\index{UpdateIcpCanvases@{UpdateIcpCanvases}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{UpdateIcpCanvases()}{UpdateIcpCanvases()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{void}} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+Update\+Icp\+Canvases (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_search_response}{Item\+Search\+Response}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary}{Dublic\+Core\+Vocabulary}} $>$}]{response }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00270}{270}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a9ecc04d0bb4e7328f4b685d986f5e2fa_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a9ecc04d0bb4e7328f4b685d986f5e2fa_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a45952f5724c7eacc98634ca27d480575}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a45952f5724c7eacc98634ca27d480575} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!UpdateIcpPMCanvases@{UpdateIcpPMCanvases}}
+\index{UpdateIcpPMCanvases@{UpdateIcpPMCanvases}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{UpdateIcpPMCanvases()}{UpdateIcpPMCanvases()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{async}} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{void}} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+Update\+Icp\+PMCanvases (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_search_response}{Item\+Search\+Response}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary}{Dublic\+Core\+Vocabulary}} $>$}]{response }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00172}{172}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a45952f5724c7eacc98634ca27d480575_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a45952f5724c7eacc98634ca27d480575_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_ac70838d62295aae08b4f66854c846042}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_ac70838d62295aae08b4f66854c846042} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!UpdateOMforSEMCanvases@{UpdateOMforSEMCanvases}}
+\index{UpdateOMforSEMCanvases@{UpdateOMforSEMCanvases}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{UpdateOMforSEMCanvases()}{UpdateOMforSEMCanvases()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{async}} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{void}} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+Update\+OMfor\+SEMCanvases (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_search_response}{Item\+Search\+Response}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary}{Dublic\+Core\+Vocabulary}} $>$}]{response }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00397}{397}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_ac70838d62295aae08b4f66854c846042_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_ac70838d62295aae08b4f66854c846042_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a5142c17d6447041d5ef838a25770869e}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a5142c17d6447041d5ef838a25770869e} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!UpdatePLMCanvases@{UpdatePLMCanvases}}
+\index{UpdatePLMCanvases@{UpdatePLMCanvases}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{UpdatePLMCanvases()}{UpdatePLMCanvases()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{void}} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+Update\+PLMCanvases (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_search_response}{Item\+Search\+Response}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary}{Dublic\+Core\+Vocabulary}} $>$}]{response }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00312}{312}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a5142c17d6447041d5ef838a25770869e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a5142c17d6447041d5ef838a25770869e_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a2ae0bc4354e0e37bc3aaa5b6047e1d4b}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a2ae0bc4354e0e37bc3aaa5b6047e1d4b} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!UpdateSEMCanvases@{UpdateSEMCanvases}}
+\index{UpdateSEMCanvases@{UpdateSEMCanvases}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{UpdateSEMCanvases()}{UpdateSEMCanvases()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{async}} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{void}} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+Update\+SEMCanvases (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_search_response}{Item\+Search\+Response}}$<$ \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary}{Dublic\+Core\+Vocabulary}} $>$}]{response }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00352}{352}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a2ae0bc4354e0e37bc3aaa5b6047e1d4b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a2ae0bc4354e0e37bc3aaa5b6047e1d4b_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_ac336b8155914f670788745ee4502a140}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_ac336b8155914f670788745ee4502a140} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!UpdateSingleDRCanvas@{UpdateSingleDRCanvas}}
+\index{UpdateSingleDRCanvas@{UpdateSingleDRCanvas}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{UpdateSingleDRCanvas()}{UpdateSingleDRCanvas()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{void}} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+Update\+Single\+DRCanvas (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}}\mbox{[}$\,$\mbox{]}}]{text,  }\item[{\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{byte}}\mbox{[}$\,$\mbox{]}}]{image }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00244}{244}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_ac336b8155914f670788745ee4502a140_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_abaaedd93cde5355a6d137803c16219e4}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_abaaedd93cde5355a6d137803c16219e4} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!UpdateSingleGPCanvas@{UpdateSingleGPCanvas}}
+\index{UpdateSingleGPCanvas@{UpdateSingleGPCanvas}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{UpdateSingleGPCanvas()}{UpdateSingleGPCanvas()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{void}} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+Update\+Single\+GPCanvas (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}}\mbox{[}$\,$\mbox{]}}]{text }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00153}{153}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_abaaedd93cde5355a6d137803c16219e4_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a3615e17796d07e7e79068507366a0773}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a3615e17796d07e7e79068507366a0773} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!UpdateSingleIcpCanvas@{UpdateSingleIcpCanvas}}
+\index{UpdateSingleIcpCanvas@{UpdateSingleIcpCanvas}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{UpdateSingleIcpCanvas()}{UpdateSingleIcpCanvas()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{void}} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+Update\+Single\+Icp\+Canvas (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}}\mbox{[}$\,$\mbox{]}}]{text }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00293}{293}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a3615e17796d07e7e79068507366a0773_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a56c0fb5d8ed06b86078e39c9821a9a1c}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a56c0fb5d8ed06b86078e39c9821a9a1c} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!UpdateSingleicpPMCanvas@{UpdateSingleicpPMCanvas}}
+\index{UpdateSingleicpPMCanvas@{UpdateSingleicpPMCanvas}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{UpdateSingleicpPMCanvas()}{UpdateSingleicpPMCanvas()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{void}} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+Update\+Singleicp\+PMCanvas (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}}\mbox{[}$\,$\mbox{]}}]{text,  }\item[{\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{byte}}\mbox{[}$\,$\mbox{]}}]{image }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00192}{192}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a56c0fb5d8ed06b86078e39c9821a9a1c_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_af5fa95227dcbea3a68c466aec41a6e19}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_af5fa95227dcbea3a68c466aec41a6e19} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!UpdateSingleOMforSEMCanvas@{UpdateSingleOMforSEMCanvas}}
+\index{UpdateSingleOMforSEMCanvas@{UpdateSingleOMforSEMCanvas}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{UpdateSingleOMforSEMCanvas()}{UpdateSingleOMforSEMCanvas()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{void}} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+Update\+Single\+OMfor\+SEMCanvas (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}}\mbox{[}$\,$\mbox{]}}]{text,  }\item[{\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{byte}}\mbox{[}$\,$\mbox{]}}]{image }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00416}{416}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_af5fa95227dcbea3a68c466aec41a6e19_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a12bfa377e2b2ebbd7c69d6515d9c6954}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a12bfa377e2b2ebbd7c69d6515d9c6954} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!UpdateSinglePLMCanvas@{UpdateSinglePLMCanvas}}
+\index{UpdateSinglePLMCanvas@{UpdateSinglePLMCanvas}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{UpdateSinglePLMCanvas()}{UpdateSinglePLMCanvas()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{void}} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+Update\+Single\+PLMCanvas (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}}\mbox{[}$\,$\mbox{]}}]{text }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00338}{338}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a12bfa377e2b2ebbd7c69d6515d9c6954_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a54eb2b712fe680f5f5b01959a8b964f3}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a54eb2b712fe680f5f5b01959a8b964f3} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!UpdateSingleSEMCanvas@{UpdateSingleSEMCanvas}}
+\index{UpdateSingleSEMCanvas@{UpdateSingleSEMCanvas}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{UpdateSingleSEMCanvas()}{UpdateSingleSEMCanvas()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{void}} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+Update\+Single\+SEMCanvas (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}}\mbox{[}$\,$\mbox{]}}]{text,  }\item[{\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{byte}}\mbox{[}$\,$\mbox{]}}]{image }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00372}{372}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a54eb2b712fe680f5f5b01959a8b964f3_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a46c71d279bb9d2b4ac334aa541384557}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a46c71d279bb9d2b4ac334aa541384557} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!\_clientSettings@{\_clientSettings}}
+\index{\_clientSettings@{\_clientSettings}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{\_clientSettings}{\_clientSettings}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_client_settings}{Client\+Settings}} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+\_\+client\+Settings = \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{null}}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00020}{20}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_abfa9c11d9bf9f513eae3cb3a7e9df8af}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_abfa9c11d9bf9f513eae3cb3a7e9df8af} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!called@{called}}
+\index{called@{called}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{called}{called}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{bool}} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+called = \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{false}}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00043}{43}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_ab44a2ebcfd1601f5913f4589c41b34c0}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_ab44a2ebcfd1601f5913f4589c41b34c0} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!dBReportsCollection@{dBReportsCollection}}
+\index{dBReportsCollection@{dBReportsCollection}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{dBReportsCollection}{dBReportsCollection}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{Game\+Object}} \mbox{[}$\,$\mbox{]} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+d\+BReports\+Collection\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00021}{21}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_afec577c849fb9580ffc7d4da813bba9b}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_afec577c849fb9580ffc7d4da813bba9b} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!delay@{delay}}
+\index{delay@{delay}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{delay}{delay}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{float}} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+delay}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00029}{29}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_aba6a594f82841f2f74dcb69986bf8728}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_aba6a594f82841f2f74dcb69986bf8728} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!drImage@{drImage}}
+\index{drImage@{drImage}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{drImage}{drImage}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{byte}} \mbox{[}$\,$\mbox{]} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+dr\+Image\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00038}{38}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_acc50d7ac376ee84d7a528bc32bee29e0}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_acc50d7ac376ee84d7a528bc32bee29e0} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!drReportsCollection@{drReportsCollection}}
+\index{drReportsCollection@{drReportsCollection}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{drReportsCollection}{drReportsCollection}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{Game\+Object}} \mbox{[}$\,$\mbox{]} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+dr\+Reports\+Collection\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00026}{26}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a841284da24f3983d97af9a4eedc9beda}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a841284da24f3983d97af9a4eedc9beda} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!drText@{drText}}
+\index{drText@{drText}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{drText}{drText}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}} \mbox{[}$\,$\mbox{]} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+dr\+Text = \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{new}} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}}\mbox{[}3\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00033}{33}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a64dca358844fce3e03b65ab793fdc6ca}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a64dca358844fce3e03b65ab793fdc6ca} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!gpText@{gpText}}
+\index{gpText@{gpText}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{gpText}{gpText}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}} \mbox{[}$\,$\mbox{]} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+gp\+Text = \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{new}} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}}\mbox{[}3\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00030}{30}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_ae812f47d87a8c79bc77cbddb1b0c8d3a}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_ae812f47d87a8c79bc77cbddb1b0c8d3a} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!icpPMImage@{icpPMImage}}
+\index{icpPMImage@{icpPMImage}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{icpPMImage}{icpPMImage}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{byte}} \mbox{[}$\,$\mbox{]} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+icp\+PMImage\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00037}{37}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a7e31428f0dd9b61c30b7c0dce36c55ad}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a7e31428f0dd9b61c30b7c0dce36c55ad} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!icpPMReportsCollection@{icpPMReportsCollection}}
+\index{icpPMReportsCollection@{icpPMReportsCollection}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{icpPMReportsCollection}{icpPMReportsCollection}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{Game\+Object}} \mbox{[}$\,$\mbox{]} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+icp\+PMReports\+Collection\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00022}{22}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a1679c6789e6ab7393a8d398bf7f11074}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a1679c6789e6ab7393a8d398bf7f11074} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!icpPMText@{icpPMText}}
+\index{icpPMText@{icpPMText}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{icpPMText}{icpPMText}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}} \mbox{[}$\,$\mbox{]} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+icp\+PMText = \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{new}} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}}\mbox{[}3\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00031}{31}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_ac3121763b3a40bbdce7aa430aef7bf70}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_ac3121763b3a40bbdce7aa430aef7bf70} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!icpReportsCollection@{icpReportsCollection}}
+\index{icpReportsCollection@{icpReportsCollection}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{icpReportsCollection}{icpReportsCollection}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{Game\+Object}} \mbox{[}$\,$\mbox{]} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+icp\+Reports\+Collection\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00023}{23}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a56aa79bd6835bc3ef48a132f818264a0}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a56aa79bd6835bc3ef48a132f818264a0} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!icpText@{icpText}}
+\index{icpText@{icpText}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{icpText}{icpText}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}} \mbox{[}$\,$\mbox{]} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+icp\+Text = \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{new}} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}}\mbox{[}3\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00032}{32}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a678b43d7399758b909c603096b3f15d6}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a678b43d7399758b909c603096b3f15d6} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!omForSemImage@{omForSemImage}}
+\index{omForSemImage@{omForSemImage}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{omForSemImage}{omForSemImage}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{byte}} \mbox{[}$\,$\mbox{]} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+om\+For\+Sem\+Image\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00040}{40}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_af6b8ecf72fd2cd9f62eec91458fcc1bc}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_af6b8ecf72fd2cd9f62eec91458fcc1bc} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!omForSemReportsCollection@{omForSemReportsCollection}}
+\index{omForSemReportsCollection@{omForSemReportsCollection}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{omForSemReportsCollection}{omForSemReportsCollection}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{Game\+Object}} \mbox{[}$\,$\mbox{]} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+om\+For\+Sem\+Reports\+Collection\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00027}{27}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a04ac54d1f8830e70df9acfd52f818912}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a04ac54d1f8830e70df9acfd52f818912} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!omForSemText@{omForSemText}}
+\index{omForSemText@{omForSemText}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{omForSemText}{omForSemText}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}} \mbox{[}$\,$\mbox{]} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+om\+For\+Sem\+Text = \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{new}} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}}\mbox{[}3\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00035}{35}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a743dd70e655c92549ce02ef8c362be19}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a743dd70e655c92549ce02ef8c362be19} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!plmReportsCollection@{plmReportsCollection}}
+\index{plmReportsCollection@{plmReportsCollection}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{plmReportsCollection}{plmReportsCollection}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{Game\+Object}} \mbox{[}$\,$\mbox{]} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+plm\+Reports\+Collection\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00024}{24}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a7da8b6fe40f833eea56368b5acb440e9}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a7da8b6fe40f833eea56368b5acb440e9} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!plmText@{plmText}}
+\index{plmText@{plmText}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{plmText}{plmText}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}} \mbox{[}$\,$\mbox{]} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+plm\+Text = \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{new}} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}}\mbox{[}2\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00036}{36}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a4088c539058770b2259a1dd11bff2c26}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a4088c539058770b2259a1dd11bff2c26} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!printDB@{printDB}}
+\index{printDB@{printDB}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{printDB}{printDB}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{bool}} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+print\+DB\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00028}{28}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a58efe1e2e807a054f229be7988cb0a59}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a58efe1e2e807a054f229be7988cb0a59} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!processedImages@{processedImages}}
+\index{processedImages@{processedImages}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{processedImages}{processedImages}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{int}} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+processed\+Images = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00041}{41}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_aedee1d8dbdd3d76f605a5570b9022136}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_aedee1d8dbdd3d76f605a5570b9022136} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!semImage@{semImage}}
+\index{semImage@{semImage}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{semImage}{semImage}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{byte}} \mbox{[}$\,$\mbox{]} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+sem\+Image\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00039}{39}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a695090089d7e4032afb77f607534af94}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a695090089d7e4032afb77f607534af94} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!semReportsCollection@{semReportsCollection}}
+\index{semReportsCollection@{semReportsCollection}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{semReportsCollection}{semReportsCollection}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{Game\+Object}} \mbox{[}$\,$\mbox{]} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+sem\+Reports\+Collection\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00025}{25}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a686765294231b2fb6fd71b869c476e72}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a686765294231b2fb6fd71b869c476e72} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!semText@{semText}}
+\index{semText@{semText}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{semText}{semText}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}} \mbox{[}$\,$\mbox{]} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+sem\+Text = \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{new}} \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{string}}\mbox{[}3\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00034}{34}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a787c1f9eb8bbade65cebd21c4429d40f}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a787c1f9eb8bbade65cebd21c4429d40f} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!timer@{timer}}
+\index{timer@{timer}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{timer}{timer}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{float}} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+timer\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00042}{42}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a4de264b44be6903ce3ae345adb88de2f}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_a4de264b44be6903ce3ae345adb88de2f} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!Api@{Api}}
+\index{Api@{Api}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{Api}{Api}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interface_render_heads_1_1_unity_omeka_1_1_core_1_1_interface_1_1_i_a_p_i}{IAPI}}$<$\mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_dublic_core_vocabulary}{Dublic\+Core\+Vocabulary}}$>$ Beavir.\+Persistance.\+Database.\+Database\+Manager.\+Api\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [private set]}}
+
+
+
+Reference to our api business logic. The type definition defines the vocabulary that api will know about. 
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00049}{49}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_aa60dac76db50fb257a0d6106b7507b2b}\label{class_beavir_1_1_persistance_1_1_database_1_1_database_manager_aa60dac76db50fb257a0d6106b7507b2b} 
+\index{Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}!ProcessedImages@{ProcessedImages}}
+\index{ProcessedImages@{ProcessedImages}!Beavir.Persistance.Database.DatabaseManager@{Beavir.Persistance.Database.DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{ProcessedImages}{ProcessedImages}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api}{int}} Beavir.\+Persistance.\+Database.\+Database\+Manager.\+Processed\+Images\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line \mbox{\hyperlink{_database_manager_8cs_source_l00045}{45}} of file \mbox{\hyperlink{_database_manager_8cs_source}{Database\+Manager.\+cs}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Beavir/\+Persistance/\mbox{\hyperlink{_database_manager_8cs}{Database\+Manager.\+cs}}\end{DoxyCompactItemize}

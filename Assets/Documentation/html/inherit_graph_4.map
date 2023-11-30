@@ -1,3 +1,23 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_render_heads_1_1_unity_omeka_1_1_data_1_1_helpers.html" title=" " alt="" coords="5,5,216,48"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,213,130,240"/>
+<area shape="rect" id="Node000001" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_beavir_app_manager.html" title="This class manages the various controllers, owning an instance of them. It enables the various contro..." alt="" coords="178,5,389,48"/>
+<area shape="poly" id="edge23_Node000000_Node000001" title=" " alt="" coords="78,197,114,128,142,90,176,58,195,46,198,51,179,62,146,94,119,131,82,200"/>
+<area shape="rect" id="Node000002" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_sound_manager.html" title="Controller that manages audio play/stop requests (both soundtrack and single sounds)" alt="" coords="178,72,389,115"/>
+<area shape="poly" id="edge24_Node000000_Node000002" title=" " alt="" coords="88,200,127,161,176,124,200,113,202,118,179,129,130,165,92,204"/>
+<area shape="rect" id="Node000003" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager.html" title="Controller that manages travels inter/intra Environments." alt="" coords="178,139,389,181"/>
+<area shape="poly" id="edge25_Node000000_Node000003" title=" " alt="" coords="127,206,211,179,213,185,129,211"/>
+<area shape="rect" id="Node000004" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager.html" title="Controller that manages full screen UIs (Overlays, CommandsUI, Title UIs, Screensaver)" alt="" coords="178,205,389,248"/>
+<area shape="poly" id="edge26_Node000000_Node000004" title=" " alt="" coords="145,224,177,224,177,229,145,229"/>
+<area shape="rect" id="Node000005" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_move_around_hemi.html" title=" " alt="" coords="187,272,380,315"/>
+<area shape="poly" id="edge27_Node000000_Node000005" title=" " alt="" coords="129,243,213,269,211,274,127,248"/>
+<area shape="rect" id="Node000006" href="$class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_interactor.html" title="Base class for handling Current Object updates after specific player actions." alt="" coords="197,339,370,381"/>
+<area shape="poly" id="edge28_Node000000_Node000006" title=" " alt="" coords="92,250,130,288,179,324,202,336,200,341,176,329,127,292,88,254"/>
+<area shape="rect" id="Node000010" href="$class_beavir_1_1_persistance_1_1_database_1_1_database_manager.html" title="Controller that manages the data from the OmekaS database (both text data and images)" alt="" coords="187,405,380,448"/>
+<area shape="poly" id="edge32_Node000000_Node000010" title=" " alt="" coords="82,253,119,323,146,360,179,391,198,403,195,407,176,395,142,363,114,325,78,256"/>
+<area shape="rect" id="Node000007" href="$class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_large.html" title="Handles the enablement of objects related to large content objects, such as DBReports and the Tobiots..." alt="" coords="444,305,631,348"/>
+<area shape="poly" id="edge29_Node000006_Node000007" title=" " alt="" coords="385,344,443,336,444,342,386,349"/>
+<area shape="rect" id="Node000008" href="$class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium.html" title="Handles the enablement of objects related to medium content objects (DBReport and Pedestal) and their..." alt="" coords="437,372,638,415"/>
+<area shape="poly" id="edge30_Node000006_Node000008" title=" " alt="" coords="386,371,437,377,436,383,385,376"/>
+<area shape="rect" id="Node000009" href="$class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_medium_a_l.html" title="Handles the enablement of the archaeometric room and the objects related to ItemAggregatorMedium." alt="" coords="686,372,904,415"/>
+<area shape="poly" id="edge31_Node000008_Node000009" title=" " alt="" coords="654,391,686,391,686,396,654,396"/>
 </map>

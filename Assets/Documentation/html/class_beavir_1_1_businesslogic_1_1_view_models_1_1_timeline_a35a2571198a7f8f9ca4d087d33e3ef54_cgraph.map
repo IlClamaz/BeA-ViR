@@ -1,0 +1,7 @@
+<map id="Beavir.Businesslogic.ViewModels.Timeline.Reset" name="Beavir.Businesslogic.ViewModels.Timeline.Reset">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,179,48"/>
+<area shape="rect" id="Node000002" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_enabler.html#aee48268fec72bc9a02a6ae87102a93b2" title=" " alt="" coords="227,5,467,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,24,211,24,211,29,179,29"/>
+<area shape="rect" id="Node000003" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_enabler.html#a1429d4ffb865f1ec7f63a551eee6fdb9" title=" " alt="" coords="515,5,725,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="467,24,500,24,500,29,467,29"/>
+</map>

@@ -1,0 +1,381 @@
+\doxysection{Beavir.\+Businesslogic.\+Models.\+Player Class Reference}
+\hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_player}{}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_player}\index{Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}}
+
+
+The virtual representation of the user, even called visitor.  
+
+
+
+
+Inheritance diagram for Beavir.\+Businesslogic.\+Models.\+Player\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=217pt]{class_beavir_1_1_businesslogic_1_1_models_1_1_player__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Beavir.\+Businesslogic.\+Models.\+Player\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=217pt]{class_beavir_1_1_businesslogic_1_1_models_1_1_player__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a1765db8217d58995337b9b963a9223fe}{Recalculate\+Movement}} (Vector2 next\+Movement)
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_player_aee8c3a37aec5c6f2aa60a9425d7c11c8}{Rotate\+Camera}} (Vector2 next\+Camera\+Rotation)
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a5434532fe9df46364427719476182dfc}{Change\+Position}} (Vector3 position)
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a90e9c0aa995f6c9be1655442f0f5b1ef}{Change\+Rotation}} (Vector3 direction)
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a52bf820acf26f7132551e31ece4d235d}{Jump}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_player_aac9308d48a1e40b26e56c15417774912}{Enable\+Movement}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_player_af3c7d0527b70b6462f9cd4f6d44faa44}{Disable\+Movement}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Character\+Controller \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a0831cd3fe3d18c4c84e6af9f6909cfce}{Character\+Controller}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+Transform \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a29d48efaee7833177a7975217a77e5b6}{Player\+Camera}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Transform \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a92587524d85a490ac3d6b3641aba6b23}{player\+Camera}} = default
+\item 
+float \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_player_afa7d1e174b67eb132b6d7d16a4dcaa59}{speed}} = 11f
+\item 
+float \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a96bfef03686869e41947b969295a27c6}{jump\+Height}} = 3.\+5f
+\item 
+float \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a27e858e98a39fcff64ac070d33c14cba}{gravity}} = -\/15f
+\item 
+bool \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_player_add51be212f55bb43fa6d502b8fa03859}{fly}} = true
+\item 
+float \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_player_ad67332cac06bea4d8ef874fc3ed562f7}{sensitivityX}} = 0.\+1f
+\item 
+float \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a83c16abaf8780a8c895af41fe33609bf}{sensitivityY}} = 0.\+1f
+\item 
+float \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_player_aab5a5358aa2e9691ba0f1c37b4e63818}{y\+Clamp}} = 35f
+\item 
+\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a0831cd3fe3d18c4c84e6af9f6909cfce}{Character\+Controller}} \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a472b28cd273420d25cedd35fba1a9ff8}{character\+Controller}}
+\item 
+Vector2 \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_player_ac3819d992d7beb67d4ca4a2a184c63dc}{camera\+Movement}}
+\item 
+Vector3 \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a9ae92666f3c67b29afcd3a5936709bda}{horizontal\+Velocity}}
+\item 
+Vector3 \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a3c163ee6306b318bb105a6653e53370a}{vertical\+Velocity}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The virtual representation of the user, even called visitor. 
+
+Definition at line \mbox{\hyperlink{_player_8cs_source_l00008}{8}} of file \mbox{\hyperlink{_player_8cs_source}{Player.\+cs}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a5434532fe9df46364427719476182dfc}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a5434532fe9df46364427719476182dfc} 
+\index{Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}!ChangePosition@{ChangePosition}}
+\index{ChangePosition@{ChangePosition}!Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}}
+\doxysubsubsection{\texorpdfstring{ChangePosition()}{ChangePosition()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Models.\+Player.\+Change\+Position (\begin{DoxyParamCaption}\item[{Vector3}]{position }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_player_8cs_source_l00046}{46}} of file \mbox{\hyperlink{_player_8cs_source}{Player.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a5434532fe9df46364427719476182dfc_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a5434532fe9df46364427719476182dfc_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a90e9c0aa995f6c9be1655442f0f5b1ef}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a90e9c0aa995f6c9be1655442f0f5b1ef} 
+\index{Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}!ChangeRotation@{ChangeRotation}}
+\index{ChangeRotation@{ChangeRotation}!Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}}
+\doxysubsubsection{\texorpdfstring{ChangeRotation()}{ChangeRotation()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Models.\+Player.\+Change\+Rotation (\begin{DoxyParamCaption}\item[{Vector3}]{direction }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_player_8cs_source_l00053}{53}} of file \mbox{\hyperlink{_player_8cs_source}{Player.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a90e9c0aa995f6c9be1655442f0f5b1ef_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a90e9c0aa995f6c9be1655442f0f5b1ef_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_player_af3c7d0527b70b6462f9cd4f6d44faa44}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_player_af3c7d0527b70b6462f9cd4f6d44faa44} 
+\index{Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}!DisableMovement@{DisableMovement}}
+\index{DisableMovement@{DisableMovement}!Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}}
+\doxysubsubsection{\texorpdfstring{DisableMovement()}{DisableMovement()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Models.\+Player.\+Disable\+Movement (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_player_8cs_source_l00072}{72}} of file \mbox{\hyperlink{_player_8cs_source}{Player.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_models_1_1_player_af3c7d0527b70b6462f9cd4f6d44faa44_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_player_aac9308d48a1e40b26e56c15417774912}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_player_aac9308d48a1e40b26e56c15417774912} 
+\index{Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}!EnableMovement@{EnableMovement}}
+\index{EnableMovement@{EnableMovement}!Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}}
+\doxysubsubsection{\texorpdfstring{EnableMovement()}{EnableMovement()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Models.\+Player.\+Enable\+Movement (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_player_8cs_source_l00067}{67}} of file \mbox{\hyperlink{_player_8cs_source}{Player.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_models_1_1_player_aac9308d48a1e40b26e56c15417774912_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a52bf820acf26f7132551e31ece4d235d}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a52bf820acf26f7132551e31ece4d235d} 
+\index{Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}!Jump@{Jump}}
+\index{Jump@{Jump}!Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}}
+\doxysubsubsection{\texorpdfstring{Jump()}{Jump()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Models.\+Player.\+Jump (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_player_8cs_source_l00062}{62}} of file \mbox{\hyperlink{_player_8cs_source}{Player.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a52bf820acf26f7132551e31ece4d235d_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a1765db8217d58995337b9b963a9223fe}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a1765db8217d58995337b9b963a9223fe} 
+\index{Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}!RecalculateMovement@{RecalculateMovement}}
+\index{RecalculateMovement@{RecalculateMovement}!Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}}
+\doxysubsubsection{\texorpdfstring{RecalculateMovement()}{RecalculateMovement()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Models.\+Player.\+Recalculate\+Movement (\begin{DoxyParamCaption}\item[{Vector2}]{next\+Movement }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_player_8cs_source_l00025}{25}} of file \mbox{\hyperlink{_player_8cs_source}{Player.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a1765db8217d58995337b9b963a9223fe_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_player_aee8c3a37aec5c6f2aa60a9425d7c11c8}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_player_aee8c3a37aec5c6f2aa60a9425d7c11c8} 
+\index{Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}!RotateCamera@{RotateCamera}}
+\index{RotateCamera@{RotateCamera}!Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}}
+\doxysubsubsection{\texorpdfstring{RotateCamera()}{RotateCamera()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Models.\+Player.\+Rotate\+Camera (\begin{DoxyParamCaption}\item[{Vector2}]{next\+Camera\+Rotation }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_player_8cs_source_l00037}{37}} of file \mbox{\hyperlink{_player_8cs_source}{Player.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_models_1_1_player_aee8c3a37aec5c6f2aa60a9425d7c11c8_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_player_ac3819d992d7beb67d4ca4a2a184c63dc}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_player_ac3819d992d7beb67d4ca4a2a184c63dc} 
+\index{Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}!cameraMovement@{cameraMovement}}
+\index{cameraMovement@{cameraMovement}!Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}}
+\doxysubsubsection{\texorpdfstring{cameraMovement}{cameraMovement}}
+{\footnotesize\ttfamily Vector2 Beavir.\+Businesslogic.\+Models.\+Player.\+camera\+Movement\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_player_8cs_source_l00019}{19}} of file \mbox{\hyperlink{_player_8cs_source}{Player.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a472b28cd273420d25cedd35fba1a9ff8}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a472b28cd273420d25cedd35fba1a9ff8} 
+\index{Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}!characterController@{characterController}}
+\index{characterController@{characterController}!Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}}
+\doxysubsubsection{\texorpdfstring{characterController}{characterController}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a0831cd3fe3d18c4c84e6af9f6909cfce}{Character\+Controller}} Beavir.\+Businesslogic.\+Models.\+Player.\+character\+Controller\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_player_8cs_source_l00018}{18}} of file \mbox{\hyperlink{_player_8cs_source}{Player.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_player_add51be212f55bb43fa6d502b8fa03859}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_player_add51be212f55bb43fa6d502b8fa03859} 
+\index{Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}!fly@{fly}}
+\index{fly@{fly}!Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}}
+\doxysubsubsection{\texorpdfstring{fly}{fly}}
+{\footnotesize\ttfamily bool Beavir.\+Businesslogic.\+Models.\+Player.\+fly = true\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_player_8cs_source_l00014}{14}} of file \mbox{\hyperlink{_player_8cs_source}{Player.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a27e858e98a39fcff64ac070d33c14cba}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a27e858e98a39fcff64ac070d33c14cba} 
+\index{Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}!gravity@{gravity}}
+\index{gravity@{gravity}!Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}}
+\doxysubsubsection{\texorpdfstring{gravity}{gravity}}
+{\footnotesize\ttfamily float Beavir.\+Businesslogic.\+Models.\+Player.\+gravity = -\/15f\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_player_8cs_source_l00013}{13}} of file \mbox{\hyperlink{_player_8cs_source}{Player.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a9ae92666f3c67b29afcd3a5936709bda}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a9ae92666f3c67b29afcd3a5936709bda} 
+\index{Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}!horizontalVelocity@{horizontalVelocity}}
+\index{horizontalVelocity@{horizontalVelocity}!Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}}
+\doxysubsubsection{\texorpdfstring{horizontalVelocity}{horizontalVelocity}}
+{\footnotesize\ttfamily Vector3 Beavir.\+Businesslogic.\+Models.\+Player.\+horizontal\+Velocity\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_player_8cs_source_l00020}{20}} of file \mbox{\hyperlink{_player_8cs_source}{Player.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a96bfef03686869e41947b969295a27c6}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a96bfef03686869e41947b969295a27c6} 
+\index{Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}!jumpHeight@{jumpHeight}}
+\index{jumpHeight@{jumpHeight}!Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}}
+\doxysubsubsection{\texorpdfstring{jumpHeight}{jumpHeight}}
+{\footnotesize\ttfamily float Beavir.\+Businesslogic.\+Models.\+Player.\+jump\+Height = 3.\+5f\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_player_8cs_source_l00012}{12}} of file \mbox{\hyperlink{_player_8cs_source}{Player.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a92587524d85a490ac3d6b3641aba6b23}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a92587524d85a490ac3d6b3641aba6b23} 
+\index{Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}!playerCamera@{playerCamera}}
+\index{playerCamera@{playerCamera}!Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}}
+\doxysubsubsection{\texorpdfstring{playerCamera}{playerCamera}}
+{\footnotesize\ttfamily Transform Beavir.\+Businesslogic.\+Models.\+Player.\+player\+Camera = default\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_player_8cs_source_l00010}{10}} of file \mbox{\hyperlink{_player_8cs_source}{Player.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_player_ad67332cac06bea4d8ef874fc3ed562f7}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_player_ad67332cac06bea4d8ef874fc3ed562f7} 
+\index{Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}!sensitivityX@{sensitivityX}}
+\index{sensitivityX@{sensitivityX}!Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}}
+\doxysubsubsection{\texorpdfstring{sensitivityX}{sensitivityX}}
+{\footnotesize\ttfamily float Beavir.\+Businesslogic.\+Models.\+Player.\+sensitivityX = 0.\+1f\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_player_8cs_source_l00015}{15}} of file \mbox{\hyperlink{_player_8cs_source}{Player.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a83c16abaf8780a8c895af41fe33609bf}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a83c16abaf8780a8c895af41fe33609bf} 
+\index{Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}!sensitivityY@{sensitivityY}}
+\index{sensitivityY@{sensitivityY}!Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}}
+\doxysubsubsection{\texorpdfstring{sensitivityY}{sensitivityY}}
+{\footnotesize\ttfamily float Beavir.\+Businesslogic.\+Models.\+Player.\+sensitivityY = 0.\+1f\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_player_8cs_source_l00016}{16}} of file \mbox{\hyperlink{_player_8cs_source}{Player.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_player_afa7d1e174b67eb132b6d7d16a4dcaa59}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_player_afa7d1e174b67eb132b6d7d16a4dcaa59} 
+\index{Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}!speed@{speed}}
+\index{speed@{speed}!Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}}
+\doxysubsubsection{\texorpdfstring{speed}{speed}}
+{\footnotesize\ttfamily float Beavir.\+Businesslogic.\+Models.\+Player.\+speed = 11f\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_player_8cs_source_l00011}{11}} of file \mbox{\hyperlink{_player_8cs_source}{Player.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a3c163ee6306b318bb105a6653e53370a}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a3c163ee6306b318bb105a6653e53370a} 
+\index{Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}!verticalVelocity@{verticalVelocity}}
+\index{verticalVelocity@{verticalVelocity}!Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}}
+\doxysubsubsection{\texorpdfstring{verticalVelocity}{verticalVelocity}}
+{\footnotesize\ttfamily Vector3 Beavir.\+Businesslogic.\+Models.\+Player.\+vertical\+Velocity\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_player_8cs_source_l00020}{20}} of file \mbox{\hyperlink{_player_8cs_source}{Player.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_player_aab5a5358aa2e9691ba0f1c37b4e63818}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_player_aab5a5358aa2e9691ba0f1c37b4e63818} 
+\index{Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}!yClamp@{yClamp}}
+\index{yClamp@{yClamp}!Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}}
+\doxysubsubsection{\texorpdfstring{yClamp}{yClamp}}
+{\footnotesize\ttfamily float Beavir.\+Businesslogic.\+Models.\+Player.\+y\+Clamp = 35f\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_player_8cs_source_l00017}{17}} of file \mbox{\hyperlink{_player_8cs_source}{Player.\+cs}}.
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a0831cd3fe3d18c4c84e6af9f6909cfce}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a0831cd3fe3d18c4c84e6af9f6909cfce} 
+\index{Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}!CharacterController@{CharacterController}}
+\index{CharacterController@{CharacterController}!Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}}
+\doxysubsubsection{\texorpdfstring{CharacterController}{CharacterController}}
+{\footnotesize\ttfamily Character\+Controller Beavir.\+Businesslogic.\+Models.\+Player.\+Character\+Controller\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line \mbox{\hyperlink{_player_8cs_source_l00022}{22}} of file \mbox{\hyperlink{_player_8cs_source}{Player.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a29d48efaee7833177a7975217a77e5b6}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_player_a29d48efaee7833177a7975217a77e5b6} 
+\index{Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}!PlayerCamera@{PlayerCamera}}
+\index{PlayerCamera@{PlayerCamera}!Beavir.Businesslogic.Models.Player@{Beavir.Businesslogic.Models.Player}}
+\doxysubsubsection{\texorpdfstring{PlayerCamera}{PlayerCamera}}
+{\footnotesize\ttfamily Transform Beavir.\+Businesslogic.\+Models.\+Player.\+Player\+Camera\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line \mbox{\hyperlink{_player_8cs_source_l00023}{23}} of file \mbox{\hyperlink{_player_8cs_source}{Player.\+cs}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Beavir/\+Businesslogic/\+Models/\mbox{\hyperlink{_player_8cs}{Player.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,7 @@
+<map id="Beavir.Businesslogic.Controllers.TransportManager.OnSightSeeing" name="Beavir.Businesslogic.Controllers.TransportManager.OnSightSeeing">
+<area shape="rect" id="Node000001" title="Method that manages the Guided Tour, teleporting the player according to the sight points in the curr..." alt="" coords="265,39,481,81"/>
+<area shape="rect" id="Node000002" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager.html#af530d76f2519aab21c0d8b83ee7029c4" title=" " alt="" coords="5,5,217,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="249,47,217,43,217,37,249,42"/>
+<area shape="rect" id="Node000003" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager.html#a68fc4e01feaa12b378b3f50e0af72427" title=" " alt="" coords="5,72,217,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="249,78,217,83,217,77,249,73"/>
+</map>

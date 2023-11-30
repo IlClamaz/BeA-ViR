@@ -1,0 +1,8 @@
+<map id="Beavir.Businesslogic.ViewModels.Timeline" name="Beavir.Businesslogic.ViewModels.Timeline">
+<area shape="rect" id="Node000001" title="Handles the enablement of the Timeline model and periods and their animation." alt="" coords="5,332,171,567"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="32,5,133,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,90,89,332,84,332,81,90"/>
+<area shape="rect" id="Node000003" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_collider_proxy.html" title=" " alt="" coords="104,124,288,252"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="120,85,149,122,145,126,116,88"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="172,253,145,318,140,316,167,251"/>
+</map>

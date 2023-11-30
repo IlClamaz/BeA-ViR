@@ -1,0 +1,7 @@
+<map id="Beavir.Businesslogic.ViewModels.ItemAggregatorLarge" name="Beavir.Businesslogic.ViewModels.ItemAggregatorLarge">
+<area shape="rect" id="Node000001" title="Handles the enablement of objects related to large content objects, such as DBReports and the Tobiots..." alt="" coords="5,261,184,411"/>
+<area shape="rect" id="Node000002" href="$class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_interactor.html" title="Base class for handling Current Object updates after specific player actions." alt="" coords="35,123,154,213"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,229,97,262,92,262,92,229"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="37,5,153,75"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="97,89,97,123,92,123,92,89"/>
+</map>

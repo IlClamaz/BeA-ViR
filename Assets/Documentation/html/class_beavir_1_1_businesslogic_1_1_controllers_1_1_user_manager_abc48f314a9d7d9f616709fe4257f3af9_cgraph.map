@@ -1,0 +1,9 @@
+<map id="Beavir.Businesslogic.Controllers.UserManager.UpdatePlayerPosition" name="Beavir.Businesslogic.Controllers.UserManager.UpdatePlayerPosition">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,233,81"/>
+<area shape="rect" id="Node000002" href="$class_beavir_1_1_businesslogic_1_1_models_1_1_player.html#a5434532fe9df46364427719476182dfc" title=" " alt="" coords="281,39,472,81"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="233,57,265,57,265,63,233,63"/>
+<area shape="rect" id="Node000003" href="$class_beavir_1_1_businesslogic_1_1_models_1_1_player.html#af3c7d0527b70b6462f9cd4f6d44faa44" title=" " alt="" coords="520,5,711,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="472,44,504,40,505,45,473,49"/>
+<area shape="rect" id="Node000004" href="$class_beavir_1_1_businesslogic_1_1_models_1_1_player.html#aac9308d48a1e40b26e56c15417774912" title=" " alt="" coords="520,72,711,115"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="473,71,505,75,504,80,472,76"/>
+</map>

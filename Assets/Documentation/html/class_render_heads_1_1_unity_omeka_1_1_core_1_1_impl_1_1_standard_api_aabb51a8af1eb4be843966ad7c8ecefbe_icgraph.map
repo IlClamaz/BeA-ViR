@@ -1,5 +1,7 @@
 <map id="RenderHeads.UnityOmeka.Core.Impl.StandardApi.SetCredentials" name="RenderHeads.UnityOmeka.Core.Impl.StandardApi.SetCredentials">
-<area shape="rect" id="Node000001" title="Set the credentials for the API communication, if you need to access protected data." alt="" coords="310,5,520,48"/>
+<area shape="rect" id="Node000001" title="Set the credentials for the API communication, if you need to access protected data." alt="" coords="310,39,520,81"/>
 <area shape="rect" id="Node000002" href="$class_render_heads_1_1_unity_omeka_1_1_components_1_1_omeka_client.html#a94e0b5b815ccd22bc9483ee9a423f66b" title=" " alt="" coords="5,5,262,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="294,29,262,29,262,24,294,24"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="294,48,262,45,262,39,295,43"/>
+<area shape="rect" id="Node000003" href="$class_beavir_1_1_persistance_1_1_database_1_1_database_manager.html#a28cdf5fd69eef01a0fcfe10cc1574ab5" title=" " alt="" coords="37,72,230,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="295,77,230,85,230,79,294,72"/>
 </map>

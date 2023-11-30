@@ -1,0 +1,18 @@
+<map id="Beavir.Businesslogic.Controllers.TransportManager.SendFadeCamera" name="Beavir.Businesslogic.Controllers.TransportManager.SendFadeCamera">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,239,81"/>
+<area shape="rect" id="Node000002" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager.html#a59d81b84a6fbd964441e3eccc92396a7" title=" " alt="" coords="287,39,542,81"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="239,57,271,57,271,63,239,63"/>
+<area shape="rect" id="Node000003" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_input_reader.html#adc864bd31e1b7b603298f8b7433f5bb2" title=" " alt="" coords="600,5,792,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="542,42,584,37,584,43,543,47"/>
+<area shape="rect" id="Node000006" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager.html#a73837d4663d1cecccb1f01bd26cc0d38" title=" " alt="" coords="590,72,801,115"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="543,73,575,76,574,82,542,78"/>
+<area shape="rect" id="Node000004" href="$struct_game_input_1_1_gameplay_actions.html#a7dfd84bd8543a7da792789ef29406348" title=" " alt="" coords="1119,5,1314,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="792,24,1103,24,1103,29,792,29"/>
+<area shape="rect" id="Node000005" href="$struct_game_input_1_1_gameplay_actions.html#a32b9682d257146dcaa22680a3a4d159b" title=" " alt="" coords="1362,47,1578,73"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1315,37,1349,41,1348,47,1314,42"/>
+<area shape="rect" id="Node000007" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_input_reader.html#a7f93ccf8e1f941dbdfd604009005a08d" title=" " alt="" coords="849,72,1071,115"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="802,91,834,91,834,96,802,96"/>
+<area shape="rect" id="Node000008" href="$struct_game_input_1_1_gameplay_actions.html#a3f4b221de6d0471f440e54f6f23b4da8" title=" " alt="" coords="1119,72,1314,115"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="1071,91,1103,91,1103,96,1071,96"/>
+<area shape="poly" id="edge8_Node000008_Node000005" title=" " alt="" coords="1314,78,1348,73,1349,79,1315,83"/>
+</map>

@@ -1,0 +1,18 @@
+<map id="Beavir.Persistance.Database.DatabaseManager.SearchMedia" name="Beavir.Persistance.Database.DatabaseManager.SearchMedia">
+<area shape="rect" id="Node000001" title=" " alt="" coords="825,105,1032,148"/>
+<area shape="rect" id="Node000002" href="$class_beavir_1_1_persistance_1_1_database_1_1_database_manager.html#a86e6a81f63cb67b9a4b9b33043860d7b" title=" " alt="" coords="509,5,754,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="869,101,776,63,738,51,740,46,778,57,871,96"/>
+<area shape="rect" id="Node000005" href="$class_beavir_1_1_persistance_1_1_database_1_1_database_manager.html#a45952f5724c7eacc98634ca27d480575" title=" " alt="" coords="500,72,764,115"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="810,116,764,111,764,106,810,111"/>
+<area shape="rect" id="Node000006" href="$class_beavir_1_1_persistance_1_1_database_1_1_database_manager.html#ac70838d62295aae08b4f66854c846042" title=" " alt="" coords="486,139,777,181"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="810,143,778,146,777,141,809,137"/>
+<area shape="rect" id="Node000007" href="$class_beavir_1_1_persistance_1_1_database_1_1_database_manager.html#a2ae0bc4354e0e37bc3aaa5b6047e1d4b" title=" " alt="" coords="504,205,760,248"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="871,158,778,196,740,207,738,202,776,191,869,153"/>
+<area shape="rect" id="Node000003" href="$class_beavir_1_1_persistance_1_1_database_1_1_database_manager.html#a1dc2769f8bc2e47d07483696df6851eb" title=" " alt="" coords="246,105,438,148"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="510,55,487,63,433,84,385,107,383,102,431,79,485,57,508,50"/>
+<area shape="rect" id="Node000004" href="$class_beavir_1_1_persistance_1_1_database_1_1_database_manager.html#a6c9c86c1abf6c466c41b7ce30cdff5e7" title=" " alt="" coords="5,105,198,148"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="230,129,198,129,198,124,230,124"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="484,113,439,118,438,113,484,108"/>
+<area shape="poly" id="edge7_Node000006_Node000003" title=" " alt="" coords="470,144,438,140,439,135,471,139"/>
+<area shape="poly" id="edge9_Node000007_Node000003" title=" " alt="" coords="508,203,485,196,431,174,383,151,385,146,433,169,487,191,510,198"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="Beavir.Persistance.Database.DatabaseManager.SearchItemSets" name="Beavir.Persistance.Database.DatabaseManager.SearchItemSets">
+<area shape="rect" id="Node000001" title="Callback that searchs for item sets." alt="" coords="5,5,229,48"/>
+<area shape="rect" id="Node000002" href="$class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api.html#a8f5d8dc7e1169fcb08fbc596e3be60ff" title="Search the api for item sets." alt="" coords="277,5,494,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="229,24,261,24,261,29,229,29"/>
+<area shape="rect" id="Node000003" href="$class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api.html#ab2d83c8975ebd0fea066b02bdf71a158" title="Search the api for a given resource type." alt="" coords="542,5,752,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="494,24,526,24,526,29,494,29"/>
+<area shape="rect" id="Node000004" href="$class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api.html#ab124ff34c850fb6070e275a234daacd8" title="Using reflection we can turn our parameters into a query string." alt="" coords="800,5,1045,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="753,24,785,24,785,29,753,29"/>
+</map>

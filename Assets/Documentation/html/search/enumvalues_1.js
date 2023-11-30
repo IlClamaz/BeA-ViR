@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['item_5fsets_0',['item_sets',['../namespace_render_heads_1_1_unity_omeka_1_1_core.html#aac27bc1318149450d409a6d275660cdba82c7a581256c46a57a6748b05b0a04e2',1,'RenderHeads::UnityOmeka::Core']]],
-  ['items_1',['items',['../namespace_render_heads_1_1_unity_omeka_1_1_core.html#aac27bc1318149450d409a6d275660cdba691d502cfd0e0626cd3b058e5682ad1c',1,'RenderHeads::UnityOmeka::Core']]]
+  ['dontdraw_0',['DontDraw',['../class_beavir_1_1_businesslogic_1_1_utilities_1_1_draw_if_attribute.html#a93a376b5c876e4a76f7e549925db6e87a66425c7e0ec27d60bd7c3efdc2786ba7',1,'Beavir::Businesslogic::Utilities::DrawIfAttribute']]]
 ];

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['jump_0',['jump',['../class_first_person_controller.html#a16c8fc91cee319f625f614271acc9fcb',1,'FirstPersonController']]],
-  ['jumpcount_1',['jumpCount',['../class_player_logger.html#a7458c98c98ed560561e7516131ed9d2a',1,'PlayerLogger']]],
-  ['jumpheight_2',['jumpHeight',['../class_first_person_controller.html#a201b634c909d2b62154e9b0fab606e8d',1,'FirstPersonController']]]
+  ['jumpcount_0',['jumpCount',['../class_beavir_1_1_businesslogic_1_1_utilities_1_1_player_logger.html#a67ad41c8b7c1b361880eb6086c19e4c4',1,'Beavir::Businesslogic::Utilities::PlayerLogger']]],
+  ['jumpheight_1',['jumpHeight',['../class_beavir_1_1_businesslogic_1_1_models_1_1_player.html#a96bfef03686869e41947b969295a27c6',1,'Beavir::Businesslogic::Models::Player']]]
 ];

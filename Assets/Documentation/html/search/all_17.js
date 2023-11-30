@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['yclamp_0',['yClamp',['../class_first_person_controller.html#ae3d5976772795c4bf92fdf0a84b8ae88',1,'FirstPersonController']]]
+  ['yclamp_0',['yClamp',['../class_beavir_1_1_businesslogic_1_1_models_1_1_player.html#aab5a5358aa2e9691ba0f1c37b4e63818',1,'Beavir::Businesslogic::Models::Player']]]
 ];

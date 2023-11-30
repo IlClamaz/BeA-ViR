@@ -1,4 +1,4 @@
 var _database_manager_8cs =
 [
-    [ "RenderHeads.UnityOmeka.Example.DatabaseManager", "class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager.html", "class_render_heads_1_1_unity_omeka_1_1_example_1_1_database_manager" ]
+    [ "Beavir.Persistance.Database.DatabaseManager", "class_beavir_1_1_persistance_1_1_database_1_1_database_manager.html", "class_beavir_1_1_persistance_1_1_database_1_1_database_manager" ]
 ];

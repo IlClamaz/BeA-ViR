@@ -1,58 +1,61 @@
 \doxysection{Object\+Animator.\+cs}
-\hypertarget{_object_animator_8cs_source}{}\label{_object_animator_8cs_source}\index{Managers/ObjectAnimator.cs@{Managers/ObjectAnimator.cs}}
+\hypertarget{_object_animator_8cs_source}{}\label{_object_animator_8cs_source}\index{Beavir/Businesslogic/Utilities/Animation/ObjectAnimator.cs@{Beavir/Businesslogic/Utilities/Animation/ObjectAnimator.cs}}
 \mbox{\hyperlink{_object_animator_8cs}{Go to the documentation of this file.}}
 \begin{DoxyCode}{0}
 \DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00001}00001\ \textcolor{keyword}{using\ }System.Collections;}
 \DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00002}00002\ \textcolor{keyword}{using\ }System.Collections.Generic;}
 \DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00003}00003\ \textcolor{keyword}{using\ }UnityEngine;}
 \DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00004}00004\ }
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00005}\mbox{\hyperlink{class_object_animator}{00005}}\ \textcolor{keyword}{public}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_object_animator}{ObjectAnimator}}\ :\ MonoBehaviour}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00005}00005\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespace_beavir_1_1_businesslogic_1_1_utilities}{Beavir.Businesslogic.Utilities}}}
 \DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00006}00006\ \{}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00007}\mbox{\hyperlink{class_object_animator_a0cad70b40f51c8b8cf4d5e2ba711e947}{00007}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{static}\ \mbox{\hyperlink{class_object_animator}{ObjectAnimator}}\ \mbox{\hyperlink{class_object_animator_a0cad70b40f51c8b8cf4d5e2ba711e947}{Instance}}\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{private}\ \textcolor{keyword}{set};\ \}}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00008}00008\ }
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00009}\mbox{\hyperlink{class_object_animator_a76ee3f66a7ab73b2ad4843df4248d4ce}{00009}}\ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_object_animator_a76ee3f66a7ab73b2ad4843df4248d4ce}{Awake}}()}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00010}00010\ \ \ \ \ \{}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00011}00011\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (\mbox{\hyperlink{class_object_animator_a0cad70b40f51c8b8cf4d5e2ba711e947}{Instance}}\ !=\ \textcolor{keyword}{null}\ \&\&\ \mbox{\hyperlink{class_object_animator_a0cad70b40f51c8b8cf4d5e2ba711e947}{Instance}}\ !=\ \textcolor{keyword}{this})\ Destroy(\textcolor{keyword}{this});}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00012}00012\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}\ \mbox{\hyperlink{class_object_animator_a0cad70b40f51c8b8cf4d5e2ba711e947}{Instance}}\ =\ \textcolor{keyword}{this};}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00013}00013\ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00014}00014\ }
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00015}\mbox{\hyperlink{class_object_animator_a98d8f90853dc2777920bcb625c22d0c2}{00015}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_object_animator_a98d8f90853dc2777920bcb625c22d0c2}{PlayAnimation}}(Animator\ targetAnimator,\ \textcolor{keywordtype}{string}\ targetAnimationTrigger)}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00016}00016\ \ \ \ \ \{}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00017}00017\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (!targetAnimator.GetBool(targetAnimationTrigger))\ targetAnimator.SetBool(targetAnimationTrigger,\ \textcolor{keyword}{true});}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00018}00018\ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00019}\mbox{\hyperlink{class_object_animator_a611302853339557f457a5335927f1df0}{00019}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_object_animator_a611302853339557f457a5335927f1df0}{PlayAnimation}}(List<Animator>\ targetAnimators,\ \textcolor{keywordtype}{string}\ targetAnimationTrigger)}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00020}00020\ \ \ \ \ \{}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00021}00021\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{foreach}\ (var\ item\ \textcolor{keywordflow}{in}\ targetAnimators)\ \textcolor{keywordflow}{if}\ (!item.GetBool(targetAnimationTrigger))\ item.SetBool(targetAnimationTrigger,\ \textcolor{keyword}{true});}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00022}00022\ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00023}\mbox{\hyperlink{class_object_animator_a757622675d2b4459c4718b69db2fa753}{00023}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_object_animator_a757622675d2b4459c4718b69db2fa753}{PauseResumeAnimation}}(Animator\ targetAnimator,\ \textcolor{keywordtype}{string}\ targetAnimationTrigger)}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00024}00024\ \ \ \ \ \{}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00025}00025\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (targetAnimator.GetCurrentAnimatorStateInfo(0).length\ >}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00026}00026\ \ \ \ \ \ \ \ \ \ \ \ targetAnimator.GetCurrentAnimatorStateInfo(0).normalizedTime)}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00027}00027\ \ \ \ \ \ \ \ \ \{}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00028}00028\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (targetAnimator.GetFloat(targetAnimationTrigger)\ ==\ 1)}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00029}00029\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ targetAnimator.SetFloat(targetAnimationTrigger,\ 0);}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00030}00030\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00031}00031\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ targetAnimator.SetFloat(targetAnimationTrigger,\ 1);}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00032}00032\ \ \ \ \ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00033}00033\ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00034}\mbox{\hyperlink{class_object_animator_a770e66ea51995e550f3177d6783483a0}{00034}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_object_animator_a770e66ea51995e550f3177d6783483a0}{StopAnimation}}(Animator\ targetAnimator,\ \textcolor{keywordtype}{string}\ targetAnimationTrigger)}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00035}00035\ \ \ \ \ \{}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00036}00036\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (targetAnimator.GetBool(targetAnimationTrigger))\ targetAnimator.SetBool(targetAnimationTrigger,\ \textcolor{keyword}{false});}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00037}00037\ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00038}00038\ }
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00039}\mbox{\hyperlink{class_object_animator_a541c948c4793d4c16d043c4bb842a3fb}{00039}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_object_animator_a541c948c4793d4c16d043c4bb842a3fb}{StopAnimation}}(List<Animator>\ targetAnimators,\ \textcolor{keywordtype}{string}\ targetAnimationTrigger)}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00040}00040\ \ \ \ \ \{}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00041}00041\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{foreach}\ (var\ item\ \textcolor{keywordflow}{in}\ targetAnimators)\ \textcolor{keywordflow}{if}\ (item.GetBool(targetAnimationTrigger))\ item.SetBool(targetAnimationTrigger,\ \textcolor{keyword}{false});}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00042}00042\ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00043}\mbox{\hyperlink{class_object_animator_a4da0362421133f5a5ba0546696150790}{00043}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_object_animator_a4da0362421133f5a5ba0546696150790}{ResetAnimator}}(Animator\ targetAnimator)}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00044}00044\ \ \ \ \ \{}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00045}00045\ \ \ \ \ \ \ \ \ targetAnimator.Rebind();}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00046}00046\ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00047}00047\ }
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00048}\mbox{\hyperlink{class_object_animator_acab55fe82c0cf931825600b2b99c0960}{00048}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_object_animator_acab55fe82c0cf931825600b2b99c0960}{ResetAnimator}}(List<Animator>\ targetAnimators)}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00049}00049\ \ \ \ \ \{}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00050}00050\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{foreach}\ (var\ item\ \textcolor{keywordflow}{in}\ targetAnimators)\ item.Rebind();}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00051}00051\ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00052}00052\ \}}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00007}\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_animator}{00007}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_animator}{ObjectAnimator}}\ :\ MonoBehaviour}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00008}00008\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00009}\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_animator_aedbff2661eacbab68e3cef088382d10d}{00009}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{static}\ \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_animator}{ObjectAnimator}}\ \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_animator_aedbff2661eacbab68e3cef088382d10d}{Instance}}\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{private}\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00010}00010\ }
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00011}\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_animator_a2f1da6ec2bfbbeb00c4579912aba0a5c}{00011}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_animator_a2f1da6ec2bfbbeb00c4579912aba0a5c}{Awake}}()}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00012}00012\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00013}00013\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_animator_aedbff2661eacbab68e3cef088382d10d}{Instance}}\ !=\ \textcolor{keyword}{null}\ \&\&\ \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_animator_aedbff2661eacbab68e3cef088382d10d}{Instance}}\ !=\ \textcolor{keyword}{this})\ Destroy(\textcolor{keyword}{this});}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00014}00014\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}\ \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_animator_aedbff2661eacbab68e3cef088382d10d}{Instance}}\ =\ \textcolor{keyword}{this};}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00015}00015\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00016}00016\ }
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00017}\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_animator_adc7b252bae340e6509e82db10f11b68d}{00017}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_animator_adc7b252bae340e6509e82db10f11b68d}{PlayAnimation}}(Animator\ targetAnimator,\ \textcolor{keywordtype}{string}\ targetAnimationTrigger)}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00018}00018\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00019}00019\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (!targetAnimator.GetBool(targetAnimationTrigger))\ targetAnimator.SetBool(targetAnimationTrigger,\ \textcolor{keyword}{true});}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00020}00020\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00021}\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_animator_a37d7d6eed94a9c2becfe1a7832fff02a}{00021}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_animator_a37d7d6eed94a9c2becfe1a7832fff02a}{PlayAnimation}}(List<Animator>\ targetAnimators,\ \textcolor{keywordtype}{string}\ targetAnimationTrigger)}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00022}00022\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00023}00023\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{foreach}\ (var\ item\ \textcolor{keywordflow}{in}\ targetAnimators)\ \textcolor{keywordflow}{if}\ (!item.GetBool(targetAnimationTrigger))\ item.SetBool(targetAnimationTrigger,\ \textcolor{keyword}{true});}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00024}00024\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00025}\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_animator_a1a6c1d51ebba9507de12afe25d599e79}{00025}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_animator_a1a6c1d51ebba9507de12afe25d599e79}{PauseResumeAnimation}}(Animator\ targetAnimator,\ \textcolor{keywordtype}{string}\ targetAnimationTrigger)}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00026}00026\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00027}00027\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (targetAnimator.GetCurrentAnimatorStateInfo(0).length\ >}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00028}00028\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ targetAnimator.GetCurrentAnimatorStateInfo(0).normalizedTime)}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00029}00029\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00030}00030\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (targetAnimator.GetFloat(targetAnimationTrigger)\ ==\ 1)}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00031}00031\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ targetAnimator.SetFloat(targetAnimationTrigger,\ 0);}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00032}00032\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00033}00033\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ targetAnimator.SetFloat(targetAnimationTrigger,\ 1);}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00034}00034\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00035}00035\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00036}\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_animator_aac5e019c0f16bc1952fa76f8e547e16a}{00036}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_animator_aac5e019c0f16bc1952fa76f8e547e16a}{StopAnimation}}(Animator\ targetAnimator,\ \textcolor{keywordtype}{string}\ targetAnimationTrigger)}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00037}00037\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00038}00038\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (targetAnimator.GetBool(targetAnimationTrigger))\ targetAnimator.SetBool(targetAnimationTrigger,\ \textcolor{keyword}{false});}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00039}00039\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00040}00040\ }
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00041}\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_animator_abc16143c1eccc6ba5bf3cce5e3c4c1d0}{00041}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_animator_abc16143c1eccc6ba5bf3cce5e3c4c1d0}{StopAnimation}}(List<Animator>\ targetAnimators,\ \textcolor{keywordtype}{string}\ targetAnimationTrigger)}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00042}00042\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00043}00043\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{foreach}\ (var\ item\ \textcolor{keywordflow}{in}\ targetAnimators)\ \textcolor{keywordflow}{if}\ (item.GetBool(targetAnimationTrigger))\ item.SetBool(targetAnimationTrigger,\ \textcolor{keyword}{false});}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00044}00044\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00045}\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_animator_a6bde1ff135c97ef58ca01be063ca785e}{00045}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_animator_a6bde1ff135c97ef58ca01be063ca785e}{ResetAnimator}}(Animator\ targetAnimator)}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00046}00046\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00047}00047\ \ \ \ \ \ \ \ \ \ \ \ \ targetAnimator.Rebind();}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00048}00048\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00049}00049\ }
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00050}\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_animator_ad3911ad502d93453668521428618be67}{00050}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_animator_ad3911ad502d93453668521428618be67}{ResetAnimator}}(List<Animator>\ targetAnimators)}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00051}00051\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00052}00052\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{foreach}\ (var\ item\ \textcolor{keywordflow}{in}\ targetAnimators)\ item.Rebind();}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00053}00053\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00054}00054\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_object_animator_8cs_source_l00055}00055\ \}}
 
 \end{DoxyCode}

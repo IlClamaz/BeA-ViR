@@ -1,0 +1,9 @@
+<map id="Beavir.Businesslogic.Utilities.ObjectEnabler.ToggleGameObject" name="Beavir.Businesslogic.Utilities.ObjectEnabler.ToggleGameObject">
+<area shape="rect" id="Node000001" title=" " alt="" coords="494,39,712,81"/>
+<area shape="rect" id="Node000002" href="$class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate.html#a4be414e31b9724800fbbefa509c5ca22" title=" " alt="" coords="250,5,423,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="478,47,423,40,424,35,479,42"/>
+<area shape="rect" id="Node000004" href="$class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_aggregator_large.html#ae97652511d747426b64332bb2db72189" title=" " alt="" coords="227,72,446,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="479,78,447,82,446,77,478,73"/>
+<area shape="rect" id="Node000003" href="$class_beavir_1_1_businesslogic_1_1_view_models_1_1_gate.html#a21148a6e28c241d6a3de6ef8632f69dc" title=" " alt="" coords="5,5,179,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="234,29,179,29,179,24,234,24"/>
+</map>

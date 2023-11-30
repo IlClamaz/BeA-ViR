@@ -1,0 +1,356 @@
+\doxysection{Beavir.\+Businesslogic.\+Utilities.\+Fading\+Animation Class Reference}
+\hypertarget{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation}{}\label{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation}\index{Beavir.Businesslogic.Utilities.FadingAnimation@{Beavir.Businesslogic.Utilities.FadingAnimation}}
+
+
+Inheritance diagram for Beavir.\+Businesslogic.\+Utilities.\+Fading\+Animation\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=218pt]{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Beavir.\+Businesslogic.\+Utilities.\+Fading\+Animation\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=218pt]{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a6f5262d2144a7d5eca657940719a7001}{Fade\+Out}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_ab34f121abb31c36329f759058f388a03}{Fade\+In}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a81ad90b0403d840cf8d9f1e0c51d806a}{Event}} \{ \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a81ad90b0403d840cf8d9f1e0c51d806aa6830d42aa3fe217f2534c5a84e426900}{fade\+Inter}}
+, \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a81ad90b0403d840cf8d9f1e0c51d806aa6a6f9f70923e9efc6d458da318ba4d13}{fade\+Intra}}
+, \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a81ad90b0403d840cf8d9f1e0c51d806aaf6cb3e816496528d4187db53bc66567f}{both}}
+, \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a81ad90b0403d840cf8d9f1e0c51d806aa2f05711e19fa48377e1d27b9759fea92}{fade\+Camera}}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a106c73185f1293e5d6d2791e3c2ac92b}{On\+Enable}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_afc60ebf28cd6fd85b4efecfe3a39afde}{On\+Disable}} ()
+\item 
+IEnumerator \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a9718ea207afd9c05d065567bfe686f48}{Fading\+Coroutine}} (Game\+Object subject, float start\+\_\+value, float value\+\_\+end, float duration)
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_ae0b7425760f54b4c32d2e1753bae6765}{Change\+Rendering\+Mode}} (Game\+Object subject, bool fade)
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_aa7e12f2fb9b2ac572065893568261434}{To\+Opaque\+Mode}} (Material material)
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_aa289694085b0ac15c2d46ea1ba4374fe}{To\+Fade\+Mode}} (Material material)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+float \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_aeb4e8c3d9014b32027323250b981607e}{fading\+Duration}}
+\item 
+\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a81ad90b0403d840cf8d9f1e0c51d806a}{Event}} \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_aa38c97113071320fc331b636b6e87413}{selected\+Event}} = \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a81ad90b0403d840cf8d9f1e0c51d806aa6830d42aa3fe217f2534c5a84e426900}{Event.\+fade\+Inter}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const string \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_aba7decd1058ec57171596eebd9b7d19a}{standard\+Shader}} = "{}Standard"{}
+\item 
+const string \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a010b47b73e5940565aa535e97e8b30e2}{standard\+Shader\+Color}} = "{}\+\_\+\+Color"{}
+\item 
+const string \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a73667fc2e52e2af5cff490df189c7d29}{leaves\+Shader}} = "{}Nature/Tree Creator Leaves"{}
+\item 
+const string \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_aead56de69ca0fe13e3b250e0f211b16c}{glass\+Shader}} = "{}Effects/Frosted\+Glass"{}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line \mbox{\hyperlink{_fading_animation_8cs_source_l00007}{7}} of file \mbox{\hyperlink{_fading_animation_8cs_source}{Fading\+Animation.\+cs}}.
+
+
+
+\doxysubsection{Member Enumeration Documentation}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a81ad90b0403d840cf8d9f1e0c51d806a}\label{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a81ad90b0403d840cf8d9f1e0c51d806a} 
+\index{Beavir.Businesslogic.Utilities.FadingAnimation@{Beavir.Businesslogic.Utilities.FadingAnimation}!Event@{Event}}
+\index{Event@{Event}!Beavir.Businesslogic.Utilities.FadingAnimation@{Beavir.Businesslogic.Utilities.FadingAnimation}}
+\doxysubsubsection{\texorpdfstring{Event}{Event}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a81ad90b0403d840cf8d9f1e0c51d806a}{Beavir.\+Businesslogic.\+Utilities.\+Fading\+Animation.\+Event}}\hspace{0.3cm}{\ttfamily [private]}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{fadeInter@{fadeInter}!Beavir.Businesslogic.Utilities.FadingAnimation@{Beavir.Businesslogic.Utilities.FadingAnimation}}\index{Beavir.Businesslogic.Utilities.FadingAnimation@{Beavir.Businesslogic.Utilities.FadingAnimation}!fadeInter@{fadeInter}}}\Hypertarget{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a81ad90b0403d840cf8d9f1e0c51d806aa6830d42aa3fe217f2534c5a84e426900}\label{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a81ad90b0403d840cf8d9f1e0c51d806aa6830d42aa3fe217f2534c5a84e426900} 
+fade\+Inter&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{fadeIntra@{fadeIntra}!Beavir.Businesslogic.Utilities.FadingAnimation@{Beavir.Businesslogic.Utilities.FadingAnimation}}\index{Beavir.Businesslogic.Utilities.FadingAnimation@{Beavir.Businesslogic.Utilities.FadingAnimation}!fadeIntra@{fadeIntra}}}\Hypertarget{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a81ad90b0403d840cf8d9f1e0c51d806aa6a6f9f70923e9efc6d458da318ba4d13}\label{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a81ad90b0403d840cf8d9f1e0c51d806aa6a6f9f70923e9efc6d458da318ba4d13} 
+fade\+Intra&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{both@{both}!Beavir.Businesslogic.Utilities.FadingAnimation@{Beavir.Businesslogic.Utilities.FadingAnimation}}\index{Beavir.Businesslogic.Utilities.FadingAnimation@{Beavir.Businesslogic.Utilities.FadingAnimation}!both@{both}}}\Hypertarget{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a81ad90b0403d840cf8d9f1e0c51d806aaf6cb3e816496528d4187db53bc66567f}\label{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a81ad90b0403d840cf8d9f1e0c51d806aaf6cb3e816496528d4187db53bc66567f} 
+both&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{fadeCamera@{fadeCamera}!Beavir.Businesslogic.Utilities.FadingAnimation@{Beavir.Businesslogic.Utilities.FadingAnimation}}\index{Beavir.Businesslogic.Utilities.FadingAnimation@{Beavir.Businesslogic.Utilities.FadingAnimation}!fadeCamera@{fadeCamera}}}\Hypertarget{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a81ad90b0403d840cf8d9f1e0c51d806aa2f05711e19fa48377e1d27b9759fea92}\label{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a81ad90b0403d840cf8d9f1e0c51d806aa2f05711e19fa48377e1d27b9759fea92} 
+fade\+Camera&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+Definition at line \mbox{\hyperlink{_fading_animation_8cs_source_l00010}{10}} of file \mbox{\hyperlink{_fading_animation_8cs_source}{Fading\+Animation.\+cs}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_ae0b7425760f54b4c32d2e1753bae6765}\label{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_ae0b7425760f54b4c32d2e1753bae6765} 
+\index{Beavir.Businesslogic.Utilities.FadingAnimation@{Beavir.Businesslogic.Utilities.FadingAnimation}!ChangeRenderingMode@{ChangeRenderingMode}}
+\index{ChangeRenderingMode@{ChangeRenderingMode}!Beavir.Businesslogic.Utilities.FadingAnimation@{Beavir.Businesslogic.Utilities.FadingAnimation}}
+\doxysubsubsection{\texorpdfstring{ChangeRenderingMode()}{ChangeRenderingMode()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Utilities.\+Fading\+Animation.\+Change\+Rendering\+Mode (\begin{DoxyParamCaption}\item[{Game\+Object}]{subject,  }\item[{bool}]{fade }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_fading_animation_8cs_source_l00116}{116}} of file \mbox{\hyperlink{_fading_animation_8cs_source}{Fading\+Animation.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_ae0b7425760f54b4c32d2e1753bae6765_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_ae0b7425760f54b4c32d2e1753bae6765_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_ab34f121abb31c36329f759058f388a03}\label{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_ab34f121abb31c36329f759058f388a03} 
+\index{Beavir.Businesslogic.Utilities.FadingAnimation@{Beavir.Businesslogic.Utilities.FadingAnimation}!FadeIn@{FadeIn}}
+\index{FadeIn@{FadeIn}!Beavir.Businesslogic.Utilities.FadingAnimation@{Beavir.Businesslogic.Utilities.FadingAnimation}}
+\doxysubsubsection{\texorpdfstring{FadeIn()}{FadeIn()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Utilities.\+Fading\+Animation.\+Fade\+In (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_fading_animation_8cs_source_l00048}{48}} of file \mbox{\hyperlink{_fading_animation_8cs_source}{Fading\+Animation.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_ab34f121abb31c36329f759058f388a03_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_ab34f121abb31c36329f759058f388a03_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a6f5262d2144a7d5eca657940719a7001}\label{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a6f5262d2144a7d5eca657940719a7001} 
+\index{Beavir.Businesslogic.Utilities.FadingAnimation@{Beavir.Businesslogic.Utilities.FadingAnimation}!FadeOut@{FadeOut}}
+\index{FadeOut@{FadeOut}!Beavir.Businesslogic.Utilities.FadingAnimation@{Beavir.Businesslogic.Utilities.FadingAnimation}}
+\doxysubsubsection{\texorpdfstring{FadeOut()}{FadeOut()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Utilities.\+Fading\+Animation.\+Fade\+Out (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_fading_animation_8cs_source_l00044}{44}} of file \mbox{\hyperlink{_fading_animation_8cs_source}{Fading\+Animation.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a6f5262d2144a7d5eca657940719a7001_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a6f5262d2144a7d5eca657940719a7001_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a9718ea207afd9c05d065567bfe686f48}\label{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a9718ea207afd9c05d065567bfe686f48} 
+\index{Beavir.Businesslogic.Utilities.FadingAnimation@{Beavir.Businesslogic.Utilities.FadingAnimation}!FadingCoroutine@{FadingCoroutine}}
+\index{FadingCoroutine@{FadingCoroutine}!Beavir.Businesslogic.Utilities.FadingAnimation@{Beavir.Businesslogic.Utilities.FadingAnimation}}
+\doxysubsubsection{\texorpdfstring{FadingCoroutine()}{FadingCoroutine()}}
+{\footnotesize\ttfamily IEnumerator Beavir.\+Businesslogic.\+Utilities.\+Fading\+Animation.\+Fading\+Coroutine (\begin{DoxyParamCaption}\item[{Game\+Object}]{subject,  }\item[{float}]{start\+\_\+value,  }\item[{float}]{value\+\_\+end,  }\item[{float}]{duration }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_fading_animation_8cs_source_l00052}{52}} of file \mbox{\hyperlink{_fading_animation_8cs_source}{Fading\+Animation.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a9718ea207afd9c05d065567bfe686f48_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a9718ea207afd9c05d065567bfe686f48_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_afc60ebf28cd6fd85b4efecfe3a39afde}\label{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_afc60ebf28cd6fd85b4efecfe3a39afde} 
+\index{Beavir.Businesslogic.Utilities.FadingAnimation@{Beavir.Businesslogic.Utilities.FadingAnimation}!OnDisable@{OnDisable}}
+\index{OnDisable@{OnDisable}!Beavir.Businesslogic.Utilities.FadingAnimation@{Beavir.Businesslogic.Utilities.FadingAnimation}}
+\doxysubsubsection{\texorpdfstring{OnDisable()}{OnDisable()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Utilities.\+Fading\+Animation.\+On\+Disable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_fading_animation_8cs_source_l00034}{34}} of file \mbox{\hyperlink{_fading_animation_8cs_source}{Fading\+Animation.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_afc60ebf28cd6fd85b4efecfe3a39afde_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a106c73185f1293e5d6d2791e3c2ac92b}\label{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a106c73185f1293e5d6d2791e3c2ac92b} 
+\index{Beavir.Businesslogic.Utilities.FadingAnimation@{Beavir.Businesslogic.Utilities.FadingAnimation}!OnEnable@{OnEnable}}
+\index{OnEnable@{OnEnable}!Beavir.Businesslogic.Utilities.FadingAnimation@{Beavir.Businesslogic.Utilities.FadingAnimation}}
+\doxysubsubsection{\texorpdfstring{OnEnable()}{OnEnable()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Utilities.\+Fading\+Animation.\+On\+Enable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_fading_animation_8cs_source_l00018}{18}} of file \mbox{\hyperlink{_fading_animation_8cs_source}{Fading\+Animation.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a106c73185f1293e5d6d2791e3c2ac92b_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_aa289694085b0ac15c2d46ea1ba4374fe}\label{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_aa289694085b0ac15c2d46ea1ba4374fe} 
+\index{Beavir.Businesslogic.Utilities.FadingAnimation@{Beavir.Businesslogic.Utilities.FadingAnimation}!ToFadeMode@{ToFadeMode}}
+\index{ToFadeMode@{ToFadeMode}!Beavir.Businesslogic.Utilities.FadingAnimation@{Beavir.Businesslogic.Utilities.FadingAnimation}}
+\doxysubsubsection{\texorpdfstring{ToFadeMode()}{ToFadeMode()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Utilities.\+Fading\+Animation.\+To\+Fade\+Mode (\begin{DoxyParamCaption}\item[{Material}]{material }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_fading_animation_8cs_source_l00144}{144}} of file \mbox{\hyperlink{_fading_animation_8cs_source}{Fading\+Animation.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_aa289694085b0ac15c2d46ea1ba4374fe_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_aa7e12f2fb9b2ac572065893568261434}\label{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_aa7e12f2fb9b2ac572065893568261434} 
+\index{Beavir.Businesslogic.Utilities.FadingAnimation@{Beavir.Businesslogic.Utilities.FadingAnimation}!ToOpaqueMode@{ToOpaqueMode}}
+\index{ToOpaqueMode@{ToOpaqueMode}!Beavir.Businesslogic.Utilities.FadingAnimation@{Beavir.Businesslogic.Utilities.FadingAnimation}}
+\doxysubsubsection{\texorpdfstring{ToOpaqueMode()}{ToOpaqueMode()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Utilities.\+Fading\+Animation.\+To\+Opaque\+Mode (\begin{DoxyParamCaption}\item[{Material}]{material }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_fading_animation_8cs_source_l00126}{126}} of file \mbox{\hyperlink{_fading_animation_8cs_source}{Fading\+Animation.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_aa7e12f2fb9b2ac572065893568261434_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_aeb4e8c3d9014b32027323250b981607e}\label{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_aeb4e8c3d9014b32027323250b981607e} 
+\index{Beavir.Businesslogic.Utilities.FadingAnimation@{Beavir.Businesslogic.Utilities.FadingAnimation}!fadingDuration@{fadingDuration}}
+\index{fadingDuration@{fadingDuration}!Beavir.Businesslogic.Utilities.FadingAnimation@{Beavir.Businesslogic.Utilities.FadingAnimation}}
+\doxysubsubsection{\texorpdfstring{fadingDuration}{fadingDuration}}
+{\footnotesize\ttfamily float Beavir.\+Businesslogic.\+Utilities.\+Fading\+Animation.\+fading\+Duration\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_fading_animation_8cs_source_l00009}{9}} of file \mbox{\hyperlink{_fading_animation_8cs_source}{Fading\+Animation.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_aead56de69ca0fe13e3b250e0f211b16c}\label{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_aead56de69ca0fe13e3b250e0f211b16c} 
+\index{Beavir.Businesslogic.Utilities.FadingAnimation@{Beavir.Businesslogic.Utilities.FadingAnimation}!glassShader@{glassShader}}
+\index{glassShader@{glassShader}!Beavir.Businesslogic.Utilities.FadingAnimation@{Beavir.Businesslogic.Utilities.FadingAnimation}}
+\doxysubsubsection{\texorpdfstring{glassShader}{glassShader}}
+{\footnotesize\ttfamily const string Beavir.\+Businesslogic.\+Utilities.\+Fading\+Animation.\+glass\+Shader = "{}Effects/Frosted\+Glass"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_fading_animation_8cs_source_l00016}{16}} of file \mbox{\hyperlink{_fading_animation_8cs_source}{Fading\+Animation.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a73667fc2e52e2af5cff490df189c7d29}\label{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a73667fc2e52e2af5cff490df189c7d29} 
+\index{Beavir.Businesslogic.Utilities.FadingAnimation@{Beavir.Businesslogic.Utilities.FadingAnimation}!leavesShader@{leavesShader}}
+\index{leavesShader@{leavesShader}!Beavir.Businesslogic.Utilities.FadingAnimation@{Beavir.Businesslogic.Utilities.FadingAnimation}}
+\doxysubsubsection{\texorpdfstring{leavesShader}{leavesShader}}
+{\footnotesize\ttfamily const string Beavir.\+Businesslogic.\+Utilities.\+Fading\+Animation.\+leaves\+Shader = "{}Nature/Tree Creator Leaves"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_fading_animation_8cs_source_l00015}{15}} of file \mbox{\hyperlink{_fading_animation_8cs_source}{Fading\+Animation.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_aa38c97113071320fc331b636b6e87413}\label{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_aa38c97113071320fc331b636b6e87413} 
+\index{Beavir.Businesslogic.Utilities.FadingAnimation@{Beavir.Businesslogic.Utilities.FadingAnimation}!selectedEvent@{selectedEvent}}
+\index{selectedEvent@{selectedEvent}!Beavir.Businesslogic.Utilities.FadingAnimation@{Beavir.Businesslogic.Utilities.FadingAnimation}}
+\doxysubsubsection{\texorpdfstring{selectedEvent}{selectedEvent}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a81ad90b0403d840cf8d9f1e0c51d806a}{Event}} Beavir.\+Businesslogic.\+Utilities.\+Fading\+Animation.\+selected\+Event = \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a81ad90b0403d840cf8d9f1e0c51d806aa6830d42aa3fe217f2534c5a84e426900}{Event.\+fade\+Inter}}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_fading_animation_8cs_source_l00011}{11}} of file \mbox{\hyperlink{_fading_animation_8cs_source}{Fading\+Animation.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_aba7decd1058ec57171596eebd9b7d19a}\label{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_aba7decd1058ec57171596eebd9b7d19a} 
+\index{Beavir.Businesslogic.Utilities.FadingAnimation@{Beavir.Businesslogic.Utilities.FadingAnimation}!standardShader@{standardShader}}
+\index{standardShader@{standardShader}!Beavir.Businesslogic.Utilities.FadingAnimation@{Beavir.Businesslogic.Utilities.FadingAnimation}}
+\doxysubsubsection{\texorpdfstring{standardShader}{standardShader}}
+{\footnotesize\ttfamily const string Beavir.\+Businesslogic.\+Utilities.\+Fading\+Animation.\+standard\+Shader = "{}Standard"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_fading_animation_8cs_source_l00013}{13}} of file \mbox{\hyperlink{_fading_animation_8cs_source}{Fading\+Animation.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a010b47b73e5940565aa535e97e8b30e2}\label{class_beavir_1_1_businesslogic_1_1_utilities_1_1_fading_animation_a010b47b73e5940565aa535e97e8b30e2} 
+\index{Beavir.Businesslogic.Utilities.FadingAnimation@{Beavir.Businesslogic.Utilities.FadingAnimation}!standardShaderColor@{standardShaderColor}}
+\index{standardShaderColor@{standardShaderColor}!Beavir.Businesslogic.Utilities.FadingAnimation@{Beavir.Businesslogic.Utilities.FadingAnimation}}
+\doxysubsubsection{\texorpdfstring{standardShaderColor}{standardShaderColor}}
+{\footnotesize\ttfamily const string Beavir.\+Businesslogic.\+Utilities.\+Fading\+Animation.\+standard\+Shader\+Color = "{}\+\_\+\+Color"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_fading_animation_8cs_source_l00014}{14}} of file \mbox{\hyperlink{_fading_animation_8cs_source}{Fading\+Animation.\+cs}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Beavir/\+Businesslogic/\+Utilities/\+Animation/\mbox{\hyperlink{_fading_animation_8cs}{Fading\+Animation.\+cs}}\end{DoxyCompactItemize}

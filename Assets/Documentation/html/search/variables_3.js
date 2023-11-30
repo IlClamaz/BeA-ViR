@@ -1,13 +1,15 @@
 var searchData=
 [
-  ['cameramovement_0',['cameraMovement',['../class_first_person_controller.html#a0290b977a06eccd75e4b9891efe8ab79',1,'FirstPersonController']]],
-  ['charactercontroller_1',['characterController',['../class_first_person_controller.html#adfc2bf6d002589ba34ed622c5415233d',1,'FirstPersonController']]],
-  ['commandscount_2',['commandsCount',['../class_player_logger.html#a814266fc048d5240065d10a7089da21f',1,'PlayerLogger']]],
-  ['commandsui_3',['commandsUI',['../class_game_manager.html#addf2256ae0a66c7f750269c207e7ef96',1,'GameManager']]],
-  ['controlsenabled_4',['controlsEnabled',['../class_game_manager.html#aa677d82ddaa47949d388dfb7aa8a70bd',1,'GameManager']]],
-  ['cooldown_5',['cooldown',['../class_obj2_obj.html#aab7414af359dc39e0f8fd22ad534c28a',1,'Obj2Obj']]],
-  ['created_6',['created',['../class_render_heads_1_1_unity_omeka_1_1_data_1_1_item.html#af4341dbd9ea7bec09494162218c00c1b',1,'RenderHeads.UnityOmeka.Data.Item.Created'],['../class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_set.html#a2d508b8ee9e72c1442f196c5e8419bd9',1,'RenderHeads.UnityOmeka.Data.ItemSet.Created'],['../class_render_heads_1_1_unity_omeka_1_1_data_1_1_media.html#a62ae5f5b585319a2056668493cf9af9e',1,'RenderHeads.UnityOmeka.Data.Media.Created']]],
-  ['curenv_7',['curEnv',['../class_game_manager.html#a68bb321cdd230dc71f5eb7cf133a9195',1,'GameManager']]],
-  ['curobj_8',['curObj',['../class_game_manager.html#a8f9e808a4adde4f4d1d62580091a8070',1,'GameManager']]],
-  ['cursightpoint_9',['curSightPoint',['../class_environment.html#aab58a2df6c47e2f58cc881a72b378f9a',1,'Environment']]]
+  ['called_0',['called',['../class_beavir_1_1_persistance_1_1_database_1_1_database_manager.html#abfa9c11d9bf9f513eae3cb3a7e9df8af',1,'Beavir::Persistance::Database::DatabaseManager']]],
+  ['cameramovement_1',['cameraMovement',['../class_beavir_1_1_businesslogic_1_1_models_1_1_player.html#ac3819d992d7beb67d4ca4a2a184c63dc',1,'Beavir::Businesslogic::Models::Player']]],
+  ['charactercontroller_2',['characterController',['../class_beavir_1_1_businesslogic_1_1_models_1_1_player.html#a472b28cd273420d25cedd35fba1a9ff8',1,'Beavir::Businesslogic::Models::Player']]],
+  ['commandscount_3',['commandsCount',['../class_beavir_1_1_businesslogic_1_1_utilities_1_1_player_logger.html#add4a3c75e8ed4a15dff15835db128649',1,'Beavir::Businesslogic::Utilities::PlayerLogger']]],
+  ['commandsui_4',['commandsUI',['../class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager.html#a0fdd40deda8c167e091e167083abcfe2',1,'Beavir::Businesslogic::Controllers::UIManager']]],
+  ['commandsuiison_5',['commandsUIIsOn',['../class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager.html#aa513639567628d0683c4127e76efbdd4',1,'Beavir::Businesslogic::Controllers::UIManager']]],
+  ['controlsenabled_6',['controlsEnabled',['../class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager.html#a9ea9bdce2fa7fc38e17975a48718f9fa',1,'Beavir::Businesslogic::Controllers::UserManager']]],
+  ['cooldown_7',['cooldown',['../class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager.html#a8e2ca0d9f9eb9c239f72fcfad3c6de40',1,'Beavir::Businesslogic::Controllers::TransportManager']]],
+  ['created_8',['created',['../class_render_heads_1_1_unity_omeka_1_1_data_1_1_item.html#af4341dbd9ea7bec09494162218c00c1b',1,'RenderHeads.UnityOmeka.Data.Item.Created'],['../class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_set.html#a2d508b8ee9e72c1442f196c5e8419bd9',1,'RenderHeads.UnityOmeka.Data.ItemSet.Created'],['../class_render_heads_1_1_unity_omeka_1_1_data_1_1_media.html#a62ae5f5b585319a2056668493cf9af9e',1,'RenderHeads.UnityOmeka.Data.Media.Created']]],
+  ['curenv_9',['curEnv',['../class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager.html#a0df72999965662159e394a2446b0edda',1,'Beavir::Businesslogic::Controllers::TransportManager']]],
+  ['curobj_10',['curObj',['../class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager.html#a583e780bd5e1aadefcc6bc01a0e71433',1,'Beavir::Businesslogic::Controllers::TransportManager']]],
+  ['cursightpoint_11',['curSightPoint',['../class_beavir_1_1_businesslogic_1_1_models_1_1_environment.html#ab045dd25608a4a77927cc7f061bee199',1,'Beavir::Businesslogic::Models::Environment']]]
 ];

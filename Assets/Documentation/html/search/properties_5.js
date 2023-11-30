@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['inputreader_0',['InputReader',['../class_game_manager.html#a366fa407c231eb79dc11813211e05943',1,'GameManager']]],
-  ['instance_1',['instance',['../class_game_manager.html#ad3e717f4fb0f378b969f4457de81f23e',1,'GameManager.Instance'],['../class_object_animator.html#a0cad70b40f51c8b8cf4d5e2ba711e947',1,'ObjectAnimator.Instance'],['../class_object_enabler.html#abe17a0bfcdf5a2cf9766982d74128854',1,'ObjectEnabler.Instance']]],
-  ['isjapanmoving_2',['IsJapanMoving',['../class_environment.html#a73ba03219c8fa68d9d670b71df001b5a',1,'Environment']]],
-  ['ismainhall_3',['IsMainHall',['../class_environment.html#aa27de6928f38099fade808f504b146b6',1,'Environment']]],
-  ['ismoving_4',['IsMoving',['../class_move_around_hemi.html#abf36e8ddd0e5c5a0627a30cb1ca68ce1',1,'MoveAroundHemi']]]
+  ['fadingduration_0',['FadingDuration',['../class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager.html#a1f24f4989a89a159177597e342312274',1,'Beavir::Businesslogic::Controllers::TransportManager']]],
+  ['father_1',['Father',['../class_beavir_1_1_businesslogic_1_1_models_1_1_environment.html#aa43e3994b0af5f7d92b6d8bca14740ba',1,'Beavir::Businesslogic::Models::Environment']]]
 ];

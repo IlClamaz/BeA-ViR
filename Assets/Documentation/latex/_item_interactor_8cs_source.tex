@@ -1,24 +1,27 @@
 \doxysection{Item\+Interactor.\+cs}
-\hypertarget{_item_interactor_8cs_source}{}\label{_item_interactor_8cs_source}\index{Aggregators/ItemInteractor.cs@{Aggregators/ItemInteractor.cs}}
+\hypertarget{_item_interactor_8cs_source}{}\label{_item_interactor_8cs_source}\index{Beavir/Businesslogic/ViewModels/ItemInteractor.cs@{Beavir/Businesslogic/ViewModels/ItemInteractor.cs}}
 \mbox{\hyperlink{_item_interactor_8cs}{Go to the documentation of this file.}}
 \begin{DoxyCode}{0}
-\DoxyCodeLine{\Hypertarget{_item_interactor_8cs_source_l00001}00001\ \textcolor{keyword}{using\ }System.Collections;}
-\DoxyCodeLine{\Hypertarget{_item_interactor_8cs_source_l00002}00002\ \textcolor{keyword}{using\ }System.Collections.Generic;}
+\DoxyCodeLine{\Hypertarget{_item_interactor_8cs_source_l00001}00001\ \textcolor{keyword}{using\ }\mbox{\hyperlink{namespace_beavir_1_1_businesslogic_1_1_controllers}{Beavir.Businesslogic.Controllers}};}
+\DoxyCodeLine{\Hypertarget{_item_interactor_8cs_source_l00002}00002\ \textcolor{keyword}{using\ }Mirror;}
 \DoxyCodeLine{\Hypertarget{_item_interactor_8cs_source_l00003}00003\ \textcolor{keyword}{using\ }UnityEngine;}
 \DoxyCodeLine{\Hypertarget{_item_interactor_8cs_source_l00004}00004\ }
-\DoxyCodeLine{\Hypertarget{_item_interactor_8cs_source_l00005}\mbox{\hyperlink{class_item_interactor}{00005}}\ \textcolor{keyword}{public}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_item_interactor}{ItemInteractor}}\ :\ MonoBehaviour}
+\DoxyCodeLine{\Hypertarget{_item_interactor_8cs_source_l00005}00005\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespace_beavir_1_1_businesslogic_1_1_view_models}{Beavir.Businesslogic.ViewModels}}}
 \DoxyCodeLine{\Hypertarget{_item_interactor_8cs_source_l00006}00006\ \{}
-\DoxyCodeLine{\Hypertarget{_item_interactor_8cs_source_l00007}\mbox{\hyperlink{class_item_interactor_a173e40fbd79b27833ba690181b0f42bd}{00007}}\ \ \ \ \ \textcolor{keyword}{public}\ GameObject\ \mbox{\hyperlink{class_item_interactor_a173e40fbd79b27833ba690181b0f42bd}{item}};}
-\DoxyCodeLine{\Hypertarget{_item_interactor_8cs_source_l00008}\mbox{\hyperlink{class_item_interactor_aee55a1df9811dc3048be467d77ac441a}{00008}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_item_interactor_aee55a1df9811dc3048be467d77ac441a}{OnTriggerEnter}}(Collider\ other)}
-\DoxyCodeLine{\Hypertarget{_item_interactor_8cs_source_l00009}00009\ \ \ \ \ \{}
-\DoxyCodeLine{\Hypertarget{_item_interactor_8cs_source_l00010}00010\ \ \ \ \ \ \ \ \ GameManager.Instance.CurObj\ =\ \mbox{\hyperlink{class_item_interactor_a173e40fbd79b27833ba690181b0f42bd}{item}}.transform.GetChild(0).gameObject;}
-\DoxyCodeLine{\Hypertarget{_item_interactor_8cs_source_l00011}00011\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_game_manager}{GameManager}}.\mbox{\hyperlink{class_game_manager_ad3e717f4fb0f378b969f4457de81f23e}{Instance}}.\mbox{\hyperlink{class_game_manager_a0852fd9377ca98321b8e4ab5ebf270dd}{UpdateLocHistory}}(\mbox{\hyperlink{class_item_interactor_a173e40fbd79b27833ba690181b0f42bd}{item}}.transform.GetChild(0).gameObject);}
-\DoxyCodeLine{\Hypertarget{_item_interactor_8cs_source_l00012}00012\ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{_item_interactor_8cs_source_l00013}00013\ }
-\DoxyCodeLine{\Hypertarget{_item_interactor_8cs_source_l00014}\mbox{\hyperlink{class_item_interactor_acb88e885c923c28dfffb0a2c78085578}{00014}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_item_interactor_acb88e885c923c28dfffb0a2c78085578}{OnTriggerExit}}(Collider\ other)}
-\DoxyCodeLine{\Hypertarget{_item_interactor_8cs_source_l00015}00015\ \ \ \ \ \{}
-\DoxyCodeLine{\Hypertarget{_item_interactor_8cs_source_l00016}00016\ \ \ \ \ \ \ \ \ GameManager.Instance.CurObj\ =\ \textcolor{keyword}{null};}
-\DoxyCodeLine{\Hypertarget{_item_interactor_8cs_source_l00017}00017\ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{_item_interactor_8cs_source_l00018}00018\ \}}
+\DoxyCodeLine{\Hypertarget{_item_interactor_8cs_source_l00010}\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_interactor}{00010}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_interactor}{ItemInteractor}}\ :\ NetworkBehaviour}
+\DoxyCodeLine{\Hypertarget{_item_interactor_8cs_source_l00011}00011\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_item_interactor_8cs_source_l00012}\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_interactor_a1f91a0a904b3269b43ea2f103a4ef67c}{00012}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ GameObject\ \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_interactor_a1f91a0a904b3269b43ea2f103a4ef67c}{item}};}
+\DoxyCodeLine{\Hypertarget{_item_interactor_8cs_source_l00013}\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_interactor_adf6ce6ff8d8cc30edc0ac095cf644daa}{00013}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_interactor_adf6ce6ff8d8cc30edc0ac095cf644daa}{OnTriggerEnter}}(Collider\ other)}
+\DoxyCodeLine{\Hypertarget{_item_interactor_8cs_source_l00014}00014\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_item_interactor_8cs_source_l00015}00015\ \ \ \ \ \ \ \ \ \ \ \ \ BeavirAppManager.Instance.TransportManager.CurObj\ =\ \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_interactor_a1f91a0a904b3269b43ea2f103a4ef67c}{item}}.transform.GetChild(0).gameObject;}
+\DoxyCodeLine{\Hypertarget{_item_interactor_8cs_source_l00016}00016\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_beavir_app_manager}{BeavirAppManager}}.\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_beavir_app_manager_ac47f088b5eefcfcaf5e6508014754549}{Instance}}.\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_beavir_app_manager_a723386544f89362c48cb9aece4a518e9}{TransportManager}}.\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager_a0c21fc531f37c4eb0ec1fe862dbace1e}{UpdateLocHistory}}(\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_interactor_a1f91a0a904b3269b43ea2f103a4ef67c}{item}}.transform.GetChild(0).gameObject);}
+\DoxyCodeLine{\Hypertarget{_item_interactor_8cs_source_l00017}00017\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_item_interactor_8cs_source_l00018}00018\ }
+\DoxyCodeLine{\Hypertarget{_item_interactor_8cs_source_l00019}\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_interactor_a02877fd05997db0f01570a43c2e71867}{00019}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_interactor_a02877fd05997db0f01570a43c2e71867}{OnTriggerExit}}(Collider\ other)}
+\DoxyCodeLine{\Hypertarget{_item_interactor_8cs_source_l00020}00020\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_item_interactor_8cs_source_l00021}00021\ \ \ \ \ \ \ \ \ \ \ \ \ BeavirAppManager.Instance.TransportManager.CurObj\ =\ \textcolor{keyword}{null};}
+\DoxyCodeLine{\Hypertarget{_item_interactor_8cs_source_l00022}00022\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_item_interactor_8cs_source_l00023}00023\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_item_interactor_8cs_source_l00024}00024\ \}}
 
 \end{DoxyCode}

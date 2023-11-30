@@ -1,0 +1,369 @@
+\doxysection{Beavir.\+Businesslogic.\+Utilities.\+Timer Class Reference}
+\hypertarget{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer}{}\label{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer}\index{Beavir.Businesslogic.Utilities.Timer@{Beavir.Businesslogic.Utilities.Timer}}
+
+
+Inheritance diagram for Beavir.\+Businesslogic.\+Utilities.\+Timer\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=218pt]{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Beavir.\+Businesslogic.\+Utilities.\+Timer\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=218pt]{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a374c57a80921048dff5ab5b9b5e0be3f}{Pause\+Timer}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a601d5f64144ab9bfa655d0488b314aa5}{Start}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a67db49287a89456da7c4eaa5814d6e84}{On\+Enable}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_ab71698cca660f5c3fe6edb12c0b61adf}{Update}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a0adf449819a04f75f605f6a659ca8306}{Update\+Time}} ()
+\item 
+float \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a83225a7670cf6558aa49fb42caf05485}{Stop\+Timer}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a99ef77c4734d805468f263cabdb18018}{Resume\+Timer}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a81dfae1ec9720a6d3f1b39f8ca5afaf1}{Start\+Timer}} ()
+\item 
+string \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a7b7bebfa938b220835e0b7707a0f01d3}{Time\+To\+String}} (float t)
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_ad7c88d5a310ea2c7e10205ea0c4353a4}{On\+Disable}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_af2397ee9fce9960cfccc4b2cd1169514}{On\+Destroy}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a48337a1fd258b34671c2268fbfde9d3a}{On\+Trigger\+Enter}} (Collider other)
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_afba4f2b57b003cfd53e2370a08ac82e9}{On\+Trigger\+Exit}} (Collider other)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+float \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a6b2fcf83bc903c78600bf188ca6e2ea9}{start\+Time}}
+\item 
+bool \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a56b9f347839561fd33b86ce6761a5fa3}{keep\+Timing}}
+\item 
+float \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a0234605b235442f8c426d834f1ac61e0}{timer}}
+\item 
+bool \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a5f676317c44ae0808a695e40a7e21f79}{is\+Trigger}} = false
+\item 
+Game\+Object \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a5eb7a362d791f2fbe22402f41217cc72}{find}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line \mbox{\hyperlink{_timer_8cs_source_l00005}{5}} of file \mbox{\hyperlink{_timer_8cs_source}{Timer.\+cs}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_af2397ee9fce9960cfccc4b2cd1169514}\label{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_af2397ee9fce9960cfccc4b2cd1169514} 
+\index{Beavir.Businesslogic.Utilities.Timer@{Beavir.Businesslogic.Utilities.Timer}!OnDestroy@{OnDestroy}}
+\index{OnDestroy@{OnDestroy}!Beavir.Businesslogic.Utilities.Timer@{Beavir.Businesslogic.Utilities.Timer}}
+\doxysubsubsection{\texorpdfstring{OnDestroy()}{OnDestroy()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Utilities.\+Timer.\+On\+Destroy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timer_8cs_source_l00073}{73}} of file \mbox{\hyperlink{_timer_8cs_source}{Timer.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_af2397ee9fce9960cfccc4b2cd1169514_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_ad7c88d5a310ea2c7e10205ea0c4353a4}\label{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_ad7c88d5a310ea2c7e10205ea0c4353a4} 
+\index{Beavir.Businesslogic.Utilities.Timer@{Beavir.Businesslogic.Utilities.Timer}!OnDisable@{OnDisable}}
+\index{OnDisable@{OnDisable}!Beavir.Businesslogic.Utilities.Timer@{Beavir.Businesslogic.Utilities.Timer}}
+\doxysubsubsection{\texorpdfstring{OnDisable()}{OnDisable()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Utilities.\+Timer.\+On\+Disable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timer_8cs_source_l00068}{68}} of file \mbox{\hyperlink{_timer_8cs_source}{Timer.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_ad7c88d5a310ea2c7e10205ea0c4353a4_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a67db49287a89456da7c4eaa5814d6e84}\label{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a67db49287a89456da7c4eaa5814d6e84} 
+\index{Beavir.Businesslogic.Utilities.Timer@{Beavir.Businesslogic.Utilities.Timer}!OnEnable@{OnEnable}}
+\index{OnEnable@{OnEnable}!Beavir.Businesslogic.Utilities.Timer@{Beavir.Businesslogic.Utilities.Timer}}
+\doxysubsubsection{\texorpdfstring{OnEnable()}{OnEnable()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Utilities.\+Timer.\+On\+Enable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timer_8cs_source_l00019}{19}} of file \mbox{\hyperlink{_timer_8cs_source}{Timer.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a67db49287a89456da7c4eaa5814d6e84_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a48337a1fd258b34671c2268fbfde9d3a}\label{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a48337a1fd258b34671c2268fbfde9d3a} 
+\index{Beavir.Businesslogic.Utilities.Timer@{Beavir.Businesslogic.Utilities.Timer}!OnTriggerEnter@{OnTriggerEnter}}
+\index{OnTriggerEnter@{OnTriggerEnter}!Beavir.Businesslogic.Utilities.Timer@{Beavir.Businesslogic.Utilities.Timer}}
+\doxysubsubsection{\texorpdfstring{OnTriggerEnter()}{OnTriggerEnter()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Utilities.\+Timer.\+On\+Trigger\+Enter (\begin{DoxyParamCaption}\item[{Collider}]{other }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timer_8cs_source_l00082}{82}} of file \mbox{\hyperlink{_timer_8cs_source}{Timer.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a48337a1fd258b34671c2268fbfde9d3a_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_afba4f2b57b003cfd53e2370a08ac82e9}\label{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_afba4f2b57b003cfd53e2370a08ac82e9} 
+\index{Beavir.Businesslogic.Utilities.Timer@{Beavir.Businesslogic.Utilities.Timer}!OnTriggerExit@{OnTriggerExit}}
+\index{OnTriggerExit@{OnTriggerExit}!Beavir.Businesslogic.Utilities.Timer@{Beavir.Businesslogic.Utilities.Timer}}
+\doxysubsubsection{\texorpdfstring{OnTriggerExit()}{OnTriggerExit()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Utilities.\+Timer.\+On\+Trigger\+Exit (\begin{DoxyParamCaption}\item[{Collider}]{other }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timer_8cs_source_l00090}{90}} of file \mbox{\hyperlink{_timer_8cs_source}{Timer.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_afba4f2b57b003cfd53e2370a08ac82e9_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a374c57a80921048dff5ab5b9b5e0be3f}\label{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a374c57a80921048dff5ab5b9b5e0be3f} 
+\index{Beavir.Businesslogic.Utilities.Timer@{Beavir.Businesslogic.Utilities.Timer}!PauseTimer@{PauseTimer}}
+\index{PauseTimer@{PauseTimer}!Beavir.Businesslogic.Utilities.Timer@{Beavir.Businesslogic.Utilities.Timer}}
+\doxysubsubsection{\texorpdfstring{PauseTimer()}{PauseTimer()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Utilities.\+Timer.\+Pause\+Timer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_timer_8cs_source_l00044}{44}} of file \mbox{\hyperlink{_timer_8cs_source}{Timer.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a374c57a80921048dff5ab5b9b5e0be3f_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a99ef77c4734d805468f263cabdb18018}\label{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a99ef77c4734d805468f263cabdb18018} 
+\index{Beavir.Businesslogic.Utilities.Timer@{Beavir.Businesslogic.Utilities.Timer}!ResumeTimer@{ResumeTimer}}
+\index{ResumeTimer@{ResumeTimer}!Beavir.Businesslogic.Utilities.Timer@{Beavir.Businesslogic.Utilities.Timer}}
+\doxysubsubsection{\texorpdfstring{ResumeTimer()}{ResumeTimer()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Utilities.\+Timer.\+Resume\+Timer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timer_8cs_source_l00049}{49}} of file \mbox{\hyperlink{_timer_8cs_source}{Timer.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a99ef77c4734d805468f263cabdb18018_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a601d5f64144ab9bfa655d0488b314aa5}\label{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a601d5f64144ab9bfa655d0488b314aa5} 
+\index{Beavir.Businesslogic.Utilities.Timer@{Beavir.Businesslogic.Utilities.Timer}!Start@{Start}}
+\index{Start@{Start}!Beavir.Businesslogic.Utilities.Timer@{Beavir.Businesslogic.Utilities.Timer}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Utilities.\+Timer.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timer_8cs_source_l00013}{13}} of file \mbox{\hyperlink{_timer_8cs_source}{Timer.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a601d5f64144ab9bfa655d0488b314aa5_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a81dfae1ec9720a6d3f1b39f8ca5afaf1}\label{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a81dfae1ec9720a6d3f1b39f8ca5afaf1} 
+\index{Beavir.Businesslogic.Utilities.Timer@{Beavir.Businesslogic.Utilities.Timer}!StartTimer@{StartTimer}}
+\index{StartTimer@{StartTimer}!Beavir.Businesslogic.Utilities.Timer@{Beavir.Businesslogic.Utilities.Timer}}
+\doxysubsubsection{\texorpdfstring{StartTimer()}{StartTimer()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Utilities.\+Timer.\+Start\+Timer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timer_8cs_source_l00055}{55}} of file \mbox{\hyperlink{_timer_8cs_source}{Timer.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a81dfae1ec9720a6d3f1b39f8ca5afaf1_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a83225a7670cf6558aa49fb42caf05485}\label{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a83225a7670cf6558aa49fb42caf05485} 
+\index{Beavir.Businesslogic.Utilities.Timer@{Beavir.Businesslogic.Utilities.Timer}!StopTimer@{StopTimer}}
+\index{StopTimer@{StopTimer}!Beavir.Businesslogic.Utilities.Timer@{Beavir.Businesslogic.Utilities.Timer}}
+\doxysubsubsection{\texorpdfstring{StopTimer()}{StopTimer()}}
+{\footnotesize\ttfamily float Beavir.\+Businesslogic.\+Utilities.\+Timer.\+Stop\+Timer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timer_8cs_source_l00038}{38}} of file \mbox{\hyperlink{_timer_8cs_source}{Timer.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a83225a7670cf6558aa49fb42caf05485_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a7b7bebfa938b220835e0b7707a0f01d3}\label{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a7b7bebfa938b220835e0b7707a0f01d3} 
+\index{Beavir.Businesslogic.Utilities.Timer@{Beavir.Businesslogic.Utilities.Timer}!TimeToString@{TimeToString}}
+\index{TimeToString@{TimeToString}!Beavir.Businesslogic.Utilities.Timer@{Beavir.Businesslogic.Utilities.Timer}}
+\doxysubsubsection{\texorpdfstring{TimeToString()}{TimeToString()}}
+{\footnotesize\ttfamily string Beavir.\+Businesslogic.\+Utilities.\+Timer.\+Time\+To\+String (\begin{DoxyParamCaption}\item[{float}]{t }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timer_8cs_source_l00061}{61}} of file \mbox{\hyperlink{_timer_8cs_source}{Timer.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a7b7bebfa938b220835e0b7707a0f01d3_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_ab71698cca660f5c3fe6edb12c0b61adf}\label{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_ab71698cca660f5c3fe6edb12c0b61adf} 
+\index{Beavir.Businesslogic.Utilities.Timer@{Beavir.Businesslogic.Utilities.Timer}!Update@{Update}}
+\index{Update@{Update}!Beavir.Businesslogic.Utilities.Timer@{Beavir.Businesslogic.Utilities.Timer}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Utilities.\+Timer.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timer_8cs_source_l00024}{24}} of file \mbox{\hyperlink{_timer_8cs_source}{Timer.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_ab71698cca660f5c3fe6edb12c0b61adf_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a0adf449819a04f75f605f6a659ca8306}\label{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a0adf449819a04f75f605f6a659ca8306} 
+\index{Beavir.Businesslogic.Utilities.Timer@{Beavir.Businesslogic.Utilities.Timer}!UpdateTime@{UpdateTime}}
+\index{UpdateTime@{UpdateTime}!Beavir.Businesslogic.Utilities.Timer@{Beavir.Businesslogic.Utilities.Timer}}
+\doxysubsubsection{\texorpdfstring{UpdateTime()}{UpdateTime()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Utilities.\+Timer.\+Update\+Time (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timer_8cs_source_l00033}{33}} of file \mbox{\hyperlink{_timer_8cs_source}{Timer.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a0adf449819a04f75f605f6a659ca8306_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a5eb7a362d791f2fbe22402f41217cc72}\label{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a5eb7a362d791f2fbe22402f41217cc72} 
+\index{Beavir.Businesslogic.Utilities.Timer@{Beavir.Businesslogic.Utilities.Timer}!find@{find}}
+\index{find@{find}!Beavir.Businesslogic.Utilities.Timer@{Beavir.Businesslogic.Utilities.Timer}}
+\doxysubsubsection{\texorpdfstring{find}{find}}
+{\footnotesize\ttfamily Game\+Object Beavir.\+Businesslogic.\+Utilities.\+Timer.\+find\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timer_8cs_source_l00011}{11}} of file \mbox{\hyperlink{_timer_8cs_source}{Timer.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a5f676317c44ae0808a695e40a7e21f79}\label{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a5f676317c44ae0808a695e40a7e21f79} 
+\index{Beavir.Businesslogic.Utilities.Timer@{Beavir.Businesslogic.Utilities.Timer}!isTrigger@{isTrigger}}
+\index{isTrigger@{isTrigger}!Beavir.Businesslogic.Utilities.Timer@{Beavir.Businesslogic.Utilities.Timer}}
+\doxysubsubsection{\texorpdfstring{isTrigger}{isTrigger}}
+{\footnotesize\ttfamily bool Beavir.\+Businesslogic.\+Utilities.\+Timer.\+is\+Trigger = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timer_8cs_source_l00010}{10}} of file \mbox{\hyperlink{_timer_8cs_source}{Timer.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a56b9f347839561fd33b86ce6761a5fa3}\label{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a56b9f347839561fd33b86ce6761a5fa3} 
+\index{Beavir.Businesslogic.Utilities.Timer@{Beavir.Businesslogic.Utilities.Timer}!keepTiming@{keepTiming}}
+\index{keepTiming@{keepTiming}!Beavir.Businesslogic.Utilities.Timer@{Beavir.Businesslogic.Utilities.Timer}}
+\doxysubsubsection{\texorpdfstring{keepTiming}{keepTiming}}
+{\footnotesize\ttfamily bool Beavir.\+Businesslogic.\+Utilities.\+Timer.\+keep\+Timing\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timer_8cs_source_l00008}{8}} of file \mbox{\hyperlink{_timer_8cs_source}{Timer.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a6b2fcf83bc903c78600bf188ca6e2ea9}\label{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a6b2fcf83bc903c78600bf188ca6e2ea9} 
+\index{Beavir.Businesslogic.Utilities.Timer@{Beavir.Businesslogic.Utilities.Timer}!startTime@{startTime}}
+\index{startTime@{startTime}!Beavir.Businesslogic.Utilities.Timer@{Beavir.Businesslogic.Utilities.Timer}}
+\doxysubsubsection{\texorpdfstring{startTime}{startTime}}
+{\footnotesize\ttfamily float Beavir.\+Businesslogic.\+Utilities.\+Timer.\+start\+Time\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timer_8cs_source_l00007}{7}} of file \mbox{\hyperlink{_timer_8cs_source}{Timer.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a0234605b235442f8c426d834f1ac61e0}\label{class_beavir_1_1_businesslogic_1_1_utilities_1_1_timer_a0234605b235442f8c426d834f1ac61e0} 
+\index{Beavir.Businesslogic.Utilities.Timer@{Beavir.Businesslogic.Utilities.Timer}!timer@{timer}}
+\index{timer@{timer}!Beavir.Businesslogic.Utilities.Timer@{Beavir.Businesslogic.Utilities.Timer}}
+\doxysubsubsection{\texorpdfstring{timer}{timer}}
+{\footnotesize\ttfamily float Beavir.\+Businesslogic.\+Utilities.\+Timer.\+timer\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_timer_8cs_source_l00009}{9}} of file \mbox{\hyperlink{_timer_8cs_source}{Timer.\+cs}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Beavir/\+Businesslogic/\+Utilities/\+Log/\mbox{\hyperlink{_timer_8cs}{Timer.\+cs}}\end{DoxyCompactItemize}

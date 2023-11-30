@@ -1,0 +1,16 @@
+<map id="Beavir.Businesslogic.Controllers.UserManager.TemporarilyDisableAllInput" name="Beavir.Businesslogic.Controllers.UserManager.TemporarilyDisableAllInput">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,261,81"/>
+<area shape="rect" id="Node000002" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_input_reader.html#adc864bd31e1b7b603298f8b7433f5bb2" title=" " alt="" coords="318,5,511,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="261,42,302,37,303,43,261,47"/>
+<area shape="rect" id="Node000005" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager.html#a73837d4663d1cecccb1f01bd26cc0d38" title=" " alt="" coords="309,72,520,115"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="261,73,294,76,293,82,261,78"/>
+<area shape="rect" id="Node000003" href="$struct_game_input_1_1_gameplay_actions.html#a7dfd84bd8543a7da792789ef29406348" title=" " alt="" coords="837,5,1033,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="511,24,822,24,822,29,511,29"/>
+<area shape="rect" id="Node000004" href="$struct_game_input_1_1_gameplay_actions.html#a32b9682d257146dcaa22680a3a4d159b" title=" " alt="" coords="1081,47,1297,73"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1033,37,1067,41,1067,47,1033,42"/>
+<area shape="rect" id="Node000006" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_input_reader.html#a7f93ccf8e1f941dbdfd604009005a08d" title=" " alt="" coords="568,72,789,115"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="521,91,553,91,553,96,521,96"/>
+<area shape="rect" id="Node000007" href="$struct_game_input_1_1_gameplay_actions.html#a3f4b221de6d0471f440e54f6f23b4da8" title=" " alt="" coords="837,72,1033,115"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="790,91,822,91,822,96,790,96"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="1033,78,1067,73,1067,79,1033,83"/>
+</map>

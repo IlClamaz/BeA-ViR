@@ -1,0 +1,31 @@
+<map id="Beavir.Businesslogic.Controllers.BeavirAppManager.Start" name="Beavir.Businesslogic.Controllers.BeavirAppManager.Start">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,105,217,148"/>
+<area shape="rect" id="Node000002" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_beavir_app_manager.html#ac398b3fed9ebf3967704a12b123a01a0" title="Check if the Database Manager has correctly filled the DB Reports with all images." alt="" coords="265,105,480,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="217,124,249,124,249,129,217,129"/>
+<area shape="rect" id="Node000003" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_enabler.html#ab3c4bd42d30a2ff934a0e0c22b1d3f55" title=" " alt="" coords="535,5,761,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="419,102,527,58,548,51,550,56,529,62,421,107"/>
+<area shape="rect" id="Node000005" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_enabler.html#aee48268fec72bc9a02a6ae87102a93b2" title=" " alt="" coords="528,72,768,115"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="480,111,512,107,513,112,481,116"/>
+<area shape="rect" id="Node000006" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager.html#aa361915dd5954f16898502b650e68884" title=" " alt="" coords="532,139,765,181"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="481,137,516,141,516,147,480,142"/>
+<area shape="rect" id="Node000014" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager.html#a0c21fc531f37c4eb0ec1fe862dbace1e" title=" " alt="" coords="532,205,764,248"/>
+<area shape="poly" id="edge15_Node000002_Node000014" title=" " alt="" coords="421,146,529,191,550,198,548,203,527,196,419,151"/>
+<area shape="rect" id="Node000004" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_enabler.html#a1429d4ffb865f1ec7f63a551eee6fdb9" title=" " alt="" coords="839,39,1049,81"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="762,37,824,44,823,49,761,42"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="768,77,823,71,824,76,769,82"/>
+<area shape="rect" id="Node000007" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager.html#a59d81b84a6fbd964441e3eccc92396a7" title=" " alt="" coords="816,139,1072,181"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="765,157,801,157,801,163,765,163"/>
+<area shape="rect" id="Node000008" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_input_reader.html#adc864bd31e1b7b603298f8b7433f5bb2" title=" " alt="" coords="1129,105,1322,148"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="1072,142,1113,137,1114,143,1072,147"/>
+<area shape="rect" id="Node000011" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager.html#a73837d4663d1cecccb1f01bd26cc0d38" title=" " alt="" coords="1120,172,1331,215"/>
+<area shape="poly" id="edge11_Node000007_Node000011" title=" " alt="" coords="1072,173,1105,176,1104,182,1072,178"/>
+<area shape="rect" id="Node000009" href="$struct_game_input_1_1_gameplay_actions.html#a7dfd84bd8543a7da792789ef29406348" title=" " alt="" coords="1648,105,1844,148"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="1322,124,1633,124,1633,129,1322,129"/>
+<area shape="rect" id="Node000010" href="$struct_game_input_1_1_gameplay_actions.html#a32b9682d257146dcaa22680a3a4d159b" title=" " alt="" coords="1892,147,2108,173"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="1844,137,1878,141,1878,147,1844,142"/>
+<area shape="rect" id="Node000012" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_input_reader.html#a7f93ccf8e1f941dbdfd604009005a08d" title=" " alt="" coords="1379,172,1600,215"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="1332,191,1364,191,1364,196,1332,196"/>
+<area shape="rect" id="Node000013" href="$struct_game_input_1_1_gameplay_actions.html#a3f4b221de6d0471f440e54f6f23b4da8" title=" " alt="" coords="1648,172,1844,215"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="1601,191,1633,191,1633,196,1601,196"/>
+<area shape="poly" id="edge14_Node000013_Node000010" title=" " alt="" coords="1844,178,1878,173,1878,179,1844,183"/>
+</map>

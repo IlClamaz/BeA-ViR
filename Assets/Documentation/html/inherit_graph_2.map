@@ -1,3 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_render_heads_1_1_unity_omeka_1_1_core_1_1_extensions_1_1_task_extension.html" title="Allows for UnityWeb request to follow async / await pattern instead of using coroutines,..." alt="" coords="5,5,216,48"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="38,5,126,32"/>
+<area shape="rect" id="Node000001" href="$class_game_input.html" title=" " alt="" coords="207,31,291,57"/>
+<area shape="poly" id="edge4_Node000000_Node000001" title=" " alt="" coords="142,25,207,35,206,40,141,30"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,56,159,83"/>
+<area shape="poly" id="edge5_Node000002_Node000001" title=" " alt="" coords="174,53,206,48,206,53,175,58"/>
 </map>

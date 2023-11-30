@@ -1,0 +1,7 @@
+<map id="Beavir.Businesslogic.ViewModels.Timeline.EnterTimelineBig" name="Beavir.Businesslogic.ViewModels.Timeline.EnterTimelineBig">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,223,48"/>
+<area shape="rect" id="Node000002" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_enabler.html#ab3c4bd42d30a2ff934a0e0c22b1d3f55" title=" " alt="" coords="271,5,497,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="223,24,255,24,255,29,223,29"/>
+<area shape="rect" id="Node000003" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_enabler.html#a1429d4ffb865f1ec7f63a551eee6fdb9" title=" " alt="" coords="545,5,755,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="497,24,530,24,530,29,497,29"/>
+</map>

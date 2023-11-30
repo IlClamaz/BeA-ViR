@@ -1,0 +1,21 @@
+<map id="Beavir.Businesslogic.Controllers.UserManager" name="Beavir.Businesslogic.Controllers.UserManager">
+<area shape="rect" id="Node000001" title="Controller that manages the User (virtualized through the Player) and devices input (through the Inpu..." alt="" coords="31,1691,234,2160"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="11,696,113,765"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="56,780,35,924,15,1134,9,1254,9,1378,16,1504,31,1626,45,1690,40,1692,26,1627,10,1504,4,1379,4,1254,9,1134,30,924,51,780"/>
+<area shape="rect" id="Node000009" href="$class_beavir_1_1_businesslogic_1_1_models_1_1_player.html" title="The virtual representation of the user, even called visitor." alt="" coords="41,1136,224,1627"/>
+<area shape="poly" id="edge10_Node000009_Node000002" title=" " alt="" coords="70,780,109,1136,103,1136,64,780"/>
+<area shape="rect" id="Node000003" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_input_reader.html" title=" " alt="" coords="249,1179,433,1584"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="266,1585,231,1676,226,1674,261,1583"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="194,696,303,765"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="258,780,315,1179,309,1179,253,780"/>
+<area shape="rect" id="Node000005" href="$interface_game_input_1_1_i_gameplay_actions.html" title=" " alt="" coords="269,5,458,309"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="363,324,347,1179,342,1179,357,324"/>
+<area shape="rect" id="Node000006" href="$class_game_input.html" title=" " alt="" coords="427,389,641,1072"/>
+<area shape="poly" id="edge8_Node000006_Node000005" title=" " alt="" coords="374,309,384,365,402,425,423,486,418,488,396,427,379,366,368,310"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="435,1072,408,1163,403,1162,430,1071"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="511,123,656,192"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="582,207,566,390,561,389,576,206"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="681,123,761,192"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="708,207,644,402,639,400,703,205"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="135,1626,135,1674,130,1674,130,1626"/>
+</map>

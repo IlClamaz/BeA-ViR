@@ -1,0 +1,102 @@
+<map id="Beavir.Businesslogic.Controllers.TransportManager.OnGoBackHome" name="Beavir.Businesslogic.Controllers.TransportManager.OnGoBackHome">
+<area shape="rect" id="Node000001" title="Method that handles the action &quot;GoBackHome&quot; after input request." alt="" coords="5,368,233,411"/>
+<area shape="rect" id="Node000002" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager.html#a7adefecaae77bb08c5a5babb751316be" title="Method that disables the current Environment and activates after fading the player camera e teleporti..." alt="" coords="806,267,1017,309"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="233,372,790,301,790,306,233,378"/>
+<area shape="rect" id="Node000028" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager.html#ab21b0b627f48a59dacf53102e1cbfbb6" title="Method that disables the current SubEnvironment and activates after the reactivation of the objects d..." alt="" coords="804,365,1019,408"/>
+<area shape="poly" id="edge34_Node000001_Node000028" title=" " alt="" coords="233,386,789,384,789,390,233,392"/>
+<area shape="rect" id="Node000029" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager.html#a8a8eebec68370b277c9696d6aebf2525" title=" " alt="" coords="281,475,492,517"/>
+<area shape="poly" id="edge41_Node000001_Node000029" title=" " alt="" coords="176,409,318,466,316,471,174,414"/>
+<area shape="rect" id="Node000003" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager.html#a37a46cbf5c1636d2ddf35480dbbeeeb4" title="Method that updates the current Environment with and activates it. It also changes the mobility of Fl..." alt="" coords="1072,684,1316,727"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="967,308,998,327,1026,352,1046,381,1055,408,1062,436,1074,470,1128,579,1176,669,1171,671,1123,582,1069,472,1057,438,1050,410,1041,384,1022,355,995,331,964,312"/>
+<area shape="rect" id="Node000007" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_enabler.html#aee48268fec72bc9a02a6ae87102a93b2" title=" " alt="" coords="1653,529,1893,572"/>
+<area shape="poly" id="edge13_Node000002_Node000007" title=" " alt="" coords="1017,273,1085,269,1160,268,1239,273,1317,284,1401,305,1464,330,1524,363,1599,408,1676,463,1740,517,1736,521,1673,467,1596,413,1522,368,1462,335,1399,310,1315,289,1239,278,1160,273,1085,274,1018,278"/>
+<area shape="rect" id="Node000012" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager.html#aa361915dd5954f16898502b650e68884" title=" " alt="" coords="1364,139,1597,181"/>
+<area shape="poly" id="edge14_Node000002_Node000012" title=" " alt="" coords="938,264,997,224,1033,205,1071,189,1141,172,1213,160,1284,154,1349,152,1349,158,1284,160,1214,166,1142,177,1072,195,1035,210,999,229,941,269"/>
+<area shape="rect" id="Node000020" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager.html#aaea566860fd90579d73e879fa28a4b42" title=" " alt="" coords="1088,299,1300,341"/>
+<area shape="poly" id="edge23_Node000002_Node000020" title=" " alt="" coords="1018,297,1073,304,1072,309,1017,303"/>
+<area shape="rect" id="Node000021" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager.html#ad2ea07fabb64475dba105a46dc56c485" title=" " alt="" coords="1088,80,1300,123"/>
+<area shape="poly" id="edge24_Node000002_Node000021" title=" " alt="" coords="929,265,988,203,1027,169,1070,139,1096,126,1098,131,1073,144,1030,173,991,207,933,268"/>
+<area shape="rect" id="Node000004" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_enabler.html#ab3c4bd42d30a2ff934a0e0c22b1d3f55" title=" " alt="" coords="1660,801,1886,844"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1208,726,1230,767,1265,817,1310,866,1336,887,1365,903,1426,924,1478,928,1531,918,1597,903,1664,880,1723,850,1725,855,1666,885,1598,908,1532,924,1478,933,1425,930,1363,908,1333,891,1307,870,1261,820,1226,770,1203,729"/>
+<area shape="rect" id="Node000006" href="$class_beavir_1_1_businesslogic_1_1_models_1_1_environment.html#a592eec2ae5637cf8a06ba8cf7b525eb7" title=" " alt="" coords="1385,584,1576,627"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="1246,681,1363,636,1384,629,1386,634,1365,641,1248,686"/>
+<area shape="rect" id="Node000008" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager.html#a22d10b84925ed4f63476784875cd4a6e" title=" " alt="" coords="1375,651,1586,693"/>
+<area shape="poly" id="edge9_Node000003_Node000008" title=" " alt="" coords="1316,688,1359,683,1360,689,1317,694"/>
+<area shape="rect" id="Node000009" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager.html#a46cb31f53553bfd90ea608ead0afc9ae" title=" " alt="" coords="1375,717,1586,760"/>
+<area shape="poly" id="edge10_Node000003_Node000009" title=" " alt="" coords="1317,717,1360,722,1359,727,1316,722"/>
+<area shape="rect" id="Node000010" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager.html#a0c21fc531f37c4eb0ec1fe862dbace1e" title=" " alt="" coords="1365,784,1597,827"/>
+<area shape="poly" id="edge11_Node000003_Node000010" title=" " alt="" coords="1248,725,1365,769,1386,776,1384,781,1363,775,1246,730"/>
+<area shape="rect" id="Node000011" href="$class_beavir_1_1_businesslogic_1_1_models_1_1_environment.html#a62a7d6f17df7ad1a32334db6fe697941" title=" " alt="" coords="1385,851,1576,893"/>
+<area shape="poly" id="edge12_Node000003_Node000011" title=" " alt="" coords="1218,725,1281,780,1322,810,1365,836,1378,842,1375,847,1363,841,1319,815,1278,785,1215,729"/>
+<area shape="rect" id="Node000005" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_enabler.html#a1429d4ffb865f1ec7f63a551eee6fdb9" title=" " alt="" coords="1949,563,2160,605"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1798,799,2014,613,2018,618,1801,803"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="1576,625,1599,636,1646,671,1688,711,1750,787,1746,790,1684,715,1642,675,1596,641,1573,630"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="1576,585,1640,573,1641,578,1577,590"/>
+<area shape="poly" id="edge8_Node000007_Node000005" title=" " alt="" coords="1894,562,1934,567,1934,572,1893,568"/>
+<area shape="rect" id="Node000013" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager.html#a59d81b84a6fbd964441e3eccc92396a7" title=" " alt="" coords="1645,307,1901,349"/>
+<area shape="poly" id="edge15_Node000012_Node000013" title=" " alt="" coords="1557,180,1599,198,1675,246,1737,294,1734,299,1672,250,1596,202,1555,184"/>
+<area shape="rect" id="Node000014" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_input_reader.html#adc864bd31e1b7b603298f8b7433f5bb2" title=" " alt="" coords="1958,340,2151,383"/>
+<area shape="poly" id="edge16_Node000013_Node000014" title=" " alt="" coords="1901,341,1943,345,1942,351,1901,346"/>
+<area shape="rect" id="Node000017" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager.html#a73837d4663d1cecccb1f01bd26cc0d38" title=" " alt="" coords="1949,273,2160,316"/>
+<area shape="poly" id="edge19_Node000013_Node000017" title=" " alt="" coords="1901,310,1933,306,1934,312,1901,315"/>
+<area shape="rect" id="Node000015" href="$struct_game_input_1_1_gameplay_actions.html#a7dfd84bd8543a7da792789ef29406348" title=" " alt="" coords="2477,340,2673,383"/>
+<area shape="poly" id="edge17_Node000014_Node000015" title=" " alt="" coords="2151,359,2462,359,2462,364,2151,364"/>
+<area shape="rect" id="Node000016" href="$struct_game_input_1_1_gameplay_actions.html#a32b9682d257146dcaa22680a3a4d159b" title=" " alt="" coords="2721,315,2937,341"/>
+<area shape="poly" id="edge18_Node000015_Node000016" title=" " alt="" coords="2673,346,2707,341,2707,347,2673,351"/>
+<area shape="rect" id="Node000018" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_input_reader.html#a7f93ccf8e1f941dbdfd604009005a08d" title=" " alt="" coords="2208,273,2429,316"/>
+<area shape="poly" id="edge20_Node000017_Node000018" title=" " alt="" coords="2161,292,2193,292,2193,297,2161,297"/>
+<area shape="rect" id="Node000019" href="$struct_game_input_1_1_gameplay_actions.html#a3f4b221de6d0471f440e54f6f23b4da8" title=" " alt="" coords="2477,273,2673,316"/>
+<area shape="poly" id="edge21_Node000018_Node000019" title=" " alt="" coords="2430,292,2462,292,2462,297,2430,297"/>
+<area shape="poly" id="edge22_Node000019_Node000016" title=" " alt="" coords="2673,305,2707,309,2707,315,2673,310"/>
+<area shape="poly" id="edge25_Node000021_Node000012" title=" " alt="" coords="1300,120,1359,132,1358,138,1299,126"/>
+<area shape="rect" id="Node000022" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager.html#abc48f314a9d7d9f616709fe4257f3af9" title=" " alt="" coords="1367,5,1594,48"/>
+<area shape="poly" id="edge26_Node000021_Node000022" title=" " alt="" coords="1278,77,1381,50,1382,55,1280,82"/>
+<area shape="rect" id="Node000026" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_user_manager.html#a7ddf6d8af443b8eb805e4877cd4c1ca8" title=" " alt="" coords="1367,72,1595,115"/>
+<area shape="poly" id="edge30_Node000021_Node000026" title=" " alt="" coords="1300,96,1351,94,1351,100,1300,101"/>
+<area shape="rect" id="Node000023" href="$class_beavir_1_1_businesslogic_1_1_models_1_1_player.html#a5434532fe9df46364427719476182dfc" title=" " alt="" coords="1677,5,1869,48"/>
+<area shape="poly" id="edge27_Node000022_Node000023" title=" " alt="" coords="1595,24,1662,24,1662,29,1595,29"/>
+<area shape="rect" id="Node000024" href="$class_beavir_1_1_businesslogic_1_1_models_1_1_player.html#af3c7d0527b70b6462f9cd4f6d44faa44" title=" " alt="" coords="1959,5,2150,48"/>
+<area shape="poly" id="edge28_Node000023_Node000024" title=" " alt="" coords="1869,24,1943,24,1943,29,1869,29"/>
+<area shape="rect" id="Node000025" href="$class_beavir_1_1_businesslogic_1_1_models_1_1_player.html#aac9308d48a1e40b26e56c15417774912" title=" " alt="" coords="1959,72,2150,115"/>
+<area shape="poly" id="edge29_Node000023_Node000025" title=" " alt="" coords="1867,46,1947,65,1946,71,1865,51"/>
+<area shape="rect" id="Node000027" href="$class_beavir_1_1_businesslogic_1_1_models_1_1_player.html#a90e9c0aa995f6c9be1655442f0f5b1ef" title=" " alt="" coords="1677,72,1869,115"/>
+<area shape="poly" id="edge31_Node000026_Node000027" title=" " alt="" coords="1595,91,1662,91,1662,96,1595,96"/>
+<area shape="poly" id="edge32_Node000027_Node000024" title=" " alt="" coords="1865,69,1946,49,1947,55,1867,74"/>
+<area shape="poly" id="edge33_Node000027_Node000025" title=" " alt="" coords="1869,91,1943,91,1943,96,1869,96"/>
+<area shape="poly" id="edge36_Node000028_Node000003" title=" " alt="" coords="957,406,993,430,1026,461,1043,488,1052,512,1060,536,1074,564,1118,622,1162,671,1158,675,1114,626,1069,567,1055,538,1047,513,1039,490,1022,464,989,434,954,411"/>
+<area shape="poly" id="edge35_Node000028_Node000004" title=" " alt="" coords="948,406,1005,438,1073,468,1151,490,1221,499,1284,501,1344,500,1403,501,1463,510,1528,531,1599,570,1628,592,1655,618,1701,677,1736,736,1760,786,1755,788,1731,739,1697,680,1652,622,1625,596,1596,574,1526,536,1462,515,1402,506,1344,505,1284,506,1220,504,1150,495,1071,473,1003,443,945,411"/>
+<area shape="poly" id="edge37_Node000028_Node000007" title=" " alt="" coords="1019,379,1140,380,1287,389,1365,399,1444,412,1523,430,1598,454,1668,484,1728,519,1725,523,1665,489,1596,458,1521,435,1443,418,1364,404,1286,395,1140,386,1019,385"/>
+<area shape="poly" id="edge38_Node000028_Node000012" title=" " alt="" coords="950,363,1022,319,1046,301,1070,284,1144,252,1220,224,1362,183,1363,188,1222,229,1146,257,1073,289,1049,305,1025,324,953,367"/>
+<area shape="poly" id="edge39_Node000028_Node000020" title=" " alt="" coords="1004,362,1085,343,1086,348,1005,367"/>
+<area shape="poly" id="edge40_Node000028_Node000021" title=" " alt="" coords="960,363,992,343,1022,319,1038,300,1047,282,1056,264,1069,241,1116,182,1160,132,1164,136,1120,186,1074,244,1060,266,1052,285,1042,303,1026,323,995,348,962,367"/>
+<area shape="poly" id="edge42_Node000029_Node000002" title=" " alt="" coords="430,472,539,422,693,361,830,312,832,317,695,366,541,426,432,477"/>
+<area shape="poly" id="edge60_Node000029_Node000028" title=" " alt="" coords="492,472,790,409,791,414,493,477"/>
+<area shape="rect" id="Node000030" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager.html#af1bb891f5c3f76e8fc8b292d8a36ff68" title="Method that disables the current Environment and activates after fading and disabling some objects in..." alt="" coords="806,868,1017,911"/>
+<area shape="poly" id="edge43_Node000029_Node000030" title=" " alt="" coords="406,516,463,586,501,628,542,667,609,726,664,768,722,805,801,847,828,860,826,864,798,852,720,809,661,772,605,730,538,671,497,632,459,590,402,519"/>
+<area shape="rect" id="Node000032" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager.html#ac7f2f4305c170946cfe63441c4292eb1" title="Method that disables the current Environment and activates after fading all the objects." alt="" coords="806,475,1017,517"/>
+<area shape="poly" id="edge48_Node000029_Node000032" title=" " alt="" coords="492,493,790,493,790,499,492,499"/>
+<area shape="rect" id="Node000034" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager.html#a05a0751de710a7b580a9c45219dc041d" title="Method that disables the current SubEnvironment and activates after fading some objects in the Enviro..." alt="" coords="540,615,751,657"/>
+<area shape="poly" id="edge54_Node000029_Node000034" title=" " alt="" coords="429,516,592,605,590,609,426,520"/>
+<area shape="rect" id="Node000035" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager.html#a677073788d8e0ebc90b05d90e4b6faaa" title="Method that disables the current SubEnvironment and activates after fading some objects in the Enviro..." alt="" coords="799,985,1024,1028"/>
+<area shape="poly" id="edge61_Node000029_Node000035" title=" " alt="" coords="395,517,412,576,441,656,484,744,511,785,542,824,571,852,603,877,673,920,745,953,812,978,810,983,743,958,671,925,600,881,567,856,538,827,507,789,480,746,436,658,407,577,390,519"/>
+<area shape="poly" id="edge44_Node000030_Node000003" title=" " alt="" coords="945,865,1145,733,1148,738,947,870"/>
+<area shape="poly" id="edge45_Node000030_Node000007" title=" " alt="" coords="1018,903,1167,922,1336,935,1418,936,1491,932,1552,921,1596,903,1610,892,1619,880,1627,854,1632,824,1643,788,1700,675,1750,584,1755,586,1705,678,1648,790,1637,825,1632,855,1623,882,1614,895,1599,908,1554,927,1492,937,1418,942,1336,941,1166,928,1017,909"/>
+<area shape="rect" id="Node000031" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager.html#a1852faa429c55291731c5ad7e3cff1f9" title=" " alt="" coords="1087,952,1301,995"/>
+<area shape="poly" id="edge46_Node000030_Node000031" title=" " alt="" coords="987,909,1106,944,1104,950,985,914"/>
+<area shape="poly" id="edge47_Node000031_Node000013" title=" " alt="" coords="1301,984,1375,985,1455,975,1494,965,1531,950,1565,929,1595,904,1613,873,1623,829,1628,776,1630,718,1631,603,1634,554,1643,516,1663,472,1689,429,1740,360,1744,363,1693,432,1668,474,1648,518,1640,555,1636,604,1635,718,1634,777,1629,830,1618,875,1599,907,1568,934,1533,954,1496,970,1456,980,1375,990,1301,990"/>
+<area shape="poly" id="edge49_Node000032_Node000003" title=" " alt="" coords="943,515,1153,672,1150,677,940,520"/>
+<area shape="poly" id="edge50_Node000032_Node000007" title=" " alt="" coords="1018,488,1353,474,1509,471,1598,475,1662,494,1720,519,1718,524,1660,499,1597,480,1508,476,1354,479,1018,493"/>
+<area shape="poly" id="edge53_Node000032_Node000020" title=" " alt="" coords="946,472,1143,348,1146,352,949,476"/>
+<area shape="rect" id="Node000033" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager.html#a39fd0e7daa280914f2a46c1546f10d44" title=" " alt="" coords="1087,416,1301,459"/>
+<area shape="poly" id="edge51_Node000032_Node000033" title=" " alt="" coords="1017,471,1072,460,1073,465,1018,477"/>
+<area shape="poly" id="edge52_Node000033_Node000013" title=" " alt="" coords="1300,415,1640,350,1641,355,1301,420"/>
+<area shape="poly" id="edge56_Node000034_Node000003" title=" " alt="" coords="752,647,1057,685,1056,691,751,652"/>
+<area shape="poly" id="edge55_Node000034_Node000004" title=" " alt="" coords="685,656,796,716,961,796,1056,837,1157,875,1261,908,1365,933,1430,946,1482,952,1533,949,1597,933,1636,918,1673,897,1735,852,1738,856,1676,902,1638,923,1598,939,1534,954,1481,957,1429,951,1363,939,1259,913,1155,880,1054,842,959,801,794,721,683,660"/>
+<area shape="poly" id="edge57_Node000034_Node000007" title=" " alt="" coords="752,623,1028,597,1364,569,1637,554,1638,559,1364,575,1029,602,752,628"/>
+<area shape="poly" id="edge59_Node000034_Node000031" title=" " alt="" coords="660,657,733,807,773,882,801,921,820,931,847,939,915,953,994,962,1072,967,1072,972,993,967,914,958,845,944,818,935,798,925,769,885,728,809,655,659"/>
+<area shape="poly" id="edge58_Node000034_Node000032" title=" " alt="" coords="687,612,854,523,857,527,689,616"/>
+<area shape="poly" id="edge63_Node000035_Node000003" title=" " alt="" coords="945,983,983,955,1022,921,1065,874,1105,825,1168,738,1172,742,1110,828,1069,878,1026,925,986,959,948,987"/>
+<area shape="poly" id="edge62_Node000035_Node000004" title=" " alt="" coords="947,1026,995,1056,1061,1093,1139,1130,1227,1163,1321,1187,1369,1193,1416,1196,1463,1193,1509,1185,1554,1171,1596,1150,1633,1122,1665,1087,1692,1048,1714,1007,1745,925,1762,858,1768,860,1750,927,1718,1009,1696,1051,1669,1090,1637,1126,1599,1154,1556,1176,1510,1190,1464,1199,1416,1201,1368,1199,1320,1192,1226,1168,1137,1135,1058,1097,992,1061,944,1031"/>
+<area shape="poly" id="edge64_Node000035_Node000007" title=" " alt="" coords="1001,1026,1132,1047,1210,1052,1292,1052,1374,1042,1455,1023,1493,1008,1529,990,1564,968,1595,942,1611,925,1621,908,1628,873,1631,834,1643,788,1697,675,1748,584,1753,587,1702,677,1648,790,1636,835,1633,874,1626,910,1616,928,1599,946,1567,972,1532,995,1495,1013,1456,1028,1375,1048,1292,1057,1210,1058,1132,1052,1000,1031"/>
+<area shape="poly" id="edge65_Node000035_Node000031" title=" " alt="" coords="1024,991,1071,985,1072,990,1024,996"/>
+</map>

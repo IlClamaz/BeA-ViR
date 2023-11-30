@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['parameters_2ecs_0',['Parameters.cs',['../_parameters_8cs.html',1,'']]],
-  ['playerlogger_2ecs_1',['PlayerLogger.cs',['../_player_logger_8cs.html',1,'']]]
+  ['objectanimator_2ecs_0',['ObjectAnimator.cs',['../_object_animator_8cs.html',1,'']]],
+  ['objectenabler_2ecs_1',['ObjectEnabler.cs',['../_object_enabler_8cs.html',1,'']]],
+  ['omekaclient_2ecs_2',['OmekaClient.cs',['../_omeka_client_8cs.html',1,'']]]
 ];

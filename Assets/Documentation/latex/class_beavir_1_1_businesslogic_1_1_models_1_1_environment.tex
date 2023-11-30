@@ -1,0 +1,337 @@
+\doxysection{Beavir.\+Businesslogic.\+Models.\+Environment Class Reference}
+\hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_environment}{}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_environment}\index{Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}}
+
+
+An Environment is an object that hosts objects.  
+
+
+
+
+Inheritance diagram for Beavir.\+Businesslogic.\+Models.\+Environment\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=217pt]{class_beavir_1_1_businesslogic_1_1_models_1_1_environment__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Beavir.\+Businesslogic.\+Models.\+Environment\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_beavir_1_1_businesslogic_1_1_models_1_1_environment__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a592eec2ae5637cf8a06ba8cf7b525eb7}{Manage\+Audio}} (bool audio\+Is\+On)
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a8c277d11abb4dc6fefd000c4fbfc3908}{Show\+Overlay}} (bool overlay\+Is\+On)
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_ae4dae8a1cc9f033b40279bcda6287551}{Show\+Title\+UI}} ()
+\item 
+void \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a62a7d6f17df7ad1a32334db6fe697941}{Update\+Sky}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ Game\+Object $>$ \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_ab06e4ebccc8289342de2411693247782}{Sight\+Points}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+int \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_ab26bd7d3cd214d139fd177dccb60ae26}{Cur\+Sight\+Point}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_ad6841e7123769de27d3ec1cd8de063c5}{Is\+Main\+Hall}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_af8b5c0f1667e82350683a42e7c833e20}{Is\+Japan\+Moving}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+List$<$ Game\+Object $>$ \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a4098fe6a59b4dc2ed520ac1ee9986dba}{Disabled\+In\+Sub}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment}{Environment}} \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_aa43e3994b0af5f7d92b6d8bca14740ba}{Father}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment}{Environment}} \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a93276c9efa2134dc84bb0f5fcc63b79f}{father}}
+\item 
+List$<$ Game\+Object $>$ \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_aaa5c777963885abc26275f0ed613724a}{disabled\+In\+Sub}}
+\item 
+List$<$ Game\+Object $>$ \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a81ae0b204d890c479bbca763222e317f}{sight\+Points}}
+\item 
+int \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_ab045dd25608a4a77927cc7f061bee199}{cur\+Sight\+Point}} = 0
+\item 
+bool \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a5d216190461d2fe00b5cd4610d35b50c}{is\+Main\+Hall}} = false
+\item 
+bool \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a8515f539e63f15b2285dcec5dd2088c7}{is\+Japan\+Moving}} = true
+\item 
+Material \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a1b8ef3f75522d00f9d24d79e1fe3b274}{sky\+Material}}
+\item 
+List$<$ Game\+Object $>$ \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a0b6bdbbf3161062c8e5735529b8eb5ce}{overlays}}
+\item 
+List$<$ Game\+Object $>$ \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a4f2f4fa766b3c244c932ba897456065d}{title\+UIs}}
+\item 
+Game\+Object \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a9c5684b17de9d251c9c4052eb1a5ae59}{soundtrack}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+An Environment is an object that hosts objects. 
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00010}{10}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a592eec2ae5637cf8a06ba8cf7b525eb7}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a592eec2ae5637cf8a06ba8cf7b525eb7} 
+\index{Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}!ManageAudio@{ManageAudio}}
+\index{ManageAudio@{ManageAudio}!Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}}
+\doxysubsubsection{\texorpdfstring{ManageAudio()}{ManageAudio()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Models.\+Environment.\+Manage\+Audio (\begin{DoxyParamCaption}\item[{bool}]{audio\+Is\+On }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00037}{37}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a592eec2ae5637cf8a06ba8cf7b525eb7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a592eec2ae5637cf8a06ba8cf7b525eb7_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a8c277d11abb4dc6fefd000c4fbfc3908}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a8c277d11abb4dc6fefd000c4fbfc3908} 
+\index{Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}!ShowOverlay@{ShowOverlay}}
+\index{ShowOverlay@{ShowOverlay}!Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}}
+\doxysubsubsection{\texorpdfstring{ShowOverlay()}{ShowOverlay()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Models.\+Environment.\+Show\+Overlay (\begin{DoxyParamCaption}\item[{bool}]{overlay\+Is\+On }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00043}{43}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a8c277d11abb4dc6fefd000c4fbfc3908_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_ae4dae8a1cc9f033b40279bcda6287551}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_ae4dae8a1cc9f033b40279bcda6287551} 
+\index{Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}!ShowTitleUI@{ShowTitleUI}}
+\index{ShowTitleUI@{ShowTitleUI}!Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}}
+\doxysubsubsection{\texorpdfstring{ShowTitleUI()}{ShowTitleUI()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Models.\+Environment.\+Show\+Title\+UI (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00049}{49}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_ae4dae8a1cc9f033b40279bcda6287551_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a62a7d6f17df7ad1a32334db6fe697941}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a62a7d6f17df7ad1a32334db6fe697941} 
+\index{Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}!UpdateSky@{UpdateSky}}
+\index{UpdateSky@{UpdateSky}!Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}}
+\doxysubsubsection{\texorpdfstring{UpdateSky()}{UpdateSky()}}
+{\footnotesize\ttfamily void Beavir.\+Businesslogic.\+Models.\+Environment.\+Update\+Sky (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00058}{58}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a62a7d6f17df7ad1a32334db6fe697941_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_ab045dd25608a4a77927cc7f061bee199}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_ab045dd25608a4a77927cc7f061bee199} 
+\index{Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}!curSightPoint@{curSightPoint}}
+\index{curSightPoint@{curSightPoint}!Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}}
+\doxysubsubsection{\texorpdfstring{curSightPoint}{curSightPoint}}
+{\footnotesize\ttfamily int Beavir.\+Businesslogic.\+Models.\+Environment.\+cur\+Sight\+Point = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00018}{18}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_aaa5c777963885abc26275f0ed613724a}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_aaa5c777963885abc26275f0ed613724a} 
+\index{Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}!disabledInSub@{disabledInSub}}
+\index{disabledInSub@{disabledInSub}!Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}}
+\doxysubsubsection{\texorpdfstring{disabledInSub}{disabledInSub}}
+{\footnotesize\ttfamily List$<$Game\+Object$>$ Beavir.\+Businesslogic.\+Models.\+Environment.\+disabled\+In\+Sub\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00014}{14}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a93276c9efa2134dc84bb0f5fcc63b79f}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a93276c9efa2134dc84bb0f5fcc63b79f} 
+\index{Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}!father@{father}}
+\index{father@{father}!Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}}
+\doxysubsubsection{\texorpdfstring{father}{father}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment}{Environment}} Beavir.\+Businesslogic.\+Models.\+Environment.\+father\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00013}{13}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a8515f539e63f15b2285dcec5dd2088c7}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a8515f539e63f15b2285dcec5dd2088c7} 
+\index{Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}!isJapanMoving@{isJapanMoving}}
+\index{isJapanMoving@{isJapanMoving}!Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}}
+\doxysubsubsection{\texorpdfstring{isJapanMoving}{isJapanMoving}}
+{\footnotesize\ttfamily bool Beavir.\+Businesslogic.\+Models.\+Environment.\+is\+Japan\+Moving = true\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00022}{22}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a5d216190461d2fe00b5cd4610d35b50c}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a5d216190461d2fe00b5cd4610d35b50c} 
+\index{Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}!isMainHall@{isMainHall}}
+\index{isMainHall@{isMainHall}!Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}}
+\doxysubsubsection{\texorpdfstring{isMainHall}{isMainHall}}
+{\footnotesize\ttfamily bool Beavir.\+Businesslogic.\+Models.\+Environment.\+is\+Main\+Hall = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00021}{21}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a0b6bdbbf3161062c8e5735529b8eb5ce}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a0b6bdbbf3161062c8e5735529b8eb5ce} 
+\index{Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}!overlays@{overlays}}
+\index{overlays@{overlays}!Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}}
+\doxysubsubsection{\texorpdfstring{overlays}{overlays}}
+{\footnotesize\ttfamily List$<$Game\+Object$>$ Beavir.\+Businesslogic.\+Models.\+Environment.\+overlays\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00024}{24}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a81ae0b204d890c479bbca763222e317f}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a81ae0b204d890c479bbca763222e317f} 
+\index{Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}!sightPoints@{sightPoints}}
+\index{sightPoints@{sightPoints}!Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}}
+\doxysubsubsection{\texorpdfstring{sightPoints}{sightPoints}}
+{\footnotesize\ttfamily List$<$Game\+Object$>$ Beavir.\+Businesslogic.\+Models.\+Environment.\+sight\+Points\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00017}{17}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a1b8ef3f75522d00f9d24d79e1fe3b274}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a1b8ef3f75522d00f9d24d79e1fe3b274} 
+\index{Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}!skyMaterial@{skyMaterial}}
+\index{skyMaterial@{skyMaterial}!Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}}
+\doxysubsubsection{\texorpdfstring{skyMaterial}{skyMaterial}}
+{\footnotesize\ttfamily Material Beavir.\+Businesslogic.\+Models.\+Environment.\+sky\+Material\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00023}{23}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a9c5684b17de9d251c9c4052eb1a5ae59}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a9c5684b17de9d251c9c4052eb1a5ae59} 
+\index{Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}!soundtrack@{soundtrack}}
+\index{soundtrack@{soundtrack}!Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}}
+\doxysubsubsection{\texorpdfstring{soundtrack}{soundtrack}}
+{\footnotesize\ttfamily Game\+Object Beavir.\+Businesslogic.\+Models.\+Environment.\+soundtrack\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00026}{26}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a4f2f4fa766b3c244c932ba897456065d}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a4f2f4fa766b3c244c932ba897456065d} 
+\index{Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}!titleUIs@{titleUIs}}
+\index{titleUIs@{titleUIs}!Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}}
+\doxysubsubsection{\texorpdfstring{titleUIs}{titleUIs}}
+{\footnotesize\ttfamily List$<$Game\+Object$>$ Beavir.\+Businesslogic.\+Models.\+Environment.\+title\+UIs\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00025}{25}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_ab26bd7d3cd214d139fd177dccb60ae26}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_ab26bd7d3cd214d139fd177dccb60ae26} 
+\index{Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}!CurSightPoint@{CurSightPoint}}
+\index{CurSightPoint@{CurSightPoint}!Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}}
+\doxysubsubsection{\texorpdfstring{CurSightPoint}{CurSightPoint}}
+{\footnotesize\ttfamily int Beavir.\+Businesslogic.\+Models.\+Environment.\+Cur\+Sight\+Point\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00030}{30}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a4098fe6a59b4dc2ed520ac1ee9986dba}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_a4098fe6a59b4dc2ed520ac1ee9986dba} 
+\index{Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}!DisabledInSub@{DisabledInSub}}
+\index{DisabledInSub@{DisabledInSub}!Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}}
+\doxysubsubsection{\texorpdfstring{DisabledInSub}{DisabledInSub}}
+{\footnotesize\ttfamily List$<$Game\+Object$>$ Beavir.\+Businesslogic.\+Models.\+Environment.\+Disabled\+In\+Sub\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00033}{33}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_aa43e3994b0af5f7d92b6d8bca14740ba}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_aa43e3994b0af5f7d92b6d8bca14740ba} 
+\index{Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}!Father@{Father}}
+\index{Father@{Father}!Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}}
+\doxysubsubsection{\texorpdfstring{Father}{Father}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_beavir_1_1_businesslogic_1_1_models_1_1_environment}{Environment}} Beavir.\+Businesslogic.\+Models.\+Environment.\+Father\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00034}{34}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_af8b5c0f1667e82350683a42e7c833e20}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_af8b5c0f1667e82350683a42e7c833e20} 
+\index{Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}!IsJapanMoving@{IsJapanMoving}}
+\index{IsJapanMoving@{IsJapanMoving}!Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}}
+\doxysubsubsection{\texorpdfstring{IsJapanMoving}{IsJapanMoving}}
+{\footnotesize\ttfamily bool Beavir.\+Businesslogic.\+Models.\+Environment.\+Is\+Japan\+Moving\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00032}{32}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_ad6841e7123769de27d3ec1cd8de063c5}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_ad6841e7123769de27d3ec1cd8de063c5} 
+\index{Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}!IsMainHall@{IsMainHall}}
+\index{IsMainHall@{IsMainHall}!Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}}
+\doxysubsubsection{\texorpdfstring{IsMainHall}{IsMainHall}}
+{\footnotesize\ttfamily bool Beavir.\+Businesslogic.\+Models.\+Environment.\+Is\+Main\+Hall\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00031}{31}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+\Hypertarget{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_ab06e4ebccc8289342de2411693247782}\label{class_beavir_1_1_businesslogic_1_1_models_1_1_environment_ab06e4ebccc8289342de2411693247782} 
+\index{Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}!SightPoints@{SightPoints}}
+\index{SightPoints@{SightPoints}!Beavir.Businesslogic.Models.Environment@{Beavir.Businesslogic.Models.Environment}}
+\doxysubsubsection{\texorpdfstring{SightPoints}{SightPoints}}
+{\footnotesize\ttfamily List$<$Game\+Object$>$ Beavir.\+Businesslogic.\+Models.\+Environment.\+Sight\+Points\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line \mbox{\hyperlink{_environment_8cs_source_l00029}{29}} of file \mbox{\hyperlink{_environment_8cs_source}{Environment.\+cs}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Beavir/\+Businesslogic/\+Models/\mbox{\hyperlink{_environment_8cs}{Environment.\+cs}}\end{DoxyCompactItemize}

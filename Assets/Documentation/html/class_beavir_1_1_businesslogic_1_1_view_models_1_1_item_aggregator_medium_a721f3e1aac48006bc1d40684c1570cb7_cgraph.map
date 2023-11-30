@@ -1,0 +1,16 @@
+<map id="Beavir.Businesslogic.ViewModels.ItemAggregatorMedium.EnterRotationTrigger" name="Beavir.Businesslogic.ViewModels.ItemAggregatorMedium.EnterRotationTrigger">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,97,242,156"/>
+<area shape="rect" id="Node000002" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_enabler.html#ab3c4bd42d30a2ff934a0e0c22b1d3f55" title=" " alt="" coords="297,5,523,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,94,289,57,311,50,312,55,291,63,195,99"/>
+<area shape="rect" id="Node000004" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_enabler.html#aee48268fec72bc9a02a6ae87102a93b2" title=" " alt="" coords="290,72,530,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="242,110,274,106,275,112,243,116"/>
+<area shape="rect" id="Node000005" href="$class_beavir_1_1_businesslogic_1_1_view_models_1_1_item_interactor.html#adf6ce6ff8d8cc30edc0ac095cf644daa" title=" " alt="" coords="291,139,529,181"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="243,138,276,142,275,147,242,143"/>
+<area shape="rect" id="Node000007" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_animator.html#adc7b252bae340e6509e82db10f11b68d" title=" " alt="" coords="310,205,510,248"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="195,154,291,191,312,198,311,203,289,196,193,159"/>
+<area shape="rect" id="Node000003" href="$class_beavir_1_1_businesslogic_1_1_utilities_1_1_object_enabler.html#a1429d4ffb865f1ec7f63a551eee6fdb9" title=" " alt="" coords="589,39,799,81"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="524,37,574,43,573,49,523,43"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="530,77,573,72,574,77,531,82"/>
+<area shape="rect" id="Node000006" href="$class_beavir_1_1_businesslogic_1_1_controllers_1_1_transport_manager.html#a0c21fc531f37c4eb0ec1fe862dbace1e" title=" " alt="" coords="578,139,810,181"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="529,157,563,157,563,163,529,163"/>
+</map>

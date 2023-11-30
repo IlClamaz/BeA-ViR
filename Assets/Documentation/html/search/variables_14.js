@@ -1,9 +1,6 @@
 var searchData=
 [
-  ['value_0',['Value',['../class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property.html#ac0eed98c4a45ef38198d53ee64c3240d',1,'RenderHeads::UnityOmeka::Data::Vocabularies::Property']]],
-  ['valuepressed_1',['valuePressed',['../class_obj2_obj.html#aaf44aa501164b04d852b1b1478b87551',1,'Obj2Obj']]],
-  ['valueresourceid_2',['ValueResourceId',['../class_render_heads_1_1_unity_omeka_1_1_data_1_1_vocabularies_1_1_property.html#a6a7f874bd4a4862830ae1fab26690b9d',1,'RenderHeads::UnityOmeka::Data::Vocabularies::Property']]],
-  ['verticalclampdelta_3',['verticalClampDelta',['../class_move_around_hemi.html#ae110f142dd50432807fce3bebd25b996',1,'MoveAroundHemi']]],
-  ['verticalvelocity_4',['verticalVelocity',['../class_first_person_controller.html#a57d7ba2165cab4296abf3ef771fbea85',1,'FirstPersonController']]],
-  ['vocabulary_5',['vocabulary',['../class_render_heads_1_1_unity_omeka_1_1_data_1_1_item.html#af65bd8245a270ad7068ccf3b149be40a',1,'RenderHeads.UnityOmeka.Data.Item.Vocabulary'],['../class_render_heads_1_1_unity_omeka_1_1_data_1_1_item_set.html#a5f93dece02423312b3aa85ab98fc6376',1,'RenderHeads.UnityOmeka.Data.ItemSet.Vocabulary'],['../class_render_heads_1_1_unity_omeka_1_1_data_1_1_media.html#a90632c25475ad3a0dfa9cb493e073249',1,'RenderHeads.UnityOmeka.Data.Media.Vocabulary']]]
+  ['uimanager_0',['uIManager',['../class_beavir_1_1_businesslogic_1_1_controllers_1_1_beavir_app_manager.html#a114ac84df23cf0caed7eb943e24737f6',1,'Beavir::Businesslogic::Controllers::BeavirAppManager']]],
+  ['usermanager_1',['userManager',['../class_beavir_1_1_businesslogic_1_1_controllers_1_1_beavir_app_manager.html#a7e2695796e4a891cdb989ec6dc64b824',1,'Beavir::Businesslogic::Controllers::BeavirAppManager']]],
+  ['usescreensaver_2',['useScreenSaver',['../class_beavir_1_1_businesslogic_1_1_controllers_1_1_u_i_manager.html#a1b05a86d8e540f121a3afbf4a10e7528',1,'Beavir::Businesslogic::Controllers::UIManager']]]
 ];

@@ -1,0 +1,15 @@
+<map id="Beavir.Persistance.Database.DatabaseManager.UpdateIcpPMCanvases" name="Beavir.Persistance.Database.DatabaseManager.UpdateIcpPMCanvases">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,76,270,119"/>
+<area shape="rect" id="Node000002" href="$class_beavir_1_1_persistance_1_1_database_1_1_database_manager.html#a47cd8202fef3f824a7a93488cb74dd30" title=" " alt="" coords="327,39,533,81"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="270,78,311,72,312,78,270,83"/>
+<area shape="rect" id="Node000007" href="$class_beavir_1_1_persistance_1_1_database_1_1_database_manager.html#a56c0fb5d8ed06b86078e39c9821a9a1c" title=" " alt="" coords="318,105,542,164"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="270,112,303,116,302,121,270,117"/>
+<area shape="rect" id="Node000003" href="$class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api.html#aaccf569688aa0dbb5e7994010f23a831" title="Search For Media." alt="" coords="590,5,800,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="533,44,574,39,575,44,534,50"/>
+<area shape="rect" id="Node000006" href="$class_beavir_1_1_persistance_1_1_database_1_1_database_manager.html#a8323d4a3a2de4824bb88c25f9f4157bf" title=" " alt="" coords="597,72,794,115"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="534,70,581,76,581,82,533,76"/>
+<area shape="rect" id="Node000004" href="$class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api.html#ab2d83c8975ebd0fea066b02bdf71a158" title="Search the api for a given resource type." alt="" coords="848,5,1059,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="801,24,832,24,832,29,801,29"/>
+<area shape="rect" id="Node000005" href="$class_render_heads_1_1_unity_omeka_1_1_core_1_1_impl_1_1_standard_api.html#ab124ff34c850fb6070e275a234daacd8" title="Using reflection we can turn our parameters into a query string." alt="" coords="1107,5,1351,48"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1059,24,1091,24,1091,29,1059,29"/>
+</map>
