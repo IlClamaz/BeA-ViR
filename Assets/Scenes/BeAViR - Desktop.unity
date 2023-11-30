@@ -21886,6 +21886,54 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1451216811}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1464161106 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2800270803757559196, guid: 237cb2711dc715f45b4970c5b2e8fe38,
+    type: 3}
+  m_PrefabInstance: {fileID: 1565059617}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1464161108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464161106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7424c1070fad4ba2a7a96b02fbeb4bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnClientConnected:
+    m_PersistentCalls:
+      m_Calls: []
+  OnClientDataReceived:
+    m_PersistentCalls:
+      m_Calls: []
+  OnClientError:
+    m_PersistentCalls:
+      m_Calls: []
+  OnClientDisconnected:
+    m_PersistentCalls:
+      m_Calls: []
+  OnServerConnected:
+    m_PersistentCalls:
+      m_Calls: []
+  OnServerDataReceived:
+    m_PersistentCalls:
+      m_Calls: []
+  OnServerError:
+    m_PersistentCalls:
+      m_Calls: []
+  OnServerDisconnected:
+    m_PersistentCalls:
+      m_Calls: []
+  port: 7777
+  NoDelay: 1
+  serverMaxMessageSize: 16384
+  serverMaxReceivesPerTick: 10000
+  clientMaxMessageSize: 16384
+  clientMaxReceivesPerTick: 1000
 --- !u!1001 &1464853396
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23568,6 +23616,11 @@ PrefabInstance:
       propertyPath: useScreenSaver
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 988628973847904467, guid: 237cb2711dc715f45b4970c5b2e8fe38,
+        type: 3}
+      propertyPath: idleTimeSetting
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 988628973847904477, guid: 237cb2711dc715f45b4970c5b2e8fe38,
         type: 3}
       propertyPath: dBReportsCollection.Array.size
@@ -24037,8 +24090,13 @@ PrefabInstance:
     - target: {fileID: 2800270803757559197, guid: 237cb2711dc715f45b4970c5b2e8fe38,
         type: 3}
       propertyPath: useUpnP
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2800270803757559198, guid: 237cb2711dc715f45b4970c5b2e8fe38,
+        type: 3}
+      propertyPath: transport
+      value: 
+      objectReference: {fileID: 1464161108}
     - target: {fileID: 2800270803757559198, guid: 237cb2711dc715f45b4970c5b2e8fe38,
         type: 3}
       propertyPath: onlineScene
@@ -24049,6 +24107,11 @@ PrefabInstance:
       propertyPath: clusterNodeParent
       value: 
       objectReference: {fileID: 59166850}
+    - target: {fileID: 4349850440654512802, guid: 237cb2711dc715f45b4970c5b2e8fe38,
+        type: 3}
+      propertyPath: sceneId
+      value: 4031301310
+      objectReference: {fileID: 0}
     - target: {fileID: 6422323066580281243, guid: 237cb2711dc715f45b4970c5b2e8fe38,
         type: 3}
       propertyPath: m_RootOrder
@@ -24059,14 +24122,10 @@ PrefabInstance:
       propertyPath: sceneId
       value: 1894869983
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2800270803757559194, guid: 237cb2711dc715f45b4970c5b2e8fe38, type: 3}
+    - {fileID: 2800270803757559197, guid: 237cb2711dc715f45b4970c5b2e8fe38, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 237cb2711dc715f45b4970c5b2e8fe38, type: 3}
---- !u!4 &1565059619 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 988628972506487369, guid: 237cb2711dc715f45b4970c5b2e8fe38,
-    type: 3}
-  m_PrefabInstance: {fileID: 1565059617}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1575091868
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33771,6 +33830,12 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!4 &988628974062039144 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 988628972506487369, guid: 237cb2711dc715f45b4970c5b2e8fe38,
+    type: 3}
+  m_PrefabInstance: {fileID: 1565059617}
+  m_PrefabAsset: {fileID: 0}
 --- !u!23 &1159137948813497548
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -35597,7 +35662,7 @@ RectTransform:
   m_Children:
   - {fileID: 633176479885422316}
   - {fileID: 633176480113693628}
-  m_Father: {fileID: 1565059619}
+  m_Father: {fileID: 988628974062039144}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}

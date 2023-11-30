@@ -74,8 +74,8 @@ namespace Beavir.Businesslogic.Controllers
                 {
                     if (screenSaver.activeSelf)
                     {
-                        ObjectEnabler.Instance.DeactivateGameObject(screenSaver, 0);
-                        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                        NetworkManager.singleton.StopHost();
+                        NetworkManager.singleton.ServerChangeScene(SceneManager.GetActiveScene().name);
                     }
                 }
             }
