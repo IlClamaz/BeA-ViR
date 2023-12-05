@@ -2132,7 +2132,7 @@ PrefabInstance:
     - target: {fileID: 7805552872004180100, guid: ac5f4929612d69d4cb3f62fd9fc19326,
         type: 3}
       propertyPath: m_Name
-      value: Cave Network Manager
+      value: Network Manager
       objectReference: {fileID: 0}
     - target: {fileID: 7805552872004180102, guid: ac5f4929612d69d4cb3f62fd9fc19326,
         type: 3}
