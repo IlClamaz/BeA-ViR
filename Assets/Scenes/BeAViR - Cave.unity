@@ -24344,6 +24344,11 @@ PrefabInstance:
       propertyPath: clusterNodeParent
       value: 
       objectReference: {fileID: 1623101362}
+    - target: {fileID: 4349850440654512802, guid: 237cb2711dc715f45b4970c5b2e8fe38,
+        type: 3}
+      propertyPath: sceneId
+      value: 2416971614
+      objectReference: {fileID: 0}
     - target: {fileID: 6422323066580281243, guid: 237cb2711dc715f45b4970c5b2e8fe38,
         type: 3}
       propertyPath: m_RootOrder

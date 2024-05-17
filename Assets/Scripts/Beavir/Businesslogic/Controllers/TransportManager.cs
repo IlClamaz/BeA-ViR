@@ -87,7 +87,7 @@ namespace Beavir.Businesslogic.Controllers
         }
 
         /// <summary>
-        /// Method that handles the action "GoBackHome" after input request.  
+        /// Method that handles the action "GoBackHome" after input request. ClientRPC is needed since clients don't receive user inputs (from host)
         /// </summary>
         [ClientRpc]
         private void OnGoBackHome()
