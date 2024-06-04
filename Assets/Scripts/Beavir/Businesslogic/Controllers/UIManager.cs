@@ -10,12 +10,14 @@ using Beavir.Businesslogic.Utilities;
 namespace Beavir.Businesslogic.Controllers
 {
     /// <summary>
-    /// Controller that manages full screen UIs (Overlays, CommandsUI, Title UIs, Screensaver) 
+    /// Controller that manages UIs (Overlays, CommandsUI, Title UIs, Loading, Tooltip, Screensaver) 
     /// </summary>
     public class UIManager : NetworkBehaviour
     {
         [SerializeField] private GameObject commandsUI;
         [SerializeField] private GameObject noInternetUI;
+        [SerializeField] private GameObject loadingUI;
+        [SerializeField] private GameObject tooltipUI;
         [SerializeField] private Image progressBar;
         [SerializeField] private bool useScreenSaver = true;
 
@@ -28,7 +30,7 @@ namespace Beavir.Businesslogic.Controllers
         private float lastIdleTime;
         private IDisposable buttonPressListener;
         private Vector2 movement, newCameraMovement;
-        private bool overlayIsOn, commandsUIIsOn;
+        private bool overlayIsOn, commandsUIIsOn, loadingUIIsOn, tooltipUIIsOn;
 
         public Image ProgressBar { get => progressBar; }
         public GameObject NoInternetUI { get => noInternetUI; }
@@ -54,6 +56,9 @@ namespace Beavir.Businesslogic.Controllers
         {
             overlayIsOn = false;
             commandsUIIsOn = false;
+            tooltipUIIsOn = false;
+            loadingUIIsOn = true;
+
             if (useScreenSaver)
             {
                 lastIdleTime = Time.time;
@@ -104,15 +109,31 @@ namespace Beavir.Businesslogic.Controllers
 
         private void ShowOverlay()
         {
+            ShowTooltipUI();
             overlayIsOn = !overlayIsOn;
             BeavirAppManager.Instance.TransportManager.CurEnv.ShowOverlay(overlayIsOn);
         }
 
         private void ShowCommandsUI()
         {
+            ShowTooltipUI();
             commandsUIIsOn = !commandsUIIsOn;
             if (commandsUIIsOn) ObjectEnabler.Instance.ActivateGameObject(commandsUI, 0);
             else ObjectEnabler.Instance.DeactivateGameObject(commandsUI, 0);
+        }
+
+        public void ShowLoadingUI()
+        {
+            loadingUIIsOn = !loadingUIIsOn;
+            if (loadingUIIsOn) ObjectEnabler.Instance.ActivateGameObject(loadingUI, 0);
+            else ObjectEnabler.Instance.DeactivateGameObject(loadingUI, 0);
+        }
+
+        public void ShowTooltipUI()
+        {
+            tooltipUIIsOn = !tooltipUIIsOn;
+            if (tooltipUIIsOn) ObjectEnabler.Instance.ActivateGameObject(tooltipUI, 0);
+            else ObjectEnabler.Instance.DeactivateGameObject(tooltipUI, 0);
         }
 
         void OnDestroy()

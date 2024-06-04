@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 161f30fa1046ca54590da8933170d912, type: 3}
   m_Name: Front
   m_EditorClassIdentifier: 
-  m_MachineName: SYCORAX-MSI
+  m_MachineName: HP-Z4-VR
   m_Role: 1

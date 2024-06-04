@@ -1,0 +1,15 @@
+CAVE SETTINGS 
+Stereo Eyes Separation: 0.022 (Both in Head GO and Eyes Cameras)
+Stereo Convergence: 10 (Both in Head GO and Eyes Cameras)
+Player Height (Multiple Cameras GO Position): 0, 0, 0
+Y-Clamp (Player Script): 0
+FRONT R FOV: 31.51058
+FRONT L FOV: 31.70119
+Wand Line-Renderer: Enabled
+
+SINGLE PROJECTOR SETTINGS
+Stereo Eyes Separation: 0.067 (Both in Head GO and Eyes Cameras)
+Stereo Convergence: 5 (Both in Head GO and Eyes Cameras)
+Player Height (Multiple Cameras GO y): 0, 0.6, 0
+Y-Clamp (Player Script): 30
+Wand Line-Renderer: Disabled

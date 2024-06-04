@@ -68,8 +68,9 @@ namespace Beavir.Businesslogic.Controllers
 
             ObjectEnabler.Instance.ActivateGameObject(transportManager.CurEnv.gameObject, 0);
             transportManager.UpdateLocHistory(transportManager.CurEnv.gameObject);
-
-            ObjectEnabler.Instance.DeactivateGameObject(uIManager.ProgressBar.transform.parent.transform.parent.gameObject, 0);
+          
+            uIManager.ShowLoadingUI(); //hide loading UI
+            uIManager.ShowTooltipUI();
             ObjectEnabler.Instance.ActivateGameObject(userManager.Player.gameObject, 0);
             transportManager.SendFadeCamera();
             Cursor.lockState = CursorLockMode.Locked;
